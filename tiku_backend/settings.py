@@ -127,3 +127,18 @@ STATIC_URL = "static/"
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+# tiku_backend/settings.py 最下方添加：
+
+REST_FRAMEWORK = {
+    # 默认权限策略：必须登录才能访问接口
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    # 默认认证策略：使用 Session 和 Basic 认证（开发阶段方便调试）
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ],
+    # 日期时间格式化
+    'DATETIME_FORMAT': "%Y-%m-%d %H:%M:%S",
+}

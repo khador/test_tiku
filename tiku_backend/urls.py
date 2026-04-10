@@ -15,9 +15,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+# from django.contrib import admin
+# from django.urls import path
+
+# urlpatterns = [
+#     path("admin/", admin.site.urls),
+# ]
+
+
+
+# tiku_backend/urls.py
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    # 把 practices 的路由挂载到 /api/practices/ 下
+    path("api/practices/", include('practices.urls')),
 ]
