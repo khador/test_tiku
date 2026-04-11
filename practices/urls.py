@@ -2,7 +2,7 @@
 from django.urls import path
 from .views import (
     GeneratePracticeView, SubmitPracticeView, PracticeHistoryView, ErrorBookListView,
-    TeacherClassListView, TeacherClassDashboardView, TeacherStudentHistoryView, TeacherQuestionStatsView
+    TeacherClassListView, TeacherClassDashboardView, TeacherStudentHistoryView, TeacherQuestionStatsView,TeacherDashboardView, TeacherQuestionAnalysisView
 )
 
 urlpatterns = [
@@ -21,4 +21,6 @@ urlpatterns = [
     path('teacher/classes/<int:class_id>/questions/', TeacherQuestionStatsView.as_view(), name='teacher-class-questions'),
     # 4. 单个学生历史记录
     path('teacher/students/<int:student_id>/', TeacherStudentHistoryView.as_view(), name='teacher-student-history'),
+    path('teacher/dashboard/', TeacherDashboardView.as_view(), name='teacher-dashboard'),
+    path('teacher/questions-analysis/', TeacherQuestionAnalysisView.as_view(), name='teacher-questions-analysis'),
 ]

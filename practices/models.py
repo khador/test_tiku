@@ -31,3 +31,12 @@ class ErrorBook(models.Model):
     is_active = models.BooleanField(default=True, verbose_name="是否仍在错题本中")
     add_time = models.DateTimeField(auto_now_add=True, verbose_name="首次做错时间")
     last_practiced = models.DateTimeField(auto_now=True, verbose_name="最后一次练习时间")
+    is_active = models.BooleanField(default=True, verbose_name="是否仍在错题本中")
+
+    class Meta:
+        verbose_name = "错题本"
+        verbose_name_plural = verbose_name
+        # 添加联合索引：优化 "查找某学生活跃错题" 的查询速度
+        indexes = [
+            models.Index(fields=['student', 'is_active']),
+        ]
