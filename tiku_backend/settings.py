@@ -127,27 +127,13 @@ STATIC_URL = "static/"
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# tiku_backend/settings.py 最下方添加：
-
-REST_FRAMEWORK = {
-    # 默认权限策略：必须登录才能访问接口
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
-    ],
-    # 默认认证策略：使用 Session 和 Basic 认证（开发阶段方便调试）
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.SessionAuthentication',
-        'rest_framework.authentication.BasicAuthentication',
-    ],
-    # 日期时间格式化
-    'DATETIME_FORMAT': "%Y-%m-%d %H:%M:%S",
-}
 
 
 """
 账号: xuelixing
 电子邮件地址: xxl@xuelixing.com
 Password:xinglixue
+https://github.com/khador/test_tiku
 """
 
 
@@ -156,3 +142,29 @@ import os
 # 配置媒体文件（图片等）的访问 URL 和物理存储路径
 MEDIA_URL = '/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
+
+
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        # === 核心修改：把 JWT 放在第一位 ===
+        'rest_framework_simplejwt.authentication.JWTAuthentication', 
+        'rest_framework.authentication.SessionAuthentication', # 留着这个为了方便在浏览器里调试
+        'rest_framework.authentication.BasicAuthentication',
+    ],
+    'DATETIME_FORMAT': "%Y-%m-%d %H:%M:%S",
+}
+
+from datetime import timedelta
+SIMPLE_JWT = {
+    # Access Token (访问令牌) 的有效期：开发阶段可以设长一点，比如 1 天
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
+    # Refresh Token (刷新令牌) 的有效期：比如 7 天
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
+    # 认证请求头的名称：默认是 Bearer
+    'AUTH_HEADER_TYPES': ('Bearer',), 
+}

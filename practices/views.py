@@ -8,6 +8,8 @@ from django.utils import timezone
 from .models import PracticeSession, ErrorBook, QuestionAttempt
 from questions.models import Question
 from questions.serializers import QuestionSerializer
+from django.db.models import Avg, Sum, Count, Q
+from users.models import ClassInfo, User
 
 class GeneratePracticeView(APIView):
     """
@@ -225,3 +227,210 @@ class SubmitPracticeView(APIView):
     
 
 
+
+
+class PracticeHistoryView(APIView):
+    """
+    学生查询自己的历史训练记录
+    """
+    def get(self, request):
+        student = request.user
+        if student.role != 'student':
+            return Response({"detail": "只有学生可以查询训练记录"}, status=status.HTTP_403_FORBIDDEN)
+
+        # 查询该学生所有已经交卷的练习场次，按时间倒序排列（最新的在最上面）
+        sessions = PracticeSession.objects.filter(
+            student=student, 
+            end_time__isnull=False
+        ).order_by('-start_time')
+        
+        history_data = []
+        for s in sessions:
+            # 统计这套题的对错数量
+            correct_count = s.attempts.filter(is_correct=True).count()
+            total_count = s.attempts.count()
+            
+            history_data.append({
+                "session_id": s.id,
+                "start_time": s.start_time.strftime("%Y-%m-%d %H:%M:%S"),
+                "duration": s.duration, # 用时（秒）
+                "accuracy": round(s.accuracy * 100, 1) if s.accuracy is not None else 0, # 转为百分比
+                "correct_count": correct_count,
+                "total_count": total_count
+            })
+            
+        return Response(history_data, status=status.HTTP_200_OK)
+
+
+class ErrorBookListView(APIView):
+    """
+    学生查看自己当前的错题本
+    """
+    def get(self, request):
+        student = request.user
+        if student.role != 'student':
+            return Response({"detail": "只有学生可以查看错题本"}, status=status.HTTP_403_FORBIDDEN)
+
+        # 只查询还没被踢出错题本的题（is_active=True）
+        error_records = ErrorBook.objects.filter(
+            student=student, 
+            is_active=True
+        ).order_by('-add_time')
+        
+        error_data = []
+        for record in error_records:
+            q = record.question
+            error_data.append({
+                "question_id": q.id,
+                "sn": q.sn,
+                "stem": q.stem,
+                "type": q.type,
+                "consecutive_correct": record.consecutive_correct, # 连续做对的次数（还差几次能移出）
+                "add_time": record.add_time.strftime("%Y-%m-%d")
+            })
+            
+        return Response(error_data, status=status.HTTP_200_OK)
+
+
+
+
+
+# ================= 教师端 API =================
+
+class TeacherClassListView(APIView):
+    """
+    1. 教师获取自己所教的班级列表
+    """
+    def get(self, request):
+        teacher = request.user
+        if teacher.role != 'teacher':
+            return Response({"detail": "无权限"}, status=status.HTTP_403_FORBIDDEN)
+            
+        classes = ClassInfo.objects.filter(teacher=teacher)
+        data = [{"class_id": c.id, "class_name": c.name} for c in classes]
+        return Response(data, status=status.HTTP_200_OK)
+
+
+class TeacherClassDashboardView(APIView):
+    """
+    2. 教师查看某班级的整体学情，以及该班级下所有学生的统计
+    """
+    def get(self, request, class_id):
+        teacher = request.user
+        if teacher.role != 'teacher':
+            return Response(status=status.HTTP_403_FORBIDDEN)
+            
+        try:
+            class_info = ClassInfo.objects.get(id=class_id, teacher=teacher)
+        except ClassInfo.DoesNotExist:
+            return Response({"detail": "班级不存在或您不负责该班级"}, status=status.HTTP_404_NOT_FOUND)
+
+        # 获取该班级所有学生已经提交的练习场次
+        class_sessions = PracticeSession.objects.filter(
+            student__student_profile__class_info=class_info,
+            end_time__isnull=False
+        )
+        
+        # 班级整体平均正确率
+        avg_accuracy = class_sessions.aggregate(Avg('accuracy'))['accuracy__avg'] or 0
+
+        # 获取该班级的学生列表，并统计每个人
+        students = User.objects.filter(student_profile__class_info=class_info)
+        student_data = []
+        for st in students:
+            st_sessions = class_sessions.filter(student=st)
+            st_avg_acc = st_sessions.aggregate(Avg('accuracy'))['accuracy__avg'] or 0
+            st_total_duration = st_sessions.aggregate(Sum('duration'))['duration__sum'] or 0
+            
+            student_data.append({
+                "student_id": st.id,
+                "real_name": st.real_name or st.username,
+                "school_sn": st.student_profile.student_id, # 学号
+                "completed_sessions": st_sessions.count(),
+                "avg_accuracy": round(st_avg_acc * 100, 1),
+                "total_duration": st_total_duration # 总用时(秒)
+            })
+
+        return Response({
+            "class_name": class_info.name,
+            "overall_accuracy": round(avg_accuracy * 100, 1),
+            "total_sessions": class_sessions.count(),
+            "students": student_data
+        }, status=status.HTTP_200_OK)
+
+
+class TeacherStudentHistoryView(APIView):
+    """
+    3. 教师查看某个具体学生的详细做题历史
+    """
+    def get(self, request, student_id):
+        if request.user.role != 'teacher':
+            return Response(status=status.HTTP_403_FORBIDDEN)
+            
+        # 确保这个学生是该老师教的
+        is_my_student = User.objects.filter(
+            id=student_id, 
+            student_profile__class_info__teacher=request.user
+        ).exists()
+        
+        if not is_my_student:
+            return Response({"detail": "只能查看自己班级学生的记录"}, status=status.HTTP_403_FORBIDDEN)
+            
+        sessions = PracticeSession.objects.filter(
+            student_id=student_id, 
+            end_time__isnull=False
+        ).order_by('-start_time')
+        
+        history_data = []
+        for s in sessions:
+            history_data.append({
+                "session_id": s.id,
+                "start_time": s.start_time.strftime("%Y-%m-%d %H:%M"),
+                "duration": s.duration,
+                "accuracy": round(s.accuracy * 100, 1) if s.accuracy else 0,
+            })
+        return Response(history_data, status=status.HTTP_200_OK)
+
+
+class TeacherQuestionStatsView(APIView):
+    """
+    4. 教师查看某班级内，各个题目的正确率排行（重点抓错题）
+    """
+    def get(self, request, class_id):
+        if request.user.role != 'teacher':
+            return Response(status=status.HTTP_403_FORBIDDEN)
+            
+        # 检查权限
+        if not ClassInfo.objects.filter(id=class_id, teacher=request.user).exists():
+            return Response({"detail": "无权限"}, status=status.HTTP_403_FORBIDDEN)
+
+        # 核心魔法：使用 annotate 对该班级做过的所有题目进行分组统计
+        attempts = QuestionAttempt.objects.filter(
+            session__student__student_profile__class_info_id=class_id
+        )
+        
+        # 按照题目ID分组，统计总尝试次数 和 做对的次数
+        stats = attempts.values('question__id', 'question__sn', 'question__stem', 'question__type').annotate(
+            total_attempts=Count('id'),
+            correct_attempts=Count('id', filter=Q(is_correct=True))
+        )
+
+        data = []
+        for stat in stats:
+            total = stat['total_attempts']
+            correct = stat['correct_attempts']
+            acc = (correct / total) if total > 0 else 0
+            
+            data.append({
+                "question_id": stat['question__id'],
+                "sn": stat['question__sn'],
+                "type": stat['question__type'],
+                "stem_preview": stat['question__stem'][:50] + "...", # 截取前50个字符作为预览
+                "total_attempts": total,
+                "accuracy": round(acc * 100, 1)
+            })
+            
+        # 按照正确率从低到高排序（把学生错得最多的题放在最前面）
+        data.sort(key=lambda x: x['accuracy'])
+        
+        return Response(data, status=status.HTTP_200_OK)
