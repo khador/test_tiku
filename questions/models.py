@@ -9,6 +9,7 @@ class Question(models.Model):
         ('judge', '判断题'),
         ('draw', '画图题'),
     )
+    sn = models.CharField(max_length=20, unique=True, verbose_name="题号", null=True)
     type = models.CharField(max_length=20, choices=TYPE_CHOICES, verbose_name="题型")
     stem = models.TextField(verbose_name="题干(支持富文本)")
     options = models.JSONField(null=True, blank=True, verbose_name="选项(JSON)")

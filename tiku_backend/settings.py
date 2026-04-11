@@ -142,3 +142,17 @@ REST_FRAMEWORK = {
     # 日期时间格式化
     'DATETIME_FORMAT': "%Y-%m-%d %H:%M:%S",
 }
+
+
+"""
+账号: xuelixing
+电子邮件地址: xxl@xuelixing.com
+Password:xinglixue
+"""
+
+
+import os
+
+# 配置媒体文件（图片等）的访问 URL 和物理存储路径
+MEDIA_URL = '/images/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'images')

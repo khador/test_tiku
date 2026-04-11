@@ -27,9 +27,14 @@ Including another URLconf
 # tiku_backend/urls.py
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    # 把 practices 的路由挂载到 /api/practices/ 下
     path("api/practices/", include('practices.urls')),
 ]
+
+# 允许在开发环境下直接通过 URL 访问图片
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
