@@ -1,4 +1,5 @@
 # practices/views.py
+import re  # 引入正则库，用来处理复杂的符号分割
 import random
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -7,7 +8,6 @@ from django.db.models import Exists, OuterRef
 from django.utils import timezone
 from .models import PracticeSession, ErrorBook, QuestionAttempt
 from questions.models import Question
-from questions.serializers import QuestionSerializer
 from django.db.models import Avg, Sum, Count, Q
 from users.models import ClassInfo, User
 from django.db.models import Count, Avg, Q
@@ -319,23 +319,86 @@ class TeacherQuestionAnalysisView(APIView):
         return Response(results, status=status.HTTP_200_OK)
 
 
-
 class GeneratePracticeView(APIView):
     def post(self, request):
-        # ... 前面的抽取逻辑不变，获得 final_question_ids ...
+        # 1. 从题库中获取所有题目，但【排除】画图题 (type='draw')
+        all_q_ids = list(Question.objects.exclude(type='draw').values_list('id', flat=True))
+        
+        # 如果题库是空的，直接返回错误提示
+        if not all_q_ids:
+            return Response({"detail": "题库中没有题目，请先导入题库"}, status=status.HTTP_400_BAD_REQUEST)
+            
+        # 2. 随机抽取 10 道题（如果题库不足 10 道，则全部抽出）
+        sample_size = min(10, len(all_q_ids))
+        final_question_ids = random.sample(all_q_ids, sample_size)
 
-        # [优化点2]：使用 Case When 在数据库层面保持打乱后的顺序
+        # 3. 使用 Case When 在数据库层面保持打乱后的顺序
         preserved = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(final_question_ids)])
         questions = Question.objects.filter(id__in=final_question_ids).order_by(preserved)
 
-        # [优化点6]：使用无答案的脱敏序列化器
+        # 4. 使用无答案的脱敏序列化器（防止学生提前看到答案）
         serializer = QuestionPublicSerializer(questions, many=True)
 
+        # 5. 在数据库创建一条新的练习场次记录
         session = PracticeSession.objects.create(student=request.user)
+        
         return Response({"session_id": session.id, "questions": serializer.data}, status=status.HTTP_200_OK)
 
-
 class SubmitPracticeView(APIView):
+    
+    def check_answer(self, q_type, user_answer, standard_answer):
+        if not user_answer:
+            return False
+            
+        # 1. 选择题和判断题的判分逻辑
+        if q_type in ['choice', 'judge']:
+            correct_options = standard_answer.get('correct_options', [])
+            return str(user_answer).strip() in [str(ans) for ans in correct_options]
+            
+        # 2. 填空题的判分逻辑（支持中英文逗号、空格混输）
+        elif q_type == 'fill':
+            # 使用正则：将中英文逗号、以及各种空格统一作为分隔符切块
+            # 例如 "反比例， 30" -> ['反比例', '30']
+            user_ans_list = re.split(r'[,\s，]+', str(user_answer).strip())
+            user_ans_list = [ans for ans in user_ans_list if ans] # 过滤掉空字符串
+            
+            blanks = standard_answer.get('blanks', [])
+            if not blanks:
+                return False
+                
+            is_ordered = standard_answer.get('is_ordered', True)
+            
+            # 情况 A：有顺序要求（例如：填空1，填空2）
+            if is_ordered:
+                if len(user_ans_list) != len(blanks):
+                    return False
+                for i, blank in enumerate(blanks):
+                    accepted = blank.get('accepted_values', [])
+                    if user_ans_list[i] not in accepted:
+                        return False
+                return True
+                
+            # 情况 B：无顺序要求（比如写出任意两个比例）
+            else:
+                if len(user_ans_list) != len(blanks):
+                    return False
+                # 复制一份以防同一个答案被重复匹配
+                matched_blanks = []
+                for u_ans in user_ans_list:
+                    matched = False
+                    for i, blank in enumerate(blanks):
+                        if i in matched_blanks:
+                            continue
+                        if u_ans in blank.get('accepted_values', []):
+                            matched_blanks.append(i)
+                            matched = True
+                            break
+                    if not matched:
+                        return False
+                return True
+                
+        return False
+    
     def post(self, request):
         student = request.user
         
