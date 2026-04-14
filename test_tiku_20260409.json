@@ -537,7 +537,7 @@
   {
     "id": "47-2",
     "type": "choice",
-    "stem": "x 和 y 是两种相关联的量，a 和 b、c 和 d 是两组相对应的数值。如果 x 与 y 成反比例关系，那么一定有( )。(a,b,c,d 均不为0)",
+    "stem": "x 和 y 是两种相关联的量，a 和 b、c 和 d 是两组相对应的数值。如果 x 与 y 成反比例关系，那么一定有( )。(a,b,c,d 均不为0)<br><img src=\"/images/workbook/p47_q2.jpg\" /><br>",
     "options": [
       {"id": "A", "content": "a/c = b/d"},
       {"id": "B", "content": "a/b = c/d"},
@@ -1297,7 +1297,7 @@
   {
     "id": "58-3",
     "type": "choice",
-    "stem": "下面图象中，表示甲、乙两个量成正比例关系的有( )。",
+    "stem": "下面图象中，表示甲、乙两个量成正比例关系的有( )。<br><img src=\"/images/workbook/p58_q6.jpg\" /><br>",
     "options": [
       {"id": "A", "content": "①②"},
       {"id": "B", "content": "③④"},
@@ -1312,7 +1312,7 @@
   {
     "id": "58-4",
     "type": "choice",
-    "stem": "下面各图中，a 与 b 成反比例关系的是( )。(单位:cm)",
+    "stem": "下面各图中，a 与 b 成反比例关系的是( )。(单位:cm)<br><img src=\"/images/workbook/p58_q7.jpg\" /><br>",
     "options": [
       {"id": "A", "content": "平行四边形周长一定 (边长a和b)"},
       {"id": "B", "content": "三角形面积一定 (底a和高b)"},
