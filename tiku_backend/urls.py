@@ -19,6 +19,8 @@ urlpatterns = [
     
     # 业务接口
     path("api/practices/", include('practices.urls')),
+    
+    path("api/", include('users.urls')),
 ]
 
 if settings.DEBUG:

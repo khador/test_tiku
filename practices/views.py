@@ -16,7 +16,7 @@ from django.db.models import Case, When
 from django.db import transaction
 from .serializers import SubmitPracticeSerializer
 from questions.serializers import QuestionPublicSerializer, QuestionDetailSerializer
-
+from .serializers import SubmitPracticeSerializer, ErrorBookSerializer
 
 
 
@@ -70,21 +70,10 @@ class ErrorBookListView(APIView):
             is_active=True
         ).order_by('-add_time')
         
-        error_data = []
-        for record in error_records:
-            q = record.question
-            error_data.append({
-                "question_id": q.id,
-                "sn": q.sn,
-                "stem": q.stem,
-                "type": q.type,
-                "consecutive_correct": record.consecutive_correct, # 连续做对的次数（还差几次能移出）
-                "add_time": record.add_time.strftime("%Y-%m-%d")
-            })
+        # 【核心修改】：使用标准的 DRF 序列化器处理数据，不再手动拼装字典！
+        serializer = ErrorBookSerializer(error_records, many=True)
             
-        return Response(error_data, status=status.HTTP_200_OK)
-
-
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
 
 
@@ -199,14 +188,19 @@ class TeacherQuestionStatsView(APIView):
 
         # 核心魔法：使用 annotate 对该班级做过的所有题目进行分组统计
         attempts = QuestionAttempt.objects.filter(
-            session__student__student_profile__class_info_id=class_id
-        )
-        
+                session__student__student_profile__class_info_id=class_id
+            ).select_related('question')  # 预先加载题目信息
+                    
         # 按照题目ID分组，统计总尝试次数 和 做对的次数
-        stats = attempts.values('question__id', 'question__sn', 'question__stem', 'question__type').annotate(
-            total_attempts=Count('id'),
-            correct_attempts=Count('id', filter=Q(is_correct=True))
-        )
+        stats = attempts.values(
+                'question__id', 
+                'question__sn', 
+                'question__stem', 
+                'question__type'
+            ).annotate(
+                total_attempts=Count('id'),
+                correct_attempts=Count('id', filter=Q(is_correct=True))
+            ).order_by('question__id')  # 添加排序确保结果一致性
 
         data = []
         for stat in stats:
@@ -360,7 +354,7 @@ class SubmitPracticeView(APIView):
             # 使用正则：将中英文逗号、以及各种空格统一作为分隔符切块
             # 例如 "反比例， 30" -> ['反比例', '30']
             user_ans_list = re.split(r'[,\s，]+', str(user_answer).strip())
-            user_ans_list = [ans for ans in user_ans_list if ans] # 过滤掉空字符串
+            user_ans_list = [ans.strip() for ans in user_ans_list if ans.strip()]  # 过滤掉空字符串并去除空格
             
             blanks = standard_answer.get('blanks', [])
             if not blanks:
@@ -484,3 +478,174 @@ class SubmitPracticeView(APIView):
             "total_count": len(answers_data),
             "details": results
         }, status=status.HTTP_200_OK)
+
+
+class ErrorBookRetryView(APIView):
+    """
+    错题本专项重练接口
+    """
+    # 智能判分逻辑（和之前一样）
+    def check_answer(self, q_type, user_answer, standard_answer):
+        if not user_answer: return False
+        if q_type in ['choice', 'judge']:
+            correct_options = standard_answer.get('correct_options', [])
+            return str(user_answer).strip() in [str(ans) for ans in correct_options]
+        elif q_type == 'fill':
+            user_ans_list = [ans for ans in re.split(r'[,\s，]+', str(user_answer).strip()) if ans]
+            blanks = standard_answer.get('blanks', [])
+            if not blanks: return False
+            is_ordered = standard_answer.get('is_ordered', True)
+            if is_ordered:
+                if len(user_ans_list) != len(blanks): return False
+                for i, blank in enumerate(blanks):
+                    if user_ans_list[i] not in blank.get('accepted_values', []): return False
+                return True
+            else:
+                if len(user_ans_list) != len(blanks): return False
+                matched = []
+                for u_ans in user_ans_list:
+                    match_found = False
+                    for i, blank in enumerate(blanks):
+                        if i in matched: continue
+                        if u_ans in blank.get('accepted_values', []):
+                            matched.append(i)
+                            match_found = True
+                            break
+                    if not match_found: return False
+                return True
+        return False
+
+    def post(self, request, pk):
+        try:
+            # 找到属于该学生的这道激活状态的错题
+            error_record = ErrorBook.objects.get(pk=pk, student=request.user, is_active=True)
+        except ErrorBook.DoesNotExist:
+            return Response({"detail": "错题不存在或已被消除"}, status=404)
+
+        user_answer = request.data.get('user_answer')
+        question = error_record.question
+        
+        # 调用判分
+        is_correct = self.check_answer(question.type, user_answer, question.answer)
+
+        if is_correct:
+            # 答对了，连对进度 +1
+            error_record.consecutive_correct += 1
+            eliminated = error_record.consecutive_correct >= 2 # 设定目标：连对2次消除
+            
+            if eliminated:
+                error_record.is_active = False # 彻底消除！
+                
+            error_record.save()
+            return Response({
+                "is_correct": True,
+                "consecutive_correct": error_record.consecutive_correct,
+                "eliminated": eliminated,
+                "msg": "回答正确！" + ("错题已彻底消除！" if eliminated else "再对 1 次即可消除！")
+            })
+        else:
+            # 答错了，连对进度残忍清零
+            error_record.consecutive_correct = 0
+            error_record.save()
+            return Response({
+                "is_correct": False,
+                "consecutive_correct": 0,
+                "eliminated": False,
+                "msg": "回答错误，连对进度已清零 😭",
+                "answer": question.answer,
+                "analysis": question.analysis
+            })
+
+
+
+class StudentDashboardView(APIView):
+    def get(self, request):
+        student = request.user
+        
+        # 1. 基础统计
+        total_attempts = QuestionAttempt.objects.filter(session__student=student).count()
+        correct_attempts = QuestionAttempt.objects.filter(session__student=student, is_correct=True).count()
+        accuracy = (correct_attempts / total_attempts * 100) if total_attempts > 0 else 0
+        
+        # 2. 错题本进度 (已消除 vs 总数)
+        total_errors = ErrorBook.objects.filter(student=student).count()
+        cleared_errors = ErrorBook.objects.filter(student=student, is_active=False).count()
+        
+        # 3. 最近 7 天练习趋势 (简单模拟)
+        # 实际开发中可以按日期 annotate 统计
+        
+        return Response({
+            "overview": {
+                "total_questions": total_attempts,
+                "accuracy": round(accuracy, 1),
+                "cleared_errors": cleared_errors,
+                "remaining_errors": total_errors - cleared_errors
+            },
+            "topics": [
+                {"name": "比例", "value": 85},
+                {"name": "圆柱圆锥", "value": 72},
+                {"name": "分数乘除", "value": 94},
+                {"name": "方程", "value": 88}
+            ]
+        })
+
+
+
+class TeacherDashboardView(APIView):
+    """
+    教师端工作台：全班错题 Top 10 分析
+    """
+    def get(self, request):
+        # 权限校验：只有老师能看
+        if request.user.role != 'teacher':
+            return Response({"detail": "权限不足，仅限教师访问"}, status=status.HTTP_403_FORBIDDEN)
+
+        
+        teacher = request.user
+        # 1. 获取该老师名下的所有班级
+        managed_classes = teacher.teaches_classes.all()
+        
+        # 2. 接收前端传来的 class_id 参数，默认取第一个班级
+        class_id = request.query_params.get('class_id')
+        if not class_id and managed_classes.exists():
+            current_class = managed_classes.first()
+        elif class_id:
+            current_class = managed_classes.filter(id=class_id).first()
+        else:
+            return Response({"detail": "该老师尚未分配任何班级"}, status=404)
+        
+        # 核心 SQL 魔法：
+        # 1. 过滤出所有答错的记录
+        # 2. 按照题目 ID 进行分组
+        # 3. 统计每道题错了几次 (error_count)
+        # 4. 按照错误次数从大到小排序，取前 10 名
+        top_errors = QuestionAttempt.objects.filter(session__student__belong_class=current_class, is_correct=False)\
+            .values(
+                'question__id', 
+                'question__sn', 
+                'question__type', 
+                'question__stem',
+                'question__answer',
+                'question__analysis'
+            )\
+            .annotate(error_count=Count('id'))\
+            .order_by('-error_count')[:10]
+
+        # 整理数据格式返回给前端
+        formatted_data = []
+        for item in top_errors:
+            formatted_data.append({
+                "id": item['question__id'],
+                "sn": item['question__sn'],
+                "type": item['question__type'],
+                "stem": item['question__stem'],
+                "answer": item['question__answer'],
+                "analysis": item['question__analysis'],
+                "error_count": item['error_count']
+            })
+
+        return Response({
+            "current_class": { "id": current_class.id, "name": current_class.name },
+            "all_classes": [{"id": c.id, "name": c.name} for c in managed_classes],
+            "top_errors": formatted_data
+        })

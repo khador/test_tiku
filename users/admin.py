@@ -39,7 +39,8 @@ class TeacherAdmin(UserAdmin):
 
     fieldsets = (
         ('登录信息', {'fields': ('username', 'password')}),
-        ('教师档案', {'fields': ('real_name', 'employee_id', 'phone')}),
+        # 【核心修改】：把 teaches_classes 加进教师档案里
+        ('教师档案', {'fields': ('real_name', 'employee_id', 'phone', 'teaches_classes')}),
         ('权限状态', {'fields': ('is_active', 'is_staff')}),
     )
     list_display = ('username', 'real_name', 'employee_id', 'phone', 'is_active')

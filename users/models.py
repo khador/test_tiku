@@ -13,12 +13,20 @@ class User(AbstractUser):
 
     # === 学生专属字段 ===
     student_id = models.CharField(max_length=20, unique=True, null=True, blank=True, verbose_name="学号")
+    # 保留原来的 class_info
     class_info = models.ForeignKey('ClassInfo', on_delete=models.SET_NULL, null=True, blank=True, related_name='students', verbose_name="所属班级")
 
     # === 教师专属字段 ===
     employee_id = models.CharField(max_length=20, unique=True, null=True, blank=True, verbose_name="工号")
     phone = models.CharField(max_length=20, null=True, blank=True, verbose_name="电话")
 
+    # === 【新增】老师管理的班级 (多对多) ===
+    teaches_classes = models.ManyToManyField(
+        'ClassInfo', 
+        blank=True, 
+        related_name='teachers'
+    )
+    
     class Meta:
         verbose_name = "总账户(管理员)"
         verbose_name_plural = verbose_name
