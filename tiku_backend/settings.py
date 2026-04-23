@@ -137,13 +137,10 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = "static/"
-
-# 额外静态文件搜索路径
+STATIC_ROOT = '/var/www/test_tiku/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",  # 可选：项目内通用静态资源
-    '/home/weiwei/python_projects/test_tiku/images',  # 必须：题库图片目录 <sup>[6]</sup>
 ]
-
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -191,3 +188,10 @@ SIMPLE_JWT = {
 
 
 ALLOWED_HOSTS = ['*']
+
+
+"""
+source .venv/bin/activate
+gunicorn --bind 127.0.0.1:8000 tiku_backend.wsgi:application
+
+"""
