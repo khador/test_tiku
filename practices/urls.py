@@ -2,7 +2,7 @@
 from django.urls import path
 from .views import (
     GeneratePracticeView, SubmitPracticeView, PracticeHistoryView, ErrorBookListView,
-    TeacherClassListView, TeacherClassDashboardView, TeacherStudentHistoryView, TeacherQuestionStatsView,TeacherDashboardView, TeacherQuestionAnalysisView,ErrorBookRetryView,StudentDashboardView,TeacherDashboardView
+    TeacherClassListView, TeacherClassDashboardView, TeacherStudentHistoryView, TeacherQuestionStatsView,TeacherDashboardView, TeacherQuestionAnalysisView,ErrorBookRetryView,StudentDashboardView,TeacherTopErrorsView,
 )
 
 urlpatterns = [
@@ -11,7 +11,7 @@ urlpatterns = [
     path('submit/', SubmitPracticeView.as_view(), name='submit-practice'),
     path('history/', PracticeHistoryView.as_view(), name='practice-history'),
     path('error_book/', ErrorBookListView.as_view(), name='error-book-list'),
-
+    path('dashboard/', StudentDashboardView.as_view()),
     # ---- 教师端接口 ----
     # 1. 班级列表
     path('teacher/classes/', TeacherClassListView.as_view(), name='teacher-classes'),
@@ -24,7 +24,6 @@ urlpatterns = [
     path('teacher/dashboard/', TeacherDashboardView.as_view(), name='teacher-dashboard'),
     path('teacher/questions-analysis/', TeacherQuestionAnalysisView.as_view(), name='teacher-questions-analysis'),
     path('error_book/<int:pk>/retry/', ErrorBookRetryView.as_view(), name='error-book-retry'),
-    path('dashboard/', StudentDashboardView.as_view()),
-    path('teacher/dashboard/', TeacherDashboardView.as_view(), name='teacher-dashboard'),
+    path('teacher/top-errors/', TeacherTopErrorsView.as_view(), name='teacher-top-errors'),
     
 ]

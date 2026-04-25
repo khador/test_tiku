@@ -10,11 +10,8 @@ from .models import PracticeSession, ErrorBook, QuestionAttempt
 from questions.models import Question
 from django.db.models import Avg, Sum, Count, Q
 from users.models import ClassInfo, User
-from django.db.models import Count, Avg, Q
-from users.models import ClassInfo, User
 from django.db.models import Case, When
 from django.db import transaction
-from .serializers import SubmitPracticeSerializer
 from questions.serializers import QuestionPublicSerializer, QuestionDetailSerializer
 from .serializers import SubmitPracticeSerializer, ErrorBookSerializer
 
@@ -26,55 +23,60 @@ class PracticeHistoryView(APIView):
     """
     学生查询自己的历史训练记录
     """
+
     def get(self, request):
         student = request.user
         if student.role != 'student':
             return Response({"detail": "只有学生可以查询训练记录"}, status=status.HTTP_403_FORBIDDEN)
 
-        # 查询该学生所有已经交卷的练习场次，按时间倒序排列（最新的在最上面）
+        # ✅ 使用 annotate 一次性聚合统计
         sessions = PracticeSession.objects.filter(
             student=student, 
             end_time__isnull=False
+        ).annotate(
+            total_count_annotated=Count('attempts'),
+            correct_count_annotated=Count('attempts', filter=Q(attempts__is_correct=True))
         ).order_by('-start_time')
         
         history_data = []
         for s in sessions:
-            # 统计这套题的对错数量
-            correct_count = s.attempts.filter(is_correct=True).count()
-            total_count = s.attempts.count()
-            
             history_data.append({
                 "session_id": s.id,
                 "start_time": s.start_time.strftime("%Y-%m-%d %H:%M:%S"),
-                "duration": s.duration, # 用时（秒）
-                "accuracy": round(s.accuracy * 100, 1) if s.accuracy is not None else 0, # 转为百分比
-                "correct_count": correct_count,
-                "total_count": total_count
+                "duration": s.duration,
+                "accuracy": round(s.accuracy * 100, 1) if s.accuracy is not None else 0,
+                "correct_count": s.correct_count_annotated, 
+                "total_count": s.total_count_annotated       
             })
             
         return Response(history_data, status=status.HTTP_200_OK)
 
 
 class ErrorBookListView(APIView):
-    """
-    学生查看自己当前的错题本
-    """
     def get(self, request):
         student = request.user
         if student.role != 'student':
             return Response({"detail": "只有学生可以查看错题本"}, status=status.HTTP_403_FORBIDDEN)
 
-        # 只查询还没被踢出错题本的题（is_active=True）
+        # 使用 annotate 提前计算好该学生在这道题上的错误总数
         error_records = ErrorBook.objects.filter(
             student=student, 
             is_active=True
+        ).select_related(
+            'question' 
+        ).annotate(
+            # 去 QuestionAttempt 里找：同个学生、同道题、答错的记录数
+            error_count_annotated=Count(
+                'question__questionattempt', 
+                filter=Q(
+                    question__questionattempt__session__student=student, 
+                    question__questionattempt__is_correct=False
+                )
+            )
         ).order_by('-add_time')
         
-        # 【核心修改】：使用标准的 DRF 序列化器处理数据，不再手动拼装字典！
         serializer = ErrorBookSerializer(error_records, many=True)
-            
         return Response(serializer.data, status=status.HTTP_200_OK)
-
 
 
 # ================= 教师端 API =================
@@ -109,7 +111,7 @@ class TeacherClassDashboardView(APIView):
 
         # 获取该班级所有学生已经提交的练习场次
         class_sessions = PracticeSession.objects.filter(
-            student__student_profile__class_info=class_info,
+            student__class_info=class_info,
             end_time__isnull=False
         )
         
@@ -117,20 +119,21 @@ class TeacherClassDashboardView(APIView):
         avg_accuracy = class_sessions.aggregate(Avg('accuracy'))['accuracy__avg'] or 0
 
         # 获取该班级的学生列表，并统计每个人
-        students = User.objects.filter(student_profile__class_info=class_info)
+        students = User.objects.filter(class_info=class_info, role='student').annotate(
+            completed_sessions_count=Count('practice_sessions', filter=Q(practice_sessions__end_time__isnull=False)),
+            avg_acc=Avg('practice_sessions__accuracy', filter=Q(practice_sessions__end_time__isnull=False)),
+            total_dur=Sum('practice_sessions__duration', filter=Q(practice_sessions__end_time__isnull=False))
+        )
+        
         student_data = []
         for st in students:
-            st_sessions = class_sessions.filter(student=st)
-            st_avg_acc = st_sessions.aggregate(Avg('accuracy'))['accuracy__avg'] or 0
-            st_total_duration = st_sessions.aggregate(Sum('duration'))['duration__sum'] or 0
-            
             student_data.append({
                 "student_id": st.id,
                 "real_name": st.real_name or st.username,
-                "school_sn": st.student_profile.student_id, # 学号
-                "completed_sessions": st_sessions.count(),
-                "avg_accuracy": round(st_avg_acc * 100, 1),
-                "total_duration": st_total_duration # 总用时(秒)
+                "school_sn": st.student_id, 
+                "completed_sessions": st.completed_sessions_count, # ✅ 直接读取，无需查询
+                "avg_accuracy": round((st.avg_acc or 0) * 100, 1), # ✅ 直接读取
+                "total_duration": st.total_dur or 0                # ✅ 直接读取
             })
 
         return Response({
@@ -152,7 +155,7 @@ class TeacherStudentHistoryView(APIView):
         # 确保这个学生是该老师教的
         is_my_student = User.objects.filter(
             id=student_id, 
-            student_profile__class_info__teacher=request.user
+            class_info__teacher=request.user
         ).exists()
         
         if not is_my_student:
@@ -188,7 +191,7 @@ class TeacherQuestionStatsView(APIView):
 
         # 核心魔法：使用 annotate 对该班级做过的所有题目进行分组统计
         attempts = QuestionAttempt.objects.filter(
-                session__student__student_profile__class_info_id=class_id
+                session__student__class_info_id=class_id
             ).select_related('question')  # 预先加载题目信息
                     
         # 按照题目ID分组，统计总尝试次数 和 做对的次数
@@ -245,7 +248,7 @@ class TeacherDashboardView(APIView):
         students = User.objects.filter(
             role='student', 
             class_info__teacher=teacher
-        ).annotate(
+        ).select_related('class_info').annotate(
             total_sessions=Count('practice_sessions'),
             avg_accuracy=Avg('practice_sessions__accuracy')
         )
@@ -444,18 +447,26 @@ class SubmitPracticeView(APIView):
                 ))
 
                 # 错题本逻辑 (业务复杂，依然保留循环查询和更新)
-                error_record, _ = ErrorBook.objects.get_or_create(
-                    student=student, question=question, defaults={'is_active': False, 'consecutive_correct': 0}
-                )
                 if not is_correct:
+                    # 1. 答错：确保在错题本中且处于激活状态
+                    error_record, _ = ErrorBook.objects.get_or_create(
+                        student=student, question=question, 
+                        defaults={'is_active': True, 'consecutive_correct': 0}
+                    )
                     error_record.is_active = True
                     error_record.consecutive_correct = 0
+                    error_record.save()
                 else:
-                    if error_record.is_active:
+                    # 2. 答对：只有当它已经在错题本中(激活状态)，才去更新连对进度
+                    error_record = ErrorBook.objects.filter(
+                        student=student, question=question, is_active=True
+                    ).first()
+                    
+                    if error_record:
                         error_record.consecutive_correct += 1
                         if error_record.consecutive_correct >= 2:
-                            error_record.is_active = False
-                error_record.save()
+                            error_record.is_active = False # 达成连对，消除错题
+                        error_record.save()
 
                 results.append({
                     "question": QuestionDetailSerializer(question).data, # 返回带答案的完整题目信息供查看
@@ -591,7 +602,7 @@ class StudentDashboardView(APIView):
 
 
 
-class TeacherDashboardView(APIView):
+class TeacherTopErrorsView(APIView):
     """
     教师端工作台：全班错题 Top 10 分析
     """
@@ -603,7 +614,7 @@ class TeacherDashboardView(APIView):
         
         teacher = request.user
         # 1. 获取该老师名下的所有班级
-        managed_classes = teacher.teaches_classes.all()
+        managed_classes = ClassInfo.objects.filter(teacher=teacher)
         
         # 2. 接收前端传来的 class_id 参数，默认取第一个班级
         class_id = request.query_params.get('class_id')
@@ -619,7 +630,10 @@ class TeacherDashboardView(APIView):
         # 2. 按照题目 ID 进行分组
         # 3. 统计每道题错了几次 (error_count)
         # 4. 按照错误次数从大到小排序，取前 10 名
-        top_errors = QuestionAttempt.objects.filter(session__student__belong_class=current_class, is_correct=False)\
+        top_errors = QuestionAttempt.objects.filter(
+            session__student__class_info=current_class, 
+            is_correct=False
+        )\
             .values(
                 'question__id', 
                 'question__sn', 

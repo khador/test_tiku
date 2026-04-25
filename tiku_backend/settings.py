@@ -192,6 +192,5 @@ ALLOWED_HOSTS = ['*']
 
 """
 source .venv/bin/activate
-gunicorn --bind 127.0.0.1:8000 tiku_backend.wsgi:application
-
+gunicorn tiku_backend.wsgi:application
 """

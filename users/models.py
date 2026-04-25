@@ -20,13 +20,7 @@ class User(AbstractUser):
     employee_id = models.CharField(max_length=20, unique=True, null=True, blank=True, verbose_name="工号")
     phone = models.CharField(max_length=20, null=True, blank=True, verbose_name="电话")
 
-    # === 【新增】老师管理的班级 (多对多) ===
-    teaches_classes = models.ManyToManyField(
-        'ClassInfo', 
-        blank=True, 
-        related_name='teachers'
-    )
-    
+
     class Meta:
         verbose_name = "总账户(管理员)"
         verbose_name_plural = verbose_name

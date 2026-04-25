@@ -11,22 +11,13 @@ class QuestionPublicSerializer(serializers.ModelSerializer):
 
 # 2. 错题本序列化器
 class ErrorBookSerializer(serializers.ModelSerializer):
-    # 强制嵌套完整的题目对象
     question = QuestionPublicSerializer(read_only=True)
-    # 动态计算该学生在这道题上累计答错的次数
-    error_count = serializers.SerializerMethodField()
+    # 不再用 SerializerMethodField，而是直接读取 annotate 出来的值
+    error_count = serializers.IntegerField(source='error_count_annotated', read_only=True)
 
     class Meta:
         model = ErrorBook
         fields = ['id', 'question', 'error_count', 'consecutive_correct', 'add_time']
-
-    def get_error_count(self, obj):
-        # 统计该学生这道题答错的总次数
-        return QuestionAttempt.objects.filter(
-            session__student=obj.student,
-            question=obj.question,
-            is_correct=False
-        ).count()
 
 # === 交卷相关序列化器（保持不动） ===
 class PracticeSessionSerializer(serializers.ModelSerializer):
