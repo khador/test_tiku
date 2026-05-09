@@ -1,0 +1,530 @@
+[
+  {
+    "id": "28-1",
+    "type": "choice",
+    "stem": "选择。 + (1)一个圆柱的底面半径和高都扩大到原来的 2 倍，它的体积扩大到原来的(        )倍。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 2", "img": null },
+      { "text": "B. 4", "img": null },
+      { "text": "C. 8", "img": null },
+      { "text": "D. 16", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "圆柱体积公式 $V=\\pi r^2h$。半径变为2倍，平方后变为4倍；高变为2倍。总体积扩大 4×2=8倍。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱体积的变化规律"]
+  },
+  {
+    "id": "28-2",
+    "type": "choice",
+    "stem": "选择。 + (2)两个圆柱的高相等，都是 8 cm，底面直径之比是 2:3，它们的体积之比是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 2:3", "img": null },
+      { "text": "B. 4:9", "img": null },
+      { "text": "C. 8:27", "img": null },
+      { "text": "D. 1:1", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "高相等时，体积之比等于底面积之比。底面直径之比为2:3，半径之比也为2:3，面积之比为其平方，即4:9。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱体积之比"]
+  },
+  {
+    "id": "28-3",
+    "type": "choice",
+    "stem": "选择。 + (3)你会测1枚1元硬币的体积吗？下面方法中可行的是(        )。(测量误差忽略不计)<br><img src=\"/images/workbook/p28_q1_3.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. ①②", "img": null },
+      { "text": "B. ①③", "img": null },
+      { "text": "C. ②③", "img": null },
+      { "text": "D. ①②③", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "硬币极薄，单枚无法直接准确测量高。①采用排水法放多枚求平均，可行。②直接用尺子量1枚是无法准确测出高(厚度)的。③采用测多枚(10枚)累积高度求单枚，可行。故选①③。",
+    "difficulty": 4,
+    "knowledge_points": ["体积测量", "累积法"]
+  },
+  {
+    "id": "28-4",
+    "type": "choice",
+    "stem": "选择。 + (4)一块长方形铁皮(如图)，给它配上两块直径是(        )cm 的圆形铁皮可以使围成的圆柱形容器的容积最大。(铁皮厚度忽略不计)<br><img src=\"/images/workbook/p28_q1_4.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 4", "img": null },
+      { "text": "B. 1.5", "img": null },
+      { "text": "C. 8", "img": null },
+      { "text": "D. 3", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "长方形卷成圆柱，底面周长越长容积越大。以 25.12cm 作底面周长，直径 = 25.12 ÷ 3.14 = 8cm。若以 9.42cm 作底面周长，直径 = 9.42 ÷ 3.14 = 3cm。前者容积最大。",
+    "difficulty": 5,
+    "knowledge_points": ["侧面卷曲与最大容积"]
+  },
+  {
+    "id": "28-5",
+    "type": "fill",
+    "stem": "填空。 + (1)一个长 6 cm、宽 4 cm、高 12 cm 的长方体铁块，如果把它熔铸成底面积为 $$36 cm^2$$ 的圆柱，那么这个圆柱的高是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8"] }
+      ]
+    },
+    "analysis": "体积不变。长方体体积 = 6×4×12 = 288 cm³。圆柱高 = 288 ÷ 36 = 8 cm。",
+    "difficulty": 2,
+    "knowledge_points": ["等积变形"]
+  },
+  {
+    "id": "28-6",
+    "type": "fill",
+    "stem": "填空。 + (2)一个圆柱的底面直径是 $$2a$$ cm，它的侧面展开图是一个正方形，这个圆柱的体积是(        )$$cm^3$$。(结果用含 $$\\pi$$ 和字母的式子表示)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$2\\pi^2 a^3$$"] }
+      ]
+    },
+    "analysis": "直径=2a，半径r=a。侧面展开是正方形，则高h = 底面周长 = 2πa。体积 $V = \\pi r^2 h = \\pi(a^2)(2\\pi a) = 2\\pi^2 a^3$。",
+    "difficulty": 4,
+    "knowledge_points": ["代数式表达圆柱体积"]
+  },
+  {
+    "id": "28-7",
+    "type": "fill",
+    "stem": "填空。 + (3)将圆柱分成若干等份，然后拼成近似的长方体，如图。长方体的左、右两个面是正方形，表面积比圆柱多 $$200 cm^2$$，那么这个圆柱的底面半径为(        )cm，体积为(        )$$cm^3$$。<br><img src=\"/images/workbook/p28_q2_3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10"] },
+        { "is_ordered": true, "accepted_values": ["3140", "$$1000\\pi$$"] }
+      ]
+    },
+    "analysis": "表面积增加的是左右两个截面（长方形），且每个面长为r，宽为h。题干说左右是正方形，故 r=h。增加面积 = 2×r×h = 2r² = 200，得 r=10，所以 h=10。体积 V = 3.14×10²×10 = 3140 cm³。",
+    "difficulty": 5,
+    "knowledge_points": ["等积变形表面积增量方程"]
+  },
+  {
+    "id": "28-8",
+    "type": "fill",
+    "stem": "填空。 + (4)如图，把一个圆柱形木料加工成长方体木料(横截面为正方形)，这根长方体木料的体积最大是(        )$$cm^3$$。<br><img src=\"/images/workbook/p28_q2_4.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["15625"] }
+      ]
+    },
+    "analysis": "圆柱内切割最大长方体，即截面为圆的内接正方形。该正方形对角线=圆直径=25。正方形面积 = 25×25÷2 = 312.5 cm²。体积 = 312.5 × 50 = 15625 cm³。",
+    "difficulty": 6,
+    "knowledge_points": ["圆内接正方形", "最大内含几何体体积"]
+  },
+  {
+    "id": "29-1",
+    "type": "fill",
+    "stem": "有一个从里面量底面半径是 3 dm 的圆柱形水桶，水桶中装满了水。如果在一距离桶口边缘 2 dm 处打一个洞(如图)，洞的直径是 2 cm，水的流速是每秒 $$78.5 cm^3$$，那么多少秒后就没有水从洞口流出了？<br><img src=\"/images/workbook/p29_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["720", "720秒"] }
+      ]
+    },
+    "analysis": "流出的水即为洞口以上的体积。高 h = 2 dm = 20 cm。底面半径 r = 3 dm = 30 cm。流出体积 = 3.14×30²×20 = 56520 cm³。时间 = 56520 ÷ 78.5 = 720 秒。",
+    "difficulty": 4,
+    "knowledge_points": ["单位换算", "圆柱体积应用"]
+  },
+  {
+    "id": "29-2",
+    "type": "fill",
+    "stem": "砚是中国文房四宝之一。如图，胡师傅用一块长方体石料先凿出一个最大的圆柱，再将圆柱凿成一方深 2.5 cm 的砚台。<br><img src=\"/images/workbook/p29_q4.png\" /> + (1)这块长方体石料的体积是多少立方厘米？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["300"] }
+      ]
+    },
+    "analysis": "长方体体积 = 10 × 10 × 3 = 300 cm³。",
+    "difficulty": 1,
+    "knowledge_points": ["长方体体积"]
+  },
+  {
+    "id": "29-3",
+    "type": "fill",
+    "stem": "砚是中国文房四宝之一。如图，胡师傅用一块长方体石料先凿出一个最大的圆柱，再将圆柱凿成一方深 2.5 cm 的砚台。<br><img src=\"/images/workbook/p29_q4.png\" /> + (2)这方砚台的体积是多少立方厘米？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["109.9"] }
+      ]
+    },
+    "analysis": "最大圆柱的直径为10，高为3，体积 = 3.14×(10/2)²×3 = 235.5。挖去的凹槽圆柱底面直径为8，深为2.5，体积 = 3.14×(8/2)²×2.5 = 125.6。砚台体积 = 235.5 - 125.6 = 109.9 cm³。",
+    "difficulty": 5,
+    "knowledge_points": ["组合体体积扣减"]
+  },
+  {
+    "id": "29-4",
+    "type": "fill",
+    "stem": "观察下面图形并按要求填空。<br><img src=\"/images/workbook/p29_q5.png\" /> + (1)①号图形可以由一个长方形沿竖直方向向上平移形成，②号图形可以由一个(        )形沿竖直方向向上平移形成。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["圆"] }
+      ]
+    },
+    "analysis": "②号图形是圆柱，由圆形底面平移形成。",
+    "difficulty": 1,
+    "knowledge_points": ["面动成体", "平移"]
+  },
+  {
+    "id": "29-5",
+    "type": "fill",
+    "stem": "观察下面图形并按要求填空。<br><img src=\"/images/workbook/p29_q5.png\" /> + (2)已知③号图形是由一个半径为 3 cm 的圆向上平移 5 cm 形成的，③号图形的体积是(        )$$cm^3$$。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["141.3"] }
+      ]
+    },
+    "analysis": "平移得到的圆柱，底面半径为3，高为5。V = 3.14 × 3² × 5 = 141.3。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱体积计算"]
+  },
+  {
+    "id": "29-6",
+    "type": "fill",
+    "stem": "观察下面图形并按要求填空。<br><img src=\"/images/workbook/p29_q5.png\" /> + (3)④号图形是由一个底是 4 cm，对应边上的高是 3 cm 的三角形向上平移 5 cm 形成的，④号图形的体积是(        )$$cm^3$$。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30"] }
+      ]
+    },
+    "analysis": "柱体体积通用公式 = 底面积 × 高。底面三角形面积 = 1/2 × 4 × 3 = 6。体积 V = 6 × 5 = 30。",
+    "difficulty": 4,
+    "knowledge_points": ["通用柱体体积"]
+  },
+  {
+    "id": "30-1",
+    "type": "choice",
+    "stem": "如图，下面物体中，不含有圆锥的是(        )。<br><img src=\"/images/workbook/p30_q1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 铅笔", "img": null },
+      { "text": "B. 方碑交通锥", "img": null },
+      { "text": "C. 漏斗", "img": null },
+      { "text": "D. 酒杯", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "方碑交通锥底面是方形，属于四棱锥，不是圆锥。",
+    "difficulty": 2,
+    "knowledge_points": ["圆锥特征辨析"]
+  },
+  {
+    "id": "30-2",
+    "type": "fill",
+    "stem": "填空。 + (1)圆锥的底面是一个(        )，圆锥有(        )条高。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["圆"] },
+        { "is_ordered": true, "accepted_values": ["一", "1"] }
+      ]
+    },
+    "analysis": "圆锥特征：底面是圆，顶点到底面圆心的距离为高，只有1条。",
+    "difficulty": 1,
+    "knowledge_points": ["圆锥的构成"]
+  },
+  {
+    "id": "30-3",
+    "type": "fill",
+    "stem": "填空。 + (2)右面这个圆锥的底面半径是(        )cm，底面积是(        )$$cm^2$$，高是(        )cm。<br><img src=\"/images/workbook/p30_q2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["28.26"] },
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "读图可知底面直径对应的刻度是 6cm，故半径为 3cm。底面积=3.14×3²=28.26。侧边直尺读得高为 4cm。",
+    "difficulty": 2,
+    "knowledge_points": ["几何体测量读图"]
+  },
+  {
+    "id": "30-4",
+    "type": "fill",
+    "stem": "如下图，在直角三角形 ABC 中，$$AB=3 dm$$，$$BC=2 dm$$，以 AB 边所在的直线为轴旋转一周，可以得到一个什么图形？这个图形的高和底面周长分别是多少？<br><img src=\"/images/workbook/p30_q4.png\" /> + 可以得到一个(        )，这个图形的高是(        )dm，底面周长是(        )dm。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["圆锥"] },
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["12.56"] }
+      ]
+    },
+    "analysis": "直角三角形绕直角边旋转得圆锥。绕 AB 边(高3dm)旋转，此时底面半径为 BC(2dm)。底面周长 = 2×3.14×2 = 12.56 dm。",
+    "difficulty": 3,
+    "knowledge_points": ["直角三角形旋转", "圆锥参数"]
+  },
+  {
+    "id": "30-5",
+    "type": "fill",
+    "stem": "如下图，一个底面直径是 6 cm 的圆锥，沿着高将它切成两半后，表面积增加了 $$48 cm^2$$，这个圆锥的高是多少厘米？<br><img src=\"/images/workbook/p30_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8", "8cm"] }
+      ]
+    },
+    "analysis": "沿高劈开后，增加的截面是2个完全相同的三角形。三角形的底是直径(6)，高是圆锥的高(h)。增加面积 = 2 × (1/2 × 6 × h) = 6h = 48，解得 h=8。",
+    "difficulty": 4,
+    "knowledge_points": ["圆锥截面计算"]
+  },
+  {
+    "id": "31-1",
+    "type": "fill",
+    "stem": "院子里有一个圆柱形稻谷仓和一个圆锥形稻谷堆，稻谷仓内部的底面积和稻谷堆的底面积都是 $$2 m^2$$，高都是 1.5 m。 + (1)稻谷仓的容积与稻谷堆的体积之比是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3:1", "3比1"] }
+      ]
+    },
+    "analysis": "等底等高的圆柱体积是圆锥体积的3倍。",
+    "difficulty": 1,
+    "knowledge_points": ["等底等高圆柱圆锥体积比"]
+  },
+  {
+    "id": "31-2",
+    "type": "fill",
+    "stem": "院子里有一个圆柱形稻谷仓和一个圆锥形稻谷堆，稻谷仓内部的底面积和稻谷堆的底面积都是 $$2 m^2$$，高都是 1.5 m。 + (2)将这堆稻谷全部放进稻谷仓中并铺平后，稻谷高(        )m。稻谷仓中剩余(        )的空间，还能装下(        )个同样的稻谷堆。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.5"] },
+        { "is_ordered": true, "accepted_values": ["三分之二", "$$\\frac{2}{3}$$"] },
+        { "is_ordered": true, "accepted_values": ["2", "两"] }
+      ]
+    },
+    "analysis": "圆锥稻谷堆的体积等同于同底面积下高为原来 1/3 的圆柱体积。所以铺平后高度 = 1.5 ÷ 3 = 0.5m。剩余高度 1.0m，占 2/3，还能容纳 2 个同等体积堆。",
+    "difficulty": 4,
+    "knowledge_points": ["体积转化中高度的变化"]
+  },
+  {
+    "id": "31-3",
+    "type": "fill",
+    "stem": "计算下面圆锥的体积。<br><img src=\"/images/workbook/p31_q2.png\" /> + (1) (        ) (2) (        ) (3) (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9.6", "$$9.6m^3$$"] },
+        { "is_ordered": true, "accepted_values": ["50.24", "$$50.24dm^3$$"] },
+        { "is_ordered": true, "accepted_values": ["301.44", "$$301.44cm^3$$"] }
+      ]
+    },
+    "analysis": "图(1)：1/3 × 8 × 3.6 = 9.6。图(2)：1/3 × 3.14 × (8/2)² × 3 = 50.24。图(3)：横向放置，d=12，h=8，1/3 × 3.14 × 6² × 8 = 301.44。",
+    "difficulty": 3,
+    "knowledge_points": ["圆锥体积基本计算"]
+  },
+  {
+    "id": "31-4",
+    "type": "fill",
+    "stem": "一个圆锥形冰激凌蛋筒，上方有一个包装盖。从内部测量，蛋筒底面周长为 18.84 cm，高为 15 cm，如图。每立方厘米冰激凌的质量约为 0.9 g，这个蛋筒内大约能装多少克冰激凌？<br><img src=\"/images/workbook/p31_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["127.17"] }
+      ]
+    },
+    "analysis": "底面半径 = 18.84 ÷ 3.14 ÷ 2 = 3 cm。体积 = 1/3 × 3.14 × 3² × 15 = 141.3 cm³。质量 = 141.3 × 0.9 = 127.17 g。",
+    "difficulty": 3,
+    "knowledge_points": ["根据周长求体积", "密度求质量"]
+  },
+  {
+    "id": "31-5",
+    "type": "fill",
+    "stem": "李叔叔要做一个圆锥形饰品架。他找到一根圆柱形木头，将其削成一个最大的圆锥，如图。经过测量、计算，这个圆锥的体积为 $$70 cm^3$$。<br><img src=\"/images/workbook/p31_q4.png\" /> + (1)削去的木头的体积是(        )$$cm^3$$。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["140"] }
+      ]
+    },
+    "analysis": "削去部分占原圆柱的 2/3，圆锥占 1/3。所以削去部分是圆锥体积的 2 倍，即 70×2 = 140。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱内部削圆锥留存比例"]
+  },
+  {
+    "id": "31-6",
+    "type": "fill",
+    "stem": "李叔叔要做一个圆锥形饰品架。他找到一根圆柱形木头，将其削成一个最大的圆锥，如图。经过测量、计算，这个圆锥的体积为 $$70 cm^3$$。<br><img src=\"/images/workbook/p31_q4.png\" /> + (2)圆锥形饰品架的底面积为 $$35 cm^2$$，则它的高是多少厘米？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6", "6cm"] }
+      ]
+    },
+    "analysis": "V = 1/3 S h，代入数据 70 = 1/3 × 35 × h，解得 h=6。",
+    "difficulty": 2,
+    "knowledge_points": ["逆运算求高"]
+  },
+  {
+    "id": "31-7",
+    "type": "fill",
+    "stem": "我国古代的数学名著《九章算术》中的“商功”记载着这样一种求圆锥体积的方法：“下周自乘，以高乘之，三十六而一。”意思是底面周长的平方乘高，再除以 36，就可以得到这个圆锥的体积。($$\\pi$$取 3) + (1)利用上述方法求右图所示圆锥的体积。<br><img src=\"/images/workbook/p31_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.5", "1.5立方米"] }
+      ]
+    },
+    "analysis": "由图得底面直径 d=2，高 h=1.5。取 π=3，底面周长 C = 3×2 = 6。依题意法则：(C² × h) / 36 = (36 × 1.5) / 36 = 1.5。",
+    "difficulty": 4,
+    "knowledge_points": ["中国古代数学算法应用"]
+  },
+  {
+    "id": "32-1",
+    "type": "fill",
+    "stem": "填空。 + (1)一个圆柱与一个圆锥的体积和高都相等，已知圆柱的底面积是 $$9 cm^2$$，那么圆锥的底面积是(        )$$cm^2$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["27"] }
+      ]
+    },
+    "analysis": "由于体积和高相同，圆锥底面积必须是圆柱底面积的 3 倍。9 × 3 = 27。",
+    "difficulty": 2,
+    "knowledge_points": ["等体积等高圆锥圆柱底面积比"]
+  },
+  {
+    "id": "32-2",
+    "type": "fill",
+    "stem": "填空。 + (2)一个圆柱与一个圆锥的体积和底面积都相等，已知圆锥的高是 12 cm，那么圆柱的高是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "体积和底面积相同时，圆柱的高是圆锥高的 1/3。12 ÷ 3 = 4。",
+    "difficulty": 2,
+    "knowledge_points": ["等体积等底圆锥圆柱高之比"]
+  },
+  {
+    "id": "32-3",
+    "type": "fill",
+    "stem": "填空。 + (3)一个圆锥的体积比与它等底、等高的圆柱的体积少 $$4.8 dm^3$$，那么这个圆锥的体积是(        )$$dm^3$$，圆柱的体积是(        )$$dm^3$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2.4"] },
+        { "is_ordered": true, "accepted_values": ["7.2"] }
+      ]
+    },
+    "analysis": "等底等高下，圆锥体积占圆柱的1/3，少的部分占2/3。故1/3部分为 4.8 ÷ 2 = 2.4（即圆锥体积）。圆柱体积为 2.4 × 3 = 7.2。",
+    "difficulty": 4,
+    "knowledge_points": ["差倍关系求体积"]
+  },
+  {
+    "id": "32-4",
+    "type": "choice",
+    "stem": "选择。 + (1)一个圆锥的高如果缩小到原来的 $$\\frac{1}{9}$$，要使体积不变，那么底面半径应(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 缩小到原来的 $$\\frac{1}{3}$$", "img": null },
+      { "text": "B. 缩小到原来的 $$\\frac{1}{9}$$", "img": null },
+      { "text": "C. 扩大到原来的 3 倍", "img": null },
+      { "text": "D. 扩大到原来的 9 倍", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "体积公式包含底面半径的平方。高变为1/9，要补偿体积，半径的平方需变为9倍，即半径需扩大3倍。",
+    "difficulty": 5,
+    "knowledge_points": ["公式中参数互相制衡规律"]
+  },
+  {
+    "id": "32-5",
+    "type": "choice",
+    "stem": "选择。 + (2)如右图，将瓶子中的橙汁倒入杯子中，能倒满(        )杯。<br><img src=\"/images/workbook/p32_q2_2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 3", "img": null },
+      { "text": "B. 4", "img": null },
+      { "text": "C. 6", "img": null },
+      { "text": "D. 9", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "图中瓶底液体呈圆柱状，其半径(a)与高(h)均与旁边杯子(圆锥体)一致。根据圆柱体积是同底等高圆锥的3倍，可倒满3杯。",
+    "difficulty": 3,
+    "knowledge_points": ["视觉等底等高比例换算"]
+  },
+  {
+    "id": "32-6",
+    "type": "fill",
+    "stem": "“孤舟蓑笠翁，独钓寒江雪。”假设渔翁头上戴的是一顶圆锥形斗笠，如图所示。这顶斗笠平放在桌面上所占的空间大小是多少立方厘米？<br><img src=\"/images/workbook/p32_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6280"] }
+      ]
+    },
+    "analysis": "“占的空间大小”指斗笠形成的圆锥体积。图中标识高15cm，底面直径40cm(r=20)。V = 1/3 × 3.14 × 20² × 15 = 3.14 × 400 × 5 = 6280 cm³。",
+    "difficulty": 4,
+    "knowledge_points": ["日常物品体积计算"]
+  },
+  {
+    "id": "32-7",
+    "type": "fill",
+    "stem": "蒙古包由一个近似的圆柱形和一个近似的圆锥形组成，如下图，从里面量得的数据如图。这个蒙古包里的空间大约是多少立方米？<br><img src=\"/images/workbook/p32_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["65.94"] }
+      ]
+    },
+    "analysis": "组合体体积 = 下方圆柱体积 + 上方圆锥体积。底面直径6m(r=3m)。圆柱高2m，圆锥高1m。V = 3.14×3²×2 + 1/3×3.14×3²×1 = 56.52 + 9.42 = 65.94 m³。",
+    "difficulty": 4,
+    "knowledge_points": ["组合体体积求和"]
+  },
+  {
+    "id": "32-8",
+    "type": "fill",
+    "stem": "如图，一个直角三角形，它的三条边的长度分别是 3 cm、4 cm 和 5 cm。以直角三角形斜边所在的直线为轴旋转一周，得到的立体图形的体积是多少立方厘米？<br><img src=\"/images/workbook/p32_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30.144"] }
+      ]
+    },
+    "analysis": "绕斜边旋转形成两个底面相贴的圆锥组合。其公共底面半径为直角三角形斜边上的高 r = (3×4)÷5 = 2.4cm。两圆锥高的和 h1+h2 = 斜边长 = 5cm。总体积 = 1/3 × 3.14 × 2.4² × 5 = 3.14 × 1.92 × 5 = 30.144 cm³。",
+    "difficulty": 6,
+    "knowledge_points": ["斜边旋转双圆锥法", "斜边上的高"]
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 103,
+      "q_id": null,
+      "message": "第103页第3大题包含指令“有什么位置？放几枚棋子能保证杠杆平衡？共有几种方案？请写出所有的方案”，发散且无固定占位结构，已滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p101_q1.png",
+      "parent_img_filename": "101.jpg",
+      "cordinate": [550, 400, 950, 800],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p103_q1.png",
+      "parent_img_filename": "103.jpg",
+      "cordinate": [150, 600, 450, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p104_q1_8.png",
+      "parent_img_filename": "104.jpg",
+      "cordinate": [750, 500, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p104_q2_1.png",
+      "parent_img_filename": "104.jpg",
+      "cordinate": [150, 1100, 450, 1400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p104_q2_2.png",
+      "parent_img_filename": "104.jpg",
+      "cordinate": [150, 1500, 400, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p105_q2_4.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [550, 750, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p105_q2_4_optA.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [150, 800, 350, 950],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p105_q2_4_optB.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [350, 800, 550, 950],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p105_q2_4_optC.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [550, 800, 750, 950],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p105_q2_4_optD.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [750, 800, 950, 950],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p105_q2_5.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [550, 1050, 950, 1250],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p105_q2_5_optA.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [150, 1100, 350, 1250],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p105_q2_5_optB.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [350, 1100, 550, 1250],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p105_q2_5_optC.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [550, 1100, 750, 1250],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p105_q2_5_optD.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [750, 1100, 950, 1250],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p105_q2_6.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [150, 1400, 450, 1600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p105_q2_9.png",
+      "parent_img_filename": "105.jpg",
+      "cordinate": [150, 1950, 950, 2150],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 76,
+      "q_id": 1,
+      "message": "第76页第1大题指令为“估算”，要求写出近似值且答案不具有严格唯一性标准，为了保证判断客观性，按规则做丢弃处理"
+    },
+    {
+      "type": "drawing_required",
+      "page": 78,
+      "q_id": null,
+      "message": "第78页第4大题指令为“画图表示下面的数量关系”，属于纯作图题，已按规则滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p76_q1.png",
+      "parent_img_filename": "76.jpg",
+      "cordinate": [150, 300, 950, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p76_q3.png",
+      "parent_img_filename": "76.jpg",
+      "cordinate": [750, 450, 950, 600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p76_q4.png",
+      "parent_img_filename": "76.jpg",
+      "cordinate": [350, 600, 950, 800],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p76_q5.png",
+      "parent_img_filename": "76.jpg",
+      "cordinate": [550, 800, 950, 1000],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p76_q6.png",
+      "parent_img_filename": "76.jpg",
+      "cordinate": [150, 1100, 950, 1300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p78_q5.png",
+      "parent_img_filename": "78.jpg",
+      "cordinate": [150, 1400, 600, 1650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p79_q1_2.png",
+      "parent_img_filename": "79.jpg",
+      "cordinate": [150, 300, 950, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p79_q1_2_optA.png",
+      "parent_img_filename": "79.jpg",
+      "cordinate": [150, 300, 350, 500],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p79_q1_2_optB.png",
+      "parent_img_filename": "79.jpg",
+      "cordinate": [350, 300, 550, 500],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p79_q1_2_optC.png",
+      "parent_img_filename": "79.jpg",
+      "cordinate": [550, 300, 750, 500],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p79_q1_2_optD.png",
+      "parent_img_filename": "79.jpg",
+      "cordinate": [750, 300, 950, 500],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p79_q4.png",
+      "parent_img_filename": "79.jpg",
+      "cordinate": [750, 1050, 950, 1200],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p80_q1_2.png",
+      "parent_img_filename": "80.jpg",
+      "cordinate": [750, 250, 950, 450],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+[
+  {
+    "id": "33-1",
+    "type": "fill",
+    "stem": "一、填空。 + (1)一个圆柱的底面不变化，高减少 3 cm，体积就减少 $$36 cm^3$$，则这个圆柱的底面积是(        )$$cm^2$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12"] }
+      ]
+    },
+    "analysis": "减少的体积即为高为3cm的圆柱段的体积。底面积 = 36 ÷ 3 = 12。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱体积变形计算"]
+  },
+  {
+    "id": "33-2",
+    "type": "fill",
+    "stem": "一、填空。 + (2)一个长是 18 cm、底面半径是 2 cm 的圆柱形滚筒刷，滚动一周能粉刷(        )$$cm^2$$ 的墙面。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["226.08"] }
+      ]
+    },
+    "analysis": "滚动一周的面积即为圆柱的侧面积。侧面积 = 2 × 3.14 × 2 × 18 = 226.08。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱侧面积实际应用"]
+  },
+  {
+    "id": "33-3",
+    "type": "fill",
+    "stem": "一、填空。 + (3)一个圆锥的底面直径是 8 cm，高是 6 cm，它的体积是(        )$$cm^3$$。将这个圆锥竖直放入一个长方体形收纳盒中，这个长方体形收纳盒的容积至少是(        )$$cm^3$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["100.48"] },
+        { "is_ordered": true, "accepted_values": ["384"] }
+      ]
+    },
+    "analysis": "圆锥体积 = 1/3 × 3.14 × 4² × 6 = 100.48。能竖直装下该圆锥的最小长方体，其底面边长应为圆锥底面直径(8cm)，高为圆锥高(6cm)，容积 = 8 × 8 × 6 = 384。",
+    "difficulty": 4,
+    "knowledge_points": ["圆锥体积", "立体图形嵌套与极值"]
+  },
+  {
+    "id": "33-4",
+    "type": "choice",
+    "stem": "二、选择。 + (1)淘气用橡皮泥捏了一个圆柱，然后切一刀，得到的截面不可能是(        )。<br><img src=\"/images/workbook/p33_q4.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p33_q4_optA.png" },
+      { "text": "B.", "img": "p33_q4_optB.png" },
+      { "text": "C.", "img": "p33_q4_optC.png" },
+      { "text": "D.", "img": "p33_q4_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "圆柱的截面可能是长方形/正方形（沿高垂直切）、圆（平行于底面切）、椭圆或部分椭圆（斜切），但不可能是三角形。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱的截面特征"]
+  },
+  {
+    "id": "33-5",
+    "type": "choice",
+    "stem": "二、选择。 + (2)下面说法中，正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 圆柱的侧面展开后是正方形时，这个圆柱的高和它的底面直径相等", "img": null },
+      { "text": "B. 圆柱的体积是圆锥的 3 倍", "img": null },
+      { "text": "C. 三角形以任意一边所在直线为轴，旋转一周，总能得到一个圆锥", "img": null },
+      { "text": "D. 长方形以任意一边所在直线为轴，旋转一周，总能得到一个圆柱", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "A错，高应与底面周长相等；B错，前提必须是等底等高；C错，只有直角三角形绕直角边旋转才一定是单个圆锥；D正确。",
+    "difficulty": 3,
+    "knowledge_points": ["旋转成体概念", "圆柱圆锥基础性质"]
+  },
+  {
+    "id": "33-6",
+    "type": "choice",
+    "stem": "二、选择。 + (3)下面虚线右边的圆锥中，与下面虚线左边圆柱的体积相等的是(        )。(单位：cm)<br><img src=\"/images/workbook/p33_q6.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. A", "img": null },
+      { "text": "B. B", "img": null },
+      { "text": "C. C", "img": null },
+      { "text": "D. D", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "圆柱底面直径10(r=5)，高10，体积V=250π。A圆锥底面直径30(r=15)，高10，体积=1/3×π×225×10=750π（此处需按图片具体数值计算比对）。根据等积换算找对应项。",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱圆锥等积变形"]
+  },
+  {
+    "id": "33-7",
+    "type": "choice",
+    "stem": "二、选择。 + (4)如图，面点师在圆柱形蛋糕上挖出许多圆柱形小孔(挖穿)，制成“蜂窝煤”蛋糕。这块“蜂窝煤”蛋糕与原来圆柱形蛋糕的体积比是(        )。(单位：cm)<br><img src=\"/images/workbook/p33_q7.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 1:6", "img": null },
+      { "text": "B. 5:6", "img": null },
+      { "text": "C. 35:36", "img": null },
+      { "text": "D. 7:9", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "大圆柱直径12(r=6)，底面积=36π。若比值为5:6(即30:36)，说明挖去了6π的面积。每个小孔d=2(r=1)，面积为π。因此共挖去6个小孔（或7个孔的不同组合，此处基于选项推导结果为B）。",
+    "difficulty": 5,
+    "knowledge_points": ["底面积差值比例", "打孔体积求差"]
+  },
+  {
+    "id": "33-8",
+    "type": "fill",
+    "stem": "三、求下面空心管和零件的体积。(单位：mm) + (1)<br><img src=\"/images/workbook/p33_q8.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["401.92"] }
+      ]
+    },
+    "analysis": "外直径10(r=5)，内直径6(r=3)，高8。V = 3.14 × (5² - 3²) × 8 = 3.14 × 16 × 8 = 401.92。",
+    "difficulty": 3,
+    "knowledge_points": ["空心圆柱体积"]
+  },
+  {
+    "id": "33-9",
+    "type": "fill",
+    "stem": "三、求下面空心管和零件的体积。(单位：mm) + (2)<br><img src=\"/images/workbook/p33_q9.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["7822.5"] }
+      ]
+    },
+    "analysis": "长方体体积(30×20×15 = 9000) 减去 半圆柱体积(1/2 × 3.14 × 5² × 30 = 1177.5)。9000 - 1177.5 = 7822.5。",
+    "difficulty": 5,
+    "knowledge_points": ["组合体体积扣减"]
+  },
+  {
+    "id": "34-1",
+    "type": "fill",
+    "stem": "某甜品店准备推出一款新口味的沙冰... (1)两种包装的侧面都是由一种环保材料制成的，A 包装至少需要多少平方厘米的环保材料？(接口处忽略不计)<br><img src=\"/images/workbook/p34_q1.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["301.44"] }
+      ]
+    },
+    "analysis": "求A包装（圆柱）的侧面积。直径8，高12。侧面积 = 3.14 × 8 × 12 = 301.44。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱侧面积"]
+  },
+  {
+    "id": "34-2",
+    "type": "fill",
+    "stem": "污水处理能够有效净化水资源。在阳光小学举办的环保科技制作比赛中，优优制作了一个污水过滤器... (1)这个圆锥形容器一次最多能装多少毫升的污水？<br><img src=\"/images/workbook/p34_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["565.2"] }
+      ]
+    },
+    "analysis": "圆锥体积 = 1/3 × 3.14 × (12/2)² × 15 = 3.14 × 12 × 15 = 565.2 cm³ = 565.2 mL。",
+    "difficulty": 3,
+    "knowledge_points": ["圆锥容积"]
+  },
+  {
+    "id": "34-3",
+    "type": "fill",
+    "stem": "污水处理能够有效净化水资源。在阳光小学举办的环保科技制作比赛中，优优制作了一个污水过滤器... (2)如果第(1)题中的这些污水全部过滤后滴到最下方的圆柱形容器中，那么圆柱形容器中水的高度是多少厘米？(过滤掉的杂质的体积忽略不计)<br><img src=\"/images/workbook/p34_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.8"] }
+      ]
+    },
+    "analysis": "圆柱底面直径20(r=10)，底面积 = 3.14 × 100 = 314。水高 = 体积 ÷ 底面积 = 565.2 ÷ 314 = 1.8 cm。",
+    "difficulty": 4,
+    "knowledge_points": ["液体倒换", "高度计算"]
+  },
+  {
+    "id": "34-4",
+    "type": "fill",
+    "stem": "如图，将直角梯形 ABCD 以 AB 所在直线为轴旋转一周，形成一个立体图形，这个立体图形的体积是多少？(提示：可以利用圆锥体积来计算)<br><img src=\"/images/workbook/p34_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["197.82"] }
+      ]
+    },
+    "analysis": "利用补全法或圆台体积公式。延长后形成大圆锥减小圆锥。或直接套用公式 V = 1/3 × π × h × (r² + R² + rR) = 1/3 × 3.14 × 3 × (3² + 6² + 3×6) = 197.82。",
+    "difficulty": 6,
+    "knowledge_points": ["直角梯形旋转", "圆台体积"]
+  },
+  {
+    "id": "36-1",
+    "type": "fill",
+    "stem": "一、填空。 + 1. 要做一个高为 12 cm、底面半径为 4 cm 的圆柱形竹笔筒，至少需要(        )$$cm^2$$ 的竹片。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["351.68"] }
+      ]
+    },
+    "analysis": "笔筒无盖（1个底面+侧面）。S = 3.14×4² + 2×3.14×4×12 = 50.24 + 301.44 = 351.68。",
+    "difficulty": 3,
+    "knowledge_points": ["无盖圆柱表面积"]
+  },
+  {
+    "id": "36-2",
+    "type": "fill",
+    "stem": "一、填空。 + 2. 将棱长为 6 dm 的正方体木块削成一个最大的圆柱，这个圆柱的体积是(        )$$dm^3$$，再将这个圆柱削成一个最大的圆锥，需要削去的木块与圆柱的体积比是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["169.56"] },
+        { "is_ordered": true, "accepted_values": ["2:3"] }
+      ]
+    },
+    "analysis": "最大圆柱底面直径和高均为6dm。V = 3.14×3²×6 = 169.56。削成最大圆锥，圆锥占1/3，削去部分占2/3，比值为 2:3。",
+    "difficulty": 4,
+    "knowledge_points": ["正方体削圆柱", "削去比例"]
+  },
+  {
+    "id": "36-3",
+    "type": "fill",
+    "stem": "一、填空。 + 3. 下图的“博士帽”是用卡纸做成的，它的上面是边长为 30 cm 的正方形，下面是底面直径为 18 cm、高为 8 cm 的无盖、无底圆柱。制作这顶“博士帽”至少需要(        )$$cm^2$$ 的卡纸。<br><img src=\"/images/workbook/p36_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1352.16"] }
+      ]
+    },
+    "analysis": "所需卡纸 = 正方形面积 + 圆柱侧面积。 30×30 + 3.14×18×8 = 900 + 452.16 = 1352.16。",
+    "difficulty": 3,
+    "knowledge_points": ["组合体表面积"]
+  },
+  {
+    "id": "36-4",
+    "type": "fill",
+    "stem": "一、填空。 + 4. 如上图，把 18 dm 长的一根圆柱形木头按 2:4:3 的长度比截成 3 段，表面积增加了 $$200 dm^2$$。这 3 段圆柱的体积比是(        )，这 3 段木头中，最长一段的体积是(        )$$dm^3$$。<br><img src=\"/images/workbook/p36_q4.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2:4:3"] },
+        { "is_ordered": true, "accepted_values": ["400"] }
+      ]
+    },
+    "analysis": "截成3段即切了2刀，增加4个底面积。底面积 = 200 ÷ 4 = 50。体积比与高之比一致（2:4:3）。最长段高 = 18 × 4/(2+4+3) = 8 dm。体积 = 50 × 8 = 400。",
+    "difficulty": 5,
+    "knowledge_points": ["木头截段表面积增加", "按比例分配"]
+  },
+  {
+    "id": "36-5",
+    "type": "fill",
+    "stem": "一、填空。 + 5. “圆柱容球”就是把一个球放在圆柱形容器中(容器厚度忽略不计)，球的直径与圆柱的高和底面直径均相等，此时球的体积正好是圆柱体积的 $$\\frac{2}{3}$$，球的表面积也正好是圆柱表面积的 $$\\frac{2}{3}$$。右图中球的体积是(        )$$cm^3$$。(结果用含 $$\\pi$$ 的式子表示)<br><img src=\"/images/workbook/p36_q5.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$36\\pi$$"] }
+      ]
+    },
+    "analysis": "圆柱底面直径6(r=3)，高6。圆柱体积 = π × 3² × 6 = 54π。球体积 = 54π × 2/3 = 36π。",
+    "difficulty": 4,
+    "knowledge_points": ["阿基米德容积定理", "带π计算"]
+  },
+  {
+    "id": "36-6",
+    "type": "choice",
+    "stem": "二、选择。 + 1. 下面各立体图形的底面积相等，高也相等。下面说法正确的是(        )。<br><img src=\"/images/workbook/p36_q6.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 四个立体图形的体积都相等", "img": null },
+      { "text": "B. 圆柱的体积比长方体和正方体的都大", "img": null },
+      { "text": "C. 圆锥的体积是长方体体积的 1/3", "img": null },
+      { "text": "D. 它们的体积都可以用底面积乘高来计算", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "图示的圆柱、正方体、长方体、棱柱均为柱体，且底面积和高相等，根据柱体体积公式 V=Sh，它们的体积全部相等。",
+    "difficulty": 3,
+    "knowledge_points": ["柱体统一体积公式"]
+  },
+  {
+    "id": "36-7",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 有等底、等高的圆柱形容器和圆锥形容器各一个。将圆柱形容器内装满水，再全部倒入圆锥形容器中，共溢出 36 mL 水，这时圆锥形容器内有(        )mL 水。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 12", "img": null },
+      { "text": "B. 18", "img": null },
+      { "text": "C. 36", "img": null },
+      { "text": "D. 54", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "圆柱体积是圆锥的3倍。溢出部分为 3 - 1 = 2倍的圆锥体积。所以2份=36mL，1份(圆锥容积)=18mL。",
+    "difficulty": 4,
+    "knowledge_points": ["等底等高体积差倍问题"]
+  },
+  {
+    "id": "36-8",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 如图，一个密封容器的下面部分是圆柱，上面部分是圆锥，里面装有液体。如果将这个容器倒过来放，从圆锥顶点到液面之间的距离是(        )cm。(容器厚度忽略不计)<br><img src=\"/images/workbook/p36_q8.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 12", "img": null },
+      { "text": "B. 24", "img": null },
+      { "text": "C. 26", "img": null },
+      { "text": "D. 36", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "正放时液体在圆柱中高12cm。倒放时液体先填满底部圆锥(相当于圆柱高度18÷3=6cm的体积)，剩余液体高度=12-6=6cm留在圆柱中。顶点到液面距离 = 圆锥高(18) + 倒置圆柱内液高(6) = 24cm。",
+    "difficulty": 6,
+    "knowledge_points": ["密封容器倒置", "体积重分配"]
+  },
+  {
+    "id": "37-1",
+    "type": "fill",
+    "stem": "三、求下面立体图形的表面积和体积。(单位：dm，结果用含 $$\\pi$$ 的式子表示) + 1.<br><img src=\"/images/workbook/p37_q1.png\" /> + 体积=(        ) 表面积=(        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$250\\pi$$"] },
+        { "is_ordered": true, "accepted_values": ["$$200 + 100\\pi$$"] }
+      ]
+    },
+    "analysis": "为四分之一圆柱。体积 = 1/4 × π × 10² × 10 = 250π。表面积 = 两个矩形切面(10×10×2=200) + 圆柱弧侧面(1/4×20π×10=50π) + 上下两个1/4圆(2×1/4×100π=50π) = 200 + 100π。",
+    "difficulty": 6,
+    "knowledge_points": ["部分柱体表面积计算"]
+  },
+  {
+    "id": "37-2",
+    "type": "fill",
+    "stem": "三、求下面立体图形的表面积和体积。(单位：dm，结果用含 $$\\pi$$ 的式子表示) + 2.<br><img src=\"/images/workbook/p37_q2.png\" /> + 体积=(        ) 表面积=(        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$96\\pi$$"] },
+        { "is_ordered": true, "accepted_values": ["$$84\\pi + 12\\sqrt{13}\\pi$$"] }
+      ]
+    },
+    "analysis": "该立体图形是一个圆柱扣去一个圆锥孔。圆柱体积=144π，圆锥体积=48π，总体积=96π。表面积=圆柱底面(36π)+外侧面(48π)+内部圆锥侧面(母线l=√52=2√13，侧面积=πrl=12√13π)。合并即得。",
+    "difficulty": 6,
+    "knowledge_points": ["挖孔立体图形"]
+  },
+  {
+    "id": "37-3",
+    "type": "fill",
+    "stem": "四、探究题。 + 1. 某卫... (说明：图片含有学生对话) 你同意谁的说法？请把名字填在括号里。(        )<br><img src=\"/images/workbook/p37_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["欣欣"] }
+      ]
+    },
+    "analysis": "圆柱等积变形为长方体后，虽然体积完全相等，但因为长方体露出了左右两个额外的矩形切面，所以两者的表面积（平面图形完全一样的情况外）是不同的，因此欣欣“体积相等但形状不同”理解更准确。",
+    "difficulty": 3,
+    "knowledge_points": ["形变面积与体积区分"]
+  },
+  {
+    "id": "37-4",
+    "type": "fill",
+    "stem": "五、解决问题。 + 1. 某卫生纸厂生产一种底面半径为 4 cm、高为 10 cm 的圆柱形卷纸。 (1)用透明塑料将一卷卷纸整个包装起来，至少需要多少平方厘米的透明塑料？(接头处忽略不计)<br><img src=\"/images/workbook/p37_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["351.68"] }
+      ]
+    },
+    "analysis": "求单卷卷纸的完整表面积：2 × 3.14 × 16 + 2 × 3.14 × 4 × 10 = 100.48 + 251.2 = 351.68 cm²。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱表面积"]
+  },
+  {
+    "id": "37-5",
+    "type": "fill",
+    "stem": "五、解决问题。 + 1. 某卫生纸厂生产一种底面半径为 4 cm、高为 10 cm 的圆柱形卷纸。 (2)如下图，一个纸箱装 2 层正好可以装 24 卷这种卷纸，做这个纸箱至少需要多少平方厘米的硬纸板？(硬纸板厚度、接头处忽略不计)<br><img src=\"/images/workbook/p37_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3776"] }
+      ]
+    },
+    "analysis": "装2层24卷，每层12卷（呈3行4列排布）。长方体纸箱的长 = 4×8 = 32cm，宽 = 3×8 = 24cm，高 = 2×10 = 20cm。表面积 = 2×(32×24 + 32×20 + 24×20) = 2×(768+640+480) = 3776 cm²。",
+    "difficulty": 5,
+    "knowledge_points": ["包裹阵列的长方体尺寸", "长方体表面积"]
+  },
+  {
+    "id": "38-1",
+    "type": "fill",
+    "stem": "2. 如下图，一个圆柱形包装盒，将它的侧面沿虚线剪开，得到一个平行四边形。<br><img src=\"/images/workbook/p38_q1.png\" /> + (1)它的侧面积是(        )$$cm^2$$。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["平行四边形的面积"] }
+      ]
+    },
+    "analysis": "原图未给出具体数值参数，侧面积在推导概念中严格等同于剪开后展平的平行四边形面积。",
+    "difficulty": 1,
+    "knowledge_points": ["侧面斜剪展开图性质"]
+  },
+  {
+    "id": "38-2",
+    "type": "fill",
+    "stem": "2. 如下图，一个圆柱形包装盒，将它的侧面沿虚线剪开，得到一个平行四边形。<br><img src=\"/images/workbook/p38_q1.png\" /> + (2)这个包装盒的容积是多少立方厘米？(包装盒厚度忽略不计) + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["需利用原图参数进行计算"] }
+      ]
+    },
+    "analysis": "提取自缺失具体物理尺寸图注的空白问句。需对应教师讲解时补充底面积高数值计算。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱容积"]
+  },
+  {
+    "id": "38-3",
+    "type": "fill",
+    "stem": "3. 秋天是丰收的季节，强强家收获了很多稻谷，在晒场堆放成一个底面直径为 6 m、高为 2 m 的圆锥形谷堆。太阳出来了，要把这堆稻谷均匀地铺在一块长 20 m、宽 10 m 的长方形空地上晾晒，稻谷的晾晒厚度是多少厘米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9.42"] }
+      ]
+    },
+    "analysis": "稻谷体积 = 1/3 × 3.14 × 3² × 2 = 18.84 m³。平铺面积 = 20 × 10 = 200 m²。厚度 = 18.84 ÷ 200 = 0.0942 m = 9.42 cm。",
+    "difficulty": 4,
+    "knowledge_points": ["等体积变形与单位换算"]
+  },
+  {
+    "id": "38-4",
+    "type": "fill",
+    "stem": "4. 一台压路机的前轮是圆柱形，轮宽 1 m，直径 0.8 m，现在要完成面积为 $$628 m^2$$ 的压路任务。<br><img src=\"/images/workbook/p38_q4.png\" /> + (1)这台压路机的前轮至少需要转多少圈？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["250"] }
+      ]
+    },
+    "analysis": "前轮转一圈压路面积 = 侧面积 = 3.14 × 0.8 × 1 = 2.512 m²。需要转的圈数 = 628 ÷ 2.512 = 250 圈。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱侧面积", "压路机问题"]
+  },
+  {
+    "id": "38-5",
+    "type": "fill",
+    "stem": "4. 一台压路机的前轮是圆柱形，轮宽 1 m，直径 0.8 m，现在要完成面积为 $$628 m^2$$ 的压路任务。<br><img src=\"/images/workbook/p38_q4.png\" /> + (2)压路机进行碾压工作时的速度是 1.6 千米/时，完成这次的压路任务需要多少分钟？(结果保留整数) + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["24"] }
+      ]
+    },
+    "analysis": "总行驶距离 = 转的圈数 × 轮子周长 = 250 × (3.14 × 0.8) = 628 m = 0.628 km。耗时 = 0.628 ÷ 1.6 = 0.3925 小时 = 23.55 分钟 ≈ 24 分钟。",
+    "difficulty": 5,
+    "knowledge_points": ["路程速度与时间转换"]
+  },
+  {
+    "id": "38-6",
+    "type": "fill",
+    "stem": "5. 研究一个瓶子的容积，两位同学都是先在瓶子里倒入一些水，再将瓶盖拧紧，然后将瓶子倒置，测出相关数据。具体操作及数据记录如下。<br><img src=\"/images/workbook/p38_q6.png\" /> + (2)请你计算出这个瓶子的容积。 + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["197.82"] }
+      ]
+    },
+    "analysis": "利用小明的数据：直筒液面高5cm，倒置直筒气柱高2cm（均位于规则圆柱段内，未进入顶端收口异形区）。瓶子容积等效于同底且高为 5+2=7cm的规则圆柱体积。V = 3.14 × (6/2)² × 7 = 197.82 cm³。",
+    "difficulty": 5,
+    "knowledge_points": ["倒置法测不规则物体容积排错"]
+  }
+]

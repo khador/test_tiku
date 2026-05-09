@@ -1,0 +1,232 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 92,
+      "q_id": null,
+      "message": "第92页第3小问包含“请结合统计图帮王叔叔分析...”的发散性论述指令，已按规则滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 94,
+      "q_id": null,
+      "message": "第94页第4大题第(1)问要求“根据记录表，将下面的折线统计图补充完整”，属于纯作图题，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 95,
+      "q_id": null,
+      "message": "第95页第2大题指令为“请你按要求设计转盘并涂色”，包含开放作图与涂色要求，已整题滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 97,
+      "q_id": null,
+      "message": "第97页第3大题第(1)问追问“你认为哪种计步软件更适合？说明理由”，属主观评价题，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 99,
+      "q_id": null,
+      "message": "第99页第2大题第(2)问要求“写出你的推理过程”，无法作为客观填空，已局部滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p91_q2.png",
+      "parent_img_filename": "91.jpg",
+      "cordinate": [150, 450, 400, 600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p91_q3.png",
+      "parent_img_filename": "91.jpg",
+      "cordinate": [150, 700, 450, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p91_q4.png",
+      "parent_img_filename": "91.jpg",
+      "cordinate": [600, 700, 950, 1000],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p92_q1.png",
+      "parent_img_filename": "92.jpg",
+      "cordinate": [150, 250, 950, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p93_q4.png",
+      "parent_img_filename": "93.jpg",
+      "cordinate": [150, 1200, 950, 1450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p93_q5.png",
+      "parent_img_filename": "93.jpg",
+      "cordinate": [150, 1600, 950, 1950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p94_q3.png",
+      "parent_img_filename": "94.jpg",
+      "cordinate": [150, 1100, 950, 1450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p95_q1.png",
+      "parent_img_filename": "95.jpg",
+      "cordinate": [750, 150, 950, 400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p96_q3.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [150, 700, 950, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p96_q3_optA.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [150, 700, 350, 900],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p96_q3_optB.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [350, 700, 550, 900],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p96_q3_optC.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [550, 700, 750, 900],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p96_q3_optD.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [750, 700, 950, 900],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p96_q4.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [150, 1000, 950, 1300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p96_q4_optA.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [150, 1150, 350, 1300],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p96_q4_optB.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [350, 1150, 550, 1300],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p96_q4_optC.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [550, 1150, 750, 1300],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p96_q4_optD.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [750, 1150, 950, 1300],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p96_q5.png",
+      "parent_img_filename": "96.jpg",
+      "cordinate": [150, 1400, 600, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p97_q2.png",
+      "parent_img_filename": "97.jpg",
+      "cordinate": [150, 300, 950, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p97_q3.png",
+      "parent_img_filename": "97.jpg",
+      "cordinate": [150, 950, 950, 1300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p98_q6.png",
+      "parent_img_filename": "98.jpg",
+      "cordinate": [150, 950, 800, 1200],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p98_q7.png",
+      "parent_img_filename": "98.jpg",
+      "cordinate": [150, 1500, 800, 1700],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p100_q1_1.png",
+      "parent_img_filename": "100.jpg",
+      "cordinate": [150, 150, 850, 350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p100_q2.png",
+      "parent_img_filename": "100.jpg",
+      "cordinate": [150, 700, 450, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p100_q3.png",
+      "parent_img_filename": "100.jpg",
+      "cordinate": [150, 1050, 600, 1350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p100_q4.png",
+      "parent_img_filename": "100.jpg",
+      "cordinate": [150, 1550, 500, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p100_q5.png",
+      "parent_img_filename": "100.jpg",
+      "cordinate": [150, 1950, 750, 2200],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

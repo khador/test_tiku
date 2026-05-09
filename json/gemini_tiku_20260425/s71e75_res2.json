@@ -1,0 +1,151 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 71,
+      "q_id": null,
+      "message": "第71页阅读材料第一大问含主观文字论述指令'你知道这是为什么吗'，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 71,
+      "q_id": null,
+      "message": "第71页阅读材料第2大问(2)含'你能利用鸽巢原理说一说'的主观描述指令，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 72,
+      "q_id": null,
+      "message": "第72页第3大题包含'先在图中标出'并在坐标轴描点的作图指令，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 72,
+      "q_id": null,
+      "message": "第72页第4大题第(2)问及第(3)问带有'请说明理由'与'再说一说...相同之处'，属于发散论述题，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 73,
+      "q_id": null,
+      "message": "第73页第3大题指令为'请你猜想考其中的规律，并写出比较过程'，含探究性过程书写，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 74,
+      "q_id": null,
+      "message": "第74页第4大题为'用竖式计算'，无法适配标准填空验证流，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 74,
+      "q_id": null,
+      "message": "第74页第5大题《九章算术》附带'请通过计算回答这个问题'的完整列式证明要求，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 75,
+      "q_id": null,
+      "message": "第75页第5大题第(3)问含指令'再写出你的发现'，属于发散性归纳题，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 75,
+      "q_id": null,
+      "message": "第75页第6大题“智慧加油站”包含'请尝试推导'与'请说明理由'，均为主观论述动作，已滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p72_q4.png",
+      "parent_img_filename": "72.jpg",
+      "cordinate": [150, 600, 950, 800],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p73_q2_1.png",
+      "parent_img_filename": "73.jpg",
+      "cordinate": [150, 500, 950, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p73_q2_1_optA.png",
+      "parent_img_filename": "73.jpg",
+      "cordinate": [150, 500, 350, 650],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p73_q2_1_optB.png",
+      "parent_img_filename": "73.jpg",
+      "cordinate": [350, 500, 550, 650],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p73_q2_1_optC.png",
+      "parent_img_filename": "73.jpg",
+      "cordinate": [550, 500, 750, 650],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p73_q2_1_optD.png",
+      "parent_img_filename": "73.jpg",
+      "cordinate": [750, 500, 950, 650],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p74_q3_1.png",
+      "parent_img_filename": "74.jpg",
+      "cordinate": [150, 450, 950, 600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p74_q3_1_optA.png",
+      "parent_img_filename": "74.jpg",
+      "cordinate": [150, 450, 350, 600],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p74_q3_1_optB.png",
+      "parent_img_filename": "74.jpg",
+      "cordinate": [350, 450, 550, 600],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p74_q3_1_optC.png",
+      "parent_img_filename": "74.jpg",
+      "cordinate": [550, 450, 750, 600],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p74_q3_1_optD.png",
+      "parent_img_filename": "74.jpg",
+      "cordinate": [750, 450, 950, 600],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p74_q3_2.png",
+      "parent_img_filename": "74.jpg",
+      "cordinate": [800, 600, 950, 750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p75_q5.png",
+      "parent_img_filename": "75.jpg",
+      "cordinate": [150, 350, 500, 450],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

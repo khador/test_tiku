@@ -1,0 +1,490 @@
+[
+  {
+    "id": "44-1",
+    "type": "fill",
+    "stem": "(1)甲数的 $$\\frac{2}{3}$$ 等于乙数的 $$\\frac{4}{5}$$，那么甲数:乙数=(        ):(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["5"] }
+      ]
+    },
+    "analysis": "甲 × 2/3 = 乙 × 4/5，根据比例基本性质，甲/乙 = (4/5) / (2/3) = 12/10 = 6/5。所以甲数:乙数 = 6:5。",
+    "difficulty": 3,
+    "knowledge_points": ["比例的转化"]
+  },
+  {
+    "id": "44-2",
+    "type": "fill",
+    "stem": "(2)在比例 $$4.5:6=6:8$$ 中，两个外项不变，若其中一个内项 6 减去 2，要使比例依然成立，则另外一个内项应该变为(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9"] }
+      ]
+    },
+    "analysis": "原比例外项积 = 4.5 × 8 = 36。内项6减去2变成4，要使外项积等于内项积，另一个内项必须是 36 ÷ 4 = 9。",
+    "difficulty": 3,
+    "knowledge_points": ["比例的基本性质"]
+  },
+  {
+    "id": "44-3",
+    "type": "fill",
+    "stem": "通常情况下，人的身高与脚长的比大约是 $$7:1$$。小明测量了爸爸的脚印长度，如下图，小明的爸爸的身高大约是多少米？<br><img src=\"/images/workbook/p44_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.75", "1.75米"] }
+      ]
+    },
+    "analysis": "从图中尺子读数可得脚印长度为 25 cm。身高 = 25 × 7 = 175 cm = 1.75 m。",
+    "difficulty": 2,
+    "knowledge_points": ["比例在生活中的应用"]
+  },
+  {
+    "id": "44-4",
+    "type": "fill",
+    "stem": "古希腊时期的思想家泰勒斯是这样测量金字塔高度的：他先站在金字塔前，每过一会儿，就让别人测量他的影长，当他的影长与他的身高恰好相等时，就立刻在金字塔的影子的最远处做记号，此时测量出金字塔的影长，就是金字塔的高度。 (2)同一时间、同一地点，聪聪测得操场上旗杆的影长是 22.5 m，则旗杆的高度是多少米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["15", "15米"] }
+      ]
+    },
+    "analysis": "根据原题表格数据，同一时间同一地点物长与影长的比值是定值。选取正确数据组(如0.4:0.6 = 2:3)。物高:影长 = 2:3。影长22.5m时，物高 = 22.5 × (2/3) = 15 m。",
+    "difficulty": 4,
+    "knowledge_points": ["利用正比例解决问题"]
+  },
+  {
+    "id": "44-5",
+    "type": "fill",
+    "stem": "如图，把梯形 ABCD 分割成一个平行四边形和一个三角形。已知平行四边形 ABED 的面积是 $$40 cm^2$$，$$BE:EC=2:3$$，三角形 DEC 的面积是多少平方厘米？<br><img src=\"/images/workbook/p44_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30", "30平方厘米"] }
+      ]
+    },
+    "analysis": "平行四边形ABED和三角形DEC等高。平行四边形面积 = BE × h = 40。三角形面积 = 1/2 × EC × h。因为 BE:EC = 2:3，所以 EC = 1.5 BE。三角形面积 = 1/2 × 1.5 × BE × h = 0.75 × 40 = 30 cm²。",
+    "difficulty": 6,
+    "knowledge_points": ["等高图形面积比", "比例应用"]
+  },
+  {
+    "id": "45-1",
+    "type": "fill",
+    "stem": "芦花小区的房屋面积和月物业费的情况如右表。<br><table><tr><th>房屋面积/$$m^2$$</th><th>60</th><th>70</th><th>80</th><th>...</th></tr><tr><th>月物业费/元</th><th>90</th><th>105</th><th>120</th><th>...</th></tr></table><br>(1)(        )与(        )是两种相关联的量，(        )随着(        )的变化而变化。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["房屋面积"] },
+        { "is_ordered": false, "accepted_values": ["月物业费"] },
+        { "is_ordered": true, "accepted_values": ["月物业费"] },
+        { "is_ordered": true, "accepted_values": ["房屋面积"] }
+      ]
+    },
+    "analysis": "观察表格可知，随着房屋面积的增大，月物业费也随之增大，二者为相关联的量。",
+    "difficulty": 1,
+    "knowledge_points": ["相关联的量"]
+  },
+  {
+    "id": "45-2",
+    "type": "fill",
+    "stem": "芦花小区的房屋面积和月物业费的情况如右表。<br><table><tr><th>房屋面积/$$m^2$$</th><th>60</th><th>70</th><th>80</th><th>...</th></tr><tr><th>月物业费/元</th><th>90</th><th>105</th><th>120</th><th>...</th></tr></table><br>(2)每平方米房屋的月物业费是(        )元。因为月物业费与房屋面积的(        )总是一定的，所以(        )与(        )成正比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.5"] },
+        { "is_ordered": true, "accepted_values": ["比值", "商"] },
+        { "is_ordered": false, "accepted_values": ["月物业费"] },
+        { "is_ordered": false, "accepted_values": ["房屋面积"] }
+      ]
+    },
+    "analysis": "90 ÷ 60 = 1.5。商(比值)一定，所以成正比例关系。",
+    "difficulty": 2,
+    "knowledge_points": ["正比例的意义"]
+  },
+  {
+    "id": "45-3",
+    "type": "choice",
+    "stem": "下面是四位同学对正比例关系的理解，你认为正确的是(        )。<br><img src=\"/images/workbook/p45_q2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 只有笑笑", "img": null },
+      { "text": "B. 笑笑和淘气", "img": null },
+      { "text": "C. 奇思和妙想", "img": null },
+      { "text": "D. 笑笑、奇思和妙想", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "笑笑：路程/时间=90一定，正确。淘气：年龄差一定，但比值不恒定，不是正比例，错误。奇思：周长/边长=4一定，正确。妙想：总价/数量=2一定，正确。因此笑笑、奇思和妙想正确。",
+    "difficulty": 4,
+    "knowledge_points": ["正比例关系的辨析"]
+  },
+  {
+    "id": "45-4",
+    "type": "fill",
+    "stem": "小米是一种常见的谷物，营养价值丰富。超市中一种小米的总价与质量的关系如下表。<br><table><tr><th>质量/kg</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr><tr><th>总价/元</th><th>17</th><th>34</th><th>51</th><th>68</th><th>85</th><th>102</th></tr></table><br>(3)张叔叔购买这种小米花了 255 元，他买了(        )kg 这种小米。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["15"] }
+      ]
+    },
+    "analysis": "单价 = 17 ÷ 1 = 17元/kg。质量 = 255 ÷ 17 = 15 kg。",
+    "difficulty": 2,
+    "knowledge_points": ["正比例图表计算"]
+  },
+  {
+    "id": "45-5",
+    "type": "fill",
+    "stem": "$$\\frac{1}{a}\\times 4=\\frac{1}{4}\\div b$$($$a,b$$ 均不为0)，$$a$$ 与 $$b$$(        )正比例关系。(填“成”或“不成”)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["成"] }
+      ]
+    },
+    "analysis": "原式变形得 4/a = 1/(4b)，即 a = 16b，a/b = 16 (商一定)，故成正比例关系。",
+    "difficulty": 4,
+    "knowledge_points": ["等式转化为比例式"]
+  },
+  {
+    "id": "46-1",
+    "type": "fill",
+    "stem": "周老师要把一张 100 元的人民币兑换成若干张相同的小面额人民币。<br><table><tr><th>面额/元</th><th>1</th><th>5</th><th>10</th><th>20</th><th>50</th></tr><tr><th>张数</th><th>100</th><th>20</th><th>10</th><th>5</th><th>2</th></tr></table><br>(1)上表中(        )和(        )是两种相关联的量，面额变化，(        )也随着变化。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["面额"] },
+        { "is_ordered": false, "accepted_values": ["张数"] },
+        { "is_ordered": true, "accepted_values": ["张数"] }
+      ]
+    },
+    "analysis": "观察表格，面额增大，张数减小，它们是相关联的量。",
+    "difficulty": 1,
+    "knowledge_points": ["相关联的量"]
+  },
+  {
+    "id": "46-2",
+    "type": "fill",
+    "stem": "周老师要把一张 100 元的人民币兑换成若干张相同的小面额人民币。<br><table><tr><th>面额/元</th><th>1</th><th>5</th><th>10</th><th>20</th><th>50</th></tr><tr><th>张数</th><th>100</th><th>20</th><th>10</th><th>5</th><th>2</th></tr></table><br>(2)没有变化的量是(        )。张数与面额的(        )一定，因此张数与面额成(        )比例关系，张数和面额是成(        )比例的量。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["总面额", "总钱数", "兑换的总钱数", "100元"] },
+        { "is_ordered": true, "accepted_values": ["乘积", "积"] },
+        { "is_ordered": true, "accepted_values": ["反"] },
+        { "is_ordered": true, "accepted_values": ["反"] }
+      ]
+    },
+    "analysis": "张数 × 面额 = 100（一定）。乘积一定，成反比例。",
+    "difficulty": 2,
+    "knowledge_points": ["反比例的意义"]
+  },
+  {
+    "id": "46-3",
+    "type": "choice",
+    "stem": "选择。 + (1)下面的式子中，$$x$$ 与 $$y$$ 成反比例关系的是(        )。($$x,y$$ 均不为0)",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$x\\div y=9$$", "img": null },
+      { "text": "B. $$\\frac{x}{3}=\\frac{y}{2}$$", "img": null },
+      { "text": "C. $$\\frac{x}{3}=\\frac{2}{y}$$", "img": null },
+      { "text": "D. $$x+y=6$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "反比例要求两个变量的乘积一定。C选项交叉相乘得 xy = 6，乘积一定，成反比例。",
+    "difficulty": 3,
+    "knowledge_points": ["反比例的代数判断"]
+  },
+  {
+    "id": "46-4",
+    "type": "choice",
+    "stem": "选择。 + (2)下面各项中的两种量，成反比例关系的是(        )。<br>①长方形的面积一定，它的长与宽。<br>②某杂志单价一定，购买的总价与本数。<br>③圆锥的体积一定，它的底面积与高。<br>④一本书未看的页数与已看的页数。",
+    "has_image": false,
+    "options": [
+      { "text": "A. ①②", "img": null },
+      { "text": "B. ①③", "img": null },
+      { "text": "C. ①④", "img": null },
+      { "text": "D. ③④", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "①长×宽=面积(一定)，反比例。②总价/本数=单价(一定)，正比例。③底面积×高=3V(一定)，反比例。④未看+已看=总数(和一定)，不成比例。故选B。",
+    "difficulty": 4,
+    "knowledge_points": ["生活中的正反比例辨析"]
+  },
+  {
+    "id": "46-5",
+    "type": "fill",
+    "stem": "工厂要完成生产一批零件的任务，每小时生产零件的数量与所需要的时间如下表。<br><table><tr><th>每小时生产零件的数量/万个</th><th>3</th><th>4</th><th>6</th><th>8</th></tr><tr><th>所需要的时间/时</th><th>48</th><th>36</th><th>24</th><th>18</th></tr></table><br>(1)这项任务一共需要生产(        )万个零件。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["144"] }
+      ]
+    },
+    "analysis": "总零件数 = 每小时产量 × 时间 = 3 × 48 = 144 万个。",
+    "difficulty": 2,
+    "knowledge_points": ["乘积一定"]
+  },
+  {
+    "id": "46-6",
+    "type": "fill",
+    "stem": "工厂要完成生产一批零件的任务，每小时生产零件的数量与所需要的时间如下表。<br><table><tr><th>每小时生产零件的数量/万个</th><th>3</th><th>4</th><th>6</th><th>8</th></tr><tr><th>所需要的时间/时</th><th>48</th><th>36</th><th>24</th><th>18</th></tr></table><br>(2)设每小时生产零件的数量是 $$a$$ 万个，所需要的时间是 $$t$$ 小时，则 $$a, t$$ 和需要生产的零件总数量之间的关系用式子表示是(        )，$$a$$ 与 $$t$$ 成(        )比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$at=144$$", "$$a\\times t=144$$"] },
+        { "is_ordered": true, "accepted_values": ["反"] }
+      ]
+    },
+    "analysis": "a × t = 144，乘积一定，成反比例。",
+    "difficulty": 3,
+    "knowledge_points": ["反比例关系式"]
+  },
+  {
+    "id": "46-7",
+    "type": "fill",
+    "stem": "工厂要完成生产一批零件的任务，每小时生产零件的数量与所需要的时间如下表。<br><table><tr><th>每小时生产零件的数量/万个</th><th>3</th><th>4</th><th>6</th><th>8</th></tr><tr><th>所需要的时间/时</th><th>48</th><th>36</th><th>24</th><th>18</th></tr></table><br>(3)如果每小时生产 9 万个零件，那么完成这项任务一共需要多少小时？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["16", "16小时"] }
+      ]
+    },
+    "analysis": "144 ÷ 9 = 16 小时。",
+    "difficulty": 2,
+    "knowledge_points": ["利用反比例计算"]
+  },
+  {
+    "id": "46-8",
+    "type": "fill",
+    "stem": "下图表示一辆汽车从甲地开往乙地的速度与所需时间的关系，看图回答下面问题。<br><img src=\"/images/workbook/p46_q4.png\" /> + (1)若汽车速度为 60 千米/时，则所需时间为(        )小时；若汽车速度为 40 千米/时，则所需时间为(        )小时。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["3"] }
+      ]
+    },
+    "analysis": "从图象直接读取坐标对应点即可。",
+    "difficulty": 2,
+    "knowledge_points": ["反比例图象读取"]
+  },
+  {
+    "id": "46-9",
+    "type": "fill",
+    "stem": "下图表示一辆汽车从甲地开往乙地的速度与所需时间的关系，看图回答下面问题。<br><img src=\"/images/workbook/p46_q4.png\" /> + (2)由图象可知，(        )一定，汽车的速度与所需时间成(        )比例关系。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["路程", "甲地到乙地的路程"] },
+        { "is_ordered": true, "accepted_values": ["反"] }
+      ]
+    },
+    "analysis": "速度 × 时间 = 路程（恒为120），所以成反比例关系。",
+    "difficulty": 2,
+    "knowledge_points": ["反比例的实际意义"]
+  },
+  {
+    "id": "46-10",
+    "type": "fill",
+    "stem": "下图表示一辆汽车从甲地开往乙地的速度与所需时间的关系，看图回答下面问题。<br><img src=\"/images/workbook/p46_q4.png\" /> + (3)如果汽车速度为 50 千米/时，那么所需时间为(        )小时。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2.4"] }
+      ]
+    },
+    "analysis": "总路程为 120 千米。时间 = 120 ÷ 50 = 2.4 小时。",
+    "difficulty": 3,
+    "knowledge_points": ["利用反比例图象关系求值"]
+  },
+  {
+    "id": "47-1",
+    "type": "fill",
+    "stem": "选择。 + (1)阳光小学春季运动会正在火热进行中。下面各项中的两种量，成正比例关系的有(        )；成反比例关系的有(        )；不成比例关系的有(        )。<br>A. 六年级代表团共 300 人，将所有人排成方阵，每行人数与排成的行数。<br>B. 看台总座位数一定，已经占用的座位数与尚未占用的座位数。<br>C. 运动会 50 米跑比赛中，运动员跑步的平均速度与时间。<br>D. 后勤部采购矿泉水，每瓶单价 2 元，采购的总钱数与瓶数。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["D"] },
+        { "is_ordered": true, "accepted_values": ["A,C", "AC", "A、C"] },
+        { "is_ordered": true, "accepted_values": ["B"] }
+      ]
+    },
+    "analysis": "A每行人数×行数=300(一定)，反比例；B已用+未用=总数(和一定)，不成比例；C速度×时间=50(一定)，反比例；D总钱数/瓶数=2(一定)，正比例。",
+    "difficulty": 4,
+    "knowledge_points": ["正反比例的辨析分类"]
+  },
+  {
+    "id": "47-2",
+    "type": "choice",
+    "stem": "选择。 + (2)$$x$$ 和 $$y$$ 是两种相关联的量，$$a$$ 和 $$b$$、$$c$$ 和 $$d$$ 是两组相对应的数值(如下表所示)。如果 $$x$$ 与 $$y$$ 成反比例关系，那么一定有(        )。($$a,b,c,d$$ 均不为0)<br><table><tr><th>$$x$$</th><th>$$a$$</th><th>$$c$$</th></tr><tr><th>$$y$$</th><th>$$b$$</th><th>$$d$$</th></tr></table>",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$\\frac{a}{b}=\\frac{c}{d}$$", "img": null },
+      { "text": "B. $$\\frac{a}{c}=\\frac{b}{d}$$", "img": null },
+      { "text": "C. $$ab=cd$$", "img": null },
+      { "text": "D. $$ac=bd$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "反比例关系意味着任意一组对应值的乘积相等。即第一列的乘积等于第二列的乘积：ab = cd。",
+    "difficulty": 3,
+    "knowledge_points": ["反比例的代数关系"]
+  },
+  {
+    "id": "47-3",
+    "type": "fill",
+    "stem": "科学课上，老师带同学们进行了蜡烛燃烧的实验，并将蜡烛剩余长度与燃烧时间的关系绘制成了右面的图象。 (1)结合图象完成下表。<br><table><tr><th>燃烧时间/分</th><th>10</th><th>20</th><th>30</th><th>40</th></tr><tr><th>剩余长度/cm</th><th>(        )</th><th>(        )</th><th>(        )</th><th>(        )</th></tr><tr><th>已经燃烧长度/cm</th><th>(        )</th><th>(        )</th><th>(        )</th><th>(        )</th></tr></table><br><img src=\"/images/workbook/p47_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8"] },
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["4"] },
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["4"] },
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["8"] }
+      ]
+    },
+    "analysis": "直接从折线图中读取不同时间对应的剩余长度。已燃烧长度 = 初始长度(10cm) - 剩余长度。",
+    "difficulty": 2,
+    "knowledge_points": ["图象数据读取", "互补关系计算"]
+  },
+  {
+    "id": "47-4",
+    "type": "fill",
+    "stem": "科学课上，老师带同学们进行了蜡烛燃烧的实验，并将蜡烛剩余长度与燃烧时间的关系绘制成了右面的图象。 (2)蜡烛剩余长度与燃烧时间(        )正比例关系，蜡烛已经燃烧长度与燃烧时间(        )正比例关系。(填“成”或“不成”)<br><img src=\"/images/workbook/p47_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["不成"] },
+        { "is_ordered": true, "accepted_values": ["成"] }
+      ]
+    },
+    "analysis": "剩余长度+已燃烧长度=固定值(和一定，不是比值一定)，所以不成正比例。已燃烧长度/燃烧时间 = 恒定速率(过原点的直线)，成正比例。",
+    "difficulty": 3,
+    "knowledge_points": ["图象判断正比例"]
+  },
+  {
+    "id": "47-5",
+    "type": "choice",
+    "stem": "科学课上，老师带同学们进行了蜡烛燃烧的实验，并将蜡烛剩余长度与燃烧时间的关系绘制成了右面的图象。 (3)下面可以表示蜡烛已经燃烧长度与燃烧时间的关系的图象是(        )。(填序号)<br><img src=\"/images/workbook/p47_q3_3.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "①", "img": null },
+      { "text": "②", "img": null },
+      { "text": "③", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["②"] } ] },
+    "analysis": "已燃烧长度随燃烧时间增加而增加，且起点在原点，是一条正比例直线的上升图象。",
+    "difficulty": 2,
+    "knowledge_points": ["正比例函数图象"]
+  },
+  {
+    "id": "47-6",
+    "type": "fill",
+    "stem": "有 $$x,y,z$$ 三个相关联的量，并有 $$x:5=y:z$$。($$x,y,z$$ 均不为0) 当 $$z$$ 一定时，$$x$$ 与 $$y$$ 成(        )比例关系。 当 $$x$$ 一定时，$$y$$ 与 $$z$$ 成(        )比例关系。 当 $$y$$ 一定时，$$x$$ 与 $$z$$ 成(        )比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["正"] },
+        { "is_ordered": true, "accepted_values": ["正"] },
+        { "is_ordered": true, "accepted_values": ["反"] }
+      ]
+    },
+    "analysis": "原式可转化为 xz = 5y。z一定时，x/y = 5/z(定值)，成正比例；x一定时，y/z = x/5(定值)，成正比例；y一定时，xz = 5y(定值)，成反比例。",
+    "difficulty": 6,
+    "knowledge_points": ["多变量正反比例推导"]
+  },
+  {
+    "id": "48-1",
+    "type": "choice",
+    "stem": "下面关于比例尺的说法正确的是(        )。<br>①比例尺是一个比。<br>②比例尺 $$1:100$$ 表示图上距离是实际距离的 $$\\frac{1}{100}$$。<br>③比例尺的前项总是 1。<br>④比例尺 $$1:10$$ 表示图上 1 dm 的距离相当于 1 m 的实际距离。",
+    "has_image": false,
+    "options": [
+      { "text": "A. ①③", "img": null },
+      { "text": "B. ②③", "img": null },
+      { "text": "C. ①②④", "img": null },
+      { "text": "D. ①②③④", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "放大比例尺的前项不一定是1(如2:1)，③错。④中 1m=10dm，图上1dm比实际10dm，即 1:10，对。①②④正确。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺概念判断"]
+  },
+  {
+    "id": "48-2",
+    "type": "fill",
+    "stem": "填空。 (1)根据条件完成表格。<br><table><tr><th>数值比例尺</th><th>$$1:6000000$$</th><th>(        )</th></tr><tr><th>线段比例尺</th><th>图示：0 (        ) km</th><th>图示：0 400 km</th></tr><tr><th>图上 1 cm 表示的实际距离/km</th><th>(        )</th><th>(        )</th></tr></table>",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:40000000$$"] },
+        { "is_ordered": true, "accepted_values": ["60"] },
+        { "is_ordered": true, "accepted_values": ["60"] },
+        { "is_ordered": true, "accepted_values": ["400"] }
+      ]
+    },
+    "analysis": "1:6000000 代表图上1cm对应实际60km；线段尺0-400km代表图上1cm对应实际400km，即40,000,000cm，数值比例尺为 1:40000000。",
+    "difficulty": 4,
+    "knowledge_points": ["数值与线段比例尺互化"]
+  },
+  {
+    "id": "48-3",
+    "type": "fill",
+    "stem": "填空。 (2)“中国科学制图学之父”裴秀，以“一分为十里，一寸为百里”的比例尺，把一幅用 80 匹绢绘成的“旧天下大图”，缩制为《地形方丈图》。根据“一寸为百里”，按“1 里=360 步，1 步=5 尺，1 尺=10 寸”计算，《地形方丈图》的比例尺是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:1800000$$"] }
+      ]
+    },
+    "analysis": "1里 = 360步 = 360×5尺 = 1800尺 = 1800×10寸 = 18000寸。百里 = 1800000寸。图上1寸代表实际1800000寸，故比例尺为 1:1800000。",
+    "difficulty": 5,
+    "knowledge_points": ["中国古代度量衡换算", "比例尺推导"]
+  },
+  {
+    "id": "48-4",
+    "type": "fill",
+    "stem": "对比分析实际面积与图上面积，探究生活中的比例尺。 探究：将一个面积是 $$100 m^2$$ 的正方形花圃画在图纸上，图上面积是 $$25 cm^2$$。图上面积与实际面积的比是(        )，这幅图纸的比例尺是(        )。 总结：如果一幅图的比例尺为 $$1:a$$，那么图上面积:实际面积$$=1:$$(        )。 应用：国家体育场又名“鸟巢”，其形态如同孕育生命的“巢”，寄托着人类对未来的希望。体育场占地约 20 公顷，在一幅设计图纸上的面积为 $$0.2 m^2$$，这幅设计图纸的比例尺是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:40000$$"] },
+        { "is_ordered": true, "accepted_values": ["$$1:200$$"] },
+        { "is_ordered": true, "accepted_values": ["$$a^2$$"] },
+        { "is_ordered": true, "accepted_values": ["$$1:1000$$"] }
+      ]
+    },
+    "analysis": "100m² = 1000000cm²，面积比 = 25:1000000 = 1:40000；比例尺是长度比 = √(1/40000) = 1:200。面积比是长度比的平方(1:a²)。20公顷 = 200000m²，面积比 0.2:200000 = 1:1000000，比例尺 = 1:1000。",
+    "difficulty": 6,
+    "knowledge_points": ["面积比例尺", "面积进率"]
+  }
+]

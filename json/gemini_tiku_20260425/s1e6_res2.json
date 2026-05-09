@@ -1,0 +1,153 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 3,
+      "q_id": null,
+      "message": "第3页第2大题第(2)小题含关键词'标出'，涉及作图，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 3,
+      "q_id": null,
+      "message": "第3页第5大题含关键词'标出'，涉及作图，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 5,
+      "q_id": null,
+      "message": "第5页第4小题含关键词'补全温度计'，涉及作图，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 5,
+      "q_id": null,
+      "message": "第5页第5小题含关键词'标出'，涉及作图，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 6,
+      "q_id": null,
+      "message": "第6页三大题第1小题包含'涂出'和'标记'等作图指令，结合开放式身高体重填空，整体已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 6,
+      "q_id": null,
+      "message": "第6页三大题第2小题含主观题型'说一说你应该怎么做'，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 6,
+      "q_id": null,
+      "message": "第6页四大题第1小题含关键词'画一画'和'说明理由'，属于主观与作图，已丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p1_q1.png",
+      "parent_img_filename": "1.jpg",
+      "cordinate": [100, 350, 980, 550],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p1_q2.png",
+      "parent_img_filename": "1.jpg",
+      "cordinate": [100, 560, 980, 750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p1_q7.png",
+      "parent_img_filename": "1.jpg",
+      "cordinate": [660, 1400, 950, 1550],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p2_q1.png",
+      "parent_img_filename": "2.jpg",
+      "cordinate": [110, 250, 950, 600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p2_q2.png",
+      "parent_img_filename": "2.jpg",
+      "cordinate": [200, 750, 550, 1100],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p2_q3.png",
+      "parent_img_filename": "2.jpg",
+      "cordinate": [180, 1400, 900, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q1.png",
+      "parent_img_filename": "3.jpg",
+      "cordinate": [150, 300, 850, 480],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q2.png",
+      "parent_img_filename": "3.jpg",
+      "cordinate": [200, 600, 850, 750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q3.png",
+      "parent_img_filename": "3.jpg",
+      "cordinate": [750, 950, 920, 1150],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q4.png",
+      "parent_img_filename": "3.jpg",
+      "cordinate": [180, 1300, 880, 1450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q6.png",
+      "parent_img_filename": "3.jpg",
+      "cordinate": [150, 2050, 900, 2150],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p5_q2.png",
+      "parent_img_filename": "5.jpg",
+      "cordinate": [200, 350, 850, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p5_q5.png",
+      "parent_img_filename": "5.jpg",
+      "cordinate": [600, 1500, 900, 1600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p5_q6.png",
+      "parent_img_filename": "5.jpg",
+      "cordinate": [180, 1900, 800, 2150],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p6_q3.png",
+      "parent_img_filename": "6.jpg",
+      "cordinate": [120, 1400, 950, 1650],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

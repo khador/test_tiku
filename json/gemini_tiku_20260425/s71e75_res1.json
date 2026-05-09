@@ -1,0 +1,654 @@
+[
+  {
+    "id": "71-1",
+    "type": "choice",
+    "stem": "三、数学阅读。 + 4. 一个盒子里装有同样大小的红、黄、蓝、绿 4 种颜色的球各 100 个，从中至少取(        )个球才能保证有 2 个球的颜色相同。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 4", "img": null },
+      { "text": "B. 5", "img": null },
+      { "text": "C. 100", "img": null },
+      { "text": "D. 101", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "共有4种颜色（即4个抽屉），要保证有2个球颜色相同，至少需要抽取 4 + 1 = 5 个球。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理", "抽球问题"]
+  },
+  {
+    "id": "71-2",
+    "type": "choice",
+    "stem": "三、数学阅读。 + 5. 给正方体的 6 个面涂上 3 种颜色(每个面涂 1 种颜色)，不论怎么涂，至少有(        )个面的颜色相同。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 2", "img": null },
+      { "text": "B. 3", "img": null },
+      { "text": "C. 4", "img": null },
+      { "text": "D. 5", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "6个面放入3种颜色的抽屉中。6 ÷ 3 = 2。所以至少有2个面的颜色相同。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理", "涂色问题"]
+  },
+  {
+    "id": "71-3",
+    "type": "choice",
+    "stem": "三、数学阅读。 + 6. 把 45 个球最多放在(        )个盒子里，能保证总有 1 个盒子里至少放 7 个球。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 6", "img": null },
+      { "text": "B. 7", "img": null },
+      { "text": "C. 8", "img": null },
+      { "text": "D. 9", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "设最多放在x个盒子里。要保证总有1个盒子里至少放7个球，则最不利情况下每个盒子放6个球时总量须小于45。即 6x < 45，解得最大整数 x = 7。此时若放7个盒子，45 = 6 × 7 + 3，必有一个盒子至少有 6 + 1 = 7 个球。",
+    "difficulty": 4,
+    "knowledge_points": ["鸽巢原理的逆向推理"]
+  },
+  {
+    "id": "71-4",
+    "type": "fill",
+    "stem": "2. 根据材料二，回答下面问题。 + (1)如果一个班至少有 3 名同学的生日在同一个月，那么这个班至少有(        )名同学。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["25"] }
+      ]
+    },
+    "analysis": "一年有12个月（即12个抽屉）。要保证有一个抽屉有3名同学，最不利情况是每个月都有2名同学过生日，共 12 × 2 = 24 名。再加 1 名即可，24 + 1 = 25。",
+    "difficulty": 3,
+    "knowledge_points": ["鸽巢原理最不利原则"]
+  },
+  {
+    "id": "72-1",
+    "type": "fill",
+    "stem": "世界之最：最高的山峰是珠穆朗玛峰，最新高程为 8848.86(        )；最深的海沟是马里亚纳海沟，最大深度约为一万一千零三十四米；最大的沙漠是撒哈拉沙漠，面积约为 9200000 平方千米。 + (1)在括号里填上合适的单位。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["米", "m"] }
+      ]
+    },
+    "analysis": "珠穆朗玛峰的高度单位通常使用“米”。",
+    "difficulty": 1,
+    "knowledge_points": ["长度单位的常识"]
+  },
+  {
+    "id": "72-2",
+    "type": "fill",
+    "stem": "世界之最：最高的山峰是珠穆朗玛峰，最新高程为 8848.86(        )；最深的海沟是马里亚纳海沟，最大深度约为一万一千零三十四米；最大的沙漠是撒哈拉沙漠，面积约为 9200000 平方千米。 + (2)横线上的数写作(        )，改写成用“万”作单位的数是(        )万；波浪线上的数读作(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["11034"] },
+        { "is_ordered": true, "accepted_values": ["1.1034"] },
+        { "is_ordered": true, "accepted_values": ["九百二十万"] }
+      ]
+    },
+    "analysis": "一万一千零三十四写作11034，改写为万作单位即为1.1034万。9200000读作九百二十万。",
+    "difficulty": 2,
+    "knowledge_points": ["大数的读写与改写"]
+  },
+  {
+    "id": "72-3",
+    "type": "fill",
+    "stem": "填空。 + (1)你知道成语“南辕北辙”吗？它的意思是心里想向南走，却驾车向北行驶。如果将车子向南行驶 10 km 记作 $$+10$$ km，那么 $$-5$$ km 表示(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["向北行驶 5 km"] }
+      ]
+    },
+    "analysis": "正负数表示相反意义的量，向南为正，则负数表示向北。",
+    "difficulty": 1,
+    "knowledge_points": ["相反意义的量"]
+  },
+  {
+    "id": "72-4",
+    "type": "fill",
+    "stem": "填空。 + (2)一个四位数的密码，密码的前两位是两位数中最大的质数，密码的后两位是 3 和 5 的公倍数，这个四位数的密码是一个奇数，这个数最大是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9775"] }
+      ]
+    },
+    "analysis": "两位数中最大的质数是97。3和5的公倍数是15的倍数（15, 30, 45, 60, 75, 90）。要求该四位数是奇数且最大，所以后两位应选最大的奇数倍数，即75。拼接起来是9775。",
+    "difficulty": 4,
+    "knowledge_points": ["质数", "公倍数", "奇偶性"]
+  },
+  {
+    "id": "72-5",
+    "type": "fill",
+    "stem": "明明和优优各有写有 $$0 \\sim 9$$ 的十张数字卡片，每人每次从自己的卡片中任意抽一张，不放回，并确定摆放位置(摆放后不可移动)，每人抽四次，最后谁组成的四位数大，谁就获胜。 + (1)上面左边是两人前三次的摆放，明明第四次抽到写有(        )的卡片才能获胜。<br><img src=\"/images/workbook/p72_q4.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8或9", "8,9"] }
+      ]
+    },
+    "analysis": "明明前三次放置后，千位空缺，百、十、个位分别为7、0、4。优优前三次放置后，千位为7。明明只有抽到比7大的数字（即8或9）填入千位，才能保证他组成的四位数大于优优的四位数（优优最大只能是7904，而明明是8704或9704）。",
+    "difficulty": 5,
+    "knowledge_points": ["数位比较", "游戏策略与推理"]
+  },
+  {
+    "id": "72-6",
+    "type": "fill",
+    "stem": "智慧加油站 + 5. 小明在读一个数时，把小数点读丢了，结果读成了三千零九，原来的小数读出来要读两个零，这个小数是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30.09"] }
+      ]
+    },
+    "analysis": "读作三千零九的数字是3009。加上小数点后要读出两个零，只有30.09（读作三十点零九）符合要求。",
+    "difficulty": 3,
+    "knowledge_points": ["小数的读法"]
+  },
+  {
+    "id": "73-1",
+    "type": "fill",
+    "stem": "填空。 + (1)在古诗“春水春池满，春时春草生。春人饮春酒，春鸟弄春声”中，“春”字出现的次数占全诗总字数(除标点外)的(        )(填最简分数)，(        )$$%$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{2}{5}$$"] },
+        { "is_ordered": true, "accepted_values": ["40"] }
+      ]
+    },
+    "analysis": "全诗共20个字。“春”字出现了8次。占比为 8/20 = 2/5 = 40%。",
+    "difficulty": 2,
+    "knowledge_points": ["分数与百分数的意义"]
+  },
+  {
+    "id": "73-2",
+    "type": "fill",
+    "stem": "填空。 + (2)在 $$0.67,\\frac{3}{5},67.67\\%,\\frac{2}{3},0.6\\dot{7},0.\\dot{6}\\dot{7}$$ 这 6 个数中，最大的数是(        )，最小的数是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$0.6\\dot{7}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{3}{5}$$"] }
+      ]
+    },
+    "analysis": "化为小数：3/5=0.6，2/3≈0.666...，67.67%=0.6767，0.67(循环)=0.6777...，0.6767(循环)=0.676767...。比较可知最大是 0.6(循环7)，最小是 3/5。",
+    "difficulty": 4,
+    "knowledge_points": ["多类型数的大小比较"]
+  },
+  {
+    "id": "73-3",
+    "type": "fill",
+    "stem": "填空。 + (3)在 $$\\frac{3}{10},\\frac{11}{6},\\frac{3}{25},\\frac{7}{12},\\frac{5}{64}$$ 中，能化成有限小数的有(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{3}{10},\\frac{3}{25},\\frac{5}{64}$$", "$$\\frac{3}{10}、\\frac{3}{25}、\\frac{5}{64}$$"] }
+      ]
+    },
+    "analysis": "分母只含有质因数2和5的最简分数能化成有限小数。10=2×5，6=2×3(含3)，25=5×5，12=2×2×3(含3)，64=2^6。所以能化成有限小数的有 3/10, 3/25, 5/64。",
+    "difficulty": 3,
+    "knowledge_points": ["有限小数的判定"]
+  },
+  {
+    "id": "73-4",
+    "type": "fill",
+    "stem": "填空。 + (4)把一根长 3 m 的丝带连续对折 3 次，然后沿着折痕剪开，每段丝带长(        )m，每段丝带的长度占总长度的(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{3}{8}$$", "0.375"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{1}{8}$$"] }
+      ]
+    },
+    "analysis": "连续对折3次，丝带被平均分成 2^3 = 8 段。每段长度是 3 ÷ 8 = 3/8 m。每段占总长度的 1/8。",
+    "difficulty": 2,
+    "knowledge_points": ["分数的意义", "对折问题"]
+  },
+  {
+    "id": "73-5",
+    "type": "fill",
+    "stem": "填空。 + (5)将一个两位小数保留一位小数后是 6.0，这个两位小数最大是(        )，最小是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6.04"] },
+        { "is_ordered": true, "accepted_values": ["5.95"] }
+      ]
+    },
+    "analysis": "利用“四舍五入”法。四舍得到的最大值为 6.04；五入得到的最小值为 5.95。",
+    "difficulty": 2,
+    "knowledge_points": ["近似数与极值"]
+  },
+  {
+    "id": "73-6",
+    "type": "fill",
+    "stem": "填空。 + (6)$$a=5b$$($$a,b$$ 均为非 0 自然数)，那么 $$a$$ 和 $$b$$ 的最大公因数是(        )，最小公倍数是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$b$$"] },
+        { "is_ordered": true, "accepted_values": ["$$a$$"] }
+      ]
+    },
+    "analysis": "a是b的倍数，具有倍数关系的两个数，它们的最大公因数是较小的数(b)，最小公倍数是较大的数(a)。",
+    "difficulty": 2,
+    "knowledge_points": ["倍数关系的最大公因数与最小公倍数"]
+  },
+  {
+    "id": "73-7",
+    "type": "choice",
+    "stem": "选择。 + (1)在数学天地里，我们可以用很多种方法表示一个数或数量，下面表示错误的是(        )。<br><img src=\"/images/workbook/p73_q2_1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p73_q2_1_optA.png" },
+      { "text": "B.", "img": "p73_q2_1_optB.png" },
+      { "text": "C.", "img": "p73_q2_1_optC.png" },
+      { "text": "D.", "img": "p73_q2_1_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A图100个格涂了24个，表示0.24，正确；B图扇形图涂色部分占1/8，即12.5%，正确；C图整体表示2m²，被平均分成5份涂了2份，涂色部分面积是 2×(2/5)=4/5m²，而非图中标识的2/5m²，错误；D图总体是1m²，涂了十分之一即0.1m²，正确。",
+    "difficulty": 4,
+    "knowledge_points": ["数与图形的结合表示"]
+  },
+  {
+    "id": "73-8",
+    "type": "choice",
+    "stem": "选择。 + (2)下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$\\frac{3}{4}$$ km 也可以写成 75% km", "img": null },
+      { "text": "B. 大于 $$\\frac{1}{5}$$ 且小于 $$\\frac{3}{5}$$ 的最简分数只有 $$\\frac{2}{5}$$", "img": null },
+      { "text": "C. 带分数的倒数一定是真分数", "img": null },
+      { "text": "D. 先降价 20%，再降价 20%，价格不变", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A错，百分数后面不能带单位；B错，介于两数之间的分数有无数个；C对，带分数大于1，其倒数必小于1，为真分数；D错，降价是基于前一次降价后的价格计算的，价格会变低。",
+    "difficulty": 3,
+    "knowledge_points": ["概念辨析综合"]
+  },
+  {
+    "id": "73-9",
+    "type": "fill",
+    "stem": "有三根铁丝，分别长 12 dm、18 dm、24 dm。现在要把它截成同样长的小段且没有剩余，每小段最长是多少分米？至少可以截成多少段？ + 每小段最长是(        )分米，至少可以截成(        )段。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["9"] }
+      ]
+    },
+    "analysis": "求三个数的最大公因数。12, 18, 24 的最大公因数是 6。所以每段最长6dm。段数 = 12/6 + 18/6 + 24/6 = 2 + 3 + 4 = 9 段。",
+    "difficulty": 3,
+    "knowledge_points": ["最大公因数的应用"]
+  },
+  {
+    "id": "73-10",
+    "type": "fill",
+    "stem": "已知 $$\\frac{2}{17} < \\frac{a}{14} < \\frac{7}{32}$$，那么 $$a$$ 最大是(        )，最小是(        )。($$a$$ 是正整数)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "a/14 > 2/17 推出 a > 28/17 ≈ 1.64，故 a 最小为 2。a/14 < 7/32 推出 a < 98/32 ≈ 3.06，故 a 最大为 3。",
+    "difficulty": 5,
+    "knowledge_points": ["分数不等式与极值"]
+  },
+  {
+    "id": "74-1",
+    "type": "fill",
+    "stem": "按要求把序号填入括号里，每个序号填一次。<br>①除法是乘法的逆运算 ②等量的等量相等 ③等式的性质<br>在研究 $$\\frac{2}{5} \\div \\frac{3}{4}$$ 时，聪聪这样想：设 $$\\frac{2}{5} \\div \\frac{3}{4} = a$$，所以 $$a \\times \\frac{3}{4} = \\frac{2}{5}$$，依据是(        )；将等式变形得 $$a \\times \\frac{3}{4} \\times \\frac{4}{3} = \\frac{2}{5} \\times \\frac{4}{3}$$，依据是(        )；计算得 $$a = \\frac{2}{5} \\times \\frac{4}{3}$$，所以 $$\\frac{2}{5} \\div \\frac{3}{4} = \\frac{2}{5} \\times \\frac{4}{3}$$，依据是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["①", "1"] },
+        { "is_ordered": true, "accepted_values": ["③", "3"] },
+        { "is_ordered": true, "accepted_values": ["②", "2"] }
+      ]
+    },
+    "analysis": "由除法式子变为乘法式子，依据是“除法是乘法的逆运算”；等式两边同乘一个数，依据是“等式的性质”；根据两个分别等于a的式子得出互相相等，依据是“等量的等量相等”。",
+    "difficulty": 3,
+    "knowledge_points": ["运算法则与等式性质推导"]
+  },
+  {
+    "id": "74-2",
+    "type": "fill",
+    "stem": "不计算，在 $$\\bigcirc$$ 里填“>”“<”或“=”。 + $$\\frac{3}{5} \\div \\frac{1}{2} \\bigcirc \\frac{3}{5}$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": [">"] }
+      ]
+    },
+    "analysis": "除以一个真分数（小于1），商大于被除数。",
+    "difficulty": 1,
+    "knowledge_points": ["商与被除数的大小关系"]
+  },
+  {
+    "id": "74-3",
+    "type": "fill",
+    "stem": "不计算，在 $$\\bigcirc$$ 里填“>”“<”或“=”。 + $$105 \\div \\frac{3}{2} \\bigcirc 105 \\times \\frac{3}{2}$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["<"] }
+      ]
+    },
+    "analysis": "左边除以大于1的数结果小于105，右边乘大于1的数结果大于105。",
+    "difficulty": 1,
+    "knowledge_points": ["乘除法运算规律"]
+  },
+  {
+    "id": "74-4",
+    "type": "fill",
+    "stem": "不计算，在 $$\\bigcirc$$ 里填“>”“<”或“=”。 + $$6.9 \\times 2.45 \\bigcirc 2.1 \\times 6.5$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": [">"] }
+      ]
+    },
+    "analysis": "左边两个因数分别大于右边的两个因数（6.9 > 6.5，2.45 > 2.1），故积更大。",
+    "difficulty": 2,
+    "knowledge_points": ["因数与积的大小关系"]
+  },
+  {
+    "id": "74-5",
+    "type": "choice",
+    "stem": "选择。 + (1)下面选项中，不能用来表示 “$$\\frac{3}{5}$$ 的 $$\\frac{1}{3}$$” 的是(        )。<br><img src=\"/images/workbook/p74_q3_1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p74_q3_1_optA.png" },
+      { "text": "B.", "img": "p74_q3_1_optB.png" },
+      { "text": "C.", "img": "p74_q3_1_optC.png" },
+      { "text": "D.", "img": "p74_q3_1_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A、B、D三个选项都准确表达了将一个整体平分为5份取3份，再将这部分平分为3份取1份的逻辑。C选项展示了15个圆，划定框了其中9个（占总数3/5），然后又圈出其中3个（占被框出的1/3），从算理模型上来看，它实际上是取了整体的 3/15 (即1/5)，并没有严格体现分数乘法线段分割的逻辑，也存在争议，但通常被认为不严谨。",
+    "difficulty": 4,
+    "knowledge_points": ["分数乘法的几何意义"]
+  },
+  {
+    "id": "74-6",
+    "type": "fill",
+    "stem": "选择。 + (2)学校买了 24 套桌椅，每套桌椅的价格是 136 元。小明列了右面的竖式计算总价格，箭头所指的这一步表示(        )套桌椅的价格。<br><img src=\"/images/workbook/p74_q3_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["20"] }
+      ]
+    },
+    "analysis": "乘数24十位上的2代表20，因此与被乘数相乘的第二步部分积代表20套桌椅的价格。",
+    "difficulty": 2,
+    "knowledge_points": ["乘法竖式的算理"]
+  },
+  {
+    "id": "74-7",
+    "type": "choice",
+    "stem": "选择。 + (3)已知算式 $$\\bigcirc \\div \\triangle = 800$$，要使商变成 8，可以进行的运算是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$(\\bigcirc \\times 10) \\div (\\triangle \\times 10)$$", "img": null },
+      { "text": "B. $$(\\bigcirc \\div 10) \\div (\\triangle \\times 10)$$", "img": null },
+      { "text": "C. $$(\\bigcirc \\div 10) \\div (\\triangle \\div 10)$$", "img": null },
+      { "text": "D. $$(\\bigcirc \\times 10) \\div (\\triangle \\div 10)$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "要使商从800变成8，即商缩小100倍。被除数缩小10倍且除数扩大10倍，会导致整体商缩小100倍。",
+    "difficulty": 3,
+    "knowledge_points": ["商的变化规律"]
+  },
+  {
+    "id": "75-1",
+    "type": "fill",
+    "stem": "直接写得数。 + $$33.5+49=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["82.5"] }
+      ]
+    },
+    "analysis": "基础加法运算。",
+    "difficulty": 1,
+    "knowledge_points": ["小数加法"]
+  },
+  {
+    "id": "75-2",
+    "type": "fill",
+    "stem": "直接写得数。 + $$\\frac{4}{7} \\div 2 =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{2}{7}$$"] }
+      ]
+    },
+    "analysis": "分子除以2即可。",
+    "difficulty": 1,
+    "knowledge_points": ["分数除法"]
+  },
+  {
+    "id": "75-3",
+    "type": "fill",
+    "stem": "直接写得数。 + $$0.56 \\times \\frac{1}{8} =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.07", "$$\\frac{7}{100}$$"] }
+      ]
+    },
+    "analysis": "等价于 0.56 ÷ 8 = 0.07。",
+    "difficulty": 2,
+    "knowledge_points": ["小数乘分数"]
+  },
+  {
+    "id": "75-4",
+    "type": "fill",
+    "stem": "直接写得数。 + $$12 - \\frac{3}{5} =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["11.4", "$$11\\frac{2}{5}$$", "$$\\frac{57}{5}$$"] }
+      ]
+    },
+    "analysis": "12 - 0.6 = 11.4。",
+    "difficulty": 1,
+    "knowledge_points": ["整数减分数"]
+  },
+  {
+    "id": "75-5",
+    "type": "fill",
+    "stem": "直接写得数。 + $$3.6 \\div 60\\% =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6"] }
+      ]
+    },
+    "analysis": "3.6 ÷ 0.6 = 6。",
+    "difficulty": 2,
+    "knowledge_points": ["小数除以百分数"]
+  },
+  {
+    "id": "75-6",
+    "type": "fill",
+    "stem": "脱式计算，能简算的要简算。 + $$32 \\times 1.25 \\times 0.25 =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10"] }
+      ]
+    },
+    "analysis": "原式 = (8 × 4) × 1.25 × 0.25 = (8 × 1.25) × (4 × 0.25) = 10 × 1 = 10。",
+    "difficulty": 3,
+    "knowledge_points": ["乘法结合律简算"]
+  },
+  {
+    "id": "75-7",
+    "type": "fill",
+    "stem": "脱式计算，能简算的要简算。 + $$12 \\div \\left[1 - \\left(\\frac{2}{3} - \\frac{1}{4}\\right)\\right] =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{144}{7}$$", "$$20\\frac{4}{7}$$"] }
+      ]
+    },
+    "analysis": "小括号内：2/3 - 1/4 = 5/12。中括号内：1 - 5/12 = 7/12。除法：12 ÷ (7/12) = 144/7。",
+    "difficulty": 4,
+    "knowledge_points": ["四则混合运算"]
+  },
+  {
+    "id": "75-8",
+    "type": "fill",
+    "stem": "脱式计算，能简算的要简算。 + $$0.8 \\times 38 + 54 \\times \\frac{4}{5} + 80\\% \\times 8 =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["80"] }
+      ]
+    },
+    "analysis": "提取公因数 0.8：0.8 × 38 + 54 × 0.8 + 0.8 × 8 = 0.8 × (38 + 54 + 8) = 0.8 × 100 = 80。",
+    "difficulty": 3,
+    "knowledge_points": ["乘法分配律简算"]
+  },
+  {
+    "id": "75-9",
+    "type": "fill",
+    "stem": "按要求给算式添上括号。 (原式: $$568 - 45 \\times 8 + 36 \\div 4$$) + (1)先乘，再加，最后除，算式：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$(568-45\\times 8+36)\\div 4$$"] }
+      ]
+    },
+    "analysis": "为保证“最后除”，除号前的内容必须包裹在括号内。",
+    "difficulty": 3,
+    "knowledge_points": ["四则运算顺序与括号"]
+  },
+  {
+    "id": "75-10",
+    "type": "fill",
+    "stem": "按要求给算式添上括号。 (原式: $$568 - 45 \\times 8 + 36 \\div 4$$) + (2)先减，再乘，最后加，算式：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$(568-45)\\times 8+36\\div 4$$"] }
+      ]
+    },
+    "analysis": "为保证先减，加括号于减法。乘法和除法自然在加法之前计算。",
+    "difficulty": 3,
+    "knowledge_points": ["四则运算顺序与括号"]
+  },
+  {
+    "id": "75-11",
+    "type": "choice",
+    "stem": "选择。 + (1)下面与 $$125 \\times 0.16$$ 的积相等的算式是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$0.125 \\times 1.6$$", "img": null },
+      { "text": "B. $$1.25 \\times 1.6$$", "img": null },
+      { "text": "C. $$1250 \\times 0.016$$", "img": null },
+      { "text": "D. $$0.0125 \\times 160$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "原式积为20。A项为0.2；B项为2；C项为20；D项为2。利用积不变的性质也可推导，左因数扩大10倍，右因数缩小10倍。",
+    "difficulty": 2,
+    "knowledge_points": ["小数乘法的积不变性质"]
+  },
+  {
+    "id": "75-12",
+    "type": "choice",
+    "stem": "选择。 + (2)已知 $$\\triangle + \\square = 10$$，$$\\blacktriangle \\times \\blacksquare = 100$$，下面算式中计算结果错误的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$2.4 \\times 5 - \\triangle - \\square = 2$$", "img": null },
+      { "text": "B. $$\\triangle \\times 2.1 + \\square \\times 2.9 = 50$$", "img": null },
+      { "text": "C. $$40 \\div \\blacktriangle \\div \\blacksquare = 0.4$$", "img": null },
+      { "text": "D. $$\\blacktriangle \\times 5 \\times \\blacksquare \\times 5 = 2500$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "A项：12-(和)=12-10=2，正确；B项未能提取公因数，且不恒等于50（反例：如都是5，和为25），错误；C项等于 40÷积 = 40÷100 = 0.4，正确；D项等于 积×25 = 2500，正确。",
+    "difficulty": 4,
+    "knowledge_points": ["代数代换与综合运算"]
+  },
+  {
+    "id": "75-13",
+    "type": "fill",
+    "stem": "探究 $$15 \\times 24$$ 与 $$14 \\times 25$$ 的大小关系。<br><img src=\"/images/workbook/p75_q5.png\" /> + (1) $$15 \\times 24 = (14+1) \\times 24 = 14 \\times 24 + (        ) \\times (        )$$",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["1"] },
+        { "is_ordered": false, "accepted_values": ["24"] }
+      ]
+    },
+    "analysis": "乘法分配律的应用：(14+1)×24 = 14×24 + 1×24。",
+    "difficulty": 2,
+    "knowledge_points": ["乘法分配律"]
+  },
+  {
+    "id": "75-14",
+    "type": "fill",
+    "stem": "探究 $$15 \\times 24$$ 与 $$14 \\times 25$$ 的大小关系。<br><img src=\"/images/workbook/p75_q5.png\" /> + (2) $$14 \\times 25 = 14 \\times (24+1) = 14 \\times 24 + (        ) \\times (        )$$",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["14"] },
+        { "is_ordered": false, "accepted_values": ["1"] }
+      ]
+    },
+    "analysis": "乘法分配律的应用：14×(24+1) = 14×24 + 14×1。",
+    "difficulty": 2,
+    "knowledge_points": ["乘法分配律"]
+  },
+  {
+    "id": "75-15",
+    "type": "fill",
+    "stem": "探究 $$15 \\times 24$$ 与 $$14 \\times 25$$ 的大小关系。<br><img src=\"/images/workbook/p75_q5.png\" /> + 根据(1)(2)题在右边的括号里填上合适的数，所以 $$15 \\times 24$$(        )$$14 \\times 25$$。(在括号里填“>”“<”或“=”)",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": [">"] }
+      ]
+    },
+    "analysis": "因为 24 > 14，且公共部分是 14×24，故整体大于。",
+    "difficulty": 3,
+    "knowledge_points": ["代数式的比较"]
+  }
+]

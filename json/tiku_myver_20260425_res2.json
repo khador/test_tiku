@@ -1,0 +1,407 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 5,
+      "q_id": 3,
+      "message": "含'画一画'，属画图题，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 8,
+      "q_id": 5,
+      "message": "含'预测'和'理由'，属开放题，已丢弃"
+    },
+    {
+      "type": "image_quality_low",
+      "page": 3,
+      "q_id": null,
+      "message": "页3局部模糊，OCR置信度<0.6（图3-3题干不完整）"
+    },
+    {
+      "type": "open_ended",
+      "page": 14,
+      "q_id": 3,
+      "message": "题干要求'说明理由'，属开放题，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 15,
+      "q_id": 6,
+      "message": "题干要求'你同意吗？说明理由'，属开放题，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 16,
+      "q_id": 3,
+      "message": "题干含'我猜测'，需主观推测，已丢弃"
+    },
+    {
+      "type": "image_quality_low",
+      "page": 9,
+      "q_id": null,
+      "message": "页9税率表格局部模糊，OCR置信度<0.6"
+    },
+    {
+      "type": "open_ended",
+      "page": 20,
+      "q_id": null,
+      "message": "‘数学文化’板块要求解释原因，属开放题，已丢弃"
+    },
+    {
+      "type": "image_quality_low",
+      "page": 21,
+      "q_id": 1,
+      "message": "展开图数据模糊，OCR置信度0.58"
+    },
+    {
+      "type": "incomplete_stem",
+      "page": 17,
+      "q_id": 2,
+      "message": "题干未提供初始存款额，依赖前文‘20万元’，存在上下文依赖"
+    },
+        {
+      "type": "open_ended",
+      "page": 24,
+      "q_id": 7,
+      "message": "‘探究圆柱表面积的新算法’要求归纳与应用，含开放性表述，已丢弃"
+    },
+    {
+      "type": "incomplete_stem",
+      "page": 27,
+      "q_id": 2,
+      "message": "题干未明确瓶子形状，依赖图像推测，存在歧义"
+    },
+    {
+      "type": "image_quality_low",
+      "page": 29,
+      "q_id": 3,
+      "message": "水流速图示模糊，OCR无法识别关键数值"
+    }
+  ],
+
+  "images": [
+    {
+      "img_filename": "p1_q1.png",
+      "parent_img_filename": "scan_1.jpg",
+      "cordinate": [78, 352, 460, 400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p1_q2.png",
+      "parent_img_filename": "scan_1.jpg",
+      "cordinate": [470, 352, 870, 400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p1_q10.png",
+      "parent_img_filename": "scan_1.jpg",
+      "cordinate": [650, 575, 880, 615],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p2_q1_1.png",
+      "parent_img_filename": "scan_2.jpg",
+      "cordinate": [200, 280, 900, 360],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p2_q2.png",
+      "parent_img_filename": "scan_2.jpg",
+      "cordinate": [250, 400, 410, 490],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p2_q3.png",
+      "parent_img_filename": "scan_2.jpg",
+      "cordinate": [220, 590, 800, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q1.png",
+      "parent_img_filename": "scan_3.jpg",
+      "cordinate": [150, 650, 850, 680],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q2.png",
+      "parent_img_filename": "scan_3.jpg",
+      "cordinate": [200, 550, 400, 600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q3.png",
+      "parent_img_filename": "scan_3.jpg",
+      "cordinate": [180, 480, 320, 530],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q4.png",
+      "parent_img_filename": "scan_3.jpg",
+      "cordinate": [120, 380, 450, 440],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p3_q5.png",
+      "parent_img_filename": "scan_3.jpg",
+      "cordinate": [100, 220, 880, 280],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p4_q4.png",
+      "parent_img_filename": "scan_4.jpg",
+      "cordinate": [200, 380, 850, 420],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p4_q5.png",
+      "parent_img_filename": "scan_4.jpg",
+      "cordinate": [120, 450, 880, 520],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p5_q2.png",
+      "parent_img_filename": "scan_5.jpg",
+      "cordinate": [200, 250, 900, 320],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p5_q4.png",
+      "parent_img_filename": "scan_5.jpg",
+      "cordinate": [100, 700, 900, 780],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p6_q1.png",
+      "parent_img_filename": "scan_6.jpg",
+      "cordinate": [150, 300, 850, 350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p6_q2.png",
+      "parent_img_filename": "scan_6.jpg",
+      "cordinate": [180, 420, 820, 480],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p6_q3.png",
+      "parent_img_filename": "scan_6.jpg",
+      "cordinate": [200, 550, 800, 620],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p8_q1.png",
+      "parent_img_filename": "scan_8.jpg",
+      "cordinate": [160, 280, 840, 320],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p8_q2.png",
+      "parent_img_filename": "scan_8.jpg",
+      "cordinate": [160, 350, 840, 390],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p8_q3.png",
+      "parent_img_filename": "scan_8.jpg",
+      "cordinate": [180, 420, 820, 460],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p14_q1.png",
+      "parent_img_filename": "scan_14.jpg",
+      "cordinate": [200, 300, 800, 350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p17_q1.png",
+      "parent_img_filename": "scan_17.jpg",
+      "cordinate": [200, 550, 800, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q1.png",
+      "parent_img_filename": "scan_18.jpg",
+      "cordinate": [150, 300, 900, 360],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q2.png",
+      "parent_img_filename": "scan_18.jpg",
+      "cordinate": [150, 380, 900, 440],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q7.png",
+      "parent_img_filename": "scan_18.jpg",
+      "cordinate": [700, 700, 900, 780],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p19_q1.png",
+      "parent_img_filename": "scan_19.jpg",
+      "cordinate": [200, 500, 800, 580],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p19_q4_A.png",
+      "parent_img_filename": "scan_19.jpg",
+      "cordinate": [100, 650, 300, 720],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p19_q4_B.png",
+      "parent_img_filename": "scan_19.jpg",
+      "cordinate": [350, 650, 550, 720],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p19_q4_C.png",
+      "parent_img_filename": "scan_19.jpg",
+      "cordinate": [600, 650, 800, 720],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p19_q4_D.png",
+      "parent_img_filename": "scan_19.jpg",
+      "cordinate": [850, 650, 1050, 720],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p20_q3.png",
+      "parent_img_filename": "scan_20.jpg",
+      "cordinate": [750, 420, 950, 480],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p22_q2.png",
+      "parent_img_filename": "scan_22.jpg",
+      "cordinate": [780, 380, 920, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+        {
+      "img_filename": "p24_q5.png",
+      "parent_img_filename": "scan_24.jpg",
+      "cordinate": [150, 240, 300, 300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p24_q6_1.png",
+      "parent_img_filename": "scan_24.jpg",
+      "cordinate": [180, 340, 450, 390],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p24_q6_2.png",
+      "parent_img_filename": "scan_24.jpg",
+      "cordinate": [180, 440, 350, 490],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p25_q4.png",
+      "parent_img_filename": "scan_25.jpg",
+      "cordinate": [200, 550, 400, 620],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p26_q1.png",
+      "parent_img_filename": "scan_26.jpg",
+      "cordinate": [150, 280, 850, 350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p26_q4.png",
+      "parent_img_filename": "scan_26.jpg",
+      "cordinate": [750, 450, 950, 550],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p26_q5.png",
+      "parent_img_filename": "scan_26.jpg",
+      "cordinate": [700, 580, 950, 660],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p27_q2.png",
+      "parent_img_filename": "scan_27.jpg",
+      "cordinate": [150, 500, 400, 600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p28_q3.png",
+      "parent_img_filename": "scan_28.jpg",
+      "cordinate": [150, 350, 900, 420],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p28_q4.png",
+      "parent_img_filename": "scan_28.jpg",
+      "cordinate": [750, 500, 950, 560],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p29_q3.png",
+      "parent_img_filename": "scan_29.jpg",
+      "cordinate": [800, 640, 920, 700],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p30_q2.png",
+      "parent_img_filename": "scan_30.jpg",
+      "cordinate": [680, 380, 820, 440],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p30_q5.png",
+      "parent_img_filename": "scan_30.jpg",
+      "cordinate": [840, 690, 940, 760],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

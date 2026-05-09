@@ -1,0 +1,98 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 39,
+      "q_id": null,
+      "message": "第39页为完整的“探究性作业”，包含实验操作“按其他方式折叠”以及“你有什么发现”等主观引导，已按规则整体丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 40,
+      "q_id": null,
+      "message": "第40页为探究作业延伸，底部含“请把你的方法写下来”主观设计题，已按规则整体丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 41,
+      "q_id": null,
+      "message": "第41页第2大题指令为“写出两个比例”，组合形式不唯一（无法穷举所有正确集），已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 41,
+      "q_id": null,
+      "message": "第41页第4大题含关键词“说明你的理由”，涉及主观论述，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 41,
+      "q_id": null,
+      "message": "第41页第6大题指令为“写出一个比例”，排列组合答案不唯一，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 42,
+      "q_id": null,
+      "message": "第42页第2大题涉及“写出组成的比例”与“等式改写比例”，单一等式可变形出8种不同比例，虽理论可穷举但作为常规填空录入容易造成评判遗漏和争议，根据发散性评估已作丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p41_q3_2_optA.png",
+      "parent_img_filename": "41.jpg",
+      "cordinate": [150, 600, 300, 750],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p41_q3_2_optB.png",
+      "parent_img_filename": "41.jpg",
+      "cordinate": [350, 600, 500, 750],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p41_q3_2_optC.png",
+      "parent_img_filename": "41.jpg",
+      "cordinate": [550, 600, 700, 750],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p41_q3_2_optD.png",
+      "parent_img_filename": "41.jpg",
+      "cordinate": [750, 600, 900, 750],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p41_q5.png",
+      "parent_img_filename": "41.jpg",
+      "cordinate": [650, 750, 900, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p42_q3_2.png",
+      "parent_img_filename": "42.jpg",
+      "cordinate": [700, 750, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p43_q1_2.png",
+      "parent_img_filename": "43.jpg",
+      "cordinate": [350, 700, 650, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p43_q3_1.png",
+      "parent_img_filename": "43.jpg",
+      "cordinate": [600, 150, 800, 450],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

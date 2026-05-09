@@ -1,0 +1,79 @@
+{
+  "errors": [
+    {
+      "type": "image_quality_low",
+      "page": 14,
+      "q_id": null,
+      "message": "页面上半部分存在严重的物理翻书导致的动态模糊，内容完全无法辨认，已执行局部丢弃过滤"
+    },
+    {
+      "type": "open_ended",
+      "page": 15,
+      "q_id": null,
+      "message": "第15页第5大题含主观关键词'你同意小贤的结论吗？说明理由'，属于发散论述题，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 16,
+      "q_id": null,
+      "message": "第16页总结拓展部分含关键词'查阅资料、询问专业人士等'，无法客观评判，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 17,
+      "q_id": null,
+      "message": "第17页第4大题含关键词'请你帮他设计一个存款方案'，属于开放式探究设计题，已丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p13_q4_1.png",
+      "parent_img_filename": "13.jpg",
+      "cordinate": [180, 500, 950, 750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p13_q4_2.png",
+      "parent_img_filename": "13.jpg",
+      "cordinate": [180, 750, 950, 1000],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p13_q9.png",
+      "parent_img_filename": "13.jpg",
+      "cordinate": [550, 1350, 950, 1550],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p13_q10.png",
+      "parent_img_filename": "13.jpg",
+      "cordinate": [100, 1850, 950, 2050],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p15_q1.png",
+      "parent_img_filename": "15.jpg",
+      "cordinate": [150, 1400, 900, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p16_q2.png",
+      "parent_img_filename": "16.jpg",
+      "cordinate": [180, 250, 900, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p17_q1.png",
+      "parent_img_filename": "17.jpg",
+      "cordinate": [180, 300, 850, 700],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

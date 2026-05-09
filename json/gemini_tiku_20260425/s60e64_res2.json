@@ -1,0 +1,94 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 60,
+      "q_id": null,
+      "message": "第60页整页为“探究性作业：图形放大或缩小的秘密”，包含大量“量一量”、“算一算”等测量及主观探究结论要求，已按规则整页丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 61,
+      "q_id": null,
+      "message": "第61页上半部分包含“提出猜想”、“画一画”、“规律总结”等主观实验探究环节，已按规则丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 64,
+      "q_id": null,
+      "message": "第64页第1大题第(1)小问包含指令“请你在方格纸上画出这个笔筒底面的图形”，属于纯作图题，已过滤丢弃（保留了依靠此条件的第2小问计算）"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p61_q1.png",
+      "parent_img_filename": "61.jpg",
+      "cordinate": [650, 150, 800, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p61_q2.png",
+      "parent_img_filename": "61.jpg",
+      "cordinate": [750, 150, 950, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p62_q6.png",
+      "parent_img_filename": "62.jpg",
+      "cordinate": [450, 300, 600, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p62_q8.png",
+      "parent_img_filename": "62.jpg",
+      "cordinate": [600, 650, 750, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p63_q6.png",
+      "parent_img_filename": "63.jpg",
+      "cordinate": [150, 650, 400, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p63_q7.png",
+      "parent_img_filename": "63.jpg",
+      "cordinate": [350, 150, 500, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p63_q7_optA.png",
+      "parent_img_filename": "63.jpg",
+      "cordinate": [350, 800, 500, 950],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p63_q7_optB.png",
+      "parent_img_filename": "63.jpg",
+      "cordinate": [350, 600, 500, 800],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p63_q7_optC.png",
+      "parent_img_filename": "63.jpg",
+      "cordinate": [350, 350, 500, 600],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p63_q7_optD.png",
+      "parent_img_filename": "63.jpg",
+      "cordinate": [350, 150, 500, 350],
+      "is_option": true,
+      "option_letter": "D"
+    }
+  ]
+}

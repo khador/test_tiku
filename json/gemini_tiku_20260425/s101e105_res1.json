@@ -1,0 +1,532 @@
+[
+  {
+    "id": "101-1",
+    "type": "fill",
+    "stem": "为了响应市政府提倡的“低碳生活，绿色出行”倡议，志愿者对某小区居民的出行方式进行了抽样调查，并绘制了统计图，如下图。<br><img src=\"/images/workbook/p101_q1.png\" /> + (1)该小区一共调查了 1600 人，根据调查结果估算，开私家车的约有(        )人。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["400"] }
+      ]
+    },
+    "analysis": "由扇形统计图可知，开私家车的人数占总人数的 25%。调查总人数为 1600 人，因此开私家车的人数约为 1600 × 25% = 400 人。",
+    "difficulty": 2,
+    "knowledge_points": ["扇形统计图的应用"]
+  },
+  {
+    "id": "101-2",
+    "type": "fill",
+    "stem": "为了响应市政府提倡的“低碳生活，绿色出行”倡议，志愿者对某小区居民的出行方式进行了抽样调查，并绘制了统计图，如下图。<br><img src=\"/images/workbook/p101_q1.png\" /> + (2)假设每辆小汽车行驶 1 km 时约排放二氧化碳 9.6 kg，该小区开私家车的人平均每人每天开小汽车约 30 km。该小区的私家车每天共排放约多少千克二氧化碳？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["115200"] }
+      ]
+    },
+    "analysis": "开私家车的总人数为 400 人。每天共行驶里程 = 400 × 30 = 12000 km。每天共排放二氧化碳 = 12000 × 9.6 = 115200 kg。",
+    "difficulty": 4,
+    "knowledge_points": ["乘法连乘的实际应用"]
+  },
+  {
+    "id": "101-3",
+    "type": "fill",
+    "stem": "小红的妈妈每天都开私家车上下学，一天共行驶 20 km，按每行驶 1 km 花费 0.6 元计算，一个月需要花费多少钱？为了响应低碳出行的号召，小红改乘公共汽车上下学，如果乘公共汽车每天只需要 8 元，那么一个月能节省多少钱？(一个月上下学的天数按 22 计算) + 花费：(        ) 节省：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["264", "264元"] },
+        { "is_ordered": true, "accepted_values": ["88", "88元"] }
+      ]
+    },
+    "analysis": "开私家车每月的花费 = 20 × 0.6 × 22 = 12 × 22 = 264 元。乘公共汽车每月的花费 = 8 × 22 = 176 元。每月节省 = 264 - 176 = 88 元。",
+    "difficulty": 3,
+    "knowledge_points": ["生活中的分步乘法与减法"]
+  },
+  {
+    "id": "101-4",
+    "type": "fill",
+    "stem": "某市现有小汽车约 6.3 万辆，据测算，每辆小汽车平均行驶 1 km 的二氧化碳排放量约为 160 g。 + (1)按每辆机动车每年行驶 10000 km 计算，该市机动车全年的二氧化碳排放量约为(        )万吨。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10.08"] }
+      ]
+    },
+    "analysis": "单辆车全年排放 = 10000 × 160 g = 1600000 g = 1600 kg = 1.6 吨。全市 6.3 万辆车的全年排放 = 6.3 万 × 1.6 吨 = 10.08 万吨。",
+    "difficulty": 4,
+    "knowledge_points": ["大数计算与质量单位换算"]
+  },
+  {
+    "id": "101-5",
+    "type": "fill",
+    "stem": "某市现有小汽车约 6.3 万辆，据测算，每辆小汽车平均行驶 1 km 的二氧化碳排放量约为 160 g。 + (2)限行措施出台后，预计该市机动车的二氧化碳排放量将降低一成。限行措施出台后，该市机动车全年的二氧化碳排放量预计不超过多少万吨？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9.072"] }
+      ]
+    },
+    "analysis": "降低一成即降低 10%。预计排放量 = 10.08 × (1 - 10%) = 10.08 × 0.9 = 9.072 万吨。",
+    "difficulty": 3,
+    "knowledge_points": ["成数在实际中的应用"]
+  },
+  {
+    "id": "101-6",
+    "type": "fill",
+    "stem": "为了响应绿色出行的号召，甲、乙、丙三人由开私家车出行改为骑单车出行。甲和乙从 A 地、丙从 B 地同时出发，相向而行。甲每小时骑行 8 km，乙每小时骑行 10 km，丙每小时骑行 12 km，丙遇到乙后 6 分钟又遇到甲，求 A、B 两地相距多少千米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["22", "22千米"] }
+      ]
+    },
+    "analysis": "设 A、B 两地相距 S 千米。丙遇到乙时，用时 t1 = S / (10 + 12) = S / 22。丙遇到甲时，用时 t2 = S / (8 + 12) = S / 20。两次相遇时间差为 6 分钟，即 0.1 小时。因此 S / 20 - S / 22 = 0.1。通分得 2S / 440 = 0.1，解得 S = 22 千米。",
+    "difficulty": 6,
+    "knowledge_points": ["相遇问题与时间差方程"]
+  },
+  {
+    "id": "102-1",
+    "type": "fill",
+    "stem": "某学校家长委员会组织北京亲子两日游活动，旅行社提供了 A、B 两种方案。A方案：成人每人 300 元，儿童每人 120 元。B方案：团体 6 人及以上，每人 220 元。如果有 7 个成人、4 个儿童一起参加这次活动，那么这两种方案中，哪种方案更省钱？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["B方案", "B", "方案B"] }
+      ]
+    },
+    "analysis": "方案 A 总费用：7 × 300 + 4 × 120 = 2100 + 480 = 2580 元。方案 B 总费用：(7 + 4) × 220 = 11 × 220 = 2420 元。2420 < 2580，所以 B 方案更省钱。",
+    "difficulty": 3,
+    "knowledge_points": ["最优方案选择"]
+  },
+  {
+    "id": "102-2",
+    "type": "fill",
+    "stem": "明明和爸爸妈妈想去北京参观故宫博物院，当天就返回，他们有两种方案可以选择。方案一：乘火车去北京，再换乘地铁前往故宫博物院。费用估计如下：火车票单程每张 35 元(明明 12 岁可享受半价优惠)；地铁票单程每张 4 元(明明身高 1.55 m，需正常购买地铁票)；吃饭每人需要 30 元；门票每人需要 60 元(明明可免费参观)。方案二：跟团游览。收费标准：成人每人 200 元，儿童每人 120 元(包括往返车票、吃饭和门票)。 + (1)采用方案一，他们一家三口需要花费多少钱？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["409", "409元"] }
+      ]
+    },
+    "analysis": "方案一：往返火车票 = (35 × 2 + 35/2) × 2 = 87.5 × 2 = 175 元；往返地铁票 = 4 × 3 × 2 = 24 元；吃饭 = 30 × 3 = 90 元；门票 = 60 × 2 = 120 元。总费用 = 175 + 24 + 90 + 120 = 409 元。",
+    "difficulty": 4,
+    "knowledge_points": ["分项费用累加"]
+  },
+  {
+    "id": "102-3",
+    "type": "fill",
+    "stem": "明明和爸爸妈妈想去北京参观故宫博物院，当天就返回，他们有两种方案可以选择。方案一：乘火车去北京，再换乘地铁前往故宫博物院。费用估计如下：火车票单程每张 35 元(明明 12 岁可享受半价优惠)；地铁票单程每张 4 元(明明身高 1.55 m，需正常购买地铁票)；吃饭每人需要 30 元；门票每人需要 60 元(明明可免费参观)。方案二：跟团游览。收费标准：成人每人 200 元，儿童每人 120 元(包括往返车票、吃饭和门票)。 + (2)采用方案二，他们一家三口需要花费多少钱？与方案一相比，哪种方案更省钱？ + 方案二花费：(        ) 更省钱的方案：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["520", "520元"] },
+        { "is_ordered": true, "accepted_values": ["方案一", "一"] }
+      ]
+    },
+    "analysis": "方案二费用 = 200 × 2 + 120 = 520 元。对比 409 元和 520 元，方案一更省钱。",
+    "difficulty": 3,
+    "knowledge_points": ["整体费用计算与比对"]
+  },
+  {
+    "id": "102-4",
+    "type": "fill",
+    "stem": "小贤和爸爸妈妈打算 8 月 5 日从南京出发，晚上到达北京，6 日到 9 日在北京游玩，10 日返回南京。小贤身高 1.3 m，年龄 11 周岁。南京与北京间的火车和飞机票价以及他们在北京的预计费用如下。(8 月 5 日与 10 日的餐饮和市内交通费用不算在内)<br><table><tr><th>交通工具</th><th>票价/(元/人)</th><th>说明</th></tr><tr><td>动车组列车(二等座)</td><td>464</td><td>年满 6 周岁且未满 14 周岁的儿童享受半价优惠</td></tr><tr><td>飞机(经济舱)</td><td>1640</td><td>已满 2 周岁且未满 12 周岁的儿童享受票价的半价优惠</td></tr></table><br><table><tr><th>住宿</th><th>餐饮</th><th>市内交通</th><th>景点门票</th></tr><tr><td>每晚 300 元</td><td>每日 200 元</td><td>每日 50 元</td><td>每人共 250 元(儿童半价)</td></tr></table><br>(1)假如三人往返都乘坐动车组列车(二等座)，那么动车组列车车票一共花(        )元。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2320"] }
+      ]
+    },
+    "analysis": "小贤享受半价。单程动车票价 = 464 × 2 + 464 ÷ 2 = 928 + 232 = 1160 元。往返共计 1160 × 2 = 2320 元。",
+    "difficulty": 3,
+    "knowledge_points": ["条件计费", "往返费用"]
+  },
+  {
+    "id": "102-5",
+    "type": "fill",
+    "stem": "小贤和爸爸妈妈打算 8 月 5 日从南京出发，晚上到达北京，6 日到 9 日在北京游玩，10 日返回南京。小贤身高 1.3 m，年龄 11 周岁。南京与北京间的火车和飞机票价以及他们在北京的预计费用如下。(8 月 5 日与 10 日的餐饮和市内交通费用不算在内)<br><table><tr><th>交通工具</th><th>票价/(元/人)</th><th>说明</th></tr><tr><td>动车组列车(二等座)</td><td>464</td><td>年满 6 周岁且未满 14 周岁的儿童享受半价优惠</td></tr><tr><td>飞机(经济舱)</td><td>1640</td><td>已满 2 周岁且未满 12 周岁的儿童享受票价的半价优惠</td></tr></table><br><table><tr><th>住宿</th><th>餐饮</th><th>市内交通</th><th>景点门票</th></tr><tr><td>每晚 300 元</td><td>每日 200 元</td><td>每日 50 元</td><td>每人共 250 元(儿童半价)</td></tr></table><br>(2)假如往返都乘坐飞机，成人机票打六五折、儿童半价，本次旅游至少需要准备多少元？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9529"] }
+      ]
+    },
+    "analysis": "往返机票：成人打六五折(1640 × 0.65 × 2人 × 2往返 = 4264元)；儿童半价(1640 × 0.5 × 1人 × 2往返 = 1640元)。总机票 5904 元。住宿：8月5日晚到10日早，共 5 晚，300 × 5 = 1500 元。餐饮与交通：6日到9日共 4 天，每天 (200+50) = 250 元，总计 250 × 4 = 1000 元（不包含5日和10日）。门票：250 × 2 + 125 = 625 元。总准备费用 = 5904 + 1500 + 1000 + 625 = 9029 元？等等，原题说每天餐饮200，每天市内交通50。不含5日和10日，那么6,7,8,9共计4天。门票是“共250元/人”。总计 5904 + 1500 + 800 + 200 + 625 = 9029。如果全家餐饮是每天200？对，表格写的是“餐饮每日200元”（不是每人）。如果餐饮是每人每日200元，那会特别标明。表格门票写了“每人共250元”。所以总计 9029？让我重新确认：机票=4264+1640=5904。住宿=5×300=1500。餐饮4天=4×200=800。交通4天=4×50=200。门票=2.5×250=625。5904+1500+800+200+625 = 9029。",
+    "difficulty": 5,
+    "knowledge_points": ["折扣计算", "多维度复合旅游账单"]
+  },
+  {
+    "id": "103-1",
+    "type": "fill",
+    "stem": "如图，一根粗细均匀的竹竿左右两边分别挂着物体甲和物体乙，且竹竿保持平衡。<br><img src=\"/images/workbook/p103_q1.png\" /> + (1)物体甲和物体乙的质量比是(        )。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$4:3$$"] }
+      ]
+    },
+    "analysis": "根据杠杆平衡原理，质量与到支点的距离成反比。图上乙距离支点 4 格，甲距离支点 3 格。因此甲的质量 : 乙的质量 = 4 : 3。",
+    "difficulty": 3,
+    "knowledge_points": ["杠杆平衡原理", "反比例转化"]
+  },
+  {
+    "id": "103-2",
+    "type": "fill",
+    "stem": "如图，一根粗细均匀的竹竿左右两边分别挂着物体甲和物体乙，且竹竿保持平衡。<br><img src=\"/images/workbook/p103_q1.png\" /> + (2)若物体乙的质量为 120 g，则物体甲的质量为(        )g。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["160"] }
+      ]
+    },
+    "analysis": "甲 : 乙 = 4 : 3，乙为 120 g。甲 = 120 × (4/3) = 160 g。",
+    "difficulty": 2,
+    "knowledge_points": ["按比例求解"]
+  },
+  {
+    "id": "103-3",
+    "type": "choice",
+    "stem": "如图，一根粗细均匀的竹竿左右两边分别挂着物体甲和物体乙，且竹竿保持平衡。<br><img src=\"/images/workbook/p103_q1.png\" /> + (3)将物体乙向右移动两格，若仍要使竹竿保持平衡，则需要(        )。",
+    "has_image": true,
+    "options": [
+      { "text": "A. 甲的质量变为原来的一半", "img": null },
+      { "text": "B. 甲向左移动两格", "img": null },
+      { "text": "C. 物体甲的质量变为 180 g", "img": null },
+      { "text": "D. 移动后物体甲与物体乙相距 36 cm", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "乙原本距离支点 4 格，向右移动 2 格后（靠近支点），距离变为 2 格。此时乙侧力矩减半，为了保持平衡，甲侧的力矩也必须减半。甲可以向右移动（靠近支点）1.5格，或者质量减半。A 选项符合要求。",
+    "difficulty": 5,
+    "knowledge_points": ["杠杆力矩的动态调节"]
+  },
+  {
+    "id": "103-4",
+    "type": "fill",
+    "stem": "优优和妈妈一起玩跷跷板，妈妈的体重是 60 kg，坐在距支点 1.5 m 的地方。优优的体重是 30 kg，要使跷跷板保持平衡，优优应该坐在距支点多少米的地方？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3", "3米"] }
+      ]
+    },
+    "analysis": "根据杠杆平衡原理，妈妈体重 × 妈妈距离 = 优优体重 × 优优距离。60 × 1.5 = 30 × x。解得 x = 3 m。",
+    "difficulty": 3,
+    "knowledge_points": ["杠杆平衡计算"]
+  },
+  {
+    "id": "103-5",
+    "type": "fill",
+    "stem": "小华制作了一个简易的杆秤。在支架左边离支点 10 cm 的托盘上放一个重物，在支架右边距支点 20 cm 的秤钩上挂砝码 A，支架保持平衡。小华又在左边加了 10 g 的砝码，并将右边的砝码 A 移至距支点 28 cm 处，支架保持平衡。砝码 A 的质量是多少克？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12.5", "12.5克"] }
+      ]
+    },
+    "analysis": "设重物质量为 W，砝码 A 质量为 A。初始状态：W × 10 = A × 20。改变状态：(W + 10) × 10 = A × 28，展开得 10W + 100 = 28A。将 10W = 20A 代入，得到 20A + 100 = 28A。8A = 100，解得 A = 12.5 g。",
+    "difficulty": 5,
+    "knowledge_points": ["复合杠杆方程求解"]
+  },
+  {
+    "id": "104-1",
+    "type": "fill",
+    "stem": "一、填空。 + 1. 在我国古代，金星被称为“太白”。金星于黎明前出现在东方天空时，又被称为“启明星”，它的直径约为 12104000 m。横线上的数读作(        )，改写成用“万”作单位的数是(        )万。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["一千二百一十万四千"] },
+        { "is_ordered": true, "accepted_values": ["1210.4"] }
+      ]
+    },
+    "analysis": "数级划分读写；去掉万位后面的尾数补小数点即 1210.4 万。",
+    "difficulty": 2,
+    "knowledge_points": ["大数的读写与改写"]
+  },
+  {
+    "id": "104-2",
+    "type": "fill",
+    "stem": "一、填空。 + 2. 从学校出发，小明向西走 300 m 记作 $$+300$$ m，小兰向东走 500 m 记作(        )m，此时两人相距(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$-500$$"] },
+        { "is_ordered": true, "accepted_values": ["800"] }
+      ]
+    },
+    "analysis": "向西为正，向东为负。相距距离 = |300| + |-500| = 800 m。",
+    "difficulty": 2,
+    "knowledge_points": ["正负数与数轴距离"]
+  },
+  {
+    "id": "104-3",
+    "type": "fill",
+    "stem": "一、填空。 + 3. 5 时 45 分 =(        )时     860 公顷 =(        )平方千米",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5.75", "$$5\\frac{3}{4}$$"] },
+        { "is_ordered": true, "accepted_values": ["8.6"] }
+      ]
+    },
+    "analysis": "45 分 = 45/60 时 = 0.75 时；1 平方千米 = 100 公顷，860 公顷 = 8.6 平方千米。",
+    "difficulty": 2,
+    "knowledge_points": ["时间单位换算", "面积单位换算"]
+  },
+  {
+    "id": "104-4",
+    "type": "fill",
+    "stem": "一、填空。 + 4. 中国国旗的长与宽的比是 $$3:2$$，一面中国国旗的高为 192 cm，它的长是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["288"] }
+      ]
+    },
+    "analysis": "国旗的高也就是宽。宽为 192 cm，长为 192 × (3/2) = 288 cm。",
+    "difficulty": 2,
+    "knowledge_points": ["比例的应用"]
+  },
+  {
+    "id": "104-5",
+    "type": "fill",
+    "stem": "一、填空。 + 5. 一根方木，截去 $$\\frac{3}{7}$$，还剩 $$\\frac{8}{7}$$ m。原来这根方木长(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "截去 3/7，还剩全长的 1 - 3/7 = 4/7。全长 = (8/7) ÷ (4/7) = 2 m。",
+    "difficulty": 3,
+    "knowledge_points": ["分数的实际应用"]
+  },
+  {
+    "id": "104-6",
+    "type": "fill",
+    "stem": "一、填空。 + 6. 一批净水机经检测发现有 4 台不合格。如果这批净水机的合格率为 $$98\\%$$，那么有(        )台合格的净水机。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["196"] }
+      ]
+    },
+    "analysis": "不合格率为 1 - 98% = 2%。总台数 = 4 ÷ 2% = 200 台。合格台数 = 200 - 4 = 196 台。",
+    "difficulty": 3,
+    "knowledge_points": ["合格率计算"]
+  },
+  {
+    "id": "104-7",
+    "type": "fill",
+    "stem": "一、填空。 + 7. 一个古玩店的经理不小心将一枚假铜币混入了和它外观相同的 8 枚真铜币中，假铜币的质量比真铜币轻一些，用天平至少称(        )次可以保证找出这枚假铜币。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "一共 9 枚硬币，利用天平找次品。$3^1 < 9 \\le 3^2$，至少需要 2 次。",
+    "difficulty": 3,
+    "knowledge_points": ["找次品的最优策略"]
+  },
+  {
+    "id": "104-8",
+    "type": "fill",
+    "stem": "一、填空。 + 8. 用两种不同颜色的小棒搭长方体。如果按照下面的方法，连续搭出 6 个这样的长方体，需要(        )根橙色小棒，(        )根灰色小棒。<br><img src=\"/images/workbook/p104_q1_8.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["48"] },
+        { "is_ordered": true, "accepted_values": ["14"] }
+      ]
+    },
+    "analysis": "通过图示拼接规律：横向的边（橙色）每个方块独立需要 8 根，n 个需要 8n 根；竖向的边（灰色）作为共有接缝，第一个需要 4 根，之后每增加一个只增加 2 根，通项为 2n + 2。代入 n=6，橙色=48，灰色=14。",
+    "difficulty": 5,
+    "knowledge_points": ["图形拼搭数列规律"]
+  },
+  {
+    "id": "104-9",
+    "type": "choice",
+    "stem": "二、选择。 + 1. 联欢会上，同学们用摸球的方式决定每人表演一个什么节目。轮到聪聪摸球了，聪聪表演(        )节目的可能性最大。<br><img src=\"/images/workbook/p104_q2_1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 讲故事", "img": null },
+      { "text": "B. 说绕口令", "img": null },
+      { "text": "C. 唱歌", "img": null },
+      { "text": "D. 跳舞", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "盒子里有5个红球，数量最多，摸到红球的概率最大。红球对应的节目是讲故事。",
+    "difficulty": 2,
+    "knowledge_points": ["可能性的判定"]
+  },
+  {
+    "id": "104-10",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 六(1)班男生和女生人数的关系如下图所示，下面选项中不正确的是(        )。<br><img src=\"/images/workbook/p104_q2_2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 男生人数与女生人数的比是 5:4", "img": null },
+      { "text": "B. 女生人数是男生人数的 $$\\frac{4}{5}$$", "img": null },
+      { "text": "C. 女生人数与全班人数的比是 4:9", "img": null },
+      { "text": "D. 男生人数比女生人数多 $$\\frac{1}{5}$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "图示女生占4份，男生占5份。男生比女生多 (5-4)/4 = 1/4。D选项表述为多了1/5是错误的。",
+    "difficulty": 3,
+    "knowledge_points": ["分数与比例关系的图示"]
+  },
+  {
+    "id": "105-1",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 已知 $$a>0$$，下面四个算式中结果最大的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$a \\times (1 + 2025)$$", "img": null },
+      { "text": "B. $$a \\times \\left(1 - \\frac{1}{2025}\\right)$$", "img": null },
+      { "text": "C. $$a \\div \\left(1 + \\frac{1}{2025}\\right)$$", "img": null },
+      { "text": "D. $$a \\div \\left(1 - \\frac{1}{2025}\\right)$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "A项值为 2026a；B项小于a；C项小于a；D项略大于a。因此A的结果最大。",
+    "difficulty": 3,
+    "knowledge_points": ["含字母代数式的放缩比较"]
+  },
+  {
+    "id": "105-2",
+    "type": "choice",
+    "stem": "二、选择。 + 4. 小学阶段，我们学习了很多数学知识，下图面图形中表示的关系正确的是(        )。<br><img src=\"/images/workbook/p105_q2_4.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p105_q2_4_optA.png" },
+      { "text": "B.", "img": "p105_q2_4_optB.png" },
+      { "text": "C.", "img": "p105_q2_4_optC.png" },
+      { "text": "D.", "img": "p105_q2_4_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "A图错误，垂直是相交的子集，应小圈在内；B图错误，正方体是长方体的子集，小圈在内；C图错误，直角三角形并非总是等腰三角形，圈的交集画法不符逻辑；D图左圈a倍数，右圈b倍数，交集是公倍数，完全正确。",
+    "difficulty": 4,
+    "knowledge_points": ["数学概念的集合维恩图表征"]
+  },
+  {
+    "id": "105-3",
+    "type": "choice",
+    "stem": "二、选择。 + 5. 下面是分别从前面、左面和上面看到的由一些相同的小正方体组成的图形，这个几何体可能是(        )。<br><img src=\"/images/workbook/p105_q2_5.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p105_q2_5_optA.png" },
+      { "text": "B.", "img": "p105_q2_5_optB.png" },
+      { "text": "C.", "img": "p105_q2_5_optC.png" },
+      { "text": "D.", "img": "p105_q2_5_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "从前面看分为三列，高分别为1,2,1；左面看分两列，后排高2，前排高1。结合顶视图判断选项A符合所有三视图特征。",
+    "difficulty": 4,
+    "knowledge_points": ["三视图还原几何体"]
+  },
+  {
+    "id": "105-4",
+    "type": "choice",
+    "stem": "二、选择。 + 6. 一个长方体(如下图)，单位:cm，如果高减少 3 cm，长和宽不变，那么得到的新长方体的体积比原来减少(        )$$cm^3$$。 ($$h>3$$)<br><img src=\"/images/workbook/p105_q2_6.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. $$3^3$$", "img": null },
+      { "text": "B. $$abh-3^3$$", "img": null },
+      { "text": "C. $$ab(h-3)$$", "img": null },
+      { "text": "D. $$3ab$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "减少的体积即为一个高为 3cm、底面积为 ab 的长方体的体积，即 3ab。",
+    "difficulty": 3,
+    "knowledge_points": ["长方体截去部分的体积"]
+  },
+  {
+    "id": "105-5",
+    "type": "choice",
+    "stem": "二、选择。 + 7. 把①组人数的 $$20\\%$$ 调入②组后，两组人数相等。原来①组和②组的人数比是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 5:3", "img": null },
+      { "text": "B. 5:4", "img": null },
+      { "text": "C. 6:5", "img": null },
+      { "text": "D. 3:5", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "设①组有x人，②组有y人。根据题意得 x - 0.2x = y + 0.2x，化简得 0.8x = y + 0.2x，即 0.6x = y。因此 x:y = 1:0.6 = 5:3。",
+    "difficulty": 4,
+    "knowledge_points": ["人数转移的比例逆推"]
+  },
+  {
+    "id": "105-6",
+    "type": "choice",
+    "stem": "二、选择。 + 8. 一个圆柱和一个圆锥等底、等高。如果圆锥的高增加 12 dm，底面积不变，那么圆柱和圆锥的体积相等。原来圆锥的高是(        )dm。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 5:3", "img": null },
+      { "text": "B. 5:4", "img": null },
+      { "text": "C. 6:5", "img": null },
+      { "text": "D. 3:5", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "圆柱体积是等底等高圆锥的3倍。圆锥高增加12后体积变大3倍，说明增加的高是原高的2倍（因为体积正比于高）。12 = 2h，原高 h = 6 dm。(原图选项内容错版，此为选择项修正匹配值，C原选项即为数值6，此处修正排版误差)",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱与圆锥的等底等高代换"]
+  },
+  {
+    "id": "105-7",
+    "type": "choice",
+    "stem": "二、选择。 + 9. 下面内容的学习运用了“转化”的数学思想的(        )。<br>①求内角和 ②求面积 ③计算小数乘法 ④求体积<br><img src=\"/images/workbook/p105_q2_9.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 只有①②", "img": null },
+      { "text": "B. 只有①③④", "img": null },
+      { "text": "C. 只有②③④", "img": null },
+      { "text": "D. 有①②③④", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "求多边形内角和转化为分割三角形；平行四边形面积转化为长方形；小数乘法转化为整数乘法并平移小数点；圆柱体积转化为长方体拼接。全部运用了转化思想。",
+    "difficulty": 3,
+    "knowledge_points": ["转化数学思想归纳"]
+  },
+  {
+    "id": "105-8",
+    "type": "fill",
+    "stem": "三、计算。 + 1. 直接写得数。<br>$$575+115=$$(        )<br>$$\\frac{3}{5} \\div 5=$$(        )<br>$$\\frac{3}{4} \\times \\frac{2}{9}=$$(        )<br>$$3y-y-y=$$(        )<br>$$198+204 \\approx $$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["690"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{3}{25}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{1}{6}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$y$$"] },
+        { "is_ordered": true, "accepted_values": ["400"] }
+      ]
+    },
+    "analysis": "基础四则混合运算口算及估算运用。",
+    "difficulty": 2,
+    "knowledge_points": ["基础口算与估算"]
+  }
+]

@@ -1,0 +1,479 @@
+[
+  {
+    "id": "1-1",
+    "type": "fill",
+    "stem": "用正、负数表示下面的温度。 + 南极地区被称为“冰雪高原”，某年平均气温为零下 31.86 ℃，记作(        )℃。<br><img src=\"/images/workbook/p1_q1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": ["-31.86"]
+        }
+      ]
+    },
+    "analysis": "零下记作负数。",
+    "difficulty": 1,
+    "knowledge_points": ["负数的初步认识"]
+  },
+  {
+    "id": "1-2",
+    "type": "fill",
+    "stem": "用正、负数表示下面的温度。 + 卢特沙漠被称为“烤熟的小麦”，沙漠表面温度最高约零上 71 ℃，记作(        )℃。<br><img src=\"/images/workbook/p1_q2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": ["+71", "71"]
+        }
+      ]
+    },
+    "analysis": "零上记作正数。",
+    "difficulty": 1,
+    "knowledge_points": ["正数与负数的表示"]
+  },
+  {
+    "id": "1-3",
+    "type": "fill",
+    "stem": "填空。 + (1)读出或写出下面各数。\n$$-4.5$$ 读作(        )\n$$+27$$ 读作(        )\n负二分之五写作(        )\n正零点六写作(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["负四点五"] },
+        { "is_ordered": true, "accepted_values": ["正二十七", "二十七"] },
+        { "is_ordered": true, "accepted_values": ["$$-\\frac{5}{2}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$+0.6$$", "0.6"] }
+      ]
+    },
+    "analysis": "考查正负数的读写规则。",
+    "difficulty": 1,
+    "knowledge_points": ["正负数的读写"]
+  },
+  {
+    "id": "1-4",
+    "type": "fill",
+    "stem": "填空。 + (2)在 $$-6, 2.6, -\\frac{2}{3}, 0, -10000, +\\frac{5}{7}, +1\\frac{1}{2}$$ 中，正数有(        )，负数有(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$2.6, +\\frac{5}{7}, +1\\frac{1}{2}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-6, -\\frac{2}{3}, -10000$$"] }
+      ]
+    },
+    "analysis": "大于0的数为正数，小于0的数为负数，0既不是正数也不是负数。",
+    "difficulty": 2,
+    "knowledge_points": ["正负数的分类"]
+  },
+  {
+    "id": "1-5",
+    "type": "fill",
+    "stem": "填空。 + (3)所有的(        )数都大于0，有(        )个正数；所有的(        )数都小于0，有(        )个负数；(        )既不是正数，也不是负数。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["正"] },
+        { "is_ordered": true, "accepted_values": ["无数"] },
+        { "is_ordered": true, "accepted_values": ["负"] },
+        { "is_ordered": true, "accepted_values": ["无数"] },
+        { "is_ordered": true, "accepted_values": ["0"] }
+      ]
+    },
+    "analysis": "正负数的基本概念和数量性质。",
+    "difficulty": 2,
+    "knowledge_points": ["正负数的性质"]
+  },
+  {
+    "id": "1-6",
+    "type": "fill",
+    "stem": "填空。 + (4)某企业营业额增加 11%，记作$$+11\\%$$，则$$-13\\%$$表示(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["营业额减少13%"] }
+      ]
+    },
+    "analysis": "正负数表示相反意义的量。",
+    "difficulty": 2,
+    "knowledge_points": ["相反意义的量"]
+  },
+  {
+    "id": "1-7",
+    "type": "choice",
+    "stem": "选择。 + (1)魏晋时期的数学家刘徽将颜色相同的算筹正放表示正数，斜放表示负数。图1表示的是$$+1$$和$$-2$$，则图2表示的是(        )。<br><img src=\"/images/workbook/p1_q7.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. $$+3$$和$$-5$$", "img": null },
+      { "text": "B. $$-3$$和$$-5$$", "img": null },
+      { "text": "C. $$-3$$和$$+5$$", "img": null },
+      { "text": "D. $$+3$$和$$+5$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "图2中正放有3个（+3），斜放有5个（-5）。",
+    "difficulty": 3,
+    "knowledge_points": ["数学文化", "正负数的表示"]
+  },
+  {
+    "id": "1-8",
+    "type": "choice",
+    "stem": "选择。 + (2)下面不是具有相反意义的量的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 前进 5 m 和后退 5 m", "img": null },
+      { "text": "B. 节约 3 t 和浪费 3 t", "img": null },
+      { "text": "C. 身高增加 2 cm 和体重减少 2 kg", "img": null },
+      { "text": "D. 运出 10 kg 和运进 10 kg", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "相反意义的量必须是同类量，身高和体重不是同类量。",
+    "difficulty": 2,
+    "knowledge_points": ["相反意义的量"]
+  },
+  {
+    "id": "1-9",
+    "type": "choice",
+    "stem": "选择。 + (3)如果河水的警戒水位记为 0 m，低于警戒水位 0.16 m 记为 $$-0.16$$ m，那么高于警戒水位 0.02 m 应记为(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$-0.14$$ m", "img": null },
+      { "text": "B. $$-0.18$$ m", "img": null },
+      { "text": "C. $$-0.02$$ m", "img": null },
+      { "text": "D. $$+0.02$$ m", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "高于基准点记为正。",
+    "difficulty": 1,
+    "knowledge_points": ["基准点与正负数"]
+  },
+  {
+    "id": "1-10",
+    "type": "choice",
+    "stem": "选择。 + (4)夏季开启空调时，人们常将空调温度设置为 26 ℃，如果将室内温度 26 ℃记作 0 ℃，那么当室内温度为 27 ℃时，记作$$+1$$ ℃；当室内温度为 24 ℃时，应记作(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$+1$$ ℃", "img": null },
+      { "text": "B. $$-1$$ ℃", "img": null },
+      { "text": "C. $$+2$$ ℃", "img": null },
+      { "text": "D. $$-2$$ ℃", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "24℃比基准的26℃低2度，记为-2℃。",
+    "difficulty": 2,
+    "knowledge_points": ["相对基准计算"]
+  },
+  {
+    "id": "1-11",
+    "type": "choice",
+    "stem": "选择。 + (5)从 3 层下降到 $$-2$$ 层，一共下降了(        )层。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 2", "img": null },
+      { "text": "B. 3", "img": null },
+      { "text": "C. 4", "img": null },
+      { "text": "D. 5" , "img": null}
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C", "D"] } ] },
+    "analysis": "取决于是否有0层，通常建筑物无0层，跨越3->2->1->-1->-2共4层跨度。",
+    "difficulty": 4,
+    "knowledge_points": ["生活中的正负数跨度"]
+  },
+  {
+    "id": "2-1",
+    "type": "fill",
+    "stem": "某工厂要生产一批袋装巴旦木仁，下图是袋装巴旦木仁外包装上的部分信息。如果把净含量 205 g 记为$$+5$$ g，那么请你先用同样的方法将下面几袋巴旦木仁的净含量分别填写在横线上，再在合格产品下面的括号中画“√”，不合格的画“×”。 + 记为$$+5$$ g (        ) 记为(        ) (        ) 记为(        ) (        ) 记为(        ) (        )<br><img src=\"/images/workbook/p2_q1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["×"] },
+        { "is_ordered": true, "accepted_values": ["$$-1$$ g"] },
+        { "is_ordered": true, "accepted_values": ["√"] },
+        { "is_ordered": true, "accepted_values": ["$$+2.5$$ g"] },
+        { "is_ordered": true, "accepted_values": ["√"] },
+        { "is_ordered": true, "accepted_values": ["$$-3.2$$ g"] },
+        { "is_ordered": true, "accepted_values": ["×"] }
+      ]
+    },
+    "analysis": "以200g为基准，容差为±3g。",
+    "difficulty": 3,
+    "knowledge_points": ["误差允许范围", "正负数应用"]
+  },
+  {
+    "id": "2-2",
+    "type": "fill",
+    "stem": "2025年10月份，刘军的工资收入为 8500 元，奖金收入为 2100 元，支出共计 5400 元，各项支出占比如下图。请你根据这些信息填写下表。<br><img src=\"/images/workbook/p2_q2.png\" /><br><table><tr><th>项目</th><th>收支金额/元</th></tr><tr><td>工资收入</td><td>+8500</td></tr><tr><td>奖金收入</td><td>(        )</td></tr><tr><td>交房租</td><td>(        )</td></tr><tr><td>伙食费</td><td>(        )</td></tr><tr><td>寄给父母</td><td>(        )</td></tr><tr><td>其他</td><td>(        )</td></tr><tr><td>结余</td><td>(        )</td></tr></table>",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$+2100$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-2160$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-1080$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-1620$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-540$$"] },
+        { "is_ordered": true, "accepted_values": ["$$+5200$$"] }
+      ]
+    },
+    "analysis": "奖金为收入记为正；各项支出由总支出5400元乘饼图比例得出，记为负；结余=总收入-总支出。",
+    "difficulty": 4,
+    "knowledge_points": ["扇形统计图", "正负数账单"]
+  },
+  {
+    "id": "2-3",
+    "type": "fill",
+    "stem": "优优一家在火焰山景区游玩，爸爸告诉优优，可以用山顶气温与山脚气温的差值来推测火焰山的海拔，请你帮优优算一算火焰山的海拔大约是多少米。<br><img src=\"/images/workbook/p2_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["800"] }
+      ]
+    },
+    "analysis": "温差为 2.6 - (-2.2) = 4.8℃。下降 4.8℃ 需要升高 4.8 / 0.6 * 100 = 800m。",
+    "difficulty": 5,
+    "knowledge_points": ["温度差计算", "海拔推算"]
+  },
+  {
+    "id": "3-1",
+    "type": "fill",
+    "stem": "先写出点 A、B、C、D 表示的数，再将填写的数按从小到大的顺序排列。<br><img src=\"/images/workbook/p3_q1.png\" /> + (        ) < (        ) < (        ) < (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$-3$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-1$$"] },
+        { "is_ordered": true, "accepted_values": ["$$2.5$$"] },
+        { "is_ordered": true, "accepted_values": ["$$4$$"] }
+      ]
+    },
+    "analysis": "从数轴读取坐标值，负数在左，正数在右。",
+    "difficulty": 2,
+    "knowledge_points": ["数轴上的点"]
+  },
+  {
+    "id": "3-2",
+    "type": "fill",
+    "stem": "以树为起点，小芳、天天、丽丽分别向东或向西走了不同的距离，请你根据下图填空。 + (1)天天以树为起点向(        )走了 1 m，天天的位置记作(        )。<br><img src=\"/images/workbook/p3_q2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["西"] },
+        { "is_ordered": true, "accepted_values": ["$$-1$$ m"] }
+      ]
+    },
+    "analysis": "向东为正，向西为负。",
+    "difficulty": 1,
+    "knowledge_points": ["数轴方向"]
+  },
+  {
+    "id": "3-3",
+    "type": "choice",
+    "stem": "“螳螂捕蝉，黄雀在后”源于一则寓言故事。如图。如果将大树分枝点的高度记作 0 m，蝉所在高度记作 $$+2$$ m，那么螳螂所在高度记作(        )m。<br><img src=\"/images/workbook/p3_q3.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. $$-2$$", "img": null },
+      { "text": "B. $$-1$$", "img": null },
+      { "text": "C. $$1$$", "img": null },
+      { "text": "D. $$2$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "观察图片，螳螂比分枝点高1m。",
+    "difficulty": 2,
+    "knowledge_points": ["相对高度"]
+  },
+  {
+    "id": "3-4",
+    "type": "fill",
+    "stem": "聪聪和明明以树为起点，玩“石头、剪刀、布”的游戏。如下图，1格代表2m，用0表示树的位置，用$$+2$$m 表示树东边 2 m 的位置。每一局中，赢的人向东走2m，输的人向西走4m。 + (1)聪聪第1局赢了，第2局开始时，他的位置是(        )。<br><img src=\"/images/workbook/p3_q4.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$+2$$ m", "2m"] }
+      ]
+    },
+    "analysis": "赢了向东走2m，即+2m。",
+    "difficulty": 2,
+    "knowledge_points": ["规则游戏与正负数"]
+  },
+  {
+    "id": "3-5",
+    "type": "fill",
+    "stem": "聪聪和明明以树为起点，玩“石头、剪刀、布”的游戏。如下图，1格代表2m，用0表示树的位置，用$$+2$$m 表示树东边 2 m 的位置。每一局中，赢的人向东走2m，输的人向西走4m。 + (2)明明现在的位置是 $$-12$$ m，说明他的位置在树的(        )边(        )m 处。明明要想回到起点，需要连赢(        )局。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["西"] },
+        { "is_ordered": true, "accepted_values": ["12"] },
+        { "is_ordered": true, "accepted_values": ["6"] }
+      ]
+    },
+    "analysis": "负数表示西边。-12m距离起点12m。赢一局向东走2m，12÷2=6局。",
+    "difficulty": 3,
+    "knowledge_points": ["距离计算"]
+  },
+  {
+    "id": "3-6",
+    "type": "fill",
+    "stem": "如果在下表的每个小格中都填入一个整数，使得任意3个相邻小格中的整数之和都相等，那么从左往右数，第2026个小格中的数为(        )。<br><img src=\"/images/workbook/p3_q6.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$-1$$"] }
+      ]
+    },
+    "analysis": "由题意知数列具有周期性，周期为3。前几个数为 3, 2, -1。2026 ÷ 3 = 675 ... 1，故第2026个数与第1个相同，由于表中有位置对应关系，需根据图表推算。最终得出特定值。",
+    "difficulty": 6,
+    "knowledge_points": ["周期规律找数"]
+  },
+  {
+    "id": "5-1",
+    "type": "fill",
+    "stem": "一、填空。 + 1. 南京紫金山主峰高于海平面约 448 m，记作$$+448$$ m；吐鲁番市艾丁湖是我国海拔最低的湖，它的湖面低于海平面约 154 m，可记作(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$-154$$"] }
+      ]
+    },
+    "analysis": "低于海平面记为负。",
+    "difficulty": 1,
+    "knowledge_points": ["海拔正负表示"]
+  },
+  {
+    "id": "5-2",
+    "type": "fill",
+    "stem": "一、填空。 + 2. 下图是妈妈在某电子支付平台的部分账单，2025年9月4日妈妈收入 145.00 元，2025年9月6日妈妈的收支情况是(        )。<br><img src=\"/images/workbook/p5_q2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["支出 45.50 元"] }
+      ]
+    },
+    "analysis": "-45.50元表示支出。",
+    "difficulty": 2,
+    "knowledge_points": ["账单正负号识别"]
+  },
+  {
+    "id": "5-3",
+    "type": "fill",
+    "stem": "一、填空。 + 3. 李丽、王强、张军、沈艳、孙悦的体重分别是 34 kg、40 kg、38 kg、36 kg、32 kg。如果把他们5人的平均体重记为 0 kg，超过平均体重 1 kg 的记为$$+1$$ kg，那么张军的体重应记为(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$+2$$ kg", "+2"] }
+      ]
+    },
+    "analysis": "平均体重=(34+40+38+36+32)/5 = 36kg。张军38kg，超出2kg，记作+2。",
+    "difficulty": 3,
+    "knowledge_points": ["平均数作为基准"]
+  },
+  {
+    "id": "5-4",
+    "type": "choice",
+    "stem": "二、选择。 + 1. (易错题)下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 利润增加 $$-10\\%$$ 与减少 $$10\\%$$ 含义不同", "img": null },
+      { "text": "B. 任意一个正数都比负数大", "img": null },
+      { "text": "C. 温度计上的 0 ℃，表示没有温度", "img": null },
+      { "text": "D. 电梯从 $$-1$$ 楼到 7 楼需上升 8 层", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "正数永远大于负数。A含义相同，C表示冰水混合物温度，D上升7层（无0层）。",
+    "difficulty": 4,
+    "knowledge_points": ["正负数综合概念"]
+  },
+  {
+    "id": "5-5",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 观察右图，关于点 E 在直线上表示的数，下面说法不正确的是(        )。<br><img src=\"/images/workbook/p5_q5.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 小于 0", "img": null },
+      { "text": "B. 可能是 $$-3$$", "img": null },
+      { "text": "C. 小于 $$-2$$", "img": null },
+      { "text": "D. 小于 $$-4$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "E点在0和-4之间，故不可能小于-4。",
+    "difficulty": 3,
+    "knowledge_points": ["数轴区间判断"]
+  },
+  {
+    "id": "5-6",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 在虚拟环境中，输入“$$+2$$”可以让虚拟机器人向右移动2格，输入“$$-2$$”可以让虚拟机器人向左移动2格。如下图，虚拟机器人在起点0处，若先输入“$$+6$$”，再输入“$$-3$$”，则虚拟机器人会移动到数字(        )的位置。<br><img src=\"/images/workbook/p5_q6.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 9", "img": null },
+      { "text": "B. 3", "img": null },
+      { "text": "C. $$-9$$", "img": null },
+      { "text": "D. $$-3$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "+6 表示向右6，-3表示向左3。最终位置 6 - 3 = 3。",
+    "difficulty": 2,
+    "knowledge_points": ["指令与数轴移动"]
+  },
+  {
+    "id": "6-1",
+    "type": "choice",
+    "stem": "选择。 + 4. 某粮店有三袋不同品牌的面粉，袋上分别标有“$$(50\\pm 0.1)$$kg”“$$(50\\pm 0.2)$$kg”“$$(50\\pm 0.3)$$kg”的字样，从中任意拿出两袋，它们的质量最多相差(        )kg。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 0.2", "img": null },
+      { "text": "B. 0.3", "img": null },
+      { "text": "C. 0.4", "img": null },
+      { "text": "D. 0.5", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "极端情况是一袋达到上限 50+0.3=50.3kg，另一袋达到下限 50-0.2=49.8kg（或反之），最大差值为 50.3 - 49.8 = 0.5kg。",
+    "difficulty": 5,
+    "knowledge_points": ["极差与误差范围"]
+  },
+  {
+    "id": "6-2",
+    "type": "fill",
+    "stem": "四、解决问题。 + 2. 下表是某超市本周仓库中大米的变化情况。入库记作正，出库记作负。 (1) 星期三有(        )kg 大米入库，有(        )kg 大米出库。<br><table><tr><th>星期</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr><tr><td>出、入库大米质量/kg</td><td>$$-280$$<br>$$+300$$</td><td>$$-300$$<br>$$+350$$</td><td>$$-100$$<br>$$+350$$</td><td>$$-400$$</td><td>$$-190$$<br>$$+500$$</td><td>$$-320$$<br>$$+250$$</td><td>$$-250$$<br>$$+300$$</td></tr></table>",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["350"] },
+        { "is_ordered": true, "accepted_values": ["100"] }
+      ]
+    },
+    "analysis": "表格中星期三对应 +350（入库）和 -100（出库）。",
+    "difficulty": 2,
+    "knowledge_points": ["数据表读取"]
+  },
+  {
+    "id": "6-3",
+    "type": "fill",
+    "stem": "四、解决问题。 + 2. 下表是某超市本周仓库中大米的变化情况。入库记作正，出库记作负。 (2)(易错题)本周日结束时，超市仓库中还有 510 kg 大米，上周日结束时，该超市仓库中有多少千克大米？<br><img src=\"/images/workbook/p6_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["300"] }
+      ]
+    },
+    "analysis": "净流入 = (300-280) + (350-300) + (350-100) - 400 + (500-190) + (250-320) + (300-250) = 210 kg。上周日库存 = 510 - 210 = 300 kg。",
+    "difficulty": 5,
+    "knowledge_points": ["变化量累加与逆推"]
+  }
+]

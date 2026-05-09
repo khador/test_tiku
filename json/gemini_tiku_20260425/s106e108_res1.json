@@ -1,0 +1,274 @@
+[
+  {
+    "id": "106-1",
+    "type": "fill",
+    "stem": "2. 脱式计算，能简算的要简算。 + $$80 \\times 3.8 \\times 0.125 =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["38"] }
+      ]
+    },
+    "analysis": "利用乘法交换律和结合律：80 × 0.125 × 3.8 = 10 × 3.8 = 38。",
+    "difficulty": 2,
+    "knowledge_points": ["小数乘法简算"]
+  },
+  {
+    "id": "106-2",
+    "type": "fill",
+    "stem": "2. 脱式计算，能简算的要简算。 + $$24 \\times \\frac{1}{5} + 76 \\div 5 =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["20"] }
+      ]
+    },
+    "analysis": "除以5等于乘1/5，原式 = 24 × 1/5 + 76 × 1/5 = (24 + 76) × 1/5 = 100 × 1/5 = 20。",
+    "difficulty": 3,
+    "knowledge_points": ["乘法分配律", "分数与除法的互化"]
+  },
+  {
+    "id": "106-3",
+    "type": "fill",
+    "stem": "2. 脱式计算，能简算的要简算。 + $$\\frac{6}{25} \\div \\left[\\left(\\frac{4}{5} - \\frac{2}{3}\\right) \\times 1.5\\right] =$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.2", "$$\\frac{6}{5}$$", "$$1\\frac{1}{5}$$"] }
+      ]
+    },
+    "analysis": "先算小括号：4/5 - 2/3 = 12/15 - 10/15 = 2/15。再算中括号：2/15 × 1.5 = 2/15 × 3/2 = 1/5。最后算除法：6/25 ÷ 1/5 = 6/25 × 5 = 6/5 = 1.2。",
+    "difficulty": 4,
+    "knowledge_points": ["分数四则混合运算"]
+  },
+  {
+    "id": "106-4",
+    "type": "fill",
+    "stem": "3. 解方程或比例。 + $$75\\%x - 2.5 = 5$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10"] }
+      ]
+    },
+    "analysis": "移项得：75%x = 5 + 2.5 = 7.5。x = 7.5 ÷ 0.75 = 10。",
+    "difficulty": 2,
+    "knowledge_points": ["解含百分数的方程"]
+  },
+  {
+    "id": "106-5",
+    "type": "fill",
+    "stem": "3. 解方程或比例。 + $$4.5x + 3.8x = 16.6$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "合并同类项得：8.3x = 16.6。解得 x = 2。",
+    "difficulty": 2,
+    "knowledge_points": ["解一元一次方程"]
+  },
+  {
+    "id": "106-6",
+    "type": "fill",
+    "stem": "3. 解方程或比例。 + $$\\frac{1}{4} : 0.375 = x : \\frac{1}{10}$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{1}{15}$$"] }
+      ]
+    },
+    "analysis": "内项之积等于外项之积：0.375x = 1/4 × 1/10 = 1/40。即 3/8 x = 1/40，x = 1/40 × 8/3 = 1/15。",
+    "difficulty": 3,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "106-7",
+    "type": "fill",
+    "stem": "四、按要求完成下面各题。 1. 下图中每个小方格的边长表示 1 cm。<br><img src=\"/images/workbook/p106_q4_1.png\" /> + (1)点 A 的位置可以用 (1,4) 表示，则点 P 的位置可以用 (        ) 表示。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["13,4", "13, 4"] }
+      ]
+    },
+    "analysis": "从坐标系直接读取，点 P 在 x 轴刻度 13 处，在 y 轴刻度 4 处，故坐标为 (13,4)。",
+    "difficulty": 1,
+    "knowledge_points": ["直角坐标系的读取"]
+  },
+  {
+    "id": "106-8",
+    "type": "fill",
+    "stem": "四、按要求完成下面各题。 1. 下图中每个小方格的边长表示 1 cm。<br><img src=\"/images/workbook/p106_q4_1.png\" /> + (5)长方形②的面积是长方形①的(        )。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{1}{9}$$", "九分之一"] }
+      ]
+    },
+    "analysis": "被丢弃的前置作图题干要求“按1:3画出缩小后的长方形②”。缩小比例为 1:3 时，面积缩小为比例的平方，即 (1/3)² = 1/9。",
+    "difficulty": 3,
+    "knowledge_points": ["图形缩放的面积比"]
+  },
+  {
+    "id": "107-1",
+    "type": "fill",
+    "stem": "五、解决问题。 + 1. 清风小学六年级学生中，参加书法组的占全年级人数的 $$\\frac{2}{5}$$，参加计算机组的占全年级人数的 $$45\\%$$，比参加书法组的多 8 人。清风小学六年级共有学生多少人？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["160", "160人"] }
+      ]
+    },
+    "analysis": "参加书法组的占比 2/5 即 40%。参加计算机组的比书法组多占全年级的 45% - 40% = 5%。这 5% 对应的具体人数是 8 人。全年级人数 = 8 ÷ 5% = 160 人。",
+    "difficulty": 4,
+    "knowledge_points": ["分数与百分数综合应用", "已知部分求整体"]
+  },
+  {
+    "id": "107-2",
+    "type": "fill",
+    "stem": "五、解决问题。 + 2. 下图设计的是一个内圆外方的花坛，圆形部分种花，正方形和圆之间的部分铺草坪。如果每平方米草坪需要花费 20 元，那么铺小草坪一共需要花费多少钱？<br><img src=\"/images/workbook/p107_q2.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1720", "1720元"] }
+      ]
+    },
+    "analysis": "正方形边长为 20 m，面积 = 20 × 20 = 400 m²。内切圆的直径等于正方形边长 20 m，半径 = 10 m，面积 = 3.14 × 10² = 314 m²。草坪面积 = 400 - 314 = 86 m²。花费 = 86 × 20 = 1720 元。",
+    "difficulty": 4,
+    "knowledge_points": ["圆内接/外切图形面积", "单价与总价计算"]
+  },
+  {
+    "id": "107-3",
+    "type": "fill",
+    "stem": "五、解决问题。 + 3. 为提高树木抗寒性和防虫害能力，工人师傅给截面直径为 0.5 m 的大树树干底部涂石灰水。如下图，涂石灰水部分的面积是多少平方米？<br><img src=\"/images/workbook/p107_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.884", "1.884平方米"] }
+      ]
+    },
+    "analysis": "树干涂石灰水的部分是一个圆柱的侧面。侧面积 = πdh = 3.14 × 0.5 × 1.2 = 1.884 m²。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱的侧面积"]
+  },
+  {
+    "id": "107-4",
+    "type": "fill",
+    "stem": "五、解决问题。 + 4. 某校图书馆藏书 20 万余册，期刊报纸 400 种。藏书室有 4 个，总面积约 $$700 m^2$$，阅览室有 7 个，总面积约 $$1100 m^2$$，共 500 余个座位。目前图书馆购书资金有 10000 元。 (1)阅览室总面积比藏书室总面积多百分之多少？(百分号前保留一位小数) + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["57.1", "57.1%"] }
+      ]
+    },
+    "analysis": "多出的面积 = 1100 - 700 = 400 m²。多出的百分比 = 400 ÷ 700 ≈ 0.5714，化为百分数并保留一位小数为 57.1%。",
+    "difficulty": 3,
+    "knowledge_points": ["求一个数比另一个数多百分之几"]
+  },
+  {
+    "id": "107-5",
+    "type": "fill",
+    "stem": "五、解决问题。 + 4. 某校图书馆藏书 20 万余册，期刊报纸 400 种。藏书室有 4 个，总面积约 $$700 m^2$$，阅览室有 7 个，总面积约 $$1100 m^2$$，共 500 余个座位。目前图书馆购书资金有 10000 元。 (2)图书管理员要购买原价共 10000 元的图书，这些图书在 A 网店享“每满 200 元减 80 元”的优惠，在 B 网店享“折上折”优惠(先打七折，在此基础上再打九折)。那么图书管理员在哪个网店买书更划算？买书后还剩多少元？ + (        )店更划算，还剩(        )元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["A", "A网"] },
+        { "is_ordered": true, "accepted_values": ["4000", "4000元"] }
+      ]
+    },
+    "analysis": "A网店：10000元里面有 10000 ÷ 200 = 50 个 200元，可减去 50 × 80 = 4000 元。实付 = 10000 - 4000 = 6000 元。B网店：10000 × 0.7 × 0.9 = 6300 元。6000 < 6300，故 A 网店更划算。还剩下资金 = 10000 - 6000 = 4000 元。",
+    "difficulty": 4,
+    "knowledge_points": ["打折与满减的对比优选"]
+  },
+  {
+    "id": "107-6",
+    "type": "fill",
+    "stem": "五、解决问题。 + 4. 某校图书馆藏书 20 万余册，期刊报纸 400 种。藏书室有 4 个，总面积约 $$700 m^2$$，阅览室有 7 个，总面积约 $$1100 m^2$$，共 500 余个座位。目前图书馆购书资金有 10000 元。 (3)根据第(2)题的买书方案，如果图书管理员将剩下的购书资金存入银行，存期为三年定期，年利率为 1.5%，到期可获得利息多少元？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["180", "180元"] }
+      ]
+    },
+    "analysis": "剩下的本金为 4000 元。利息 = 本金 × 年利率 × 存期 = 4000 × 1.5% × 3 = 4000 × 0.045 = 180 元。",
+    "difficulty": 2,
+    "knowledge_points": ["利息计算"]
+  },
+  {
+    "id": "108-1",
+    "type": "fill",
+    "stem": "5. 作为我国主力高轨运载火箭，长征三号甲系列运载火箭承担着发射北斗导航卫星、月球探测器和通信卫星等重要任务。下面是长征三号甲运载火箭的部分设计参数。<br><table><tr><th>整流罩直径</th><th>整流罩长度</th><th>火箭全长</th><th>地球同步转移轨道运载能力</th></tr><tr><td>3.35 m</td><td>8.887 m</td><td>52.52 m</td><td>2.65 t</td></tr></table><br>下面是长征三号甲运载火箭某次发射的场景以及监控系统上先后间隔 2 秒，火箭沿直线运动时所在位置的情况。<br><img src=\"/images/workbook/p108_q1.png\" /> + (1)监控系统上火箭的长度与火箭实际长度的比是多少？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:1000$$"] }
+      ]
+    },
+    "analysis": "火箭实际全长 52.52 m = 5252 cm。在监控刻度尺上，火箭从 0 到刻度 5 后方一小格半的位置，长度精确读数为 5.252 cm。图上距离 : 实际距离 = 5.252 : 5252 = 1 : 1000。",
+    "difficulty": 4,
+    "knowledge_points": ["利用实际参数读取比例尺"]
+  },
+  {
+    "id": "108-2",
+    "type": "fill",
+    "stem": "5. 作为我国主力高轨运载火箭，长征三号甲系列运载火箭承担着发射北斗导航卫星、月球探测器和通信卫星等重要任务。下面是长征三号甲运载火箭的部分设计参数。<br><table><tr><th>整流罩直径</th><th>整流罩长度</th><th>火箭全长</th><th>地球同步转移轨道运载能力</th></tr><tr><td>3.35 m</td><td>8.887 m</td><td>52.52 m</td><td>2.65 t</td></tr></table><br>下面是长征三号甲运载火箭某次发射的场景以及监控系统上先后间隔 2 秒，火箭沿直线运动时所在位置的情况。<br><img src=\"/images/workbook/p108_q1.png\" /> + (2)这 2 秒，火箭飞过的实际路程是多少米？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30", "30米"] }
+      ]
+    },
+    "analysis": "监控图片上，第二帧火箭的尾部（原点为0）移到了刻度 3 cm 处。表明火箭在监控器上移动了 3 cm。实际移动距离 = 3 cm × 1000 = 3000 cm = 30 m。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺求实际路程"]
+  },
+  {
+    "id": "108-3",
+    "type": "fill",
+    "stem": "6. 为了了解 2025 年春节档观众对 A、B 两部电影的评价，某影评网站各随机抽取了 100 名参与评分的观众进行问卷调查，并在收集问卷后对相关数据进行整理，绘制了如下的统计图。(注：评分数据分为五组，一星：0~5分；二星：6分；三星：7分；四星：8分；五星：9分、10分。满分10分，评分高于四星为好评)<br><img src=\"/images/workbook/p108_q3.png\" /> + (1)$$m=$$(        ), $$n=$$(        )。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30"] },
+        { "is_ordered": true, "accepted_values": ["20"] }
+      ]
+    },
+    "analysis": "左侧柱状图总人数 100，m = 100 - 5 - 5 - 6 - 54 = 30。右侧扇形图总占比 100%，n% = 100% - 60% - 5% - 7% - 8% = 20%，所以 n = 20。",
+    "difficulty": 2,
+    "knowledge_points": ["条形统计图缺失值计算", "扇形统计图缺失百分比计算"]
+  },
+  {
+    "id": "108-4",
+    "type": "fill",
+    "stem": "6. 为了了解 2025 年春节档观众对 A、B 两部电影的评价，某影评网站各随机抽取了 100 名参与评分的观众进行问卷调查，并在收集问卷后对相关数据进行整理，绘制了如下的统计图。(注：评分数据分为五组，一星：0~5分；二星：6分；三星：7分；四星：8分；五星：9分、10分。满分10分，评分高于四星为好评)<br><img src=\"/images/workbook/p108_q3.png\" /> + (2)该网站有 5 万人参与了对电影 A 的评分，估计评分为好评的有(        )万人。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4.2"] }
+      ]
+    },
+    "analysis": "好评定义为“高于四星”，即五星（9分和10分）。电影 A 在 100 个样本中，9分的有 30 人，10分的有 54 人，共计 84 人，好评率为 84%。参与总人数 5 万人，估计好评人数 = 5 万 × 84% = 4.2 万人。",
+    "difficulty": 4,
+    "knowledge_points": ["利用样本估计总体概率"]
+  }
+]

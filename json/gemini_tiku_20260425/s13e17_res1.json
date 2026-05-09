@@ -1,0 +1,378 @@
+[
+  {
+    "id": "13-1",
+    "type": "fill",
+    "stem": "$$0.75=(        ):4=\\frac{9}{(        )}$$=(        )%=(        )折=(        )(填成数)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["12"] },
+        { "is_ordered": true, "accepted_values": ["75"] },
+        { "is_ordered": true, "accepted_values": ["七五"] },
+        { "is_ordered": true, "accepted_values": ["七成五"] }
+      ]
+    },
+    "analysis": "考查小数、比、分数、百分数、折扣、成数之间的相互转化。",
+    "difficulty": 2,
+    "knowledge_points": ["数的基本转化"]
+  },
+  {
+    "id": "13-2",
+    "type": "fill",
+    "stem": "某小规模纳税企业 2024 年营业额中应纳税部分是 50 万元，按应纳税部分的 3% 缴纳增值税，该企业需缴纳增值税(        )万元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.5"] }
+      ]
+    },
+    "analysis": "50 × 3% = 1.5 万元。",
+    "difficulty": 1,
+    "knowledge_points": ["应纳税额计算"]
+  },
+  {
+    "id": "13-3",
+    "type": "fill",
+    "stem": "封老师将 1 万元存入某银行，存六个月定期，年利率为 1.05%。到期时，他可以得到(        )元利息。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["52.5"] }
+      ]
+    },
+    "analysis": "本金 10000 元，半年为 0.5 年。利息 = 10000 × 1.05% × 0.5 = 52.5 元。",
+    "difficulty": 2,
+    "knowledge_points": ["利息计算"]
+  },
+  {
+    "id": "13-4",
+    "type": "fill",
+    "stem": "读图填空。 + 每支钢笔的原价是 15 元，现在只需(        )元。<br><img src=\"/images/workbook/p13_q4_1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9.9"] }
+      ]
+    },
+    "analysis": "所有文具一律六六折。15 × 0.66 = 9.9 元。",
+    "difficulty": 2,
+    "knowledge_points": ["折扣计算"]
+  },
+  {
+    "id": "13-5",
+    "type": "fill",
+    "stem": "读图填空。 + 您好，我要买一支钢笔。我只花 3 元 3 角就买到了原价是(        )元的笔记本。<br><img src=\"/images/workbook/p13_q4_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5"] }
+      ]
+    },
+    "analysis": "3元3角 = 3.3元。原价 = 3.3 ÷ 0.66 = 5 元。",
+    "difficulty": 3,
+    "knowledge_points": ["已知折扣和现价求原价"]
+  },
+  {
+    "id": "13-6",
+    "type": "fill",
+    "stem": "某市 2024 年共享单车总数量严重超过饱和数量，在市交通委组织下，2025 年将总数量下降二成，控制在约 64 万辆。该市 2024 年共享单车总数量约为(        )万辆。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["80"] }
+      ]
+    },
+    "analysis": "下降二成即为原来的 80%。原数量 = 64 ÷ (1 - 20%) = 80 万辆。",
+    "difficulty": 3,
+    "knowledge_points": ["成数逆推单位1"]
+  },
+  {
+    "id": "13-7",
+    "type": "fill",
+    "stem": "一种商品先提价 20% 后，再降价 20%，现价比原价(        )；若先降价 20%，再提价 20%，现价比原价(        )。(填“高”或“低”)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["低"] },
+        { "is_ordered": true, "accepted_values": ["低"] }
+      ]
+    },
+    "analysis": "无论先提再降还是先降再提，最终价格均为原价的 (1+20%)×(1-20%) = 96%，均比原价低。",
+    "difficulty": 3,
+    "knowledge_points": ["连续百分数变化"]
+  },
+  {
+    "id": "13-8",
+    "type": "choice",
+    "stem": "下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 在购物中，“打五折”与“满 100 元减 50 元”优惠相同", "img": null },
+      { "text": "B. 一件商品打八折销售，就是现价比原价优惠了 80%", "img": null },
+      { "text": "C. 利率和存期一定时，本金越多，得到的利息就越多", "img": null },
+      { "text": "D. 一件衣服先涨价 5%，要想恢复原价，应打九五折销售", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A错误，不满100则无优惠；B错误，打八折是优惠20%；D错误，提价后基数变大，打九五折为 1.05 × 0.95 = 0.9975，无法恢复原价。",
+    "difficulty": 4,
+    "knowledge_points": ["百分数综合概念辨析"]
+  },
+  {
+    "id": "13-9",
+    "type": "choice",
+    "stem": "解决图中的问题，列式正确的是(        )。<br><img src=\"/images/workbook/p13_q9.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. $$180\\times(1-20\\%)$$", "img": null },
+      { "text": "B. $$180\\div(1-20\\%)$$", "img": null },
+      { "text": "C. $$180\\times(1+20\\%)$$", "img": null },
+      { "text": "D. $$180\\div(1+20\\%)$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "图中显示2025年比2024年(180万元)增加二成，求2025年。即 180 × (1+20%)。",
+    "difficulty": 2,
+    "knowledge_points": ["线段图与成数计算"]
+  },
+  {
+    "id": "13-10",
+    "type": "choice",
+    "stem": "开学季，体育老师要购买 40 只足球，每只足球原价 35 元。他去了解了下面四家商店推出的优惠活动，去(        )商店购买最便宜。<br><img src=\"/images/workbook/p13_q10.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 甲", "img": null },
+      { "text": "B. 乙", "img": null },
+      { "text": "C. 丙", "img": null },
+      { "text": "D. 丁", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "甲店买10送2：买34只得40只，花费34×35=1190元。乙店八折：40×35×0.8=1120元。丙店满500减120：总价1400，减去2个120共240，实付1160元。丁店：40×35×0.9×0.9=1134元。乙店最便宜。",
+    "difficulty": 5,
+    "knowledge_points": ["最优方案选择"]
+  },
+  {
+    "id": "14-1",
+    "type": "fill",
+    "stem": "某商店 3 月份的应纳税销售额是 12 万元，需要按它的 1% 缴纳增值税，同时该商店还要按增值税的 3% 缴纳城市维护建设税。该商店 3 月份需要缴纳城市维护建设税多少元？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["36"] }
+      ]
+    },
+    "analysis": "增值税 = 120000 × 1% = 1200 元。城建税 = 1200 × 3% = 36 元。",
+    "difficulty": 3,
+    "knowledge_points": ["连环税率计算"]
+  },
+  {
+    "id": "14-2",
+    "type": "fill",
+    "stem": "吴阿姨买了 20000 元理财产品，三个月后取得 450 元的收益。按此计算，该理财产品的年收益率是多少？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9%"] }
+      ]
+    },
+    "analysis": "三个月收益率为 450 ÷ 20000 = 2.25%。一年有4个三个月，年收益率 = 2.25% × 4 = 9%。",
+    "difficulty": 4,
+    "knowledge_points": ["折算年收益率"]
+  },
+  {
+    "id": "15-1",
+    "type": "fill",
+    "stem": "某家电商城新店开张，推出促销活动，规则如下：①总价 1000 元以下享九五折优惠；②总价 1000~2000 元(不含 2000 元)，每满 500 元减 100 元；③总价 2000 元及以上享八折优惠，折后再减 5%。 + (1)木木家买了一台冰箱，小宇家买了一台洗衣机，他们两家分别花了多少钱？<br><img src=\"/images/workbook/p15_q1.png\" /> + 冰箱：(        ) 洗衣机：(        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1500", "1500元"] },
+        { "is_ordered": true, "accepted_values": ["760", "760元"] }
+      ]
+    },
+    "analysis": "冰箱1800元，符合条件②，满3个500减300，1800-300=1500元。洗衣机800元，符合条件①，800×0.95=760元。",
+    "difficulty": 3,
+    "knowledge_points": ["阶梯优惠规则应用"]
+  },
+  {
+    "id": "15-2",
+    "type": "fill",
+    "stem": "某家电商城新店开张，推出促销活动，规则如下：①总价 1000 元以下享九五折优惠；②总价 1000~2000 元(不含 2000 元)，每满 500 元减 100 元；③总价 2000 元及以上享八折优惠，折后再减 5%。 + (2)他们两家合在一起购买，比单独购买节省多少元？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["284"] }
+      ]
+    },
+    "analysis": "合在一起买总价 1800+800=2600 元，符合条件③。实付 = 2600 × 0.8 × (1-5%) = 1976 元。单独购买共需 1500+760=2260 元。节省 2260 - 1976 = 284 元。",
+    "difficulty": 5,
+    "knowledge_points": ["分单与合单结账比对"]
+  },
+  {
+    "id": "15-3",
+    "type": "fill",
+    "stem": "某银行目前有下面这两种存款方案。<br>方案一：先存一年定期，年利率为 1%，到期后本息转存一年定期。<br>方案二：存二年定期，年利率为 1.25%。<br>奇奇的爸爸想把 15000 元存入该银行，存期二年，他选择方案几能取回的钱更多？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["方案二", "二"] }
+      ]
+    },
+    "analysis": "方案一：15000×(1+1%)×(1+1%) = 15301.5 元。方案二：15000×(1+1.25%×2) = 15375 元。方案二更多。",
+    "difficulty": 4,
+    "knowledge_points": ["不同存期本息比对"]
+  },
+  {
+    "id": "16-1",
+    "type": "fill",
+    "stem": "通过本单元的学习我们知道：利息=(        )×(        )×(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["本金"] },
+        { "is_ordered": false, "accepted_values": ["利率"] },
+        { "is_ordered": false, "accepted_values": ["存期", "时间"] }
+      ]
+    },
+    "analysis": "利息的计算基础公式。",
+    "difficulty": 1,
+    "knowledge_points": ["利息公式"]
+  },
+  {
+    "id": "16-2",
+    "type": "fill",
+    "stem": "根据讨论，列出下面三种方案。哪种方案获得的利息最多？(方案 3 得数保留两位小数) + 方案 1：一次性存三年定期。三年的总利息：(        )<br><img src=\"/images/workbook/p16_q2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["450"] }
+      ]
+    },
+    "analysis": "10000 × 1.50% × 3 = 450 元。",
+    "difficulty": 2,
+    "knowledge_points": ["整存整取利息计算"]
+  },
+  {
+    "id": "16-3",
+    "type": "fill",
+    "stem": "根据讨论，列出下面三种方案。哪种方案获得的利息最多？(方案 3 得数保留两位小数) + 方案 2：先存两年定期，到期后再将本金和利息一起存为一年定期。<br>前两年的利息：(        )<br>第三年的利息：(        )<br>三年的总利息：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["240"] },
+        { "is_ordered": true, "accepted_values": ["112.64"] },
+        { "is_ordered": true, "accepted_values": ["352.64"] }
+      ]
+    },
+    "analysis": "前两年利息 = 10000×1.20%×2 = 240元。第三年本金为10240元，利息 = 10240×1.10%×1 = 112.64元。总利息 = 240+112.64 = 352.64元。",
+    "difficulty": 4,
+    "knowledge_points": ["滚存利息计算"]
+  },
+  {
+    "id": "16-4",
+    "type": "fill",
+    "stem": "根据讨论，列出下面三种方案。哪种方案获得的利息最多？(方案 3 得数保留两位小数) + 方案 3：每年存一年定期，到期后再连同利息一起存为新的一年定期。<br>第一年的利息：(        )<br>第二年的利息：(        )<br>第三年的利息：(        )<br>三年的总利息：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["110"] },
+        { "is_ordered": true, "accepted_values": ["111.21"] },
+        { "is_ordered": true, "accepted_values": ["112.43"] },
+        { "is_ordered": true, "accepted_values": ["333.64"] }
+      ]
+    },
+    "analysis": "第一年: 10000×1.10% = 110。第二年: 10110×1.10% = 111.21。第三年: 10221.21×1.10% = 112.43。总和 333.64元。",
+    "difficulty": 5,
+    "knowledge_points": ["复利计算"]
+  },
+  {
+    "id": "16-5",
+    "type": "fill",
+    "stem": "我发现：方案(        )获得的利息最多。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1", "一"] }
+      ]
+    },
+    "analysis": "对比 450, 352.64, 333.64 得出结论。",
+    "difficulty": 1,
+    "knowledge_points": ["数据对比结论"]
+  },
+  {
+    "id": "16-6",
+    "type": "fill",
+    "stem": "通过计算和比较上面三种方案获得的总利息，可以发现，将三年内不用的资金存入银行，直接整存(方案 1)比“利滚利”(方案 2、方案 3)获得的利息更(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["多"] }
+      ]
+    },
+    "analysis": "基于前期计算得出的结论提取。",
+    "difficulty": 1,
+    "knowledge_points": ["理财常识总结"]
+  },
+  {
+    "id": "17-1",
+    "type": "fill",
+    "stem": "将图中对话填写完整。 + 您好，这是您的消费单。打折后，需付(        )元。<br><img src=\"/images/workbook/p17_q1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["208.5"] }
+      ]
+    },
+    "analysis": "原价总计278元，全场七五折。278 × 0.75 = 208.5 元。",
+    "difficulty": 2,
+    "knowledge_points": ["图表信息读取与折扣应用"]
+  },
+  {
+    "id": "17-2",
+    "type": "fill",
+    "stem": "张叔叔预计每年年底存入银行(        )万元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12"] }
+      ]
+    },
+    "analysis": "预计每年纯收益20万元，四成用于投资，剩下存入银行。即 20 × (1 - 40%) = 12 万元。",
+    "difficulty": 2,
+    "knowledge_points": ["成数分配计算"]
+  },
+  {
+    "id": "17-3",
+    "type": "fill",
+    "stem": "若书店需按每年营业额的 3% 缴纳增值税，剩余部分为书店的纯收益，则书店预计每年需要缴纳增值税多少元？(得数保留整数) + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6186", "6186元"] }
+      ]
+    },
+    "analysis": "纯收益 200000 元对应的是营业额扣除 3% 后的 97%。营业额 = 200000 ÷ 0.97。缴纳增值税 = 200000 ÷ 0.97 × 3% ≈ 6185.56，保留整数为 6186 元。",
+    "difficulty": 6,
+    "knowledge_points": ["增值税与利润关系推导"]
+  }
+]

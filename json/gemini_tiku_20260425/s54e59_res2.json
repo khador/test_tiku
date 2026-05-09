@@ -1,0 +1,87 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 56,
+      "q_id": null,
+      "message": "第56页第6大题局部地图公交测算，隐含要求在物理图纸上通过直尺测量出线段距离，脱离书本实体无法闭环计算，已按规则整体丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 59,
+      "q_id": null,
+      "message": "第59页四部分全为网格图形缩放作图要求，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 59,
+      "q_id": null,
+      "message": "第59页第2大题(局部平面图方位与路程)隐含了多项量角器角度测量及直尺测量指令，无法文本化作答，已整题丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p54_q3.png",
+      "parent_img_filename": "54.jpg",
+      "cordinate": [700, 1100, 950, 1400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p55_q2_2.png",
+      "parent_img_filename": "55.jpg",
+      "cordinate": [150, 500, 450, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p55_q3_2.png",
+      "parent_img_filename": "55.jpg",
+      "cordinate": [150, 1300, 450, 1550],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p56_q4.png",
+      "parent_img_filename": "56.jpg",
+      "cordinate": [650, 300, 950, 400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p56_q5.png",
+      "parent_img_filename": "56.jpg",
+      "cordinate": [600, 400, 950, 550],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p58_q1_3.png",
+      "parent_img_filename": "58.jpg",
+      "cordinate": [350, 350, 750, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p58_q2_1.png",
+      "parent_img_filename": "58.jpg",
+      "cordinate": [200, 750, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p58_q2_2.png",
+      "parent_img_filename": "58.jpg",
+      "cordinate": [150, 1050, 950, 1250],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p59_q4.png",
+      "parent_img_filename": "59.jpg",
+      "cordinate": [100, 1700, 350, 1950],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 49,
+      "q_id": null,
+      "message": "第49页第2大题包含操作指令'请你量一量，并计算出'，脱离原书物理介质无法精确测量，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 49,
+      "q_id": null,
+      "message": "第49页第3大题第(2)小问包含主观文字论述指令'请说明你的理由'，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 49,
+      "q_id": null,
+      "message": "第49页第3大题第(1)与第(3)小问的作答均隐含需手工在原书插图中测量线段长度的动作，按纯文本解析无法闭环运算，整题已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 50,
+      "q_id": null,
+      "message": "第50页第4大题包含在网格中'画出行走路线，并标出各地点'的作图指令，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 51,
+      "q_id": null,
+      "message": "第51页第5大题包含指令'画出钢结构保护棚的平面图'，属于作图题，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 51,
+      "q_id": null,
+      "message": "第51页第6大题属于'一起设计主题园林'等发散性探究设计题，并包含画图要求，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 52,
+      "q_id": null,
+      "message": "第52页第3大题包含多项'画出图形'的网格作图指令，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 52,
+      "q_id": null,
+      "message": "第52页第4大题第(1)小问包含'画出缩小后的图形'指令，该关联步骤已过滤丢弃，仅保留后续运算填空"
+    },
+    {
+      "type": "open_ended",
+      "page": 53,
+      "q_id": null,
+      "message": "第53页第1大题第(3)小步为'用自己喜欢的方法检验'的主观证明题，已丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p50_q1_2.png",
+      "parent_img_filename": "50.jpg",
+      "cordinate": [600, 300, 800, 350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p52_q1_1.png",
+      "parent_img_filename": "52.jpg",
+      "cordinate": [800, 200, 950, 300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p52_q2_2.png",
+      "parent_img_filename": "52.jpg",
+      "cordinate": [150, 400, 950, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p52_q4.png",
+      "parent_img_filename": "52.jpg",
+      "cordinate": [150, 650, 450, 800],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

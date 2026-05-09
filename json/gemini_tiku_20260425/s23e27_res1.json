@@ -1,0 +1,473 @@
+[
+  {
+    "id": "23-1",
+    "type": "fill",
+    "stem": "填空。 + (1)一个圆柱的高不变，底面半径扩大到原来的 2 倍，则它的底面积扩大到原来的(        )倍，侧面积扩大到原来的(        )倍。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4"] },
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "底面积与半径的平方成正比，所以扩大4倍；侧面积与半径成正比，扩大2倍。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱的面积变化规律"]
+  },
+  {
+    "id": "23-2",
+    "type": "fill",
+    "stem": "填空。 + (2)妈妈想为优优缝制一个圆柱形帆布文具袋(如图)，拉链的宽度为 1 cm(拉链处不缝帆布)，至少需要(        )$$cm^2$$ 的帆布。<br><img src=\"/images/workbook/p23_q1_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["413.32"] }
+      ]
+    },
+    "analysis": "文具袋表面积 = 两个底面积 + 侧面积。底面积 = 3.14×3²×2 = 56.52；侧面积 = 3.14×6×20 = 376.8。拉链部分不缝帆布，其面积 = 1×20 = 20。所需帆布 = 56.52 + 376.8 - 20 = 413.32 cm²。",
+    "difficulty": 5,
+    "knowledge_points": ["表面积在生活中的扣减应用"]
+  },
+  {
+    "id": "23-3",
+    "type": "choice",
+    "stem": "选择。 + (1)工人师傅使用下面的滚筒刷在墙上各自滚动一周，粉刷墙壁的面积最大的是(        )。<br><img src=\"/images/workbook/p23_q2_1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p23_q2_optA.png" },
+      { "text": "B.", "img": "p23_q2_optB.png" },
+      { "text": "C.", "img": "p23_q2_optC.png" },
+      { "text": "D.", "img": "p23_q2_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "滚动一周的面积即为侧面积(S=πdh)。A:80π; B:90π; C:72π; D:78π。B最大。",
+    "difficulty": 3,
+    "knowledge_points": ["侧面积的直观比对"]
+  },
+  {
+    "id": "23-4",
+    "type": "choice",
+    "stem": "选择。 + (2)一个圆柱的侧面展开后是一个正方形。这个圆柱的底面直径与高的比是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$1:\\pi$$", "img": null },
+      { "text": "B. $$1:2\\pi$$", "img": null },
+      { "text": "C. $$1:4\\pi$$", "img": null },
+      { "text": "D. $$2:\\pi$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "侧面展开是正方形，说明高 = 底面周长 = πd。所以 d:h = d:πd = 1:π。",
+    "difficulty": 3,
+    "knowledge_points": ["侧面展开为正方形的特性"]
+  },
+  {
+    "id": "23-5",
+    "type": "fill",
+    "stem": "北京天坛的祈年殿内有 28 根金丝楠木大柱，内围的 4 根“龙井柱”象征着春、夏、秋、冬四季。每根“龙井柱”的高是 19.2 m，底面直径是 1.2 m。如果将这 4 根“龙井柱”重新刷一遍油漆，每平方米需要 0.2 kg 油漆，那么一共需要多少千克油漆？($$\\pi$$取3) + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["55.296"] }
+      ]
+    },
+    "analysis": "单根柱子刷漆面积为侧面积 = 3×1.2×19.2 = 69.12 m²。4根总面积 = 4×69.12 = 276.48 m²。总油漆 = 276.48 × 0.2 = 55.296 kg。",
+    "difficulty": 3,
+    "knowledge_points": ["侧面积乘法应用"]
+  },
+  {
+    "id": "23-6",
+    "type": "fill",
+    "stem": "要制作一个无盖的圆柱形铁皮水桶，有编号为①~⑤的铁皮可供搭配选择，如下图。<br><img src=\"/images/workbook/p23_q4.png\" /> + (1)我选择的铁皮是(        )和(        )(填序号)，铁皮水桶的高是(        )dm。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["①", "⑤"] },
+        { "is_ordered": false, "accepted_values": ["⑤", "①"] },
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "搭配要求侧面的长等于底面的周长。长方形①长6.28，能与圆⑤(C=3.14×2=6.28)匹配，此时高为4。(注：搭配②和③高为5也是正确答案之一)",
+    "difficulty": 4,
+    "knowledge_points": ["侧面与底面的匹配关系"]
+  },
+  {
+    "id": "23-7",
+    "type": "fill",
+    "stem": "要制作一个无盖的圆柱形铁皮水桶，有编号为①~⑤的铁皮可供搭配选择，如下图。<br><img src=\"/images/workbook/p23_q4.png\" /> + (2)制作这个无盖水桶，一共需要多少平方分米铁皮？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["28.26"] }
+      ]
+    },
+    "analysis": "按①和⑤的组合：表面积 = 侧面积 + 1个底面积 = 6.28×4 + 3.14×1² = 25.12 + 3.14 = 28.26 dm²。(若按②和③组合则为75.36)",
+    "difficulty": 3,
+    "knowledge_points": ["无盖水桶表面积计算"]
+  },
+  {
+    "id": "24-1",
+    "type": "fill",
+    "stem": "优优将不同口味的饼干分别装在相同的圆柱形盒子中。为了区分口味，她用彩纸做成长方形标签贴在盒子侧面(如图)。标签上边缘所在弧所对的圆心角是 $$90^{\\circ}$$，盒子的底面直径是 6 cm，一张标签的面积是多少平方厘米？<br><img src=\"/images/workbook/p24_q1.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["14.13"] }
+      ]
+    },
+    "analysis": "90度圆心角代表标签的长度占据了底面周长的 1/4。标签长 = (1/4)×3.14×6 = 4.71 cm。面积 = 4.71 × 3 = 14.13 cm²。",
+    "difficulty": 4,
+    "knowledge_points": ["圆周长比例与面积"]
+  },
+  {
+    "id": "24-2",
+    "type": "fill",
+    "stem": "下面各题中，刷防锈涂料的面积分别是多少？ + (1)下面是一根长 40 dm 的圆柱形金属管的局部图，给这根金属管暴露在空气中的部分刷防锈涂料。($$\\pi$$取 3，图上单位：cm)<br><img src=\"/images/workbook/p24_q2_1.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["43416"] }
+      ]
+    },
+    "analysis": "总暴露面积 = 外侧面积 + 内侧面积 + 2个环形底面积。40 dm = 400 cm。外侧=3×20×400=24000；内侧=3×16×400=19200；环形底面=2×3×(10²-8²)=216。合计 43416 cm²。",
+    "difficulty": 5,
+    "knowledge_points": ["空心圆柱表面积"]
+  },
+  {
+    "id": "24-3",
+    "type": "fill",
+    "stem": "下面各题中，刷防锈涂料的面积分别是多少？ + (2)下面是一个机械零件，上层是正方体，下层是圆柱，圆柱的底面半径是 20 cm。给这个零件的表面刷上一层防锈涂料，下底面不刷。($$\\pi$$取 3.14，图上单位：cm)<br><img src=\"/images/workbook/p24_q2_2.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2912"] }
+      ]
+    },
+    "analysis": "刷漆面积 = 圆柱侧面积 + (圆柱上底面 - 正方体底面) + 正方体5个暴露面。圆柱侧面积=2×3.14×20×10=1256；暴露的圆柱上底面=3.14×20²-100=1156；正方体5面=500。合计 2912 cm²。",
+    "difficulty": 6,
+    "knowledge_points": ["组合体表面积遮挡扣减"]
+  },
+  {
+    "id": "25-1",
+    "type": "fill",
+    "stem": "如图，将一个底面半径为 $$r$$、高为 $$h$$ 的圆柱分成若干等份，然后拼成一个近似的长方体。<br><img src=\"/images/workbook/p25_q1.png\" /> + (1)这个长方体的长为(        )，宽为(        )，高为(        )。所以圆柱的体积可以列式为(        )=(        )。(体积用含 $$\\pi$$ 和字母的式子表示)",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\pi r$$"] },
+        { "is_ordered": true, "accepted_values": ["$$r$$"] },
+        { "is_ordered": true, "accepted_values": ["$$h$$"] },
+        { "is_ordered": true, "accepted_values": ["$$V$$"] },
+        { "is_ordered": true, "accepted_values": ["$$\\pi r^2 h$$"] }
+      ]
+    },
+    "analysis": "圆柱等分后拼成长方体，长是底面周长的一半(πr)，宽是半径(r)，高就是圆柱的高(h)。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱体积公式推导"]
+  },
+  {
+    "id": "25-2",
+    "type": "fill",
+    "stem": "如图，将一个底面半径为 $$r$$、高为 $$h$$ 的圆柱分成若干等份，然后拼成一个近似的长方体。 + (2)把拼成的长方体与原来的圆柱比较，圆柱的体积(        )长方体的体积，圆柱的表面积(        )长方体的表面积。(填“大于”“小于”或“等于”)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["等于"] },
+        { "is_ordered": true, "accepted_values": ["小于"] }
+      ]
+    },
+    "analysis": "等积变形后体积不变，但长方体左右多了两个长方形切面（面积均为r×h），所以长方体表面积大于原圆柱。",
+    "difficulty": 3,
+    "knowledge_points": ["等积变形中的表面积变化"]
+  },
+  {
+    "id": "25-3",
+    "type": "fill",
+    "stem": "计算下面各圆柱的体积。<br><img src=\"/images/workbook/p25_q2.png\" /> + (1) (        ) (2) (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["125.6"] },
+        { "is_ordered": true, "accepted_values": ["62.8"] }
+      ]
+    },
+    "analysis": "图1：V = 3.14×(4/2)²×10 = 125.6 cm³。图2：V = 3.14×(4/2)²×5 = 62.8 m³。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱体积计算"]
+  },
+  {
+    "id": "25-4",
+    "type": "fill",
+    "stem": "填空。 + (1)一个圆柱的底面积是 $$3.14 dm^2$$，体积是 $$12.56 dm^3$$。这个圆柱的高是(        )$$dm$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "h = V ÷ S = 12.56 ÷ 3.14 = 4 dm。",
+    "difficulty": 1,
+    "knowledge_points": ["已知体积底面积求高"]
+  },
+  {
+    "id": "25-5",
+    "type": "fill",
+    "stem": "填空。 + (2)一个圆柱形零件的底面周长是 12.56 cm，高是 5 cm。这个圆柱形零件的底面积是(        )$$cm^2$$，体积是(        )$$cm^3$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12.56"] },
+        { "is_ordered": true, "accepted_values": ["62.8"] }
+      ]
+    },
+    "analysis": "r = 12.56 ÷ 3.14 ÷ 2 = 2。底面积 = 3.14×2² = 12.56。体积 = 12.56 × 5 = 62.8。",
+    "difficulty": 2,
+    "knowledge_points": ["已知周长求体积"]
+  },
+  {
+    "id": "25-6",
+    "type": "fill",
+    "stem": "蛋糕店一款两层蛋糕的蛋糕胚如图。蛋糕胚的主要原料是鸡蛋、白糖、小麦粉。如果制作每立方厘米蛋糕胚的成本是 0.04 元，那么制作这款蛋糕的蛋糕胚的成本是多少元？(单位：cm)<br><img src=\"/images/workbook/p25_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["100.48"] }
+      ]
+    },
+    "analysis": "上层体积 = 3.14×(10/2)²×8 = 628；下层体积 = 3.14×(20/2)²×6 = 1884。总体积 = 2512 cm³。成本 = 2512 × 0.04 = 100.48 元。",
+    "difficulty": 4,
+    "knowledge_points": ["组合体体积应用"]
+  },
+  {
+    "id": "25-7",
+    "type": "fill",
+    "stem": "将一个圆柱分成 16 等份后，拼成一个近似的长方体，再把这个长方体平放(如下图)。<br><img src=\"/images/workbook/p25_q5.png\" /> + (1)观察：平放后长方体的底面积相当于圆柱(        )的一半，长方体的高相当于圆柱的(        )。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["侧面积"] },
+        { "is_ordered": true, "accepted_values": ["底面半径", "半径"] }
+      ]
+    },
+    "analysis": "观察平放后的状态，其接触地面的大面实际上是由圆柱的侧面分割拼合而成（长为πr，宽为h），所以其底面积等于侧面积的一半。高度方向则是圆柱的半径 r。",
+    "difficulty": 4,
+    "knowledge_points": ["体积公式变式推导"]
+  },
+  {
+    "id": "25-8",
+    "type": "fill",
+    "stem": "将一个圆柱分成 16 等份后，拼成一个近似的长方体，再把这个长方体平放(如下图)。<br><img src=\"/images/workbook/p25_q5.png\" /> + (2)总结：根据第(1)题可知 $$V_{圆柱}$$ = $$V_{长方体}$$ = 长方体的底面积$$\\times$$高 = (        )$$\\times$$(        )。(用含 $$\\pi$$ 和字母的式子表示)",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$S_{侧} \\div 2$$", "$$\\pi r h$$"] },
+        { "is_ordered": true, "accepted_values": ["$$r$$"] }
+      ]
+    },
+    "analysis": "结合上一问结论代入计算模型即可得出体积也可用 侧面积的一半 乘 半径 来表示。",
+    "difficulty": 4,
+    "knowledge_points": ["侧面积与体积关系"]
+  },
+  {
+    "id": "25-9",
+    "type": "fill",
+    "stem": "将一个圆柱分成 16 等份后，拼成一个近似的长方体，再把这个长方体平放(如下图)。<br><img src=\"/images/workbook/p25_q5.png\" /> + (3)应用：若圆柱的底面半径是 4 m，侧面积是 $$251.2 m^2$$，则它的体积是多少立方米？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["502.4"] }
+      ]
+    },
+    "analysis": "直接应用公式 V = (S_侧 / 2) × r = (251.2 / 2) × 4 = 502.4 m³。",
+    "difficulty": 3,
+    "knowledge_points": ["新公式应用"]
+  },
+  {
+    "id": "26-1",
+    "type": "choice",
+    "stem": "选择。 + (1)优优想要把一袋 250 mL 的牛奶倒在杯子里喝，下面哪个杯子最合适？(        )<br><img src=\"/images/workbook/p26_q1_1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p26_q1_optA.png" },
+      { "text": "B.", "img": "p26_q1_optB.png" },
+      { "text": "C.", "img": "p26_q1_optC.png" },
+      { "text": "D.", "img": "p26_q1_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "A体积125.6；B体积500；C体积200；D图中半径标注为3cm，体积=3.14×3²×10=282.6。282.6最贴近且能装下250mL。",
+    "difficulty": 4,
+    "knowledge_points": ["容积估算与选择"]
+  },
+  {
+    "id": "26-2",
+    "type": "fill",
+    "stem": "选择。 + (2)有两个圆柱：甲的底面直径是 6 cm，高是 8 cm；乙的底面直径是 8 cm，高是 6 cm。它们的侧面积相比，(        )；体积相比，(        )。<br>A. 甲更大     B. 乙更大     C. 一样大     D. 无法比较",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["C"] },
+        { "is_ordered": true, "accepted_values": ["B"] }
+      ]
+    },
+    "analysis": "侧面积S=πdh，甲乙的dh乘积均为48，故一样大。体积V=πr²h，甲=72π，乙=96π，故乙更大（圆柱越胖越“占体积”）。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱参数互换对比"]
+  },
+  {
+    "id": "26-3",
+    "type": "fill",
+    "stem": "将一根长 20 dm、底面直径是 8 dm 的圆柱形木料横放入水中，有一半浮在水面上，如图。这根木料没入水中的部分的体积是多少立方分米？<br><img src=\"/images/workbook/p26_q2.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["502.4"] }
+      ]
+    },
+    "analysis": "总体积 = 3.14×(8/2)²×20 = 1004.8。一半没入水中，没入体积 = 1004.8 / 2 = 502.4 dm³。",
+    "difficulty": 2,
+    "knowledge_points": ["圆柱体积折半"]
+  },
+  {
+    "id": "26-4",
+    "type": "fill",
+    "stem": "下图是一个简易滴水计时器，上方是一个圆锥形漏斗，下方是一个圆柱形容器，漏斗平均每分钟滴水 60 mL。向漏斗中加入一些水，经过一段时间，水全部滴入圆柱形容器中，如图。从开始滴水到水恰好滴完，经过了多少分钟？($$\\pi$$取 3，容器厚度忽略不计)<br><img src=\"/images/workbook/p26_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10"] }
+      ]
+    },
+    "analysis": "容器直径20cm，r=10cm。下方接水的高为2cm。接水体积 = 3×10²×2 = 600 cm³ = 600 mL。耗时 = 600 / 60 = 10 分钟。",
+    "difficulty": 4,
+    "knowledge_points": ["体积与速率换算"]
+  },
+  {
+    "id": "26-5",
+    "type": "fill",
+    "stem": "如下图，李老师家有一个长方体鱼缸，鱼缸内有一个假山没浸在水中，假山的体积是 $$11 dm^3$$。换水时，用一个圆柱形的水桶来装鱼缸内排出的水，从内部测量，水桶的底面积是 $$15 dm^2$$。鱼缸内的水全都排到水桶里后，这个水桶里的水有多高？<br><img src=\"/images/workbook/p26_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3", "3dm"] }
+      ]
+    },
+    "analysis": "水与假山总体积 = 5 × 2.8 × 4 = 56 dm³。水的净体积 = 56 - 11 = 45 dm³。水桶高度 = 45 / 15 = 3 dm。",
+    "difficulty": 4,
+    "knowledge_points": ["等积变形与排水法"]
+  },
+  {
+    "id": "26-6",
+    "type": "fill",
+    "stem": "木桶原理：一只木桶能够盛多少水，取决于侧面最短的那块木板。下面是一只圆柱形木桶及其相关信息。这只木桶竖直摆放时最多能盛多少毫升水？<br>①占地面积是 $$254.34 cm^2$$。<br>②从里面量，底面直径是 16 cm。<br>③最短的木板的长度是 20 cm。<br>④最长的木板的长度是 25 cm。<br><img src=\"/images/workbook/p26_q5.png\" /> + 计算时，需要的信息有(        )(填序号)，列式为(        )(不计算)。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["②和③", "②、③"] },
+        { "is_ordered": true, "accepted_values": ["$$3.14 \\times (16\\div 2)^2 \\times 20$$"] }
+      ]
+    },
+    "analysis": "容积需要内部尺寸（排除①）和最短木板的高度（排除④）。",
+    "difficulty": 3,
+    "knowledge_points": ["短板效应在体积中的应用"]
+  },
+  {
+    "id": "27-1",
+    "type": "fill",
+    "stem": "“倒转”的瓶子。 + (1)优优生病需要输液，输液瓶正放时底面内直径是 6 cm，如图 1。护士把输液瓶倒置后，如图 2。这个输液瓶的容积是多少毫升？<br><img src=\"/images/workbook/p27_q1_1.png\" /> + 思考：可以运用转化的思想，将不规则部分的体积转化成规则图形的体积，这个输入液瓶的容积相当于(        )cm 高的圆柱的体积，所以输入液瓶的容积是(        )mL。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["19"] },
+        { "is_ordered": true, "accepted_values": ["536.94"] }
+      ]
+    },
+    "analysis": "将不规则空隙体积转化为图2顶部规则的圆柱空隙（高4cm）。液体体积为图1中的规则柱体（高15cm）。容积相当于 15 + 4 = 19cm高的圆柱。V = 3.14×3²×19 = 536.94 mL。",
+    "difficulty": 5,
+    "knowledge_points": ["等体积变形求容积"]
+  },
+  {
+    "id": "27-2",
+    "type": "fill",
+    "stem": "“倒转”的瓶子。 + (2)如右图，瓶子中装有 3000 mL 生理盐水，这个瓶子的容积是多少毫升？<br><img src=\"/images/workbook/p27_q1_2.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3720"] }
+      ]
+    },
+    "analysis": "25cm高度对应3000mL的液体，故底面积=3000/25=120。倒置后空隙对应6cm高，空隙体积 = 120×6=720mL。总容积 = 3000 + 720 = 3720 mL。",
+    "difficulty": 4,
+    "knowledge_points": ["底面积推导与等比例求容积"]
+  },
+  {
+    "id": "27-3",
+    "type": "fill",
+    "stem": "乐乐为了测量一个鸡蛋的体积，把鸡蛋放在一个底面直径是 8 cm 的圆柱形玻璃杯里(如图所示)。若各类误差均忽略不计，则鸡蛋的体积是多少立方厘米？<br>①原来水面高 5 cm。<br>②放入鸡蛋后水面高 6 cm。<br>③取出鸡蛋后水面下降了 1 cm。<br><img src=\"/images/workbook/p27_q2.png\" /> + 选择信息(        )，(        )(填序号)<br>解答：(        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["①", "②"] },
+        { "is_ordered": false, "accepted_values": ["②", "①"] },
+        { "is_ordered": true, "accepted_values": ["50.24", "50.24立方厘米"] }
+      ]
+    },
+    "analysis": "排水法求体积。选①和②（或单选③也是充分的，但此处题干留了2个空位选组合信息更贴切）。体积即为底面内直径8cm、高为1cm(6-5)的水的体积。V = 3.14×4²×1 = 50.24 cm³。",
+    "difficulty": 3,
+    "knowledge_points": ["排水法求不规则物体体积"]
+  },
+  {
+    "id": "27-4",
+    "type": "fill",
+    "stem": "在五年级时，我们用两个完全相同的梯形拼成一个平行四边形，推导出了梯形的面积公式(如下面左图)。照这样的思路，请你求出下面右图中这个几何体的体积和侧面积。<br><img src=\"/images/workbook/p27_q3.png\" /> + 体积=(        ) 侧面积=(        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["981.25", "981.25立方分米"] },
+        { "is_ordered": true, "accepted_values": ["392.5", "392.5平方分米"] }
+      ]
+    },
+    "analysis": "补全思想：复制一个该几何体并倒扣，可拼成一个底面直径10dm、高25dm(10+15)的完整圆柱。总体积=3.14×5²×25=1962.5，该几何体体积为一半=981.25。总侧面积=3.14×10×25=785，一半为392.5。",
+    "difficulty": 6,
+    "knowledge_points": ["补全法求截面体参数"]
+  },
+  {
+    "id": "27-5",
+    "type": "fill",
+    "stem": "祖暅($$g\\grave{e}ng$$)原理：夹在两个平行平面之间的两个几何体，被平行于这两个平行平面的任何平面所截，如果截得的两个截面的面积总相等，那么这两个几何体的体积相等。<br>用若干个相同规格的硬币在桌面上堆放成如下图的形状，尝试利用祖暅原理解求出游戏币的体积。<br><img src=\"/images/workbook/p27_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["18.84"] }
+      ]
+    },
+    "analysis": "根据祖暅原理，形变（倾斜摆放）不影响体积。体积等同于底面直径为2cm，高为6cm的标准圆柱。V = 3.14×1²×6 = 18.84 cm³。",
+    "difficulty": 4,
+    "knowledge_points": ["祖暅原理", "斜柱体等积"]
+  }
+]

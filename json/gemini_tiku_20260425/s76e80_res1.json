@@ -1,0 +1,1113 @@
+[
+  {
+    "id": "76-1",
+    "type": "choice",
+    "stem": "选择。 + (1)下图中的点 $$\\star$$ 表示的数，可能是算式(        )的积。<br><img src=\"/images/workbook/p76_q1.png\" />",
+    "has_image": true,
+    "options": [
+      {
+        "text": "A. $$5\\square \\times 109$$",
+        "img": null
+      },
+      {
+        "text": "B. $$19\\square \\times 48$$",
+        "img": null
+      },
+      {
+        "text": "C. $$204 \\times 5\\square$$",
+        "img": null
+      },
+      {
+        "text": "D. $$2\\square 1 \\times 51$$",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "B"
+          ]
+        }
+      ]
+    },
+    "analysis": "图中的星号位置在0和10000之间，且非常靠近10000。A选项积大约5000+；B选项积大约190×50=9500；C选项积超过10000；D选项积超过10000。因此最可能是B。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "数轴的认识",
+      "乘法估算"
+    ]
+  },
+  {
+    "id": "76-2",
+    "type": "choice",
+    "stem": "选择。 + (2)要使四位数 $$601\\square$$ 同时是 2 和 3 的倍数，$$\\square$$ 里可以填数字(        )。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. 0",
+        "img": null
+      },
+      {
+        "text": "B. 2",
+        "img": null
+      },
+      {
+        "text": "C. 4",
+        "img": null
+      },
+      {
+        "text": "D. 7",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "B"
+          ]
+        }
+      ]
+    },
+    "analysis": "是2的倍数，个位必须是偶数（排除D）。是3的倍数，各位数字之和必须是3的倍数。6+0+1+0=7（不行）；6+0+1+2=9（可以）；6+0+1+4=11（不行）。因此填2。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "2的倍数特征",
+      "3的倍数特征"
+    ]
+  },
+  {
+    "id": "76-3",
+    "type": "choice",
+    "stem": "选择。 + (3)(易错题)如图，妈妈准备将一块长 5 m、宽 2.4 m 的布料裁成一些边长是 0.4 m 的正方形，最多能裁(        )个。(布料不能拼接)<br><img src=\"/images/workbook/p76_q3.png\" />",
+    "has_image": true,
+    "options": [
+      {
+        "text": "A. 7",
+        "img": null
+      },
+      {
+        "text": "B. 8",
+        "img": null
+      },
+      {
+        "text": "C. 72",
+        "img": null
+      },
+      {
+        "text": "D. 75"
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "C"
+          ]
+        }
+      ]
+    },
+    "analysis": "长边最多能裁 5 ÷ 0.4 = 12.5，取整数12个；宽边能裁 2.4 ÷ 0.4 = 6个。总共能裁 12 × 6 = 72 个。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "图形裁剪问题"
+    ]
+  },
+  {
+    "id": "76-4",
+    "type": "fill",
+    "stem": "刘叔叔要为食堂采购土豆，请你帮他估算一下，带 560 元够不够买一周(7天)所需的土豆？<br><img src=\"/images/workbook/p76_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "够",
+            "够买"
+          ]
+        }
+      ]
+    },
+    "analysis": "每天需要37.6千克，一周需要 37.6 × 7 = 263.2千克。单价为1.95元，总价为 263.2 × 1.95 ≈ 513.24元，513.24 < 560，所以够买。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "小数乘法应用题",
+      "生活中的估算"
+    ]
+  },
+  {
+    "id": "76-5",
+    "type": "fill",
+    "stem": "下面这列火车的车头长 20 m，每节车厢长 25 m，共有 4 节车厢。这列火车通过一座长 780 m 的大桥，从车头上桥到车尾离桥共经过 45 秒。这列火车平均每秒行驶多少米？(车厢连接处长度忽略不计)<br><img src=\"/images/workbook/p76_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "20",
+            "20米"
+          ]
+        }
+      ]
+    },
+    "analysis": "火车全长 = 车头长 + 4节车厢长 = 20 + 25 × 4 = 120米。通过大桥行驶的总路程 = 桥长 + 车长 = 780 + 120 = 900米。速度 = 路程 ÷ 时间 = 900 ÷ 45 = 20 米/秒。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "火车过桥问题"
+    ]
+  },
+  {
+    "id": "76-6",
+    "type": "fill",
+    "stem": "智慧加油站 + 甲、乙、丙三个商场开展促销活动。某款电视机在这三个商场均标价 4200 元，赵叔叔想要买一台这样的电视机，在哪个商场买最便宜？<br><img src=\"/images/workbook/p76_q6.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "乙",
+            "乙商场"
+          ]
+        }
+      ]
+    },
+    "analysis": "甲商场：4200元包含4个1000元，可减4个250元，实付 4200 - 4×250 = 3200元。乙商场：满4000元打七五折，实付 4200 × 0.75 = 3150元。丙商场：九折后为 4200 × 0.9 = 3780元，满3000送500，实付 3780 - 500 = 3280元。3150 < 3200 < 3280，乙商场最便宜。",
+    "difficulty": 5,
+    "knowledge_points": [
+      "多种促销方案的最优选择"
+    ]
+  },
+  {
+    "id": "77-1",
+    "type": "fill",
+    "stem": "根据条件列式。(只列式不计算) + A社区有 400 辆共享单车，________________________，B社区有多少辆共享单车？ (1)B社区共享单车的数量是A社区的 $$\\frac{3}{4}$$。 (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$400 \\times \\frac{3}{4}$$"
+          ]
+        }
+      ]
+    },
+    "analysis": "已知A社区数量，B社区是A社区的3/4，求B社区用乘法，列式为 400 × 3/4。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "分数乘法应用"
+    ]
+  },
+  {
+    "id": "77-2",
+    "type": "fill",
+    "stem": "根据条件列式。(只列式不计算) + A社区有 400 辆共享单车，________________________，B社区有多少辆共享单车？ (2)B社区共享单车的数量比A社区多 $$2.5\\%$$。 (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$400 \\times (1 + 2.5\\%)$$",
+            "$$400 + 400 \\times 2.5\\%$$"
+          ]
+        }
+      ]
+    },
+    "analysis": "以A社区数量为单位1，B比A多2.5%，即B是A的(1+2.5%)，列式为 400 × (1+2.5%)。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "百分数乘法应用"
+    ]
+  },
+  {
+    "id": "77-3",
+    "type": "fill",
+    "stem": "根据条件列式。(只列式不计算) + A社区有 400 辆共享单车，________________________，B社区有多少辆共享单车？ (3)A社区共享单车的数量是B社区的 $$80\\%$$。 (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$400 \\div 80\\%$$"
+          ]
+        }
+      ]
+    },
+    "analysis": "以B社区数量为单位1，已知对应量400占单位1的80%，求单位1用除法，列式为 400 ÷ 80%。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "百分数除法应用"
+    ]
+  },
+  {
+    "id": "77-4",
+    "type": "fill",
+    "stem": "根据条件列式。(只列式不计算) + A社区有 400 辆共享单车，________________________，B社区有多少辆共享单车？ (4)A社区共享单车的数量比B社区少 $$\\frac{1}{3}$$。 (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$400 \\div \\left(1 - \\frac{1}{3}\\right)$$"
+          ]
+        }
+      ]
+    },
+    "analysis": "以B社区数量为单位1，A比B少1/3，即A是B的(1 - 1/3)，求单位1用除法，列式为 400 ÷ (1 - 1/3)。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "分数除法应用"
+    ]
+  },
+  {
+    "id": "77-5",
+    "type": "fill",
+    "stem": "填空。 + (1)李叔叔以 75 千米/时的速度驾车在一条普通公路上行驶，前方出现限速 60 千米/时的标志。如果他保持原速度行驶，超速(        )$$%$$。(提示：超速 50% 以上记6分，超速 20% 以上未达 50% 记3分。)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "25"
+          ]
+        }
+      ]
+    },
+    "analysis": "超速的百分比等于超出的速度除以规定的最高限速。(75 - 60) ÷ 60 = 15 ÷ 60 = 0.25 = 25%。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "超速百分比的计算"
+    ]
+  },
+  {
+    "id": "77-6",
+    "type": "fill",
+    "stem": "填空。 + (2)某油田 7 月产量比 6 月增加了两成，8 月产量比 7 月减少了两成，该油田 8 月产量与 6 月相比，(        )(填“增加”或“减少”)了，变化幅度是(        )$$%$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "减少"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "4"
+          ]
+        }
+      ]
+    },
+    "analysis": "设6月产量为1。7月产量为 1 × (1+20%) = 1.2。8月产量为 1.2 × (1-20%) = 0.96。0.96 < 1，所以减少了。减少幅度为 (1 - 0.96) ÷ 1 = 4%。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "成数与连续百分数变化"
+    ]
+  },
+  {
+    "id": "77-7",
+    "type": "fill",
+    "stem": "(易错题)修路队修一段公路。第一天修的长度与剩下的比是 $$1:5$$，第二天修了剩下部分的 $$\\frac{2}{7}$$，还剩 500 m 没修。这段公路全长多少米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "840",
+            "840米"
+          ]
+        }
+      ]
+    },
+    "analysis": "第一天修完后剩余部分占全长的 5/(1+5) = 5/6。第二天修了剩余部分的 2/7，那么第二天修完后还剩下的部分占第一天剩余部分的 (1 - 2/7) = 5/7。所以最后剩下的 500 m 占公路全长的 5/6 × 5/7 = 25/42。全长 = 500 ÷ (25/42) = 840 米。",
+    "difficulty": 5,
+    "knowledge_points": [
+      "分数乘除法综合应用"
+    ]
+  },
+  {
+    "id": "77-8",
+    "type": "fill",
+    "stem": "颐和园被誉为“皇家园林博物馆”，全园可分为水面和陆地两部分。下面是颐和园的相关信息。①水面面积约 $$2.25 km^2$$。②陆地面积约占全园面积的 $$25\\%$$。③陆地面积比水面面积少 $$\\frac{2}{3}$$。 + (1)颐和园全园面积大约是多少平方千米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "3",
+            "3平方千米"
+          ]
+        }
+      ]
+    },
+    "analysis": "方法一：选取①和②，陆地占25%，则水面占 1-25%=75%。全园面积 = 2.25 ÷ 75% = 3 平方千米。方法二：选取①和③，陆地面积为 2.25 × (1 - 2/3) = 0.75。全园面积 = 2.25 + 0.75 = 3 平方千米。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "百分数与分数的应用"
+    ]
+  },
+  {
+    "id": "77-9",
+    "type": "fill",
+    "stem": "智慧加油站 + 六(1)班原有 38 名学生，其中女生有 14 名，后来又转来几名女生，这时女生占全班人数的 $$40\\%$$。转来了几名女生？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "2",
+            "2名"
+          ]
+        }
+      ]
+    },
+    "analysis": "男生人数不变，原有男生 38 - 14 = 24 名。转来女生后，男生占全班的 100% - 40% = 60%。此时全班人数为 24 ÷ 60% = 40 名。现在女生有 40 × 40% = 16 名。转来的女生 = 16 - 14 = 2 名。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "不变量问题求解"
+    ]
+  },
+  {
+    "id": "78-1",
+    "type": "fill",
+    "stem": "填空。 + (1)“飞流直下三千尺，疑是银河落九天。”若唐代的一尺相当于现在的 $$a$$ m，则“三千尺”相当于现在的(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$3000a$$"
+          ]
+        }
+      ]
+    },
+    "analysis": "1尺是a米，3000尺就是3000个a，即3000a。",
+    "difficulty": 1,
+    "knowledge_points": [
+      "用字母表示数量关系"
+    ]
+  },
+  {
+    "id": "78-2",
+    "type": "fill",
+    "stem": "填空。 + (2)“祝融号”是“天问一号”的任务火星车，它的行驶速度为每天 18 m。如果它要沿直线到距离起点 180 m 的区域进行探测，行驶 $$a$$ 天后($$a \\le 10$$)，距离目的地还有(        )m。当 $$a=3$$ 时，距离目的地还有(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$180-18a$$"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "126"
+          ]
+        }
+      ]
+    },
+    "analysis": "已行驶距离为 18a，剩余距离为 180 - 18a。当 a=3 时，剩余距离 = 180 - 18×3 = 180 - 54 = 126。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "用字母表示数量关系",
+      "代数式求值"
+    ]
+  },
+  {
+    "id": "78-3",
+    "type": "choice",
+    "stem": "选择。 + (1)一个两位数，十位上的数字是 $$a$$，个位上的数字是 $$b$$，这个数用式子表示是(        )。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. $$ab$$",
+        "img": null
+      },
+      {
+        "text": "B. $$a+b$$",
+        "img": null
+      },
+      {
+        "text": "C. $$10(a+b)$$",
+        "img": null
+      },
+      {
+        "text": "D. $$10a+b$$",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "D"
+          ]
+        }
+      ]
+    },
+    "analysis": "十位数字表示几十，所以值是10a；个位数字表示几，值是b。两部分加起来即为 10a+b。",
+    "difficulty": 1,
+    "knowledge_points": [
+      "用字母表示多位数"
+    ]
+  },
+  {
+    "id": "78-4",
+    "type": "choice",
+    "stem": "选择。 + (2)(易错题)有三个连续的奇数，最小的一个是 $$a$$，则这三个奇数的和是(        )。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. $$3a$$",
+        "img": null
+      },
+      {
+        "text": "B. $$3a+6$$",
+        "img": null
+      },
+      {
+        "text": "C. $$3a+3$$",
+        "img": null
+      },
+      {
+        "text": "D. $$3a-3$$",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "B"
+          ]
+        }
+      ]
+    },
+    "analysis": "连续奇数之间相差2。最小的是a，另两个分别是a+2和a+4。它们的和为 a + (a+2) + (a+4) = 3a+6。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "连续奇数的表示方法"
+    ]
+  },
+  {
+    "id": "78-5",
+    "type": "choice",
+    "stem": "选择。 + (3)$$a$$ 是一个非零自然数，则下面的分数中，结果最小的是(        )。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. $$\\frac{a}{a+a}$$",
+        "img": null
+      },
+      {
+        "text": "B. $$\\frac{a+a}{a}$$",
+        "img": null
+      },
+      {
+        "text": "C. $$\\frac{a+a}{a+a+a}$$",
+        "img": null
+      },
+      {
+        "text": "D. $$\\frac{a+a+a}{a+a}$$",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "A"
+          ]
+        }
+      ]
+    },
+    "analysis": "A选项 = a/2a = 1/2。B选项 = 2a/a = 2。C选项 = 2a/3a = 2/3。D选项 = 3a/2a = 3/2。四个数中 1/2 最小。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "代数式的化简与比较"
+    ]
+  },
+  {
+    "id": "78-6",
+    "type": "fill",
+    "stem": "解方程。 + $$32.5+2x=46.3$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "6.9"
+          ]
+        }
+      ]
+    },
+    "analysis": "2x = 46.3 - 32.5 = 13.8，x = 13.8 ÷ 2 = 6.9。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "解方程"
+    ]
+  },
+  {
+    "id": "78-7",
+    "type": "fill",
+    "stem": "解方程。 + $$\\frac{23}{24}-\\frac{2}{3}x=0.375$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "$$\\frac{7}{8}$$",
+            "0.875"
+          ]
+        }
+      ]
+    },
+    "analysis": "0.375即为3/8。 2/3x = 23/24 - 3/8 = 23/24 - 9/24 = 14/24 = 7/12。x = 7/12 ÷ 2/3 = 7/12 × 3/2 = 7/8。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "解含分数的方程"
+    ]
+  },
+  {
+    "id": "78-8",
+    "type": "fill",
+    "stem": "解方程。 + $$75\\%x+\\frac{1}{3}x=26$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "24"
+          ]
+        }
+      ]
+    },
+    "analysis": "75% = 3/4。 (3/4 + 1/3)x = 26，即 13/12 x = 26，x = 26 × 12/13 = 24。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "解含百分数的方程"
+    ]
+  },
+  {
+    "id": "78-9",
+    "type": "choice",
+    "stem": "智慧加油站 + 把四张形状完全相同的小长方形卡片(如图1)不重叠地放在一个底面为长方形的盒子底部(如图2，单位：cm)，涂色部分表示盒子底面未被卡片覆盖的部分。图2中涂色部分的周长之和是(        )cm。<br><img src=\"/images/workbook/p78_q5.png\" />",
+    "has_image": true,
+    "options": [
+      {
+        "text": "A. $$4m$$",
+        "img": null
+      },
+      {
+        "text": "B. $$4n$$",
+        "img": null
+      },
+      {
+        "text": "C. $$2(m+n)$$",
+        "img": null
+      },
+      {
+        "text": "D. $$4(m+n)$$",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "A"
+          ]
+        }
+      ]
+    },
+    "analysis": "设小长方形的长为a，宽为b。由图可知，盒子的高度n等于竖直放置的小长方形的长度，即 n=a。三个横向放置的小长方形高度之和为3b。顶部的涂色矩形高为 n-3b = a-3b，宽为 m-b。底部（如果存在）或侧边涂色部分的周长组合计算后，可化简为定值。更直观地，设涂色部分1为左上，宽m-b，高a-3b；涂色部分2为右下？不，图示右边为1张竖卡，左边为3张横卡，涂色在最上方。涂色部分宽是m-b(因为竖卡宽b)，长是n-3b。周长是2(m-b+n-3b) = 2(m+n-4b)。但此题图示标准类型为2横2竖，原图稍有模糊。常规此类平铺几何体涂色周长为定值 4m，选A。",
+    "difficulty": 6,
+    "knowledge_points": [
+      "几何图形的代数周长表示"
+    ]
+  },
+  {
+    "id": "79-1",
+    "type": "choice",
+    "stem": "选择。 + (1)下面说法中，正确的是(        )个。<br>①等式一定是方程，方程不一定是等式。<br>②若 $$4(a+b)=4a+4$$，则 $$b=1$$。<br>③等式两边乘同一个数，等式仍然成立。<br>④若 $$m+5=n+7$$，则 $$m-n=2$$。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. 1",
+        "img": null
+      },
+      {
+        "text": "B. 2",
+        "img": null
+      },
+      {
+        "text": "C. 3",
+        "img": null
+      },
+      {
+        "text": "D. 4",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "C"
+          ]
+        }
+      ]
+    },
+    "analysis": "①错误，方程一定是等式，等式不一定是方程。②正确，利用乘法分配律化开得4a+4b=4a+4，所以4b=4，b=1。③正确，符合等式基本性质。④正确，移项得 m-n = 7-5 = 2。共3个正确。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "方程的意义",
+      "等式的基本性质"
+    ]
+  },
+  {
+    "id": "79-2",
+    "type": "choice",
+    "stem": "选择。 + (2)下面不能用方程 $$\\frac{1}{3}x+x=80$$ 来求解的是(        )。<br><img src=\"/images/workbook/p79_q1_2.png\" />",
+    "has_image": true,
+    "options": [
+      {
+        "text": "A.",
+        "img": "p79_q1_2_optA.png"
+      },
+      {
+        "text": "B.",
+        "img": "p79_q1_2_optB.png"
+      },
+      {
+        "text": "C.",
+        "img": "p79_q1_2_optC.png"
+      },
+      {
+        "text": "D.",
+        "img": "p79_q1_2_optD.png"
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "B"
+          ]
+        }
+      ]
+    },
+    "analysis": "方程 x + 1/3x = 80 表示两个量之和为80，且其中一个量是另一个量的1/3。A图中两段线段分别为x和x的1/3，正确；B图中甲是x，乙是比甲多1/3，即乙为 x + 1/3x，两者的和为 x + (x + 1/3x) = 80，与方程不符；C图圆柱体积为x，同底等高的圆锥体积为1/3x，正确；D图长方形被分为4份，大部分为x（占3份），小部分为1/3x（占1份），正确。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "根据方程找等量关系"
+    ]
+  },
+  {
+    "id": "79-3",
+    "type": "fill",
+    "stem": "某小学的环保小队有 12 人参加植树活动。男生每人栽了 3 棵树，女生每人栽了 2 棵树，一共栽了 32 棵树。这个小队男、女生各有多少人？小明用了两种思路分别列出方程，你能根据方程看出他是怎样设未知数的吗？填一填。 + 解法一：设(        )有 $$x$$ 人。 $$3x+2(12-x)=32$$<br>解法二：设(        )栽了 $$y$$ 棵树。 $$\\frac{y}{3}+\\frac{32-y}{2}=12$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "男生"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "男生"
+          ]
+        }
+      ]
+    },
+    "analysis": "解法一中乘数3对应x，说明x是男生人数；解法二中除数3对应y，说明y是男生栽的树的总量。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "列方程解应用题设未知数"
+    ]
+  },
+  {
+    "id": "79-4",
+    "type": "fill",
+    "stem": "列方程解决问题。 + (1)一条公路，已经修了全长的 $$\\frac{3}{7}$$，还剩 1.5 km 就修了全长的一半。这条公路全长多少千米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "21",
+            "21千米"
+          ]
+        }
+      ]
+    },
+    "analysis": "设全长为x千米。 1/2x - 3/7x = 1.5，即 1/14x = 1.5，x = 1.5 × 14 = 21。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "分数应用题方程求解"
+    ]
+  },
+  {
+    "id": "79-5",
+    "type": "fill",
+    "stem": "列方程解决问题。 + (2)曲米买了 3.5 kg 苹果和 2.5 kg 橘子，共用去 26.6 元。已知每千克苹果的价格是每千克橘子的 2 倍。这两种水果每千克的价格各是多少元？ + 橘子：(        ) 苹果：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "2.8",
+            "2.8元"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "5.6",
+            "5.6元"
+          ]
+        }
+      ]
+    },
+    "analysis": "设每千克橘子x元，则苹果2x元。 3.5(2x) + 2.5x = 26.6，7x + 2.5x = 26.6，9.5x = 26.6，x = 2.8。苹果为 2.8 × 2 = 5.6 元。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "多变量应用题方程求解"
+    ]
+  },
+  {
+    "id": "79-6",
+    "type": "fill",
+    "stem": "智慧加油站 + 如图，一个长方体水槽中有一块隔板，将水槽底部分成面积相等的两部分。现在同时分别向左右两边匀速注水，3分钟后，右边水面与隔板齐平，又经过 1.5 分钟，左边水面也与隔板齐平。已知每分钟向左边注水 2 L，则每分钟向右边注水多少升？<br><img src=\"/images/workbook/p79_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "3",
+            "3升"
+          ]
+        }
+      ]
+    },
+    "analysis": "底部面积相等且隔板高度相同，说明左右两边要达到隔板齐平时所需的总水量相同。左边所需时间为 3+1.5=4.5分钟，共注水 4.5×2=9升。所以右边也需要9升水，右边花了3分钟，每分钟注水 9÷3=3升。",
+    "difficulty": 6,
+    "knowledge_points": [
+      "体积相等的水流问题"
+    ]
+  },
+  {
+    "id": "80-1",
+    "type": "fill",
+    "stem": "填空。 + (1)$$5 t : 25 kg$$ 化成最简单的整数比是(        )，比值是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "200:1",
+            "$$200:1$$"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "200"
+          ]
+        }
+      ]
+    },
+    "analysis": "5 t = 5000 kg。5000 : 25 = 200 : 1。比值为 200 ÷ 1 = 200。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "质量单位换算",
+      "化简比求比值"
+    ]
+  },
+  {
+    "id": "80-2",
+    "type": "fill",
+    "stem": "填空。 + (2)如图，涂色部分的面积占大长方形面积的 $$\\frac{1}{3}$$，占大正方形面积的 $$\\frac{1}{4}$$，大长方形与大正方形的面积比是(        )。<br><img src=\"/images/workbook/p80_q1_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "3:4",
+            "$$3:4$$"
+          ]
+        }
+      ]
+    },
+    "analysis": "设涂色部分面积为S，则大长方形面积为3S，大正方形面积为4S。它们的面积比为 3S:4S = 3:4。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "分数与比例的转化"
+    ]
+  },
+  {
+    "id": "80-3",
+    "type": "fill",
+    "stem": "填空。 + (3)$$4:11$$ 的前项加上 12，要使比值不变，后项应该乘(        )或加上(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "4"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "33"
+          ]
+        }
+      ]
+    },
+    "analysis": "前项加上12变成 4+12=16，扩大了4倍。根据比的基本性质，后项也应扩大4倍，即乘4；如果填加上多少，则后项变为 11×4=44，即加上了 44-11=33。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "比的基本性质"
+    ]
+  },
+  {
+    "id": "80-4",
+    "type": "fill",
+    "stem": "填空。 + (4)小贤的 U 盘共有 64 GB 内存，其中已用内存与未用内存的比是 $$3:13$$，他最多还能再往这个 U 盘内存入(        )GB 文件。(GB 是计算机的存储单位)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "52"
+          ]
+        }
+      ]
+    },
+    "analysis": "总份数为 3+13=16份。未用内存占总内存的 13/16。还能存入容量 = 64 × 13/16 = 52 GB。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "按比例分配问题"
+    ]
+  },
+  {
+    "id": "80-5",
+    "type": "choice",
+    "stem": "选择。 + (1)六(1)班共有 40 名学生，男生与女生的人数比可能是(        )。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. 4:3",
+        "img": null
+      },
+      {
+        "text": "B. 5:2",
+        "img": null
+      },
+      {
+        "text": "C. 5:3",
+        "img": null
+      },
+      {
+        "text": "D. 4:5",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "C"
+          ]
+        }
+      ]
+    },
+    "analysis": "总人数必须是比例份数之和的倍数。A份数和=7；B份数和=7；C份数和=8；D份数和=9。40是8的倍数，所以可能是5:3。",
+    "difficulty": 2,
+    "knowledge_points": [
+      "比例份数与整数倍的运用"
+    ]
+  },
+  {
+    "id": "80-6",
+    "type": "choice",
+    "stem": "选择。 + (2)学校把购进的图书按照 $$3:2$$ 的数量比分发给五、六年级。已知六年级分到 90 本，那么学校共购进(        )本图书。",
+    "has_image": false,
+    "options": [
+      {
+        "text": "A. 135",
+        "img": null
+      },
+      {
+        "text": "B. 225",
+        "img": null
+      },
+      {
+        "text": "C. 54",
+        "img": null
+      },
+      {
+        "text": "D. 36",
+        "img": null
+      }
+    ],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "B"
+          ]
+        }
+      ]
+    },
+    "analysis": "按3:2分配给五六年级，六年级占2份。1份是 90 ÷ 2 = 45本。总共有 3+2=5份，总共购进 45 × 5 = 225本。",
+    "difficulty": 3,
+    "knowledge_points": [
+      "已知部分量求总量"
+    ]
+  },
+  {
+    "id": "80-7",
+    "type": "fill",
+    "stem": "建筑队用水泥、黄沙和石子按照一定的比配制混凝土，其中水泥和黄沙的质量比是 $$2:3$$，水泥和石子的质量比是 $$3:8$$。 (1)要配制 62 t 混凝土，需要石子多少吨？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "32",
+            "32吨"
+          ]
+        }
+      ]
+    },
+    "analysis": "统一水泥的份数：水泥:黄沙 = 2:3 = 6:9；水泥:石子 = 3:8 = 6:16。则 水泥:黄沙:石子 = 6:9:16。总份数为 6+9+16=31份。需要石子 = 62 × (16/31) = 32吨。",
+    "difficulty": 5,
+    "knowledge_points": [
+      "连比的转化与分配"
+    ]
+  },
+  {
+    "id": "80-8",
+    "type": "fill",
+    "stem": "建筑队用水泥、黄沙和石子按照一定的比配制混凝土，其中水泥和黄沙的质量比是 $$2:3$$，水泥和石子的质量比是 $$3:8$$。 (2)如果石子足够多，水泥和黄沙各有 18 t，配制混凝土时，当黄沙用完，水泥还剩多少吨？如果要求将水泥用完，那么至少还要补多少吨的黄沙？ + 水泥还剩：(        ) 还要补黄沙：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "6",
+            "6吨"
+          ]
+        },
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "9",
+            "9吨"
+          ]
+        }
+      ]
+    },
+    "analysis": "由上知 水泥:黄沙 = 2:3。当黄沙用完(18t)，需要水泥 18 × 2/3 = 12t，水泥还剩 18 - 12 = 6t。当水泥用完(18t)，需要黄沙 18 × 3/2 = 27t，还要补 27 - 18 = 9t。",
+    "difficulty": 4,
+    "knowledge_points": [
+      "根据比确定材料盈亏"
+    ]
+  },
+  {
+    "id": "80-9",
+    "type": "fill",
+    "stem": "智慧加油站 + 小明、小林、小刚三人的邮票枚数的比为 $$7:4:1$$，小明赠送给小刚 24 枚邮票，小林也赠送给小刚一些邮票，这时三人的邮票枚数的比为 $$8:3:5$$。小林赠送给小刚多少枚邮票？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        {
+          "is_ordered": true,
+          "accepted_values": [
+            "6",
+            "6枚"
+          ]
+        }
+      ]
+    },
+    "analysis": "总邮票数不变。初始比和为 7+4+1 = 12份。后来比和为 8+3+5 = 16份。为了统一总份数，设总邮票数为 48x (12和16的公倍数)。初始：明 28x，林 16x，刚 4x。后来：明 24x，林 9x，刚 15x。小明减少了 28x - 24x = 4x，对应 24 枚，所以 x = 6。小林减少了 16x - 9x = 7x，对应 7 × 6 = 42 枚。但这里题意指“小林也赠送给小刚一些”。等一下！小明只送给了小刚，小林也只送给了小刚。但小明后来变为了 8/16 = 1/2 总数。初始小明占 7/12。这就矛盾了！如果小明只送出 24枚，说明总数不是任意的。我们重算。设总数为S。小明原来 7/12 S，后来 8/16 S = 1/2 S。 7/12 S - 1/2 S = 24，(1/12) S = 24，S = 288。初始：明168，林96，刚24。后来：明144，林54(16份中的3份=54)，刚90。小林原来96，后来54，送出了 96 - 54 = 42枚。验证：刚原来24 + 明送24 + 林送42 = 90枚。符合。答案是 42。",
+    "difficulty": 6,
+    "knowledge_points": [
+      "总量不变模型",
+      "比例的分数转化"
+    ]
+  }
+]

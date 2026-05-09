@@ -1,0 +1,488 @@
+[
+  {
+    "id": "7-1",
+    "type": "fill",
+    "stem": "填空。 + (1)某服装店商品打六折出售。同学们描述原价和现价的关系，正确的有(        )。<br>①六折表示现价是原价的 $$60\\%$$。<br>②原来买3件衣服的钱，现在可买5件。<br>③原价：|--|--|--|--|--| 现价：比原价便宜 $$40\\%$$<br>④原价：[ 1 ] 现价：[ $$\\frac{3}{5}$$ ]",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["①②③④", "①、②、③、④"] }
+      ]
+    },
+    "analysis": "六折即60%。①正确；②原来单价为x，现在为0.6x，3x/0.6x=5，正确；③便宜1-60%=40%，正确；④3/5即60%，正确。",
+    "difficulty": 4,
+    "knowledge_points": ["折扣的意义与转化"]
+  },
+  {
+    "id": "7-2",
+    "type": "fill",
+    "stem": "填空。 + (2)某商场搞促销活动，请你帮售货员把下面商品的价格标签补充完整。<br><img src=\"/images/workbook/p7_q2.png\" /> + (        ) (        ) (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["77"] },
+        { "is_ordered": true, "accepted_values": ["60"] },
+        { "is_ordered": true, "accepted_values": ["六"] }
+      ]
+    },
+    "analysis": "书包现价：110×0.7=77元；电水壶原价：51÷0.85=60元；台灯折扣：48÷80=0.6，即六折。",
+    "difficulty": 2,
+    "knowledge_points": ["原价、现价与折扣的计算"]
+  },
+  {
+    "id": "7-3",
+    "type": "fill",
+    "stem": "某线上购物平台“购物节”活动促销宣传：“全场八折，会员再享折上九折。” + (1)非会员的优优看中一条原价 180 元的裙子，活动期间购买，她可以节省多少元？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["36"] }
+      ]
+    },
+    "analysis": "节省的金额 = 180 - 180×0.8 = 36元。",
+    "difficulty": 2,
+    "knowledge_points": ["折扣计算"]
+  },
+  {
+    "id": "7-4",
+    "type": "fill",
+    "stem": "某线上购物平台“购物节”活动促销宣传：“全场八折，会员再享折上九折。” + (3)有一款裤子，会员比非会员购买时少付 32 元。这款裤子的原价是多少元？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["400"] }
+      ]
+    },
+    "analysis": "非会员按八折（0.8）购买，会员按八折再九折（0.8×0.9=0.72）购买。原价 = 32 ÷ (0.8 - 0.72) = 400元。",
+    "difficulty": 5,
+    "knowledge_points": ["折上折问题逆推"]
+  },
+  {
+    "id": "7-5",
+    "type": "fill",
+    "stem": "夏季天气炎热，太阳照射强烈，故遮阳帽销量极好。某店的遮阳帽先提价 $$20\\%$$，后来因为秋季到来，销量下降，于是又推出“遮阳帽打八折”的促销活动。现在的价格和原价相比，是涨了还是降了？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["降了"] }
+      ]
+    },
+    "analysis": "设原价为1。现价 = 1 × (1+20%) × 0.8 = 0.96。0.96 < 1，所以降了。",
+    "difficulty": 3,
+    "knowledge_points": ["提价与降价复合计算"]
+  },
+  {
+    "id": "8-1",
+    "type": "fill",
+    "stem": "六成=$$\\frac{(        )}{10}$$=(        )$$%$$    四成五=(        )$$%$$    $$25\\%$$=(        )(填成数)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["60"] },
+        { "is_ordered": true, "accepted_values": ["45"] },
+        { "is_ordered": true, "accepted_values": ["二成五", "两成五"] }
+      ]
+    },
+    "analysis": "成数与分数、百分数的相互转化。一成即十分之一，也就是10%。",
+    "difficulty": 1,
+    "knowledge_points": ["成数的意义"]
+  },
+  {
+    "id": "8-2",
+    "type": "choice",
+    "stem": "“绿水青山就是金山银山。”近年来某发电厂积极改进发电技术，大力推动风电、光伏发电发展，2025年的碳排放量比2024年减少三成五。下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 2025年该发电厂的碳排放量是2024年的$$35\\%$$", "img": null },
+      { "text": "B. 2024年该发电厂的碳排放量比2025年多$$35\\%$$", "img": null },
+      { "text": "C. 2025年该发电厂的碳排放量是2024年的$$65\\%$$", "img": null },
+      { "text": "D. 2024年该发电厂的碳排放量是2025年的$$135\\%$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "减少三成五意味着减少了35%，那么2025年是2024年的 1 - 35% = 65%。",
+    "difficulty": 2,
+    "knowledge_points": ["成数与百分数的实际应用"]
+  },
+  {
+    "id": "8-3",
+    "type": "fill",
+    "stem": "下面是某企业2021—2025年资产规模情况。<br><img src=\"/images/workbook/p8_q3.png\" /> + (1)该企业2025年的资产规模比2021年增长了四成，2025年的资产规模是多少亿元？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3.5"] }
+      ]
+    },
+    "analysis": "2021年为2.5亿元，增长四成（40%）后为：2.5 × (1 + 0.4) = 3.5 亿元。",
+    "difficulty": 2,
+    "knowledge_points": ["成数的增加量计算"]
+  },
+  {
+    "id": "8-4",
+    "type": "fill",
+    "stem": "下面是某企业2021—2025年资产规模情况。<br><img src=\"/images/workbook/p8_q3.png\" /> + (2)该企业2022年的资产规模比2020年减少了一成，2020年的资产规模是多少亿元？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] }
+      ]
+    },
+    "analysis": "2022年为2.7亿元，比2020年少一成（10%），即2020年的90%。2020年规模 = 2.7 ÷ (1 - 0.1) = 3 亿元。",
+    "difficulty": 3,
+    "knowledge_points": ["成数逆推单位1"]
+  },
+  {
+    "id": "8-5",
+    "type": "fill",
+    "stem": "某品牌电脑厂商为提高市场占有率，打出“暑期九折优惠”的广告，当月销量比上个月增长了二成五，销售额增加了60万元。该品牌电脑上个月的销售额是多少万元？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["480"] }
+      ]
+    },
+    "analysis": "设上个月销售额为S（单价×数量）。本月单价为0.9，数量为1.25，本月销售额 = 0.9 × 1.25 × S = 1.125S。增加量 = 1.125S - S = 0.125S = 60万元。S = 60 ÷ 0.125 = 480万元。",
+    "difficulty": 6,
+    "knowledge_points": ["折扣与成数的综合应用"]
+  },
+  {
+    "id": "9-1",
+    "type": "fill",
+    "stem": "税率的基本认识和应用。 + (1)定义：应缴纳的税款叫作(        )，(        )与各种收入(销售额、营业额……)中应纳税部分的比率叫作(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["应纳税额"] },
+        { "is_ordered": true, "accepted_values": ["应纳税额"] },
+        { "is_ordered": true, "accepted_values": ["税率"] }
+      ]
+    },
+    "analysis": "考察税率的基本概念。",
+    "difficulty": 1,
+    "knowledge_points": ["税率基本概念"]
+  },
+  {
+    "id": "9-2",
+    "type": "fill",
+    "stem": "税率的基本认识和应用。 + (2)数量关系：应纳税部分 × (        ) = (        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["税率"] },
+        { "is_ordered": true, "accepted_values": ["应纳税额"] }
+      ]
+    },
+    "analysis": "考察税款计算公式。",
+    "difficulty": 1,
+    "knowledge_points": ["税款计算公式"]
+  },
+  {
+    "id": "9-3",
+    "type": "fill",
+    "stem": "税率的基本认识和应用。 + (3)应用：将下表补充完整。<br><table><tr><th>纳税者</th><th>某科技公司</th><th>方叔叔</th><th>李阿姨</th></tr><tr><td>纳税类型</td><td>企业所得税</td><td>购房契税</td><td>个人所得税</td></tr><tr><td>税率</td><td>$$15\\%$$</td><td>$$1\\%$$</td><td>(        )$$%$$</td></tr><tr><td>应纳税部分</td><td>4万元</td><td>(        )万元</td><td>2000元</td></tr><tr><td>应纳税额</td><td>(        )元</td><td>2.4万元</td><td>60元</td></tr></table>",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["240"] },
+        { "is_ordered": true, "accepted_values": ["6000"] }
+      ]
+    },
+    "analysis": "李阿姨税率=60÷2000=3%；方叔叔应纳税部分=2.4÷1%=240万元；某科技公司应纳税额=40000×15%=6000元（注意单位转换）。",
+    "difficulty": 3,
+    "knowledge_points": ["应纳税额与税率计算"]
+  },
+  {
+    "id": "9-4",
+    "type": "fill",
+    "stem": "填空。 + (1)刘叔叔的小说发表后，他得到一笔 15 万元的稿费，根据规定，他需按全部稿费的 $$11.2\\%$$ 缴纳个人所得税。刘叔叔需缴税(        )万元，实际获得(        )万元稿费。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.68"] },
+        { "is_ordered": true, "accepted_values": ["13.32"] }
+      ]
+    },
+    "analysis": "缴税：15 × 11.2% = 1.68万元。实际获得：15 - 1.68 = 13.32万元。",
+    "difficulty": 2,
+    "knowledge_points": ["个人所得税计算"]
+  },
+  {
+    "id": "9-5",
+    "type": "fill",
+    "stem": "填空。 + (2)优优的妈妈在商场里买了一套化妆品，需要缴纳消费税 60 元，消费税占售价的 $$15\\%$$。这套化妆品的售价是(        )元。<br><img src=\"/images/workbook/p9_q5.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["400"] }
+      ]
+    },
+    "analysis": "售价 = 消费税 ÷ 消费税率 = 60 ÷ 15% = 400元。",
+    "difficulty": 2,
+    "knowledge_points": ["已知应纳税额求总额"]
+  },
+  {
+    "id": "9-6",
+    "type": "fill",
+    "stem": "政策规定，对购置日期在2024年1月1日至2025年12月31日期间的新能源汽车免征车辆购置税，其中，每辆新能源乘用车免税额不超过3万元。2025年11月1日，方叔叔购置了一辆计税价格为50万元的新能源汽车，他缴纳了车辆购置税多少万元？<br><img src=\"/images/workbook/p9_q6.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "理论应纳税 = 50 × 10% = 5万元。由于免税额上限为3万元，因此实际缴纳 = 5 - 3 = 2万元。",
+    "difficulty": 4,
+    "knowledge_points": ["分段或封顶税额计算"]
+  },
+  {
+    "id": "9-7",
+    "type": "fill",
+    "stem": "根据规定，个人年综合所得超过 60000 元的部分为应纳税所得额，下面是部分征税标准。2024年李叔叔共缴纳个人所得税 1480 元，他的年综合所得为多少元？<br><table><tr><th>全年应纳税所得额</th><th>税率/$$%$$</th></tr><tr><td>不超过 36000 元的部分</td><td>3</td></tr><tr><td>超过 36000 元至 144000 元的部分</td><td>10</td></tr><tr><td>超过 144000 元至 300000 元的部分</td><td>20</td></tr></table> + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["100000"] }
+      ]
+    },
+    "analysis": "第一档（36000元以内）税金为 36000 × 3% = 1080元。剩余税金 1480 - 1080 = 400元。第二档产生的应纳税额为 400 ÷ 10% = 4000元。因此总应纳税所得额 = 36000 + 4000 = 40000元。年综合所得 = 60000 + 40000 = 100000元。",
+    "difficulty": 6,
+    "knowledge_points": ["阶梯个人所得税逆推"]
+  },
+  {
+    "id": "10-1",
+    "type": "fill",
+    "stem": "存入银行的钱叫作(        )，取款时银行多支付的钱叫作(        )。<br>单位时间(如1年、1月、1日等)内利息与本金的比率叫作(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["本金"] },
+        { "is_ordered": true, "accepted_values": ["利息"] },
+        { "is_ordered": true, "accepted_values": ["利率"] }
+      ]
+    },
+    "analysis": "考察储蓄相关基本概念。",
+    "difficulty": 1,
+    "knowledge_points": ["本金、利息与利率的概念"]
+  },
+  {
+    "id": "10-2",
+    "type": "choice",
+    "stem": "王叔叔将 3000 元存入银行，存二年定期，年利率为 $$1.20\\%$$，要知道到期时他能得到多少元利息，列式为(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$3000\\times 1.20\\%$$", "img": null },
+      { "text": "B. $$3000\\times (1+1.20\\%)$$", "img": null },
+      { "text": "C. $$3000\\times 1.20\\%\\times 2$$", "img": null },
+      { "text": "D. $$3000\\times (1+1.20\\%\\times 2)$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "利息 = 本金 × 利率 × 存期。求的是纯利息，不需要加本金，故选C。",
+    "difficulty": 2,
+    "knowledge_points": ["利息公式"]
+  },
+  {
+    "id": "10-3",
+    "type": "fill",
+    "stem": "下面是林老师的储蓄存单的一部分，到期时，林老师一共可以取回(        )元。<br><img src=\"/images/workbook/p10_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["52175"] }
+      ]
+    },
+    "analysis": "本息和 = 50000 + 50000 × 1.45% × 3 = 52175元。",
+    "difficulty": 3,
+    "knowledge_points": ["本息和计算"]
+  },
+  {
+    "id": "10-4",
+    "type": "fill",
+    "stem": "2025年9月，王奶奶把 80000 元存入银行，存期三年，年利率是(        )，到期时王奶奶一共能取回多少钱？ + (        )<br><table><tr><th>存期</th><th>一年</th><th>二年</th><th>三年</th><th>五年</th></tr><tr><td>年利率</td><td>$$0.95\\%$$</td><td>$$1.05\\%$$</td><td>$$1.25\\%$$</td><td>$$1.30\\%$$</td></tr></table>",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.25%", "1.25"] },
+        { "is_ordered": true, "accepted_values": ["83000元", "83000"] }
+      ]
+    },
+    "analysis": "查表得三年期利率1.25%。到期可取回本息 = 80000 + 80000 × 1.25% × 3 = 83000元。",
+    "difficulty": 3,
+    "knowledge_points": ["查表计算本息和"]
+  },
+  {
+    "id": "10-5",
+    "type": "fill",
+    "stem": "《九章算术》中有这样一道题：<br>今有贷人千钱，月息三十。今有贷人七百五十钱，九日归之，问息几何。<br>这道题的大概意思：某人借款 750 钱，约定 9 天后归还，以“每借一千钱付息三十钱”的月利率来计算利息，归还时应付多少利息？(一个月按 30 天计算)<br>(1)阅读分析：月利率是(        )，问题中的借款时间是(        )个月。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3%", "0.03"] },
+        { "is_ordered": true, "accepted_values": ["0.3", "3/10"] }
+      ]
+    },
+    "analysis": "千钱月息三十，月利率 = 30 ÷ 1000 = 3%。9天合 9 ÷ 30 = 0.3 个月。",
+    "difficulty": 4,
+    "knowledge_points": ["古代数学文化", "利率转换"]
+  },
+  {
+    "id": "10-6",
+    "type": "fill",
+    "stem": "《九章算术》中有这样一道题：<br>今有贷人千钱，月息三十。今有贷人七百五十钱，九日归之，问息几何。<br>这道题的大概意思：某人借款 750 钱，约定 9 天后归还，以“每借一千钱付息三十钱”的月利率来计算利息，归还时应付多少利息？(一个月按 30 天计算)<br>(2)列式计算：利息=(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6.75", "6.75钱"] }
+      ]
+    },
+    "analysis": "利息 = 本金 × 月利率 × 月数 = 750 × 0.03 × 0.3 = 6.75钱。",
+    "difficulty": 4,
+    "knowledge_points": ["利息计算"]
+  },
+  {
+    "id": "10-7",
+    "type": "fill",
+    "stem": "明明的爸爸用 15000 元购买了银行的理财产品，月利率是 $$1.6\\%$$。存了几个月后，明明的爸爸想更换利率更高的理财产品，于是连本带息全部取出共 16680 元。明明的爸爸一共存了几个月？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["7"] }
+      ]
+    },
+    "analysis": "总利息 = 16680 - 15000 = 1680元。每月利息 = 15000 × 1.6% = 240元。月数 = 1680 ÷ 240 = 7个月。",
+    "difficulty": 4,
+    "knowledge_points": ["逆推存期"]
+  },
+  {
+    "id": "11-1",
+    "type": "fill",
+    "stem": "填空。 + (1)甲店铺按“每满 300 元减 20 元”销售商品，花 799 元可以减(        )个 20 元，也就是实际需要花(        )元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["759"] }
+      ]
+    },
+    "analysis": "799元中包含2个300元，因此减去2个20元。实际花费 = 799 - 40 = 759元。",
+    "difficulty": 2,
+    "knowledge_points": ["满减优惠计算"]
+  },
+  {
+    "id": "11-2",
+    "type": "fill",
+    "stem": "填空。 + (2)乙店铺搞促销，所有商品买四送一。顾客能享受的最大优惠相当于打(        )折。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["八"] }
+      ]
+    },
+    "analysis": "买四送一意味着花4份的钱拿5份的商品，折扣 = 4 ÷ 5 = 0.8 = 八折。",
+    "difficulty": 3,
+    "knowledge_points": ["买赠换算折扣"]
+  },
+  {
+    "id": "11-3",
+    "type": "fill",
+    "stem": "填空。 + (3)丙店铺正在进行“第二杯半价”的促销活动，如右图，若购买两杯同款饮料，则相当于在原价的基础上打(        )折。<br><img src=\"/images/workbook/p11_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["七五"] }
+      ]
+    },
+    "analysis": "买两杯同款，花费为 1 + 0.5 = 1.5倍原价。折扣 = 1.5 ÷ 2 = 0.75 = 七五折。与饮料具体单价无关。",
+    "difficulty": 3,
+    "knowledge_points": ["半价促销折扣换算"]
+  },
+  {
+    "id": "11-4",
+    "type": "choice",
+    "stem": "李明要买 6 包饼干，每包饼干的原价是 5 元，他在哪家店购买最划算？(        )",
+    "has_image": false,
+    "options": [
+      { "text": "A. 甲店：每包降价 $$18\\%$$", "img": null },
+      { "text": "B. 乙店：买五送一", "img": null },
+      { "text": "C. 丙店：九折优惠", "img": null },
+      { "text": "D. 丁店：满 20 元减 3 元", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "A店花费：6×5×(1-0.18)=24.6元；B店花费：买5包送1包，5×5=25元；C店花费：6×5×0.9=27元；D店花费：30元满20减3，30-3=27元。甲店最便宜。",
+    "difficulty": 4,
+    "knowledge_points": ["多种优惠方案对比"]
+  },
+  {
+    "id": "11-5",
+    "type": "fill",
+    "stem": "优优一家去吃烤鱼，一共消费 390 元。若使用代金券，则不足部分需用现金补齐；若不使用代金券，则可享七五折优惠。两种方式各应付多少元？相差多少元？<br><img src=\"/images/workbook/p11_q5.png\" /> + (        ) (        ) (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["300"] },
+        { "is_ordered": true, "accepted_values": ["292.5"] },
+        { "is_ordered": true, "accepted_values": ["7.5"] }
+      ]
+    },
+    "analysis": "代金券方案：最多用3张（抵300元），代金券成本3×70=210元，现金补齐90元，共应付210+90=300元。七五折方案：390×0.75=292.5元。相差 300 - 292.5 = 7.5元。",
+    "difficulty": 5,
+    "knowledge_points": ["代金券与折扣对比"]
+  },
+  {
+    "id": "11-6",
+    "type": "fill",
+    "stem": "某商场周年促销，全部商品打八折，商场中的数码店在八折基础上又推出以下三种优惠结算方式。爸爸购买了一台原价 1000 元的数码相机，选择用B软件支付，随机减免了 101 元。爸爸这次购物选用的结算方式是最划算的吗？<br><img src=\"/images/workbook/p11_q6.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["不是"] }
+      ]
+    },
+    "analysis": "商场八折后底价为1000×0.8=800元。现金八五折：800×0.85=680元；A软件满500减100：800-100=700元；B软件减101：800-101=699元。现金支付(680元)最便宜，所以选用的B软件(699元)不是最划算的。",
+    "difficulty": 5,
+    "knowledge_points": ["折上折与随机减免组合"]
+  },
+  {
+    "id": "11-7",
+    "type": "fill",
+    "stem": "劳动节期间，针对原价为 1200 元/人的焦躁路线，两家旅行社各自推出如下优惠活动。<br><img src=\"/images/workbook/p11_q7.png\" /> + (1)王强一家三口去旅游，选择(        )旅行社更省钱。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["四川美景"] }
+      ]
+    },
+    "analysis": "四川美景（七折）：1200 × 3 × 0.7 = 2520元。去远方（每满1000减300）：1200 × 3 = 3600元，含3个1000，减去900元，实付2700元。2520 < 2700，四川美景更便宜。",
+    "difficulty": 4,
+    "knowledge_points": ["总价优惠与单价折扣对比"]
+  }
+]

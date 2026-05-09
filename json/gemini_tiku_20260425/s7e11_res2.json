@@ -1,0 +1,99 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 7,
+      "q_id": null,
+      "message": "第7页第2大题第(2)小题含动作关键词'涂一涂'，涉及作图，已丢弃"
+    },
+    {
+      "type": "image_quality_low",
+      "page": 7,
+      "q_id": null,
+      "message": "第7页第4大题被上方翻动的书页严重遮挡，题干信息缺失，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 8,
+      "q_id": null,
+      "message": "第8页第3大题第(3)小题要求'将折线统计图补充完整'，涉及作图，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 8,
+      "q_id": null,
+      "message": "第8页第3大题第(4)小题含主观论述关键词'理由'，要求学生自选数值并说明理由，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 11,
+      "q_id": null,
+      "message": "第11页第5大题第(2)小题含主观论述关键词'写出思考过程'，类似'请证明'，已丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p7_q2.png",
+      "parent_img_filename": "7.jpg",
+      "cordinate": [150, 750, 850, 1150],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p8_q3.png",
+      "parent_img_filename": "8.jpg",
+      "cordinate": [120, 1000, 950, 1400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p9_q5.png",
+      "parent_img_filename": "9.jpg",
+      "cordinate": [600, 1100, 900, 1300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p9_q6.png",
+      "parent_img_filename": "9.jpg",
+      "cordinate": [150, 1600, 900, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p10_q3.png",
+      "parent_img_filename": "10.jpg",
+      "cordinate": [180, 850, 920, 1250],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p11_q3.png",
+      "parent_img_filename": "11.jpg",
+      "cordinate": [120, 1150, 450, 1450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p11_q5.png",
+      "parent_img_filename": "11.jpg",
+      "cordinate": [650, 850, 900, 1100],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p11_q6.png",
+      "parent_img_filename": "11.jpg",
+      "cordinate": [450, 1500, 900, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p11_q7.png",
+      "parent_img_filename": "11.jpg",
+      "cordinate": [120, 1950, 950, 2200],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

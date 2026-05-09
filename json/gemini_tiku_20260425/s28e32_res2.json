@@ -1,0 +1,151 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 30,
+      "q_id": null,
+      "message": "第30页第3大题为连线题，但左侧均为完全无文字的几何剖面示意图，无法通过纯文本转为结构化选择题，根据无法化规规则，已整题丢弃。"
+    },
+    {
+      "type": "open_ended",
+      "page": 31,
+      "q_id": null,
+      "message": "第31页第5大题第(2)小问含主观类探究指令'请你用所学知识解释这里的道理'，属于证明或论述性质题，已丢弃。"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p28_q1_3.png",
+      "parent_img_filename": "28.jpg",
+      "cordinate": [350, 150, 600, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p28_q1_4.png",
+      "parent_img_filename": "28.jpg",
+      "cordinate": [650, 150, 800, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p28_q2_3.png",
+      "parent_img_filename": "28.jpg",
+      "cordinate": [1300, 200, 1550, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p28_q2_4.png",
+      "parent_img_filename": "28.jpg",
+      "cordinate": [1650, 150, 1850, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p29_q3.png",
+      "parent_img_filename": "29.jpg",
+      "cordinate": [1650, 100, 1900, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p29_q4.png",
+      "parent_img_filename": "29.jpg",
+      "cordinate": [1200, 100, 1500, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p29_q5.png",
+      "parent_img_filename": "29.jpg",
+      "cordinate": [600, 100, 1100, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p30_q1.png",
+      "parent_img_filename": "30.jpg",
+      "cordinate": [250, 100, 450, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p30_q2.png",
+      "parent_img_filename": "30.jpg",
+      "cordinate": [500, 700, 700, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p30_q4.png",
+      "parent_img_filename": "30.jpg",
+      "cordinate": [1150, 100, 1450, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p30_q5.png",
+      "parent_img_filename": "30.jpg",
+      "cordinate": [1550, 750, 1900, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p31_q2.png",
+      "parent_img_filename": "31.jpg",
+      "cordinate": [1450, 150, 1650, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p31_q3.png",
+      "parent_img_filename": "31.jpg",
+      "cordinate": [1100, 750, 1350, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p31_q4.png",
+      "parent_img_filename": "31.jpg",
+      "cordinate": [750, 750, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p31_q5.png",
+      "parent_img_filename": "31.jpg",
+      "cordinate": [350, 750, 550, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p32_q2_2.png",
+      "parent_img_filename": "32.jpg",
+      "cordinate": [700, 800, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p32_q3.png",
+      "parent_img_filename": "32.jpg",
+      "cordinate": [1000, 750, 1250, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p32_q4.png",
+      "parent_img_filename": "32.jpg",
+      "cordinate": [1350, 700, 1600, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p32_q5.png",
+      "parent_img_filename": "32.jpg",
+      "cordinate": [1750, 800, 2050, 950],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

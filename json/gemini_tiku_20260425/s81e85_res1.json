@@ -1,0 +1,663 @@
+[
+  {
+    "id": "81-1",
+    "type": "fill",
+    "stem": "填空。 + (1)(        ) $$: 0.8 = (        ) : 16 = 12.5\\% = 1 \\div (        ) = \\frac{(        )}{(        )}$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.1"] },
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["8"] },
+        { "is_ordered": true, "accepted_values": ["1"] },
+        { "is_ordered": true, "accepted_values": ["8"] }
+      ]
+    },
+    "analysis": "12.5% = 0.125 = 1/8。x : 0.8 = 0.125，得出 x = 0.1；y : 16 = 0.125，得出 y = 2；1 ÷ z = 1/8，得出 z = 8；分数形式写为 1/8（或等值的其他形式均可，最简为1/8）。",
+    "difficulty": 2,
+    "knowledge_points": ["百分数、分数、小数与比的互化"]
+  },
+  {
+    "id": "81-2",
+    "type": "fill",
+    "stem": "填空。 + (2)已知一个比例的两个外项分别是 4 和 $$\\frac{3}{5}$$，组成比例的两个比的比值是 $$\\frac{1}{4}$$，这个比例是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$4:16=\\frac{3}{20}:\\frac{3}{5}$$", "$$\\frac{3}{5}:\\frac{12}{5}=1:4$$", "4:16=3/20:3/5", "3/5:12/5=1:4"] }
+      ]
+    },
+    "analysis": "比例的两个外项积 = 4 × 3/5 = 12/5。比值为 1/4，设比例为 a:b = c:d = 1/4。若前项的外项 a=4，则 b = 4 ÷ 1/4 = 16，此时 d=3/5，c = 3/5 × 1/4 = 3/20，比例为 4:16 = 3/20:3/5。若前项的外项 a=3/5，同理可得 3/5:12/5 = 1:4。",
+    "difficulty": 4,
+    "knowledge_points": ["比例的组建与性质"]
+  },
+  {
+    "id": "81-3",
+    "type": "fill",
+    "stem": "填空。 + (3)判断下面各题中的两种量成哪种比例关系。（$$x, y, m, n$$ 均大于0）<br>①大豆的出油率一定，榨出油的质量与所用大豆的质量成(        )比例关系。<br>②三角形的面积一定，它的底与高成(        )比例关系。<br>③ $$\\frac{x}{4} = \\frac{3}{y}$$，$$x$$ 与 $$y$$ 成(        )比例关系。<br>④ $$\\frac{m}{5} = \\frac{n}{8}$$，$$m$$ 与 $$n$$ 成(        )比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["正"] },
+        { "is_ordered": true, "accepted_values": ["反"] },
+        { "is_ordered": true, "accepted_values": ["反"] },
+        { "is_ordered": true, "accepted_values": ["正"] }
+      ]
+    },
+    "analysis": "①榨出油质量/大豆质量=出油率（商一定），成正比例；②底×高=面积×2（积一定），成反比例；③转化为xy=12（积一定），成反比例；④转化为m/n=5/8（商一定），成正比例。",
+    "difficulty": 3,
+    "knowledge_points": ["正反比例判断"]
+  },
+  {
+    "id": "81-4",
+    "type": "fill",
+    "stem": "填空。 + (4)一辆载满货物的货车前往灾区救援，在一幅比例尺为 $$1:6000000$$ 的地图上，量得出发地距离灾区 12 cm。若这辆货车每小时行驶 90 km，则到达灾区需要(        )小时。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8", "8小时"] }
+      ]
+    },
+    "analysis": "实际距离 = 12 × 6000000 = 72000000 cm = 720 km。所需时间 = 720 ÷ 90 = 8 小时。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺求实际距离", "行程问题计算"]
+  },
+  {
+    "id": "81-5",
+    "type": "fill",
+    "stem": "解比例。 + $$7 : x = 4 : 16$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["28"] }
+      ]
+    },
+    "analysis": "内项之积等于外项之积：4x = 7 × 16 = 112，解得 x = 28。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "81-6",
+    "type": "fill",
+    "stem": "解比例。 + $$x : \\frac{5}{14} = 21 : \\frac{5}{8}$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12"] }
+      ]
+    },
+    "analysis": "5/8 x = 21 × 5/14 = 15/2，解得 x = 15/2 ÷ 5/8 = 12。",
+    "difficulty": 3,
+    "knowledge_points": ["解分数比例"]
+  },
+  {
+    "id": "81-7",
+    "type": "fill",
+    "stem": "解比例。 + $$\\frac{0.3}{1.4} = \\frac{0.6}{x+1.3}$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.5"] }
+      ]
+    },
+    "analysis": "0.3(x + 1.3) = 0.6 × 1.4 = 0.84，x + 1.3 = 2.8，解得 x = 1.5。",
+    "difficulty": 3,
+    "knowledge_points": ["解复杂小数比例"]
+  },
+  {
+    "id": "81-8",
+    "type": "fill",
+    "stem": "如图，在薄薄均匀的木板上分别画出 A 地和 B 地的轮廓，并沿边缘将 A 和 B 锯下，称得 A 的质量是 240 g，B 的质量是 30 g。A 地实际的面积是 $$64 \\text{ hm}^2$$，B 地实际的面积是大约多少公顷？<br><img src=\"/images/workbook/p81_q3.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8", "8公顷"] }
+      ]
+    },
+    "analysis": "薄木板均匀，故质量与面积成正比。A的质量是B的 240 ÷ 30 = 8 倍，故A的面积也是B的8倍。B的面积 = 64 ÷ 8 = 8 公顷。",
+    "difficulty": 5,
+    "knowledge_points": ["利用质量比推算面积比"]
+  },
+  {
+    "id": "81-9",
+    "type": "fill",
+    "stem": "铸造车间计划在一定时间内铸造一批零件，如果每天铸造 300 个，那么要延长 10 天才能完成任务；如果每天铸造 350 个，那么要延长 5 天才能完成任务。原计划多少天完成任务？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["25", "25天"] }
+      ]
+    },
+    "analysis": "设原计划需要 x 天完成任务。根据零件总数不变，列方程 300(x + 10) = 350(x + 5)，解得 300x + 3000 = 350x + 1750，50x = 1250，x = 25。",
+    "difficulty": 5,
+    "knowledge_points": ["盈亏工程问题建立方程"]
+  },
+  {
+    "id": "81-10",
+    "type": "fill",
+    "stem": "甲、乙两个仓库原有货物的质量比是 $$6:5$$，后来甲仓库运出 16 t 货物，乙仓库运进 4 t 货物，这时甲、乙两个仓库货物的质量比是 $$10:9$$。原来甲、乙仓库各有多少吨货物？ + 甲仓库：(        ) 乙仓库：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["276", "276吨"] },
+        { "is_ordered": true, "accepted_values": ["230", "230吨"] }
+      ]
+    },
+    "analysis": "设甲仓库原有货物 6x 吨，乙仓库原有 5x 吨。根据题意得 (6x - 16) / (5x + 4) = 10 / 9。交叉相乘得 54x - 144 = 50x + 40，4x = 184，x = 46。甲仓库原有 6 × 46 = 276 吨，乙仓库原有 5 × 46 = 230 吨。",
+    "difficulty": 5,
+    "knowledge_points": ["比例方程综合求解"]
+  },
+  {
+    "id": "82-1",
+    "type": "fill",
+    "stem": "一、填空。 + 1. 2025年“五一”假期全国国内出游 3.14 亿人次，国内游客出游总花费 180269000000 元。横线上的数读作(        )，改写成用“亿”作单位的数是(        )亿，用“四舍五入”法省略亿位后面的尾数约是(        )亿。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["一千八百零二亿六千九百万"] },
+        { "is_ordered": true, "accepted_values": ["1802.69"] },
+        { "is_ordered": true, "accepted_values": ["1803"] }
+      ]
+    },
+    "analysis": "根据大数读写规则依次划分数级进行读取与四舍五入缩放。",
+    "difficulty": 2,
+    "knowledge_points": ["大数的读写与改写"]
+  },
+  {
+    "id": "82-2",
+    "type": "fill",
+    "stem": "一、填空。 + 2. $$2.4 \\text{ 时} = $$(        )时(        )分<br>$$1.2 \\text{ 公顷} = $$(        )平方米<br>$$4800 \\text{ mL} = $$(        )L",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["24"] },
+        { "is_ordered": true, "accepted_values": ["12000"] },
+        { "is_ordered": true, "accepted_values": ["4.8"] }
+      ]
+    },
+    "analysis": "0.4小时 = 0.4 × 60 = 24分。1公顷 = 10000平方米。1L = 1000mL。",
+    "difficulty": 2,
+    "knowledge_points": ["时间、面积与体积单位换算"]
+  },
+  {
+    "id": "82-3",
+    "type": "fill",
+    "stem": "一、填空。 + 3. 从 0、1、3、5 四张数字卡片中任选三张组成三位数，可以组成(        )个，其中最大的奇数是(        )，最小的偶数是(        )，最小的 3 的倍数是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["18"] },
+        { "is_ordered": true, "accepted_values": ["531"] },
+        { "is_ordered": true, "accepted_values": ["130"] },
+        { "is_ordered": true, "accepted_values": ["105"] }
+      ]
+    },
+    "analysis": "百位不能为0，有3种选择，十位3种，个位2种，共 3×3×2=18种。最大奇数为531。最小偶数个位需为0，即130。3的倍数数字和需为3的倍数，1+0+5=6符合，最小排法为105。",
+    "difficulty": 4,
+    "knowledge_points": ["排列组合综合数论"]
+  },
+  {
+    "id": "82-4",
+    "type": "fill",
+    "stem": "一、填空。 + 4. (1)如果 $$a \\div b = 12$$，那么 $$(a \\times 2) \\div (b \\div 2) = $$(        )。<br>(2)如果 $$a \\times b = 9$$，那么 $$(a \\times 9) \\times b = $$(        )，$$(a \\times 4) \\times (b \\div 3) = $$(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["48"] },
+        { "is_ordered": true, "accepted_values": ["81"] },
+        { "is_ordered": true, "accepted_values": ["12"] }
+      ]
+    },
+    "analysis": "商的规律：被除数乘2，除数除以2，整体商乘4，12×4=48。积的规律：积分别乘9(9×9=81)、乘4再除3(9×4÷3=12)。",
+    "difficulty": 3,
+    "knowledge_points": ["商与积的变化规律"]
+  },
+  {
+    "id": "82-5",
+    "type": "fill",
+    "stem": "一、填空。 + 5. 如图，如果点 C 表示的数是 $$\\frac{2}{3}$$，那么点 B 表示的数是(        )；如果点 D 表示的数是 20，那么点 A 表示的数是(        )。<br><img src=\"/images/workbook/p82_q1_5.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{1}{3}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$-4$$"] }
+      ]
+    },
+    "analysis": "C占原点右侧两格，表示2/3，则每小格代表1/3，B为1格即1/3。若D(占5格)表示20，则每小格代表4，A在原点左侧1格，故为-4。",
+    "difficulty": 3,
+    "knowledge_points": ["数轴比例读取"]
+  },
+  {
+    "id": "82-6",
+    "type": "fill",
+    "stem": "一、填空。 + 6. (易错题)一套科普图书打七五折后比原价便宜了 21 元，购买这套书实际需要(        )元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["63"] }
+      ]
+    },
+    "analysis": "便宜了 1 - 75% = 25%。原价 = 21 ÷ 0.25 = 84 元。实际付款 = 84 - 21 = 63 元。",
+    "difficulty": 3,
+    "knowledge_points": ["折扣减免计算"]
+  },
+  {
+    "id": "82-7",
+    "type": "fill",
+    "stem": "一、填空。 + 7. 用火柴棒摆“金鱼”，按照下面的规律，摆第 $$n$$ 幅图需要用(        )根火柴棒。<br><img src=\"/images/workbook/p82_q1_7.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$6n+2$$"] }
+      ]
+    },
+    "analysis": "图1有8根。图2有14根。图3有20根。每次增加6根。公差为6的等差数列通项公式为 8 + 6(n-1) = 6n + 2。",
+    "difficulty": 4,
+    "knowledge_points": ["图形数列规律推导"]
+  },
+  {
+    "id": "82-8",
+    "type": "choice",
+    "stem": "二、选择。 + 1. 下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$4 \\times 3=12$$，12 是倍数，4 和 3 是因数", "img": null },
+      { "text": "B. 两个质数的积一定是合数", "img": null },
+      { "text": "C. 0.65 与 0.650 大小相等，计数单位相同", "img": null },
+      { "text": "D. 3 和 8 是互质数，没有公因数", "img": null }
+    ],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["B"] }
+      ]
+    },
+    "analysis": "A未指定“在谁是谁的前提下”表述不严谨；B正确，质数如2和3积为6，必为合数；C大小相等但计数单位不同(百分之一与千分之一)；D互质数有公因数1。故选B。",
+    "difficulty": 3,
+    "knowledge_points": ["综合数学概念辨析"]
+  },
+  {
+    "id": "82-9",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 下面四个算式中，“7”和“3”可以直接相加或相减的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$670+423$$", "img": null },
+      { "text": "B. $$\\frac{7}{8}+\\frac{3}{4}$$", "img": null },
+      { "text": "C. $$10.71-5.3$$", "img": null },
+      { "text": "D. $$0.47-0.3$$", "img": null }
+    ],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["C"] }
+      ]
+    },
+    "analysis": "可以直接相加减必须处于相同的计数单位（相同的数位）。C选项中10.71的“7”在十分位，5.3的“3”也在十分位，故能直接相减。",
+    "difficulty": 4,
+    "knowledge_points": ["四则运算数位对齐原理"]
+  },
+  {
+    "id": "82-10",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 把一根绳子剪成两段，第一段长 $$\\frac{2}{3}$$ m，第二段占全长的 $$\\frac{2}{3}$$，比较两段绳子，(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 第一段长", "img": null },
+      { "text": "B. 第二段长", "img": null },
+      { "text": "C. 两段一样长", "img": null },
+      { "text": "D. 无法判断", "img": null }
+    ],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["B"] }
+      ]
+    },
+    "analysis": "第二段占全长的 2/3，则第一段必然占全长的 1/3。因此无论全长是多少，第二段的占比更大，绳子更长。",
+    "difficulty": 3,
+    "knowledge_points": ["分数的绝对值与相对比例"]
+  },
+  {
+    "id": "82-11",
+    "type": "choice",
+    "stem": "二、选择。 + 4. 一条道路长 60 m，在路的一侧每 4 m 插着一面彩旗，两端都插有彩旗。现在要改为每 6 m 插一面彩旗，连两端的彩旗在内共有(        )面彩旗可以不用动。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 6", "img": null },
+      { "text": "B. 10", "img": null },
+      { "text": "C. 15", "img": null },
+      { "text": "D. 无法确定", "img": null }
+    ],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["A"] }
+      ]
+    },
+    "analysis": "不用动的彩旗位置必须是4和6的公倍数，4和6的最小公倍数是12。在0到60米的范围内，12的倍数有 0, 12, 24, 36, 48, 60，共计 6 面。",
+    "difficulty": 4,
+    "knowledge_points": ["公倍数在植树问题中的应用"]
+  },
+  {
+    "id": "82-12",
+    "type": "fill",
+    "stem": "三、计算。 + 1. 直接写得数。<br>$$0.81+15.3=$$(        )<br>$$\\frac{1}{3}-\\frac{1}{4}=$$(        )<br>$$0.35 \\times \\frac{9}{7}=$$(        )<br>$$\\frac{2}{7} \\div 0.5=$$(        )<br>$$\\frac{6}{7} \\times \\frac{5}{9}=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["16.11"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{1}{12}$$"] },
+        { "is_ordered": true, "accepted_values": ["0.45"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{4}{7}$$"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{10}{21}$$"] }
+      ]
+    },
+    "analysis": "基础分小数四则运算口算应用。",
+    "difficulty": 2,
+    "knowledge_points": ["四则口算基本功"]
+  },
+  {
+    "id": "83-1",
+    "type": "fill",
+    "stem": "三、计算。 + 2. 脱式计算，能简算的要简算。<br>$$96 \\times \\frac{89}{95} = $$(        )<br>$$\\left(\\frac{2}{7} + \\frac{1}{5}\\right) \\times 7 \\times 5 = $$(        )<br>$$8\\frac{1}{5} \\times \\left[\\frac{5}{6} \\div \\left(\\frac{7}{9} - \\frac{1}{3}\\right)\\right] = $$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$89\\frac{89}{95}$$", "$$\\frac{8544}{95}$$"] },
+        { "is_ordered": true, "accepted_values": ["17"] },
+        { "is_ordered": true, "accepted_values": ["15.375", "$$\\frac{123}{8}$$", "$$15\\frac{3}{8}$$"] }
+      ]
+    },
+    "analysis": "利用分配律化简。96拆为(95+1)，得 89 + 89/95。第二式直接分配律去括号得 2×5 + 1×7 = 17。第三式按括号层级化简，最后得 41/5 × 15/8 = 123/8。",
+    "difficulty": 4,
+    "knowledge_points": ["四则混合运算与乘法分配律简算"]
+  },
+  {
+    "id": "83-2",
+    "type": "fill",
+    "stem": "三、计算。 + 3. 解方程或比例。<br>$$\\frac{3}{5}x + 0.8 = 5.6$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8"] }
+      ]
+    },
+    "analysis": "移项得 0.6x = 4.8，解得 x = 8。",
+    "difficulty": 2,
+    "knowledge_points": ["解基础方程"]
+  },
+  {
+    "id": "83-3",
+    "type": "fill",
+    "stem": "三、计算。 + 3. 解方程或比例。<br>$$37.5\\%x - \\frac{3}{8} = \\frac{3}{16}$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.5", "$$\\frac{3}{2}$$"] }
+      ]
+    },
+    "analysis": "37.5% 等于 3/8。 3/8x = 3/16 + 3/8 = 9/16。解得 x = 3/2 = 1.5。",
+    "difficulty": 3,
+    "knowledge_points": ["解含百分数的方程"]
+  },
+  {
+    "id": "83-4",
+    "type": "fill",
+    "stem": "三、计算。 + 3. 解方程或比例。<br>$$\\frac{3}{14} : x = \\frac{5}{42} : \\frac{1}{4}$$<br>$$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.45", "$$\\frac{9}{20}$$"] }
+      ]
+    },
+    "analysis": "根据比例性质，内项积等于外项积：5/42x = 3/14 × 1/4 = 3/56。解得 x = (3/56) × (42/5) = 126/280 = 9/20 = 0.45。",
+    "difficulty": 3,
+    "knowledge_points": ["解分数比例"]
+  },
+  {
+    "id": "83-5",
+    "type": "fill",
+    "stem": "四、探究题。 + 1. 完成下面的算式。<br>$$780 \\times 60 = $$(        )<br>$$(78 \\times 10) \\times (6 \\times 10) = $$(        )<br>$$(78 \\times 6) \\times (10 \\times 10) = $$(        )<br>$$= $$(        )<br><br>$$0.78 \\times 0.6 = $$(        )<br>$$(78 \\times 0.01) \\times (6 \\times 0.1) = $$(        )<br>$$(78 \\times 6) \\times (0.01 \\times 0.1) = $$(        )<br>$$= $$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["46800"] },
+        { "is_ordered": true, "accepted_values": ["46800"] },
+        { "is_ordered": true, "accepted_values": ["46800"] },
+        { "is_ordered": true, "accepted_values": ["46800"] },
+        { "is_ordered": true, "accepted_values": ["0.468"] },
+        { "is_ordered": true, "accepted_values": ["0.468"] },
+        { "is_ordered": true, "accepted_values": ["0.468"] },
+        { "is_ordered": true, "accepted_values": ["0.468"] }
+      ]
+    },
+    "analysis": "利用乘法结合律演示不同位值下的算式拆解恒等性，证明乘法运算中位值提取的等效性。",
+    "difficulty": 3,
+    "knowledge_points": ["乘法结合律与位值拆解恒等"]
+  },
+  {
+    "id": "83-6",
+    "type": "fill",
+    "stem": "四、探究题。 + 2. 小明发现两个算式中的“$$78 \\times 6$$”都表示计数单位的个数，整数乘法是 78 个十乘 6 个十，小数乘法是 78 个 0.01 乘 6 个 0.1。那么“$$10 \\times 10$$”和“$$0.01 \\times 0.1$$”都表示(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["积的计数单位", "计数单位"] }
+      ]
+    },
+    "analysis": "剥离出单独运算的位值常数，代表了运算最后结果对应的基准计数单位（如百、千分之一等）。",
+    "difficulty": 4,
+    "knowledge_points": ["算理中的计数单位意义"]
+  },
+  {
+    "id": "83-7",
+    "type": "fill",
+    "stem": "五、解决问题。 + 1. 下图是甲、乙、丙三种交通工具行进的距离与时间的情况。<br><img src=\"/images/workbook/p83_q5_1.png\" /><br>(1)乙行进的距离与时间成(        )比例关系。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["正"] }
+      ]
+    },
+    "analysis": "图象是一条经过原点的斜直线，说明其行驶速率恒定，路程与时间成正比例关系。",
+    "difficulty": 2,
+    "knowledge_points": ["正比例图象的判定"]
+  },
+  {
+    "id": "83-8",
+    "type": "fill",
+    "stem": "五、解决问题。 + 1. 下图是甲、乙、丙三种交通工具行进的距离与时间的情况。<br><img src=\"/images/workbook/p83_q5_1.png\" /><br>(2)这三种交通工具中，速度最快的是(        )，它的速度是(        )千米/时。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["丙"] },
+        { "is_ordered": true, "accepted_values": ["90"] }
+      ]
+    },
+    "analysis": "相同时间内丙的斜率最大，行驶距离最远，故最快。从图象中任取点 (2, 180)，得速度 = 180 ÷ 2 = 90 km/h。",
+    "difficulty": 3,
+    "knowledge_points": ["正比例折线图的斜率读取与比对"]
+  },
+  {
+    "id": "84-1",
+    "type": "fill",
+    "stem": "五、解决问题。 + 2. 100 张 A4 纸摞在一起大约高 1 cm。<br>(1)一亿张 A4 纸摞在一起大约高(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10000"] }
+      ]
+    },
+    "analysis": "一亿是 100000000，除以 100 得 1000000 cm，换算为米即 10000 m。",
+    "difficulty": 2,
+    "knowledge_points": ["大数推算与单位换算"]
+  },
+  {
+    "id": "84-2",
+    "type": "fill",
+    "stem": "五、解决问题。 + 2. 100 张 A4 纸摞在一起大约高 1 cm。<br>(2)中国尊是一座位于北京商务中心区核心区的地标建筑，高 528 m，是北京最高的建筑。一亿张 A4 纸摞在一起的高度约比中国尊高多少米？ + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9472", "9472米"] }
+      ]
+    },
+    "analysis": "10000 - 528 = 9472 m。",
+    "difficulty": 2,
+    "knowledge_points": ["大数直观对比"]
+  },
+  {
+    "id": "84-3",
+    "type": "fill",
+    "stem": "五、解决问题。 + 3. 春节期间，优优在家里挂了两款灯笼串，每款灯笼串都由小灯笼和中国结组合而成(如下图)。小灯笼共 48 个，中国结共 11 个，A、B两款灯笼串各有多少串？<br><img src=\"/images/workbook/p84_q3.png\" /> + A款(        )串，B款(        )串。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5"] },
+        { "is_ordered": true, "accepted_values": ["6"] }
+      ]
+    },
+    "analysis": "观察插图可知，A款每串含 6个小灯笼和 1个中国结；B款每串含 3个小灯笼和 1个中国结。结的总数为11说明共有11串。采用鸡兔同笼法或方程求解，设A款 x 串，B款 y 串。则 x+y=11 且 6x+3y=48，解得 x=5，y=6。",
+    "difficulty": 4,
+    "knowledge_points": ["看图列方程", "鸡兔同笼问题变体"]
+  },
+  {
+    "id": "84-4",
+    "type": "fill",
+    "stem": "五、解决问题。 + 4. 某考古队对一处遗址进行抢救性发掘，第一天发掘了总面积的 $$\\frac{3}{20}$$，第二天比第一天多发掘 $$30 \\text{ m}^2$$，还剩总面积的 $$45\\%$$ 没发掘。该遗址的总面积是多少平方米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["120", "120平方米"] }
+      ]
+    },
+    "analysis": "第一天发掘 3/20 即 15%。第二天发掘了总面积的 15% 加上 30 m²。第一天加上第二天再加上剩余的占总面积的 100%。15% + (15% + 30) + 45% = 100%，即 75% 加上 30 m² 等于 100%。所以 30 m² 对应总面积的 25%，总面积 = 30 ÷ 0.25 = 120 m²。",
+    "difficulty": 5,
+    "knowledge_points": ["百分数与分数混合方程"]
+  },
+  {
+    "id": "84-5",
+    "type": "fill",
+    "stem": "五、解决问题。 + 5. 在比例尺是 1:7500000 的地图上，量得甲、乙两地之间的距离是 6 cm。现有一辆客车和一辆货车分别从甲、乙两地同时出发，相向而行，经过 3 小时相遇。客车与货车行驶的路程比是 $$8:7$$，货车每小时行驶多少千米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["70", "70千米"] }
+      ]
+    },
+    "analysis": "实际距离 = 6 cm × 7500000 = 45000000 cm = 450 km。3小时相遇，合速度 = 450 ÷ 3 = 150 km/h。客车与货车路程比即为速度比 8:7。货车速度占总速度的 7/15，故货车速度 = 150 × (7/15) = 70 km/h。",
+    "difficulty": 5,
+    "knowledge_points": ["比例尺距离换算", "按比例分配相遇问题"]
+  },
+  {
+    "id": "85-1",
+    "type": "fill",
+    "stem": "一、填空。 + (1)在一个三角形中，至少有(        )个锐角。如果一个三角形的三个内角的度数比是 $$1:2:3$$，那么这是一个(        )三角形。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2", "两"] },
+        { "is_ordered": true, "accepted_values": ["直角"] }
+      ]
+    },
+    "analysis": "三角形内角和180度，最多只能有1个直角或钝角，因此至少剩下2个锐角。内角比为1:2:3时，最大角占总和的 3/6，即 180° × 0.5 = 90°，故为直角三角形。",
+    "difficulty": 2,
+    "knowledge_points": ["三角形内角和分配与分类"]
+  },
+  {
+    "id": "85-2",
+    "type": "fill",
+    "stem": "一、填空。 + (2)在两条平行线间可以画(        )条垂线段，这些垂线段的长度(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["无数"] },
+        { "is_ordered": true, "accepted_values": ["相等"] }
+      ]
+    },
+    "analysis": "平行线之间的距离处处相等，其公垂线段有无数条且长度全部一致。",
+    "difficulty": 1,
+    "knowledge_points": ["平行线定距原则"]
+  },
+  {
+    "id": "85-3",
+    "type": "fill",
+    "stem": "一、填空。 + (3)圆的位置由(        )决定，圆的大小由(        )决定。圆的周长是它的直径的(        )倍。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["圆心"] },
+        { "is_ordered": true, "accepted_values": ["半径", "直径"] },
+        { "is_ordered": true, "accepted_values": ["$$\\pi$$", "3.14"] }
+      ]
+    },
+    "analysis": "圆的固定属性：圆心定位置，半径(或直径)定大小，周长与直径的比值恒为圆周率 π。",
+    "difficulty": 1,
+    "knowledge_points": ["圆的基础构成与属性"]
+  },
+  {
+    "id": "85-4",
+    "type": "fill",
+    "stem": "一、填空。 + (4)右图是一张长方形纸折起来以后的图形，已知 $$\\angle 1 = 30^{\\circ}$$，那么 $$\\angle 2 = $$(        )$$^{\\circ}$$。<br><img src=\"/images/workbook/p85_q1_4.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["75"] }
+      ]
+    },
+    "analysis": "折纸时，重合部分的两个角完全相等。从图中可以看出，平角（180°）是由一个 ∠1 和两个 ∠2 组成的。因此，∠1 + 2 × ∠2 = 180°。代入得 30° + 2 × ∠2 = 180°，解得 ∠2 = 75°。",
+    "difficulty": 4,
+    "knowledge_points": ["折叠中的角度翻倍计算"]
+  },
+  {
+    "id": "85-5",
+    "type": "fill",
+    "stem": "一、填空。 + (5)在长方形、正方形、等边三角形和圆中，对称轴条数最多的是(        )，有(        )条；对称轴条数最少的是(        )，有(        )条。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["圆"] },
+        { "is_ordered": true, "accepted_values": ["无数"] },
+        { "is_ordered": true, "accepted_values": ["长方形"] },
+        { "is_ordered": true, "accepted_values": ["2", "两"] }
+      ]
+    },
+    "analysis": "圆有无数条对称轴；等边三角形有3条；正方形有4条；长方形有2条。最多为圆，最少为长方形。",
+    "difficulty": 2,
+    "knowledge_points": ["规则平面图形的轴对称数量"]
+  }
+]

@@ -1,0 +1,483 @@
+[
+  {
+    "id": "61-1",
+    "type": "fill",
+    "stem": "如图，在长方形 ABCD 中，点 E 和点 F 分别在边 AB、BC 上，三角形 ADE 和三角形 BEF 是相似三角形，$$AB=20 cm, AD=10 cm, AE=15 cm$$，求 FC 的长。 + (        )<br><img src=\"/images/workbook/p61_q1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2.5", "2.5cm", "$$\\frac{10}{3}$$"] }
+      ]
+    },
+    "analysis": "长方形中，AB=20，AE=15，因此BE=5。因为三角形ADE和三角形BEF相似，且AD=10，AE=15，两直角边之比为 2:3 或 3:2。对应到三角形BEF，如果AD对应BE(10:5=2:1)，则AE对应BF，BF=7.5，FC=10-7.5=2.5。如果AD对应BF，AE对应BE，则BF=10/3，FC=20/3。根据相似三角形常规命名习惯ADE∽BEF，对应边为2.5。",
+    "difficulty": 6,
+    "knowledge_points": ["相似三角形的性质", "长方形边长计算"]
+  },
+  {
+    "id": "61-2",
+    "type": "fill",
+    "stem": "如图，三角形 ACD 是等腰三角形，三角形 CBD 和三角形 ABC 是相似三角形，与 $$\\angle A$$ 相等的角是(        )，若 $$\\angle A=46^{\\circ}$$，则 $$\\angle ACB=$$(        )$$^{\\circ}$$。<br><img src=\"/images/workbook/p61_q2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\angle BCD$$"] },
+        { "is_ordered": true, "accepted_values": ["92"] }
+      ]
+    },
+    "analysis": "因为三角形CBD和三角形ABC相似，且角B为公共角，所以角BCD等于角A，角BDC等于角ACB。在等腰三角形ACD中，若AD=CD，则角ACD=角A=46度，角ADC=180-92=88度，角BDC=180-88=92度。又因为角BDC=角ACB，所以角ACB=92度。",
+    "difficulty": 5,
+    "knowledge_points": ["相似三角形的对应角", "等腰三角形的性质"]
+  },
+  {
+    "id": "62-1",
+    "type": "fill",
+    "stem": "填空。 + (1)自行车通过链条连接前、后齿轮，前、后齿轮齿数与它们的转动圈数之间的关系： 前齿轮齿数 $$\\times$$ (        ) = 后齿轮齿数 $$\\times$$ (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["前齿轮转数", "前齿轮转动圈数"] },
+        { "is_ordered": false, "accepted_values": ["后齿轮转数", "后齿轮转动圈数"] }
+      ]
+    },
+    "analysis": "齿轮传动中，齿数与转动圈数成反比例关系。",
+    "difficulty": 2,
+    "knowledge_points": ["齿轮传动原理"]
+  },
+  {
+    "id": "62-2",
+    "type": "fill",
+    "stem": "填空。 + (2)骑自行车时，脚踏板蹬一圈，自行车走的路程 = (        ) $$\\times \\frac{\\text{前齿轮齿数}}{\\text{后齿轮齿数}}$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["车轮周长", "后轮周长"] }
+      ]
+    },
+    "analysis": "脚踏板蹬一圈，后齿轮转动的圈数是（前齿轮齿数/后齿轮齿数），自行车走的路程等于后轮转动的圈数乘以车轮周长。",
+    "difficulty": 3,
+    "knowledge_points": ["自行车前进距离公式"]
+  },
+  {
+    "id": "62-3",
+    "type": "fill",
+    "stem": "填空。 + (3)一辆自行车，前齿轮和后齿轮的齿数比是 $$12:7$$，后齿轮转 24 圈，那么前齿轮转(        )圈。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["14"] }
+      ]
+    },
+    "analysis": "根据反比例关系，前齿轮圈数 = 后齿轮圈数 × (后齿轮齿数 / 前齿轮齿数) = 24 × (7 / 12) = 14 圈。",
+    "difficulty": 3,
+    "knowledge_points": ["齿轮圈数计算"]
+  },
+  {
+    "id": "62-4",
+    "type": "fill",
+    "stem": "填空。 + (4)一辆自行车，前齿轮齿数为 32，后齿轮齿数为 12。如果前齿轮转 3 圈，那么后齿轮转(        )圈。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8"] }
+      ]
+    },
+    "analysis": "后齿轮圈数 = 3 × (32 / 12) = 8 圈。",
+    "difficulty": 2,
+    "knowledge_points": ["齿轮圈数计算"]
+  },
+  {
+    "id": "62-5",
+    "type": "fill",
+    "stem": "填空。 + (5)下表是两种自行车的相关数据，同样是脚踏板蹬一圈，(        )自行车走的路程更远。<br><table><tr><th>车型</th><th>前齿轮齿数</th><th>后齿轮齿数</th><th>车轮直径/cm</th></tr><tr><td>甲自行车</td><td>48</td><td>16</td><td>70</td></tr><tr><td>乙自行车</td><td>32</td><td>16</td><td>60</td></tr></table>",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["甲"] }
+      ]
+    },
+    "analysis": "甲车走的路程 = (48/16) × 70π = 210π。乙车走的路程 = (32/16) × 60π = 120π。甲车更远。",
+    "difficulty": 3,
+    "knowledge_points": ["自行车路程综合比较"]
+  },
+  {
+    "id": "62-6",
+    "type": "fill",
+    "stem": "下图中的这辆自行车脚踏板蹬一圈能走多少米？<br><img src=\"/images/workbook/p62_q6.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5.652", "5.652米"] }
+      ]
+    },
+    "analysis": "前齿轮36个齿，后齿轮12个齿，传动比为3。车轮直径60cm=0.6m，周长为 0.6×3.14 = 1.884m。蹬一圈走的路程 = 3 × 1.884 = 5.652m。",
+    "difficulty": 4,
+    "knowledge_points": ["自行车图文综合计算"]
+  },
+  {
+    "id": "62-7",
+    "type": "fill",
+    "stem": "一辆自行车前齿轮有 28 个齿，后齿轮有 14 个齿，脚踏板蹬一圈自行车大约前进 3 m，这辆自行车的车轮直径大约是多少厘米？(得数保留整数) + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["48", "48厘米"] }
+      ]
+    },
+    "analysis": "传动比 = 28/14 = 2。车轮周长 = 3m / 2 = 1.5m = 150cm。直径 = 150 / 3.14 ≈ 47.77cm，保留整数为48cm。",
+    "difficulty": 4,
+    "knowledge_points": ["逆推车轮直径"]
+  },
+  {
+    "id": "62-8",
+    "type": "fill",
+    "stem": "杂技演员骑独轮车通过一段钢丝，车轮转了 29 圈，车轮直径为 40 cm。如果骑双轮自行车通过这段钢丝(从前轮上钢丝到后轮下钢丝)，那么脚踏板需蹬多少圈？($$\\pi$$ 取 3)<br><img src=\"/images/workbook/p62_q8.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["16"] }
+      ]
+    },
+    "analysis": "钢丝总长度 = 29 × 3 × 40 = 3480 cm。双轮自行车通过的距离等于钢丝长度加上前后车轮圆心间距，即 3480 + 120 = 3600 cm。双轮自行车车轮周长 = 3 × 45 = 135 cm。后轮转动圈数 = 3600 / 135 = 80/3 圈。齿数比为 5:3，所以脚踏板圈数 = (80/3) × (3/5) = 16 圈。",
+    "difficulty": 6,
+    "knowledge_points": ["过桥问题变体", "复合齿轮计算"]
+  },
+  {
+    "id": "62-9",
+    "type": "fill",
+    "stem": "有甲、乙、丙三个互相咬合的齿轮，当甲齿轮转 5 圈时，乙齿轮转 7 圈，丙齿轮转 2 圈。请你计算出甲、乙、丙三个齿轮的齿数比。 + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["14:10:35"] }
+      ]
+    },
+    "analysis": "互相咬合的齿轮，齿数与转数成反比。甲、乙、丙的齿数比等于它们转数的倒数比，即 (1/5) : (1/7) : (1/2) = 14 : 10 : 35。",
+    "difficulty": 5,
+    "knowledge_points": ["多个齿轮的连比"]
+  },
+  {
+    "id": "63-1",
+    "type": "fill",
+    "stem": "一、填空。 + 1. (        ) $$: 20=\\frac{12}{(        )}=80\\%=20\\div$$(        )$$=($$(        )(填小数)$$=$$(        )折$$=$$(        )(成)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["16"] },
+        { "is_ordered": true, "accepted_values": ["15"] },
+        { "is_ordered": true, "accepted_values": ["25"] },
+        { "is_ordered": true, "accepted_values": ["0.8"] },
+        { "is_ordered": true, "accepted_values": ["八"] },
+        { "is_ordered": true, "accepted_values": ["八"] }
+      ]
+    },
+    "analysis": "80%化为小数是0.8，即八折、八成。作为比是 16:20。作为除法是 20÷25。作为分数是 12/15。",
+    "difficulty": 2,
+    "knowledge_points": ["百分数、分数、小数、比的互化"]
+  },
+  {
+    "id": "63-2",
+    "type": "fill",
+    "stem": "一、填空。 + 2. 如果体重比 75 kg 重 1 kg 记作 $$+1$$ kg，那么体重比 75 kg 轻 2 kg 记作(        )kg。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$-2$$"] }
+      ]
+    },
+    "analysis": "比基准轻记作负数。",
+    "difficulty": 1,
+    "knowledge_points": ["正负数的意义"]
+  },
+  {
+    "id": "63-3",
+    "type": "fill",
+    "stem": "一、填空。 + 3. 李叔叔购买了一套商品房，房价为 52 万元，李叔叔应按房价的 1.5% 缴纳契税，李叔叔需缴纳契税(        )万元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.78"] }
+      ]
+    },
+    "analysis": "缴纳契税 = 52 × 1.5% = 0.78 万元。",
+    "difficulty": 2,
+    "knowledge_points": ["税率计算"]
+  },
+  {
+    "id": "63-4",
+    "type": "fill",
+    "stem": "一、填空。 + 4. 某商店推出全场八折的优惠。一双皮鞋原价 180 元，现在只需要(        )元。尽管如此促销，该商店这个月的营业额也只有 18 万元，比去年同期下降四成，去年同期营业额是(        )万元。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["144"] },
+        { "is_ordered": true, "accepted_values": ["30"] }
+      ]
+    },
+    "analysis": "现价 = 180 × 0.8 = 144 元。去年同期营业额 = 18 ÷ (1 - 0.4) = 30 万元。",
+    "difficulty": 4,
+    "knowledge_points": ["折扣与成数综合计算"]
+  },
+  {
+    "id": "63-5",
+    "type": "fill",
+    "stem": "一、填空。 + 5. 优优一家计划自驾从北京到西安再到昆明旅游。优优在一幅比例尺为 $$1:50000000$$ 的地图上量得北京到西安的距离是 1.8 cm，北京到西安的实际距离约是(        )km；西安到昆明的实际距离是 1200 km，在这幅地图上的距离约是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["900"] },
+        { "is_ordered": true, "accepted_values": ["2.4"] }
+      ]
+    },
+    "analysis": "比例尺 1:50000000 表示图上 1cm 对应实际 500km。实际距离 = 1.8 × 500 = 900km。图上距离 = 1200 ÷ 500 = 2.4cm。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺计算实际与图上距离"]
+  },
+  {
+    "id": "63-6",
+    "type": "fill",
+    "stem": "一、填空。 + 6. 如图(单位：cm)，把一个体积是 $$360 cm^3$$ 的圆柱形木料削成一个陀螺，陀螺的体积为(        )$$cm^3$$。<br><img src=\"/images/workbook/p63_q6.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["240"] }
+      ]
+    },
+    "analysis": "原圆柱高为2b，体积为360，所以高为b的圆柱体积为180。陀螺是由底部高为b的圆柱和顶部高为b的圆锥组成。体积 = 180 + 180/3 = 180 + 60 = 240。",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱与圆锥体积切削"]
+  },
+  {
+    "id": "63-7",
+    "type": "choice",
+    "stem": "二、选择。 + 1. 建筑体积是进行建筑工程概算的一项重要数据指标。下面建筑物中，最适合用“底面积 $$\\times$$ 高”来计算近似体积的是(        )。<br><img src=\"/images/workbook/p63_q7.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p63_q7_optA.png" },
+      { "text": "B.", "img": "p63_q7_optB.png" },
+      { "text": "C.", "img": "p63_q7_optC.png" },
+      { "text": "D.", "img": "p63_q7_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "C图为水立方，是一个近似的长方体，属于柱体，适合用 底面积×高 来计算体积。",
+    "difficulty": 2,
+    "knowledge_points": ["柱体体积通式"]
+  },
+  {
+    "id": "63-8",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 一种冰激凌的最佳保存温度是 $$-23 \\sim -16^{\\circ}\\text{C}$$。有一台冰箱的分区及温度设置如右表，把这种冰激凌放在这个冰箱的哪个区域最合适？(        )<br><table><tr><th>冷藏室</th><th>变温室</th><th>冷冻室</th></tr><tr><td>$$6^{\\circ}\\text{C}$$</td><td>$$-3 \\sim 4^{\\circ}\\text{C}$$</td><td>$$-18^{\\circ}\\text{C}$$</td></tr></table>",
+    "has_image": false,
+    "options": [
+      { "text": "A. 冷藏室", "img": null },
+      { "text": "B. 变温室", "img": null },
+      { "text": "C. 冷冻室", "img": null },
+      { "text": "D. 三个区域都可以", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "-18℃介于-23℃到-16℃之间，冷冻室最合适。",
+    "difficulty": 1,
+    "knowledge_points": ["负数的比较与应用"]
+  },
+  {
+    "id": "63-9",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 下面每组中的四个数，不能组成比例的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 2, 0.25, 3, 0.375", "img": null },
+      { "text": "B. 18, 8, 5.4, 24", "img": null },
+      { "text": "C. $$\\frac{5}{3},\\frac{4}{7},\\frac{5}{6},\\frac{2}{7}$$", "img": null },
+      { "text": "D. 30, 25, 6, 125", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "根据比例基本性质，若四个数能构成比例，必有两个数的乘积等于另外两个数的乘积。B组中，18×8=144，而5.4×24=129.6，不相等。",
+    "difficulty": 3,
+    "knowledge_points": ["比例的判断"]
+  },
+  {
+    "id": "63-10",
+    "type": "choice",
+    "stem": "二、选择。 + 4. 将一个棱长为 20 cm 的正方体削成一个最大的圆柱，体积减少了(        )$$cm^3$$。($$\\pi$$取 3.14)",
+    "has_image": false,
+    "options": [
+      { "text": "A. 1720", "img": null },
+      { "text": "B. 6280", "img": null },
+      { "text": "C. 8000", "img": null },
+      { "text": "D. 17120", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "正方体体积 = 20³ = 8000。最大圆柱底面半径为10，高为20，体积 = 3.14 × 10² × 20 = 6280。减少的体积 = 8000 - 6280 = 1720。",
+    "difficulty": 4,
+    "knowledge_points": ["正方体内部最大圆柱"]
+  },
+  {
+    "id": "63-11",
+    "type": "choice",
+    "stem": "二、选择。 + 5. 优优将一年节省下来的 2400 元零花钱按整存整取的方式存入银行，存二年定期，年利率为 $$1.10\\%$$。到期时，优优一共能取出多少元？下面列式正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$2400 \\times 1.10\\%$$", "img": null },
+      { "text": "B. $$2400 \\times (1 + 1.10\\%)$$", "img": null },
+      { "text": "C. $$2400 \\times 1.10\\% \\times 2$$", "img": null },
+      { "text": "D. $$2400 + 2400 \\times 1.10\\% \\times 2$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "本息和 = 本金 + 利息 = 本金 + 本金 × 年利率 × 存期。对应列式 D。",
+    "difficulty": 2,
+    "knowledge_points": ["本息和计算列式"]
+  },
+  {
+    "id": "64-1",
+    "type": "choice",
+    "stem": "二、选择。 + 6. 下面各选项中，两个量成反比例关系的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 一辆匀速运动的车行驶的路程与时间", "img": null },
+      { "text": "B. 一个非零自然数与它的倒数", "img": null },
+      { "text": "C. 比赛分 6 组，总人数与每组人数", "img": null },
+      { "text": "D. 分数的大小一定，它的分子与分母", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "非零自然数与它的倒数乘积恒为1（乘积一定），因此成反比例关系。",
+    "difficulty": 2,
+    "knowledge_points": ["反比例的意义"]
+  },
+  {
+    "id": "64-2",
+    "type": "choice",
+    "stem": "二、选择。 + 7. 有一根长 20 cm 的圆柱形木料，被截成 3 段底面积相等的圆柱后，表面积增加了 $$226.08 cm^2$$，原来这根圆柱形木料的体积是(        )$$cm^3$$。($$\\pi$$取 3.14)",
+    "has_image": false,
+    "options": [
+      { "text": "A. 1130.4", "img": null },
+      { "text": "B. 2260.8", "img": null },
+      { "text": "C. 753.6", "img": null },
+      { "text": "D. 1507.2", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "截成3段意味着切了2次，增加了4个底面的面积。底面积 = 226.08 / 4 = 56.52。体积 = 56.52 × 20 = 1130.4。",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱截面增加表面积计算"]
+  },
+  {
+    "id": "64-3",
+    "type": "fill",
+    "stem": "三、计算。 + 1. 脱式计算，能简算的要简算。 $$\\frac{6}{25} \\times \\frac{35}{36} \\div \\frac{1}{3} = $$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.7", "$$\\frac{7}{10}$$"] }
+      ]
+    },
+    "analysis": "化除为乘：6/25 × 35/36 × 3 = (6×35×3)/(25×36) = 7/10 = 0.7。",
+    "difficulty": 3,
+    "knowledge_points": ["分数的连乘除"]
+  },
+  {
+    "id": "64-4",
+    "type": "fill",
+    "stem": "三、计算。 + 1. 脱式计算，能简算的要简算。 $$127 \\times 0.75 - 28 \\div \\frac{4}{3} + 75\\% = $$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["75"] }
+      ]
+    },
+    "analysis": "原式 = 127 × 0.75 - 28 × 0.75 + 1 × 0.75 = (127 - 28 + 1) × 0.75 = 100 × 0.75 = 75。",
+    "difficulty": 4,
+    "knowledge_points": ["乘法分配律简算"]
+  },
+  {
+    "id": "64-5",
+    "type": "fill",
+    "stem": "三、计算。 + 1. 脱式计算，能简算的要简算。 $$5.7 \\times 3.2 + 57 \\times 0.68 = $$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["57"] }
+      ]
+    },
+    "analysis": "原式 = 5.7 × 3.2 + 5.7 × 6.8 = 5.7 × (3.2 + 6.8) = 5.7 × 10 = 57。",
+    "difficulty": 3,
+    "knowledge_points": ["小数乘法分配律"]
+  },
+  {
+    "id": "64-6",
+    "type": "fill",
+    "stem": "三、计算。 + 2. 解比例。 $$0.24 : 3 = 3 : x$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["37.5"] }
+      ]
+    },
+    "analysis": "0.24x = 9，x = 9 ÷ 0.24 = 37.5。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "64-7",
+    "type": "fill",
+    "stem": "三、计算。 + 2. 解比例。 $$\\frac{6}{x} = \\frac{8}{3}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2.25", "$$\\frac{9}{4}$$"] }
+      ]
+    },
+    "analysis": "8x = 18，x = 18 ÷ 8 = 2.25。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "64-8",
+    "type": "fill",
+    "stem": "三、计算。 + 2. 解比例。 $$\\frac{1}{4} : x = 0.3 : 1.5$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.25", "$$\\frac{5}{4}$$"] }
+      ]
+    },
+    "analysis": "0.3x = 1.5 × 1/4 = 0.375，x = 0.375 ÷ 0.3 = 1.25。",
+    "difficulty": 3,
+    "knowledge_points": ["解含分数和小数的比例"]
+  },
+  {
+    "id": "64-9",
+    "type": "fill",
+    "stem": "四、动手操作。 + 1. 聪聪想用卡纸制作一个无盖的圆柱形笔筒，他用一张长是 24 cm、宽是 18 cm 的长方形卡纸作为笔筒的侧面(接口处忽略不计)。按照上面的方法制作出这个圆柱形笔筒，一共要用(        )$$cm^2$$ 的卡纸。($$\\pi$$取 3)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["480", "459"] }
+      ]
+    },
+    "analysis": "分两种情况：以24cm为底面周长，则r=24÷(2×3)=4cm，底面积=3×4²=48，共用卡纸432+48=480cm²；若以18cm为底面周长，则r=18÷(2×3)=3cm，底面积=3×3²=27，共用卡纸432+27=459cm²。",
+    "difficulty": 5,
+    "knowledge_points": ["圆柱表面积的不确定卷法"]
+  }
+]

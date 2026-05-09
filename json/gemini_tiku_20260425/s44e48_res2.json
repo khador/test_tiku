@@ -1,0 +1,90 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 44,
+      "q_id": null,
+      "message": "第44页第2大题指令为“列出比例，并且解比例”，存在不同的正反排列组合导致等式答案不唯一，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 44,
+      "q_id": null,
+      "message": "第44页第4大题第(1)问要求“请圈出来”，属于原图操作题，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 45,
+      "q_id": null,
+      "message": "第45页第3大题第(1)问包含“说明理由”主观作答指令，已丢弃"
+    },
+    {
+      "type": "drawing_required",
+      "page": 45,
+      "q_id": null,
+      "message": "第45页第3大题第(2)问包含“在图中描出来，连起来并延长”作图指令，已丢弃"
+    },
+    {
+      "type": "contradictory_data",
+      "page": 47,
+      "q_id": null,
+      "message": "第47页第2大题(表格填空)原图数据存在矛盾: Col1中x/z=4，Col5中x/z=3，与题干'x与z成正比例关系'互斥导致无法唯一求解，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 48,
+      "q_id": null,
+      "message": "第48页第3大题包含指令“请你通过测量，计算出”，脱离原书物理介质无法进行，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 48,
+      "q_id": null,
+      "message": "第48页第4大题包含主观论述指令“为什么？”，已丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p44_q3.png",
+      "parent_img_filename": "44.jpg",
+      "cordinate": [650, 400, 950, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p44_q5.png",
+      "parent_img_filename": "44.jpg",
+      "cordinate": [700, 1500, 950, 1750],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p45_q2.png",
+      "parent_img_filename": "45.jpg",
+      "cordinate": [150, 350, 950, 650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p46_q4.png",
+      "parent_img_filename": "46.jpg",
+      "cordinate": [550, 1400, 900, 1700],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p47_q3.png",
+      "parent_img_filename": "47.jpg",
+      "cordinate": [150, 600, 950, 850],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p47_q3_3.png",
+      "parent_img_filename": "47.jpg",
+      "cordinate": [150, 950, 800, 1150],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

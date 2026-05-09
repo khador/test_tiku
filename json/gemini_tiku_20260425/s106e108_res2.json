@@ -1,0 +1,71 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 106,
+      "q_id": null,
+      "message": "第106页第1大题(2)包含'画出圆关于直线b对称的图形'作图指令，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 106,
+      "q_id": null,
+      "message": "第106页第1大题(3)包含'画出将三角形...旋转并平移后'作图指令，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 106,
+      "q_id": null,
+      "message": "第106页第1大题(4)包含'画出缩小后的长方形'作图指令，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 106,
+      "q_id": null,
+      "message": "第106页第2大题'按要求画一画'包含方位测距与作图双重指令，已整题滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 108,
+      "q_id": null,
+      "message": "第108页第6大题(3)包含指令'你会选择电影()，理由是...'属于主观论述与开放式偏好选择，已滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p106_q4_1.png",
+      "parent_img_filename": "106.jpg",
+      "cordinate": [350, 200, 550, 850],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p107_q2.png",
+      "parent_img_filename": "107.jpg",
+      "cordinate": [550, 750, 700, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p107_q3.png",
+      "parent_img_filename": "107.jpg",
+      "cordinate": [450, 150, 600, 250],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p108_q1.png",
+      "parent_img_filename": "108.jpg",
+      "cordinate": [300, 700, 450, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p108_q3.png",
+      "parent_img_filename": "108.jpg",
+      "cordinate": [550, 150, 750, 950],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

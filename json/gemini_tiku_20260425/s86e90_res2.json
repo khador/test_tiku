@@ -1,0 +1,204 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 86,
+      "q_id": null,
+      "message": "第86页第3大题指令为“请你在右面的方格纸上画出...”，属于纯作图题，已按规则滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 86,
+      "q_id": null,
+      "message": "第86页第5大题“智慧加油站”追问“请说明理由”，需要主观文字论述几何原理，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 88,
+      "q_id": null,
+      "message": "第88页第3大题共有(1)到(4)项分别涉及画轴对称、平移、旋转及放大图形等网格作图指令，脱离物理纸张无法操作，已整体滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 89,
+      "q_id": null,
+      "message": "第89页第1大题第(2)小问指令为“在图中画出电影院的位置”，属于作图题，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 89,
+      "q_id": null,
+      "message": "第89页第2大题包含线段比例尺测绘补充以及“请在图中标出...”等重度依赖纸面手工测量的操作指令，已整体滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p86_q4_1.png",
+      "parent_img_filename": "86.jpg",
+      "cordinate": [150, 750, 350, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p86_q4_2.png",
+      "parent_img_filename": "86.jpg",
+      "cordinate": [550, 750, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p87_q1_1.png",
+      "parent_img_filename": "87.jpg",
+      "cordinate": [750, 150, 950, 400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p87_q1_2.png",
+      "parent_img_filename": "87.jpg",
+      "cordinate": [150, 500, 350, 700],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p87_q2_2.png",
+      "parent_img_filename": "87.jpg",
+      "cordinate": [150, 1200, 400, 1400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p87_q3_2.png",
+      "parent_img_filename": "87.jpg",
+      "cordinate": [150, 1750, 450, 1850],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p87_q4.png",
+      "parent_img_filename": "87.jpg",
+      "cordinate": [700, 2000, 950, 2200],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p88_q2.png",
+      "parent_img_filename": "88.jpg",
+      "cordinate": [150, 350, 850, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p88_q2_optA.png",
+      "parent_img_filename": "88.jpg",
+      "cordinate": [250, 350, 400, 500],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p88_q2_optB.png",
+      "parent_img_filename": "88.jpg",
+      "cordinate": [400, 350, 550, 500],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p88_q2_optC.png",
+      "parent_img_filename": "88.jpg",
+      "cordinate": [550, 350, 700, 500],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p88_q2_optD.png",
+      "parent_img_filename": "88.jpg",
+      "cordinate": [700, 350, 850, 500],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p88_q4.png",
+      "parent_img_filename": "88.jpg",
+      "cordinate": [150, 1150, 950, 1400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p89_q1.png",
+      "parent_img_filename": "89.jpg",
+      "cordinate": [150, 750, 950, 1050],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p89_q4.png",
+      "parent_img_filename": "89.jpg",
+      "cordinate": [100, 1850, 350, 2100],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p90_q1.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [650, 200, 900, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p90_q3.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [750, 700, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p90_q4.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [150, 1050, 950, 1300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p90_q5.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [550, 1400, 950, 1600],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p90_q6.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [150, 1850, 950, 2050],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p90_q6_optA.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [150, 1850, 350, 2050],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p90_q6_optB.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [350, 1850, 550, 2050],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p90_q6_optC.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [550, 1850, 750, 2050],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p90_q6_optD.png",
+      "parent_img_filename": "90.jpg",
+      "cordinate": [750, 1850, 950, 2050],
+      "is_option": true,
+      "option_letter": "D"
+    }
+  ]
+}

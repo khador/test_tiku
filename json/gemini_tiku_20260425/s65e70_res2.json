@@ -1,0 +1,83 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 65,
+      "q_id": null,
+      "message": "第65页第2大题第(1)与(2)小问分别包含'连起来并说明理由'和'原因是...'的文字发散论述与作图要求，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 65,
+      "q_id": null,
+      "message": "第65页第2大题第(3)小问含'说明你的判断理由'，并要求文字论述含义，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 65,
+      "q_id": null,
+      "message": "第65页阅读材料第(2)小问含'请通过计算说明理由'，需主观推导演算排版，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 67,
+      "q_id": null,
+      "message": "第67页第1大题末尾追问'为什么？'，属于文字推导解释题，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 67,
+      "q_id": null,
+      "message": "第67页第2大题第(1)小问指令为'把优优的思想过程补充完整'并伴有发散性方框拓扑图，非标准填空结构，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 67,
+      "q_id": null,
+      "message": "第67页第4大题末尾追问'为什么？'，属于文字解释题，已滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 68,
+      "q_id": null,
+      "message": "第68页第3大题末尾要求'这是为什么？'，进行主观论述，已滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p65_q1.png",
+      "parent_img_filename": "65.jpg",
+      "cordinate": [350, 200, 500, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p66_q4.png",
+      "parent_img_filename": "66.jpg",
+      "cordinate": [450, 650, 600, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p66_q5.png",
+      "parent_img_filename": "66.jpg",
+      "cordinate": [650, 750, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p70_q6.png",
+      "parent_img_filename": "70.jpg",
+      "cordinate": [450, 300, 600, 700],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p70_q12.png",
+      "parent_img_filename": "70.jpg",
+      "cordinate": [750, 800, 950, 950],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

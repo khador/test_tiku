@@ -1,0 +1,361 @@
+[
+  {
+    "id": "49-1",
+    "type": "fill",
+    "stem": "填空。 + (1)在比例尺是 $$50:1$$ 的图纸上画一个零件，图纸上零件的长度是 6 cm，这个零件的实际长度是(        )mm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.2"] }
+      ]
+    },
+    "analysis": "放大比例尺 50:1。实际长度 = 图上长度 ÷ 50 = 6 cm ÷ 50 = 0.12 cm = 1.2 mm。",
+    "difficulty": 3,
+    "knowledge_points": ["放大比例尺", "单位换算"]
+  },
+  {
+    "id": "49-2",
+    "type": "fill",
+    "stem": "填空。 + (2)现藏于三星堆博物馆的商青铜立人像，高 2.608 m，它是现存最高、最完整的青铜立人像，被誉为“世界铜像之王”。在一幅比例尺为 $$1:80$$ 的图上，这尊商青铜立人像的高为(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3.26"] }
+      ]
+    },
+    "analysis": "2.608 m = 260.8 cm。图上高度 = 260.8 × (1/80) = 3.26 cm。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺求图上距离"]
+  },
+  {
+    "id": "49-3",
+    "type": "fill",
+    "stem": "一块长方形地，长与宽的比是 $$7:4$$，将其画在比例尺为 $$1:1000$$ 的图纸上，画得的长方形地的周长是 44 cm。某开发商计划在这块地上盖一栋楼，占地面积约是这块地面积的 $$10\\%$$。这栋楼的占地面积大约是多少平方米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1120"] }
+      ]
+    },
+    "analysis": "图上周长44cm，实际周长 = 44 × 1000 = 44000 cm = 440 m。实际长宽之和为 220 m。按7:4分配，长为 140 m，宽为 80 m。总面积 = 140 × 80 = 11200 平方米。这栋楼的占地面积 = 11200 × 10% = 1120 平方米。",
+    "difficulty": 5,
+    "knowledge_points": ["比例尺求实际面积", "按比例分配"]
+  },
+  {
+    "id": "50-1",
+    "type": "fill",
+    "stem": "填空。 + (1)根据条件完成表格。<br><table><tr><th>图上距离</th><th>9 cm</th><th>(        )cm</th><th>6 cm</th></tr><tr><th>实际距离</th><th>180 km</th><th>250 m</th><th>(        )km</th></tr><tr><th>比例尺</th><th>$$1:(        )$$</th><th>$$1:1250$$</th><th>$$1:4000000$$</th></tr></table>",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["20"] },
+        { "is_ordered": true, "accepted_values": ["240"] },
+        { "is_ordered": true, "accepted_values": ["2000000"] }
+      ]
+    },
+    "analysis": "第一列：180km=18000000cm，比例尺为 9:18000000 = 1:2000000。第二列：250m=25000cm，图上距离=25000/1250 = 20cm。第三列：实际距离=6×4000000=24000000cm=240km。",
+    "difficulty": 4,
+    "knowledge_points": ["图上距离、实际距离与比例尺的关系"]
+  },
+  {
+    "id": "50-2",
+    "type": "fill",
+    "stem": "填空。 + (2)北京、张家口之间的距离约是 160 km，在一幅比例尺是<img src=\"/images/workbook/p50_q1_2.png\" />的地图上，两地之间的距离约是(        )cm。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "线段比例尺显示 1 cm 代表 40 km。160 km ÷ 40 km/cm = 4 cm。",
+    "difficulty": 2,
+    "knowledge_points": ["线段比例尺的应用"]
+  },
+  {
+    "id": "50-3",
+    "type": "fill",
+    "stem": "填空。 + (3)医生通过一个直径为 0.5 cm 的小孔植入电极，利用脑机接口，帮助受试者实现用“意念”喝水。如果按 $$20:1$$ 的比例尺将小孔画在设计图纸上，直径是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10"] }
+      ]
+    },
+    "analysis": "放大比例尺。图上直径 = 0.5 × 20 = 10 cm。",
+    "difficulty": 2,
+    "knowledge_points": ["放大比例尺求图上距离"]
+  },
+  {
+    "id": "50-4",
+    "type": "fill",
+    "stem": "填空。 + (4)2025年9月18日，台风“桦加沙”在菲律宾以东洋面生成，于9月24日在我国广东省阳江市海陵岛一带沿海登陆。菲律宾与广东的距离大约是 1200 km，在一幅图上距离 4 cm 表示实际距离 160 km 的地图上，菲律宾与广东的距离大约是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30"] }
+      ]
+    },
+    "analysis": "图上 4 cm 代表 160 km，即 1 cm 代表 40 km。1200 km ÷ 40 km/cm = 30 cm。",
+    "difficulty": 3,
+    "knowledge_points": ["利用相对比例求图上距离"]
+  },
+  {
+    "id": "50-5",
+    "type": "choice",
+    "stem": "选择。 + (1)李师傅在比例尺为 $$1:10$$ 的图纸上画了一个零件，现因工程需要，将零件的实际长度扩大到原来的 2 倍，则该图上零件的长度应(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 缩小到原来的 $$\\frac{1}{2}$$", "img": null },
+      { "text": "B. 扩大到原来的 2 倍", "img": null },
+      { "text": "C. 不变", "img": null },
+      { "text": "D. 无法确定", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "比例尺一定，图上距离与实际距离成正比例。实际长度扩大2倍，图上长度也随之扩大2倍。",
+    "difficulty": 3,
+    "knowledge_points": ["正比例关系在比例尺中的应用"]
+  },
+  {
+    "id": "50-6",
+    "type": "fill",
+    "stem": "选择。 + (2)上海虹口足球场是中国第一座专业足球场，把这个足球场的平面图画在图纸上，选用(        )的比例尺画出的平面图最大，选用(        )的比例尺画出的平面图最小。<br>A. $$1:100$$<br>B. $$1:1000$$<br>C. $$1:500$$<br>D. $$1:5000$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["A"] },
+        { "is_ordered": true, "accepted_values": ["D"] }
+      ]
+    },
+    "analysis": "实际大小固定时，比例尺的值越大（即缩小的倍数越小），画出的平面图就越大。四个比例尺中 1:100 最大，1:5000 最小。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺大小的比较"]
+  },
+  {
+    "id": "50-7",
+    "type": "fill",
+    "stem": "长江是中国第一大河，发源于青藏高原唐古拉山脉主峰各拉丹冬雪山。在一幅比例尺为 $$1:6300000$$ 的地图上，量得长江的图上长度约是 100 cm，那么在另一幅比例尺为 $$1:12600000$$ 的地图上，长江的长度约是多少厘米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["50"] }
+      ]
+    },
+    "analysis": "新比例尺 1:12600000 是原比例尺 1:6300000 的一半（缩小倍数翻倍）。因此在实际长度不变的情况下，新图上长度是原图上长度的一半，100 ÷ 2 = 50 cm。",
+    "difficulty": 4,
+    "knowledge_points": ["比例尺的相对转化"]
+  },
+  {
+    "id": "52-1",
+    "type": "fill",
+    "stem": "填空。 + (1)按 $$2:1$$ 把右图的三角形放大，下面的量有变化的是(        )。（填序号）<br>①线段 AB 的长度 ②三角形的周长 ③$$\\angle A$$ 的度数 ④三角形的面积<br><img src=\"/images/workbook/p52_q1_1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["①②④", "①、②、④"] }
+      ]
+    },
+    "analysis": "图形放大后，形状不变（所有内角角度不变），但所有线段的长度、周长和面积均会相应扩大。",
+    "difficulty": 2,
+    "knowledge_points": ["图形放缩的特征"]
+  },
+  {
+    "id": "52-2",
+    "type": "fill",
+    "stem": "填空。 + (2)“锦绣中华”是目前世界上最大的实景微缩景区，在这个景区中，故宫博物院东西宽约 50.2 m，而故宫博物院实际东西宽 753 m，相当于把故宫博物院按(        ):(        )缩小了。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1"] },
+        { "is_ordered": true, "accepted_values": ["15"] }
+      ]
+    },
+    "analysis": "50.2 : 753 = 502 : 7530 = 1 : 15。",
+    "difficulty": 2,
+    "knowledge_points": ["求缩放比例"]
+  },
+  {
+    "id": "52-3",
+    "type": "fill",
+    "stem": "填空。 + (3)有一个正方形，边长为 25 cm，如果按 $$1:5$$ 把它缩小，那么边长变为(        )cm；如果按 $$3:1$$ 把它放大，那么它的周长扩大到原来的(        )倍，面积扩大到原来的(        )倍。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5"] },
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["9"] }
+      ]
+    },
+    "analysis": "缩小1:5，边长变为 25 ÷ 5 = 5cm。放大3:1，长度和周长扩大3倍，面积扩大 3² = 9倍。",
+    "difficulty": 3,
+    "knowledge_points": ["放缩中周长与面积的变化倍数"]
+  },
+  {
+    "id": "52-4",
+    "type": "choice",
+    "stem": "选择。 + (1)一张长方形照片长 3.2 cm，宽 2 cm，将这张照片按 $$4:1$$ 放大后，长和宽的比是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$4:1$$", "img": null },
+      { "text": "B. $$1:4$$", "img": null },
+      { "text": "C. $$5:8$$", "img": null },
+      { "text": "D. $$8:5$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "图形按比例放大或缩小，其内部结构长宽比不变。原长宽比为 3.2 : 2 = 32 : 20 = 8 : 5。",
+    "difficulty": 2,
+    "knowledge_points": ["放缩前后比值不变"]
+  },
+  {
+    "id": "52-5",
+    "type": "fill",
+    "stem": "选择。 + (2)下图中，按 $$2:1$$ 把图①放大后是图(        )；按 $$1:2$$ 把图①缩小后是图(        )。<br><img src=\"/images/workbook/p52_q2_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["④", "4"] },
+        { "is_ordered": true, "accepted_values": ["②", "2"] }
+      ]
+    },
+    "analysis": "图①占据网格的 2行×4列。放大2:1应变为 4行×8列，对应图④；缩小1:2应变为 1行×2列，对应图②。",
+    "difficulty": 2,
+    "knowledge_points": ["网格中图形的识别与放缩"]
+  },
+  {
+    "id": "52-6",
+    "type": "fill",
+    "stem": "下面是一个圆柱的展开图，按要求回答下面问题。（$$\\pi$$取 3，单位：cm） + (2)缩小前圆柱的表面积是(        )$$cm^2$$，体积是(        )$$cm^3$$。<br><img src=\"/images/workbook/p52_q4.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["90"] },
+        { "is_ordered": true, "accepted_values": ["54"] }
+      ]
+    },
+    "analysis": "放大镜提示网格边长为0.5cm。底面圆的半径占据6格，r=3cm。侧面矩形的高占据4格，h=2cm。其底面周长应为 2×3×3=18cm，刚好符合网格(36格×0.5=18)。表面积 = 2×(3×3²) + 18×2 = 54 + 36 = 90。体积 = (3×3²)×2 = 54。",
+    "difficulty": 5,
+    "knowledge_points": ["从网格图提取圆柱参数", "圆柱表面积与体积"]
+  },
+  {
+    "id": "52-7",
+    "type": "fill",
+    "stem": "下面是一个圆柱的展开图，按要求回答下面问题。（$$\\pi$$取 3，单位：cm） + (3)缩小前与缩小后的圆柱展开图的面积之比是(        )，体积之比是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4:1"] },
+        { "is_ordered": true, "accepted_values": ["8:1"] }
+      ]
+    },
+    "analysis": "图形按1:2缩小，即边长缩为原来的1/2。面积比为平方之比(4:1)；体积比为立方之比(8:1)。",
+    "difficulty": 3,
+    "knowledge_points": ["缩小比例与面积、体积比"]
+  },
+  {
+    "id": "53-1",
+    "type": "fill",
+    "stem": "小明买 6 本练习本花了 15 元，小红买 9 本同样的练习本，需要花多少钱？ + (1)分析：在这个问题中，有总价、数量与单价三个量，练习本的(        )是一定的，(        )与(        )成(        )比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["单价"] },
+        { "is_ordered": false, "accepted_values": ["总价"] },
+        { "is_ordered": false, "accepted_values": ["数量"] },
+        { "is_ordered": true, "accepted_values": ["正"] }
+      ]
+    },
+    "analysis": "同一商品单价一定，购买的总价与数量的商为定值，故成正比例。",
+    "difficulty": 2,
+    "knowledge_points": ["用正比例分析问题"]
+  },
+  {
+    "id": "53-2",
+    "type": "fill",
+    "stem": "小明买 6 本练习本花了 15 元，小红买 9 本同样的练习本，需要花多少钱？ + (2)解答：用比例的方法解答问题。 + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["22.5", "22.5元"] }
+      ]
+    },
+    "analysis": "设需要花 x 元。15 / 6 = x / 9，解得 x = 22.5。",
+    "difficulty": 2,
+    "knowledge_points": ["列比例方程求解"]
+  },
+  {
+    "id": "53-3",
+    "type": "fill",
+    "stem": "赴九天，问苍穹！这是独属于中国人的宇宙级浪漫。我国载人空间站“天宫”飞行 76.8 km 仅需 10 秒，每天可绕地球约 16 圈，“天宫”内的航天员们大约每 1.5 小时就能看一次日出与日落。“天宫”飞行 192 km 需要多久？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["25", "25秒"] }
+      ]
+    },
+    "analysis": "速度一定，飞行距离与时间成正比例。设需要 x 秒。76.8 / 10 = 192 / x，解得 x = 25。",
+    "difficulty": 3,
+    "knowledge_points": ["正比例求解实际路程时间问题"]
+  },
+  {
+    "id": "53-4",
+    "type": "fill",
+    "stem": "菠萝是一种营养丰富的水果，用食盐水浸泡菠萝，可以使菠萝的口感更好。优优的妈妈用 6 g 食盐和 240 g 水配制了食盐水，将菠萝浸泡半个小时后，菠萝的口感更好了。优优想配制 410 g 同样的食盐水，她需要多少克食盐？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10", "10克"] }
+      ]
+    },
+    "analysis": "原食盐水的总重量为 6 + 240 = 246 g。食盐占盐水的比例恒定。设需要 x 克食盐。6 / 246 = x / 410。解得 x = 10。",
+    "difficulty": 5,
+    "knowledge_points": ["浓度不变与正比例求解"]
+  },
+  {
+    "id": "53-5",
+    "type": "fill",
+    "stem": "五年级同学模仿“曹冲称象”做实验。当把一袋 150 g 的饼干放在“小船”上时，“小船”下沉 0.8 cm。当把一袋葡萄干放在“小船”上时，“小船”下沉 0.5 cm。这袋葡萄干的质量是多少克？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["93.75", "93.75克"] }
+      ]
+    },
+    "analysis": "在合理范围内，船的下沉深度与物体质量成正比例。设葡萄干质量为 x 克。150 / 0.8 = x / 0.5，解得 x = 93.75。",
+    "difficulty": 4,
+    "knowledge_points": ["浮力原理中的正比例应用"]
+  },
+  {
+    "id": "53-6",
+    "type": "fill",
+    "stem": "在一幅比例尺为 $$1:7000000$$ 的地图上，A市和 B市相距 4 cm。A市、B市和 C市在一条直线上。一辆车晚上 10 时从 A市出发，第二天凌晨 2 时到达 B市，之后速度不变，继续从 B市行驶，早上 7 时到达 C市。这辆车共行驶了多少千米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["630", "630千米"] }
+      ]
+    },
+    "analysis": "A市到B市图上4cm，实际距离 = 4 × 7000000 = 28000000 cm = 280 km。从A到B耗时4小时(22:00到次日02:00)，速度 = 280 / 4 = 70 km/h。从B到C耗时5小时(02:00到07:00)，行驶距离 = 70 × 5 = 350 km。共行驶 280 + 350 = 630 km。",
+    "difficulty": 6,
+    "knowledge_points": ["比例尺距离换算", "分段行程问题计算"]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "errors": [
+    {
+      "type": "open_ended",
+      "page": 83,
+      "q_id": null,
+      "message": "第83页第4大题“探究题”之第3小问要求“请你仿照...用算式来解释这个道理”，含主观证明书写，已按规则滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 83,
+      "q_id": null,
+      "message": "第83页第5大题第(3)问含主观指令“推测交通工具是什么，并写出理由”，属于发散猜想题，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 85,
+      "q_id": null,
+      "message": "第85页第2大题为网格高线作图题“画出下面各图形指定底边上的高”，无法转为填空，已滤除"
+    },
+    {
+      "type": "drawing_required",
+      "page": 85,
+      "q_id": null,
+      "message": "第85页第3大题包含多项脱离物理纸张无法操作的“作图寻宝”及“设计最短路线”的主观画图指令，已整体滤除"
+    },
+    {
+      "type": "open_ended",
+      "page": 85,
+      "q_id": null,
+      "message": "第85页第4大题追问“请说明理由”，需主观归纳几何定律并进行文字论述，已滤除"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p81_q3.png",
+      "parent_img_filename": "81.jpg",
+      "cordinate": [150, 600, 950, 800],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p82_q1_5.png",
+      "parent_img_filename": "82.jpg",
+      "cordinate": [150, 850, 950, 1000],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p82_q1_7.png",
+      "parent_img_filename": "82.jpg",
+      "cordinate": [150, 1150, 950, 1300],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p83_q5_1.png",
+      "parent_img_filename": "83.jpg",
+      "cordinate": [150, 150, 950, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p84_q3.png",
+      "parent_img_filename": "84.jpg",
+      "cordinate": [150, 700, 350, 900],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p85_q1_4.png",
+      "parent_img_filename": "85.jpg",
+      "cordinate": [150, 1000, 350, 1150],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

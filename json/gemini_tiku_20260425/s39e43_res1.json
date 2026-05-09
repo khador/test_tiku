@@ -1,0 +1,425 @@
+[
+  {
+    "id": "41-1",
+    "type": "fill",
+    "stem": "下面各表中相对应的两个量的比能否组成比例？写出你的判断并把组成的比例写出来。 + (1)<br><table><tr><th>年龄/岁</th><th>10</th><th>12</th></tr><tr><th>体重/kg</th><th>35</th><th>42</th></tr></table><br>判断：(        )，组成的比例：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["能"] },
+        { "is_ordered": true, "accepted_values": ["10:35=12:42", "12:42=10:35", "10:12=35:42", "35:42=10:12", "$$10:35=12:42$$", "$$10:12=35:42$$"] }
+      ]
+    },
+    "analysis": "10:35 = 2:7，12:42 = 2:7，比值相等，因此能组成比例。",
+    "difficulty": 2,
+    "knowledge_points": ["比例的意义"]
+  },
+  {
+    "id": "41-2",
+    "type": "fill",
+    "stem": "下面各表中相对应的两个量的比能否组成比例？写出你的判断并把组成的比例写出来。 + (2)<br><table><tr><th>苹果质量/kg</th><th>4.5</th><th>7</th></tr><tr><th>苹果总价/元</th><th>18</th><th>28</th></tr></table><br>判断：(        )，组成的比例：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["能"] },
+        { "is_ordered": true, "accepted_values": ["4.5:18=7:28", "7:28=4.5:18", "4.5:7=18:28", "18:28=4.5:7", "$$4.5:18=7:28$$", "$$4.5:7=18:28$$"] }
+      ]
+    },
+    "analysis": "4.5:18 = 1:4，7:28 = 1:4，比值相等，可以组成比例。",
+    "difficulty": 2,
+    "knowledge_points": ["比例的意义"]
+  },
+  {
+    "id": "41-3",
+    "type": "fill",
+    "stem": "下面各表中相对应的两个量的比能否组成比例？写出你的判断并把组成的比例写出来。 + (3)<br><table><tr><th>圆的直径/m</th><th>3</th><th>5</th></tr><tr><th>圆的周长/m</th><th>9.42</th><th>15.7</th></tr></table><br>判断：(        )，组成的比例：(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["能"] },
+        { "is_ordered": true, "accepted_values": ["3:9.42=5:15.7", "5:15.7=3:9.42", "3:5=9.42:15.7", "9.42:15.7=3:5", "$$3:9.42=5:15.7$$"] }
+      ]
+    },
+    "analysis": "3:9.42 = 1:3.14，5:15.7 = 1:3.14，两者比值相等。",
+    "difficulty": 2,
+    "knowledge_points": ["比例的意义"]
+  },
+  {
+    "id": "41-4",
+    "type": "choice",
+    "stem": "选择。 + (1)下面各组中的两个比不能组成比例的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$40:10$$ 和 $$4:1$$", "img": null },
+      { "text": "B. $$10:12$$ 和 $$\\frac{5}{7}:\\frac{6}{7}$$", "img": null },
+      { "text": "C. $$\\frac{1}{11}:\\frac{1}{12}$$ 和 $$11:12$$", "img": null },
+      { "text": "D. $$1.5:5$$ 和 $$6:20$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "C选项中，前者比值为 12/11，后者比值为 11/12，比值不相等，不能组成比例。",
+    "difficulty": 3,
+    "knowledge_points": ["比例的判断"]
+  },
+  {
+    "id": "41-5",
+    "type": "choice",
+    "stem": "选择。 + (2)下面是四个不同的长方形，其中长与宽的比能和 $$5:4$$ 组成比例的是(        )。",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p41_q3_2_optA.png" },
+      { "text": "B.", "img": "p41_q3_2_optB.png" },
+      { "text": "C.", "img": "p41_q3_2_optC.png" },
+      { "text": "D.", "img": "p41_q3_2_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "A的长宽比为 16:10=8:5；B的长宽比为 18:15=6:5；C的长宽比为 12:9=4:3；D的长宽比为 15:12=5:4。因此D选项可以和 5:4 组成比例。",
+    "difficulty": 2,
+    "knowledge_points": ["图形的长宽比例"]
+  },
+  {
+    "id": "41-6",
+    "type": "fill",
+    "stem": "(1)图中甲、乙两个正方形的边长之比是(        )，周长之比是(        )，这两个比(        )组成比例。(填“能”或“不能”)<br><img src=\"/images/workbook/p41_q5.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4:8", "1:2"] },
+        { "is_ordered": true, "accepted_values": ["16:32", "1:2"] },
+        { "is_ordered": true, "accepted_values": ["能"] }
+      ]
+    },
+    "analysis": "甲边长4，乙边长8，边长比1:2。周长比为 16:32 = 1:2。两者比值相等。",
+    "difficulty": 2,
+    "knowledge_points": ["正方形的性质与比例"]
+  },
+  {
+    "id": "41-7",
+    "type": "fill",
+    "stem": "(2)图中甲、乙两个正方形的面积之比是(        )，这个比和甲、乙两个正方形的边长之比(        )组成比例。(填“能”或“不能”)<br><img src=\"/images/workbook/p41_q5.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["16:64", "1:4"] },
+        { "is_ordered": true, "accepted_values": ["不能"] }
+      ]
+    },
+    "analysis": "面积比为 16:64 = 1:4。边长比为 1:2。比值不相等，不能组成比例。",
+    "difficulty": 2,
+    "knowledge_points": ["面积比与边长比"]
+  },
+  {
+    "id": "42-1",
+    "type": "fill",
+    "stem": "填空。 + (1)计算下面比例中两个外项的积和两个内项的积，并将比例的基本性质补充完整。 ①$$5:20=8:32$$<br>$$5\\times 32=$$(        )<br>$$20\\times 8=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["160"] },
+        { "is_ordered": true, "accepted_values": ["160"] }
+      ]
+    },
+    "analysis": "计算乘积，5×32=160，20×8=160。",
+    "difficulty": 1,
+    "knowledge_points": ["比例的基本性质"]
+  },
+  {
+    "id": "42-2",
+    "type": "fill",
+    "stem": "填空。 + (1)计算下面比例中两个外项的积和两个内项的积，并将比例的基本性质补充完整。 ②$$\\frac{3}{8}=\\frac{9}{24}$$<br>$$3\\times 24=$$(        )<br>$$8\\times 9=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["72"] },
+        { "is_ordered": true, "accepted_values": ["72"] }
+      ]
+    },
+    "analysis": "十字相乘，3×24=72，8×9=72。",
+    "difficulty": 1,
+    "knowledge_points": ["比例的基本性质"]
+  },
+  {
+    "id": "42-3",
+    "type": "fill",
+    "stem": "填空。 + (1)计算下面比例中两个外项的积和两个内项的积，并将比例的基本性质补充完整。 在比例里，两个外项的积(        )两个内项的积，这叫作比例的基本性质。用字母表示就是：如果 $$a:b=c:d$$，那么(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["等于"] },
+        { "is_ordered": true, "accepted_values": ["$$ad=bc$$"] }
+      ]
+    },
+    "analysis": "比例基本性质的文字与代数描述。",
+    "difficulty": 1,
+    "knowledge_points": ["比例的基本性质"]
+  },
+  {
+    "id": "42-4",
+    "type": "fill",
+    "stem": "填空。 + (2)在一个比例中，两个内项互为倒数，一个外项是 1.2，则另一个外项是(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$\\frac{5}{6}$$", "0.833"] }
+      ]
+    },
+    "analysis": "两内项互为倒数，说明它们的乘积是 1。根据比例基本性质，两外项之积也为 1。另一个外项 = 1 ÷ 1.2 = 5/6。",
+    "difficulty": 3,
+    "knowledge_points": ["比例的基本性质与倒数"]
+  },
+  {
+    "id": "42-5",
+    "type": "fill",
+    "stem": "填空。 + (3)(易错题)如果 $$\\frac{x}{y}=\\frac{3}{8}$$($$x,y$$ 均不为0)，那么 $$x\\times$$(        )$$=y\\times$$(        )。如果 $$4m=7n$$($$m,n$$ 均不为0)，那么 $$m:n=$$(        ):(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8"] },
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["7"] },
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "交叉相乘得 8x = 3y。由 4m=7n 可转化比例式 m/n = 7/4，即 m:n = 7:4。",
+    "difficulty": 3,
+    "knowledge_points": ["等式与比例式的互化"]
+  },
+  {
+    "id": "42-6",
+    "type": "choice",
+    "stem": "选择。 + (1)下面哪个比例是由 $$\\frac{a}{6}=\\frac{b}{8}$$($$a,b$$ 均不为0)改写的？(        )",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$a:b=6:8$$", "img": null },
+      { "text": "B. $$a:b=8:6$$", "img": null },
+      { "text": "C. $$a:8=6:b$$", "img": null },
+      { "text": "D. $$a:6=8:b$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "原式化简交叉相乘得 8a = 6b。A选项 a/b = 6/8 -> 8a=6b，符合。C和D均得出 ab=48，不符合。",
+    "difficulty": 4,
+    "knowledge_points": ["比例式的变形"]
+  },
+  {
+    "id": "42-7",
+    "type": "choice",
+    "stem": "选择。 + (2)如图，三角形 $$a$$ 边上的高为 $$b$$，$$c$$ 边上的高为 $$d$$。下面式子中，(        )不成立。<br><img src=\"/images/workbook/p42_q3_2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. $$a:c=d:b$$", "img": null },
+      { "text": "B. $$a:c=b:d$$", "img": null },
+      { "text": "C. $$\\frac{a}{d}=\\frac{c}{b}$$", "img": null },
+      { "text": "D. $$\\frac{b}{c}=\\frac{d}{a}$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "三角形面积 S = 1/2*a*b = 1/2*c*d，由此得出 ab=cd。B选项化开为 ad=bc，与 ab=cd 不符。",
+    "difficulty": 5,
+    "knowledge_points": ["面积恒等式推导比例"]
+  },
+  {
+    "id": "42-8",
+    "type": "fill",
+    "stem": "王老师买了 24 支铅笔和 3 支钢笔，买两种笔所花的钱数相等。 + (1)铅笔与钢笔的单价之比是多少？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1:8"] }
+      ]
+    },
+    "analysis": "24 × 铅笔单价 = 3 × 钢笔单价。铅笔单价 : 钢笔单价 = 3 : 24 = 1 : 8。",
+    "difficulty": 3,
+    "knowledge_points": ["单价与数量的反比例关系"]
+  },
+  {
+    "id": "42-9",
+    "type": "fill",
+    "stem": "王老师买了 24 支铅笔和 3 支钢笔，买两种笔所花的钱数相等。 + (2)铅笔的单价是 2 元，钢笔的单价是多少？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["16", "16元"] }
+      ]
+    },
+    "analysis": "铅笔与钢笔单价之比是 1:8。铅笔是2元，钢笔 = 2 × 8 = 16 元。",
+    "difficulty": 3,
+    "knowledge_points": ["利用比例关系求解"]
+  },
+  {
+    "id": "42-10",
+    "type": "fill",
+    "stem": "在一个比例中，两个外项的积加上两个内项的积的和是 120，其中一个内项是最小的质数，一个外项是最小的合数。请你写出所有符合条件的比例。 + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4:2=30:15, 4:30=2:15, 15:2=30:4, 15:30=2:4"] }
+      ]
+    },
+    "analysis": "内项积与外项积相等，其和为120，故内项积=外项积=60。最小的质数是2，所以另一个内项是30。最小的合数是4，所以另一个外项是15。组合排列这四个数组成的所有比例即可。",
+    "difficulty": 6,
+    "knowledge_points": ["质数合数概念", "内项积与外项积"]
+  },
+  {
+    "id": "43-1",
+    "type": "fill",
+    "stem": "填空。 + (1)在括号里填上合适的数，使比例成立。 $$15:5=$$(        )$$ : 1$$<br>$$3.5 :$$(        )$$= 1.4 : 2$$<br>$$\\frac{4}{0.7}=\\frac{2}{(        )}$$",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["5"] },
+        { "is_ordered": true, "accepted_values": ["0.35"] }
+      ]
+    },
+    "analysis": "第一题比值为3，所以填3；第二题 1.4:2=0.7，3.5/0.7=5；第三题 4/0.7化简，分子缩小一半，分母也缩小一半为0.35。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "43-2",
+    "type": "fill",
+    "stem": "填空。 + (2)广州塔目前是我国第一高的观光塔，右图是某公司制作的广州塔模型，模型的高度与实际高度的比是 $$1:750$$。广州塔的实际高度是(        )m。<br><img src=\"/images/workbook/p43_q1_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["600"] }
+      ]
+    },
+    "analysis": "模型高 80 cm = 0.8 m。实际高度 = 0.8 × 750 = 600 m。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺换算"]
+  },
+  {
+    "id": "43-3",
+    "type": "fill",
+    "stem": "填空。 + (3)西安城墙的微缩模型的高度与实际高度的比为 $$1:50$$。已知一段墙体实际高 12 m，那么在这个微缩模型中，这段墙体的高度是(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.24"] }
+      ]
+    },
+    "analysis": "模型高度 = 实际高度 × 比例尺 = 12 × (1/50) = 0.24 m。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺计算模型高度"]
+  },
+  {
+    "id": "43-4",
+    "type": "fill",
+    "stem": "填空。 + (4)一种酒精消毒液是用浓度为 95% 的酒精和水按 15:4 的体积比配制而成的。现有浓度为 95% 的酒精 45 mL，要配制成这种消毒液，需要加水(        )mL。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12"] }
+      ]
+    },
+    "analysis": "酒精占15份，为45mL，则1份=3mL。水占4份，需要 4×3=12mL。",
+    "difficulty": 3,
+    "knowledge_points": ["按比例分配"]
+  },
+  {
+    "id": "43-5",
+    "type": "fill",
+    "stem": "解比例。 + $$x:14=0.5:\\frac{1}{5}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["35"] }
+      ]
+    },
+    "analysis": "内项之积等于外项之积：(1/5)x = 14 × 0.5 = 7。解得 x = 35。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例方程"]
+  },
+  {
+    "id": "43-6",
+    "type": "fill",
+    "stem": "解比例。 + $$\\frac{3}{4}:\\frac{1}{8}=x:\\frac{1}{12}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.5", "$$\\frac{1}{2}$$"] }
+      ]
+    },
+    "analysis": "(1/8)x = (3/4) × (1/12) = 1/16。解得 x = 1/2。",
+    "difficulty": 3,
+    "knowledge_points": ["解分数比例方程"]
+  },
+  {
+    "id": "43-7",
+    "type": "fill",
+    "stem": "解比例。 + $$\\frac{0.5}{x}=\\frac{0.3}{1.2}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "交叉相乘：0.3x = 0.5 × 1.2 = 0.6。解得 x = 2。",
+    "difficulty": 2,
+    "knowledge_points": ["解分数形式比例方程"]
+  },
+  {
+    "id": "43-8",
+    "type": "fill",
+    "stem": "你知道吗？月球引力与地球引力的比约为 $$1:6$$。理论上同一个人在月球上能跳到的高度与在地球上跳到的高度的比约为 $$6:1$$。(用比例的方法解答下面的问题) + (1)在月球上小贾的跳高成绩大约是多少米？<br><img src=\"/images/workbook/p43_q3_1.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["7.2"] }
+      ]
+    },
+    "analysis": "地球上成绩1.2m。设月球上为x，x:1.2 = 6:1，得 x = 7.2 m。",
+    "difficulty": 3,
+    "knowledge_points": ["利用比例解应用题"]
+  },
+  {
+    "id": "43-9",
+    "type": "fill",
+    "stem": "你知道吗？月球引力与地球引力的比约为 $$1:6$$。理论上同一个人在月球上能跳到的高度与在地球上跳到的高度的比约为 $$6:1$$。(用比例的方法解答下面的问题) + (2)若小强在月球上能跳到的高度是 7.8 m，则他在地球上能跳到的高度大约是多少米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.3"] }
+      ]
+    },
+    "analysis": "设地球上为y，7.8:y = 6:1，得 6y = 7.8，解得 y = 1.3 m。",
+    "difficulty": 3,
+    "knowledge_points": ["利用比例解应用题"]
+  },
+  {
+    "id": "43-10",
+    "type": "fill",
+    "stem": "甲、乙两个书架上原有书的本数相同，从甲书架拿 150 本书到乙书架后，甲、乙两个书架上书的本数的比是 $$2:3$$。甲书架上原来有多少本书？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["750", "750本"] }
+      ]
+    },
+    "analysis": "设原来都有x本。移动后，甲有(x-150)本，乙有(x+150)本。比例为 (x-150):(x+150) = 2:3。交叉相乘 3(x-150) = 2(x+150)，3x-450 = 2x+300，解得 x = 750。",
+    "difficulty": 5,
+    "knowledge_points": ["利用比例解方程应用题"]
+  }
+]

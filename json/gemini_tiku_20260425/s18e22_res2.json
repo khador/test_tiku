@@ -1,0 +1,179 @@
+{
+  "errors": [
+    {
+      "type": "drawing_required",
+      "page": 19,
+      "q_id": null,
+      "message": "第19页第3大题包含指令'在方格图中画出...'，涉及作图，已丢弃"
+    },
+    {
+      "type": "open_ended",
+      "page": 20,
+      "q_id": null,
+      "message": "第20页底部'数学文化'为阅读与开放式动手实验环节，无明确填空结构，已丢弃"
+    }
+  ],
+  "images": [
+    {
+      "img_filename": "p18_q1.png",
+      "parent_img_filename": "18.jpg",
+      "cordinate": [200, 300, 950, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q2.png",
+      "parent_img_filename": "18.jpg",
+      "cordinate": [200, 600, 900, 800],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q3.png",
+      "parent_img_filename": "18.jpg",
+      "cordinate": [180, 900, 900, 1100],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q4.png",
+      "parent_img_filename": "18.jpg",
+      "cordinate": [250, 1200, 950, 1350],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p18_q7.png",
+      "parent_img_filename": "18.jpg",
+      "cordinate": [750, 1800, 950, 2050],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p19_q1.png",
+      "parent_img_filename": "19.jpg",
+      "cordinate": [150, 200, 900, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p19_q3_optA.png",
+      "parent_img_filename": "19.jpg",
+      "cordinate": [200, 650, 350, 800],
+      "is_option": true,
+      "option_letter": "A"
+    },
+    {
+      "img_filename": "p19_q3_optB.png",
+      "parent_img_filename": "19.jpg",
+      "cordinate": [400, 650, 500, 800],
+      "is_option": true,
+      "option_letter": "B"
+    },
+    {
+      "img_filename": "p19_q3_optC.png",
+      "parent_img_filename": "19.jpg",
+      "cordinate": [550, 650, 700, 800],
+      "is_option": true,
+      "option_letter": "C"
+    },
+    {
+      "img_filename": "p19_q3_optD.png",
+      "parent_img_filename": "19.jpg",
+      "cordinate": [750, 650, 900, 800],
+      "is_option": true,
+      "option_letter": "D"
+    },
+    {
+      "img_filename": "p19_q4.png",
+      "parent_img_filename": "19.jpg",
+      "cordinate": [150, 850, 900, 1200],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p20_q1.png",
+      "parent_img_filename": "20.jpg",
+      "cordinate": [800, 200, 950, 450],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p20_q2.png",
+      "parent_img_filename": "20.jpg",
+      "cordinate": [200, 650, 750, 850],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p20_q3.png",
+      "parent_img_filename": "20.jpg",
+      "cordinate": [700, 1050, 950, 1200],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p21_q1_1.png",
+      "parent_img_filename": "21.jpg",
+      "cordinate": [700, 1400, 900, 1650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p21_q1_2.png",
+      "parent_img_filename": "21.jpg",
+      "cordinate": [150, 1400, 350, 1650],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p21_q4.png",
+      "parent_img_filename": "21.jpg",
+      "cordinate": [150, 900, 350, 1100],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p21_q6.png",
+      "parent_img_filename": "21.jpg",
+      "cordinate": [800, 650, 950, 800],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p21_q7.png",
+      "parent_img_filename": "21.jpg",
+      "cordinate": [100, 350, 250, 500],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p22_q2.png",
+      "parent_img_filename": "22.jpg",
+      "cordinate": [200, 500, 650, 700],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p22_q3.png",
+      "parent_img_filename": "22.jpg",
+      "cordinate": [800, 850, 950, 1050],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p22_q4.png",
+      "parent_img_filename": "22.jpg",
+      "cordinate": [600, 1200, 950, 1400],
+      "is_option": false,
+      "option_letter": null
+    },
+    {
+      "img_filename": "p22_q6.png",
+      "parent_img_filename": "22.jpg",
+      "cordinate": [800, 1650, 950, 1950],
+      "is_option": false,
+      "option_letter": null
+    }
+  ]
+}

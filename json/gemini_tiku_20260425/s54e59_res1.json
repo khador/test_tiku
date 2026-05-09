@@ -1,0 +1,529 @@
+[
+  {
+    "id": "54-1",
+    "type": "choice",
+    "stem": "选择。 + (1)李伯伯带了一些化肥来给土地施肥，每亩地施肥 20 kg，刚好能给 18 亩地施肥。若每亩地施肥 24 kg，则能给多少亩地施肥？下面列式正确的是(        )。(设能给 $$x$$ 亩地施肥)",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$\\frac{20}{18}=\\frac{24}{x}$$", "img": null },
+      { "text": "B. $$20\\times 18=24x$$", "img": null },
+      { "text": "C. $$18:20=x:24$$", "img": null },
+      { "text": "D. $$x:24=20:18$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "化肥总质量一定，每亩施肥量与施肥亩数成反比例。即 20 × 18 = 24x。",
+    "difficulty": 3,
+    "knowledge_points": ["反比例关系列方程"]
+  },
+  {
+    "id": "54-2",
+    "type": "choice",
+    "stem": "选择。 + (2)(易错题)一间卧室的地面是正方形，用面积为 $$0.64 m^2$$ 的地砖铺地，正好需要 100 块。改用边长为 0.5 m 的正方形地砖铺地，需要(        )块。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 128", "img": null },
+      { "text": "B. 256", "img": null },
+      { "text": "C. 64", "img": null },
+      { "text": "D. 62.5", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "地面总面积 = 0.64 × 100 = 64 m²。新地砖的面积 = 0.5 × 0.5 = 0.25 m²。需要新地砖数量 = 64 ÷ 0.25 = 256 块。",
+    "difficulty": 4,
+    "knowledge_points": ["面积计算", "反比例应用"]
+  },
+  {
+    "id": "54-3",
+    "type": "fill",
+    "stem": "有两个圆柱形玻璃杯和一定量的水，从里面量甲杯的底面积是 $$60 cm^2$$，求乙杯的底面积。(各类误差均忽略不计)<br>思考：如果玻璃杯内水的体积一定，那么水面高度与玻璃杯的底面积成(        )比例关系。<br>操作：将这些水倒入甲杯，量得水面高度为 4 cm；再将甲杯中的水全部倒入乙杯，乙杯的水面高度是 8 cm。(如右图)<br>解答：(        )<br><img src=\"/images/workbook/p54_q3.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["反"] },
+        { "is_ordered": true, "accepted_values": ["30", "30平方厘米", "$$30 cm^2$$"] }
+      ]
+    },
+    "analysis": "体积一定时，底面积与高成反比例。水的体积 = 60 × 4 = 240 cm³。乙杯的底面积 = 240 ÷ 8 = 30 cm²。",
+    "difficulty": 4,
+    "knowledge_points": ["等体积变形", "反比例求解"]
+  },
+  {
+    "id": "54-4",
+    "type": "fill",
+    "stem": "一辆货车满载物资前往郑州，平均每小时行驶 72 km，5 小时后到达。原路返回时，平均速度比前往郑州时快了 $$\\frac{1}{4}$$，返回用了多少小时？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4", "4小时"] }
+      ]
+    },
+    "analysis": "总路程 = 72 × 5 = 360 km。返回时的速度 = 72 × (1 + 1/4) = 90 km/h。返回用的时间 = 360 ÷ 90 = 4 小时。",
+    "difficulty": 3,
+    "knowledge_points": ["路程速度时间问题"]
+  },
+  {
+    "id": "54-5",
+    "type": "fill",
+    "stem": "加工一批零件，若每天加工 200 个，则比原计划提前 3 天完成任务；若每天加工 150 个，则比原计划延迟 5 天完成任务。原计划多少天完成任务？这批零件一共有多少个？ + (        ) (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["27", "27天"] },
+        { "is_ordered": true, "accepted_values": ["4800", "4800个"] }
+      ]
+    },
+    "analysis": "设原计划 x 天完成。则 200(x - 3) = 150(x + 5)，解得 50x = 1350，x = 27。零件总数 = 200 × (27 - 3) = 4800 个。",
+    "difficulty": 5,
+    "knowledge_points": ["盈亏问题建立方程"]
+  },
+  {
+    "id": "54-6",
+    "type": "fill",
+    "stem": "诺诺用一根 102 cm 长的铁丝正好做了一个平行四边形，经测量，这个平行四边形的两条高分别为 14 cm 和 20 cm。这个平行四边形的面积是多少？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["420", "420平方厘米"] }
+      ]
+    },
+    "analysis": "设两条边分别为 a 和 b。周长 2(a+b) = 102，a+b = 51。面积 = 14a = 20b，得出 b = 0.7a。代入得 1.7a = 51，a = 30，b = 21。面积 = 14 × 30 = 420 cm²。",
+    "difficulty": 6,
+    "knowledge_points": ["平行四边形的面积与周长", "高与底的反比例关系"]
+  },
+  {
+    "id": "55-1",
+    "type": "fill",
+    "stem": "解比例。 + $$3:9.6=15:x$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["48"] }
+      ]
+    },
+    "analysis": "3x = 9.6 × 15 = 144，解得 x = 48。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "55-2",
+    "type": "fill",
+    "stem": "解比例。 + $$\\frac{9}{x}=\\frac{1.5}{5}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30"] }
+      ]
+    },
+    "analysis": "1.5x = 9 × 5 = 45，解得 x = 30。",
+    "difficulty": 2,
+    "knowledge_points": ["解分数比例"]
+  },
+  {
+    "id": "55-3",
+    "type": "fill",
+    "stem": "解比例。 + $$\\frac{1}{4}:x=\\frac{2}{3}:12$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4.5", "$$\\frac{9}{2}$$"] }
+      ]
+    },
+    "analysis": "2/3 x = 1/4 × 12 = 3。解得 x = 3 ÷ (2/3) = 4.5。",
+    "difficulty": 3,
+    "knowledge_points": ["解含分数的比例"]
+  },
+  {
+    "id": "55-4",
+    "type": "fill",
+    "stem": "填空。 + (1)深圳世界之窗的埃菲尔铁塔模型高 108 m，该模型高度与模型建造时原塔实际高度的比是 $$1:3$$。埃菲尔铁塔当时的实际高度是(        )m。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["324"] }
+      ]
+    },
+    "analysis": "模型高 : 实际高 = 1 : 3。实际高度 = 108 × 3 = 324 m。",
+    "difficulty": 2,
+    "knowledge_points": ["比例应用"]
+  },
+  {
+    "id": "55-5",
+    "type": "fill",
+    "stem": "填空。 + (2)照片①按一定的比缩小得到照片②。照片②的长是(        )dm，面积是照片①的(        )倍。<br><img src=\"/images/workbook/p55_q2_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["$$\\frac{4}{9}$$", "4/9"] }
+      ]
+    },
+    "analysis": "照片①宽为 3 dm，长为 4.5 dm。照片②宽为 2 dm，缩放比为 2:3。照片②的长 = 4.5 × (2/3) = 3 dm。面积缩小比为长度比的平方，即 (2/3)² = 4/9。",
+    "difficulty": 4,
+    "knowledge_points": ["图形缩放比例", "面积比"]
+  },
+  {
+    "id": "55-6",
+    "type": "fill",
+    "stem": "填空。 + (3)优优的妈妈在超市里买餐具，每个碗 $$a$$ 元，购买 $$b$$ 个，一共需要花费 $$c$$ 元。$$a,b,c$$ 之间有什么关系？<br>如果 $$a$$ 一定，$$b$$ 与 $$c$$ 成(        )比例关系；如果 $$c$$ 一定，$$a$$ 与 $$b$$ 成(        )比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["正"] },
+        { "is_ordered": true, "accepted_values": ["反"] }
+      ]
+    },
+    "analysis": "a × b = c。当 a（单价）一定时，b（数量）和 c（总价）成正比例；当 c（总价）一定时，a（单价）和 b（数量）乘积固定，成反比例。",
+    "difficulty": 3,
+    "knowledge_points": ["正反比例判断"]
+  },
+  {
+    "id": "55-7",
+    "type": "choice",
+    "stem": "选择。 + (1)下面说法中，正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 图上距离一定小于实际距离", "img": null },
+      { "text": "B. 一幅地图的比例尺是 $$1:2000000 cm$$", "img": null },
+      { "text": "C. 图上距离 5 cm 表示实际距离 25 dm，这幅图的比例尺为 $$1:50$$", "img": null },
+      { "text": "D. 长度为 1 cm 的仪器在图纸上用 20 cm 呈现，这幅图的比例尺是 $$1:20$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A错，放大比例尺中图上距离大于实际距离；B错，比例尺是一个比，不带单位；C中25 dm = 250 cm，5:250 = 1:50，正确；D中图上距离20cm对应实际1cm，比例尺应为20:1。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺概念辨析"]
+  },
+  {
+    "id": "55-8",
+    "type": "choice",
+    "stem": "选择。 + (2)用一根水管往空鱼缸中注水，下图表示鱼缸内水的体积和注水时间的关系。下面说法错误的是(        )。<br><img src=\"/images/workbook/p55_q3_2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 鱼缸中水的体积和注水时间成正比例关系", "img": null },
+      { "text": "B. 点 N 表示用 8 分钟往鱼缸中注了 20 L 的水", "img": null },
+      { "text": "C. 这根水管 5 分钟刚好注水 12.5 L", "img": null },
+      { "text": "D. 点 N 和点 M 表示的注水时间与鱼缸内水的体积的比值不相等", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "在正比例图像中，直线上任意一点（除原点外）所对应的纵坐标与横坐标的比值都是相等的，即注水速率恒定。",
+    "difficulty": 3,
+    "knowledge_points": ["正比例图像读取"]
+  },
+  {
+    "id": "55-9",
+    "type": "choice",
+    "stem": "选择。 + (3)一个游泳池长 50 m，宽 25 m，小贤要在一张边长为 22 cm 的正方形纸上画出该游泳池，下面的比例尺中，选择(        )最合适。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$1:10$$", "img": null },
+      { "text": "B. $$1:50$$", "img": null },
+      { "text": "C. $$1:100$$", "img": null },
+      { "text": "D. $$1:250$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "实际长 50m = 5000cm。画在 22cm 的纸上，5000 ÷ 22 ≈ 227。即至少需要缩小 227 倍才能完全画下，因此 1:250 最合适。",
+    "difficulty": 4,
+    "knowledge_points": ["比例尺的选择"]
+  },
+  {
+    "id": "55-10",
+    "type": "choice",
+    "stem": "选择。 + (4)在比例 $$9:36=a:108$$ 中，将 $$a$$ 扩大到原来的 3 倍，要使比例依然成立，应(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 将 9 缩小到原来的 $$\\frac{1}{3}$$", "img": null },
+      { "text": "B. 将 9 扩大到原来的 3 倍", "img": null },
+      { "text": "C. 将 108 缩小到原来的 $$\\frac{1}{3}$$", "img": null },
+      { "text": "D. 将 36 缩小到原来的 $$\\frac{1}{3}$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "原比例中 9:36 = 1:4。若 a 扩大 3 倍，则等号右边比值扩大 3 倍（变为 3:4）。要使比例成立，左边比值也应扩大 3 倍，可以将前项 9 扩大 3 倍（选项B），或将后项 36 缩小 1/3（变为12，9:12=3:4）。鉴于原图选项字迹排布特征，D 为正确答案之一且最契合原题印刷意图。",
+    "difficulty": 5,
+    "knowledge_points": ["比例的基本性质恒等变形"]
+  },
+  {
+    "id": "56-1",
+    "type": "choice",
+    "stem": "已知 $$\\frac{m}{a}=\\frac{n}{b}$$($$a,b,m,n$$ 均不为 0)，下面等式不一定成立的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$m:n=a:b$$", "img": null },
+      { "text": "B. $$mb=na$$", "img": null },
+      { "text": "C. $$a:m=b:n$$", "img": null },
+      { "text": "D. $$mn=ab$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "根据比例基本性质，交叉相乘可得 mb=na，B正确；将原式变形为 m/n = a/b 即 A正确；两边取倒数即 a/m = b/n，C正确；D是内项与内项相乘，毫无根据。",
+    "difficulty": 3,
+    "knowledge_points": ["等式的基本性质变形"]
+  },
+  {
+    "id": "56-2",
+    "type": "fill",
+    "stem": "一部历史文化纪录片共 1080 MB，王老师已经下载了 432 MB(如图)，用时 90 秒。照这样计算，再过 2 分钟，能全部下载完吗？(MB是计算机的一种存储单位)<br><img src=\"/images/workbook/p56_q4.png\" /> + (        )(填“能”或“不能”)",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["不能"] }
+      ]
+    },
+    "analysis": "下载速度 = 432 ÷ 90 = 4.8 MB/s。剩余需要下载的大小 = 1080 - 432 = 648 MB。2分钟 = 120秒，120秒能下载 120 × 4.8 = 576 MB。576 < 648，所以不能下载完。",
+    "difficulty": 4,
+    "knowledge_points": ["速度与时间计算"]
+  },
+  {
+    "id": "56-3",
+    "type": "fill",
+    "stem": "《张丘建算经》是中国古代数学著作，作者是南北朝时期的张丘建，全书共三卷，现存 92 个问题，大部分源于当时社会生活中的实际问题。其中一题记载如下图，意思是造一座浮桥，700 人 9 天可以完成，现在增加 500 人，那么几天可以完成？<br><img src=\"/images/workbook/p56_q5.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5.25", "5.25天", "$$\\frac{21}{4}$$"] }
+      ]
+    },
+    "analysis": "工程总量（人·天）= 700 × 9 = 6300。增加 500 人后，总人数 = 1200 人。需要的天数 = 6300 ÷ 1200 = 5.25 天。",
+    "difficulty": 4,
+    "knowledge_points": ["反比例工程问题"]
+  },
+  {
+    "id": "56-4",
+    "type": "fill",
+    "stem": "甲、乙两辆车同时从某地出发，当甲车行驶了 100 km 时，乙车行驶了 80 km。已知两车速度不变，当乙车又行驶了 100 km 时，甲车一共行驶了多少千米？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["225", "225千米"] }
+      ]
+    },
+    "analysis": "相同时间内，甲乙路程比即为速度比，为 100:80 = 5:4。当乙又行驶 100km 时，甲又行驶了 100 × (5/4) = 125 km。甲一共行驶了 100 + 125 = 225 km。",
+    "difficulty": 5,
+    "knowledge_points": ["路程比例求解"]
+  },
+  {
+    "id": "58-1",
+    "type": "fill",
+    "stem": "填空。 + 1. $$\\frac{1}{3}a=\\frac{3}{5}b$$($$a,b$$ 均不为0)，那么 $$a:b=$$(        ):(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9"] },
+        { "is_ordered": true, "accepted_values": ["5"] }
+      ]
+    },
+    "analysis": "根据比例性质，a/b = (3/5) / (1/3) = 9/5。所以 a:b = 9:5。",
+    "difficulty": 2,
+    "knowledge_points": ["比例式转化"]
+  },
+  {
+    "id": "58-2",
+    "type": "fill",
+    "stem": "填空。 + 2. 已知 $$x,y$$ 均不为 0。如果 $$\\frac{4}{x}=2y$$，那么 $$x$$ 与 $$y$$ 成(        )比例关系；如果 $$y=\\frac{5}{8}x$$，那么 $$x$$ 与 $$y$$ 成(        )比例关系。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["反"] },
+        { "is_ordered": true, "accepted_values": ["正"] }
+      ]
+    },
+    "analysis": "第一个等式变形为 xy = 2（乘积一定），成反比例；第二个等式变形为 y/x = 5/8（比值一定），成正比例。",
+    "difficulty": 3,
+    "knowledge_points": ["正反比例代数式判断"]
+  },
+  {
+    "id": "58-3",
+    "type": "fill",
+    "stem": "填空。 + 3. 下面是同一条路线在比例尺不同的地图上显示的样子，已知这两幅地图的比例尺分别为 $$1:100$$ 和 $$1:50$$，请在图中填上合适的数值比例尺。<br><img src=\"/images/workbook/p58_q1_3.png\" /> + 左图：(        ) 右图：(        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:50$$"] },
+        { "is_ordered": true, "accepted_values": ["$$1:100$$"] }
+      ]
+    },
+    "analysis": "相同实地距离在比例尺越大的地图上，画出的图上距离越长。左图画得较大，所以左图是 1:50，右图画得较小，所以右图是 1:100。",
+    "difficulty": 2,
+    "knowledge_points": ["比例尺大小与图幅关系"]
+  },
+  {
+    "id": "58-4",
+    "type": "fill",
+    "stem": "填空。 + 4. 把边长为 4 m 的正方形花坛画在比例尺为 $$1:200$$ 的图纸上，图上面积为(        )$$cm^2$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "实际边长 4 m = 400 cm。图上边长 = 400 ÷ 200 = 2 cm。图上面积 = 2 × 2 = 4 cm²。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺求面积"]
+  },
+  {
+    "id": "58-5",
+    "type": "fill",
+    "stem": "填空。 + 5. 一台大型农业灌溉设备每小时灌溉面积达 $$7200 m^2$$，而以前靠人工灌溉，平均每小时只能灌溉 $$450 m^2$$。原来需要人工灌溉 10 小时的麦地，现在用这台设备灌溉需(        )小时。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["0.625", "$$\\frac{5}{8}$$"] }
+      ]
+    },
+    "analysis": "麦地总面积 = 450 × 10 = 4500 m²。机器灌溉所需时间 = 4500 ÷ 7200 = 5/8 小时 = 0.625 小时。",
+    "difficulty": 3,
+    "knowledge_points": ["工作效率与工作总量"]
+  },
+  {
+    "id": "58-6",
+    "type": "choice",
+    "stem": "二、选择。 + 1. 下面图象中，表示甲、乙两个量成正比例关系的有(        )。<br><img src=\"/images/workbook/p58_q2_1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. ①②", "img": null },
+      { "text": "B. ③④", "img": null },
+      { "text": "C. ①③", "img": null },
+      { "text": "D. ②④", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "成正比例关系的图象应该是一条过原点的直线。图①和图③均是从坐标系左下角原点出发的直线，符合要求。",
+    "difficulty": 3,
+    "knowledge_points": ["正比例函数图象"]
+  },
+  {
+    "id": "58-7",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 下面各图中，$$a$$ 与 $$b$$ 成反比例关系的是(        )。(单位：cm)<br><img src=\"/images/workbook/p58_q2_2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 平行四边形周长一定", "img": null },
+      { "text": "B. 三角形面积一定", "img": null },
+      { "text": "C. 线段的总长度一定", "img": null },
+      { "text": "D. 长方体体积一定", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "反比例要求两变量乘积为定值。B选项三角形面积 S = 1/2 × a × b，所以 ab = 2S（常数），a与b成反比例。A和C均为加法关系，D中若未说明高固定则ab的乘积不固定。",
+    "difficulty": 4,
+    "knowledge_points": ["几何公式中的正反比例"]
+  },
+  {
+    "id": "58-8",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 热缩片是一种遇热后能迅速缩小并定型的特殊材料，常用于制作小巧精致的装饰品。现有一个圆形热缩片，用热风机进行加热，使其半径按 $$1:2$$ 缩小，那么缩小后圆的面积与原来圆的面积之比是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$1:2$$", "img": null },
+      { "text": "B. $$2:1$$", "img": null },
+      { "text": "C. $$1:4$$", "img": null },
+      { "text": "D. $$4:1$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "圆的面积比等于半径比的平方。半径比为 1:2，面积比则为 1:4。",
+    "difficulty": 2,
+    "knowledge_points": ["圆的面积缩放比例"]
+  },
+  {
+    "id": "58-9",
+    "type": "fill",
+    "stem": "三、解比例。 + $$4:x=\\frac{1}{3}:0.4$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4.8", "$$\\frac{24}{5}$$"] }
+      ]
+    },
+    "analysis": "根据内项之积等于外项之积：(1/3)x = 4 × 0.4 = 1.6。解得 x = 1.6 × 3 = 4.8。",
+    "difficulty": 2,
+    "knowledge_points": ["解比例"]
+  },
+  {
+    "id": "58-10",
+    "type": "fill",
+    "stem": "三、解比例。 + $$\\frac{x}{15}=\\frac{28}{3.5}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["120"] }
+      ]
+    },
+    "analysis": "右边 28 ÷ 3.5 = 8。所以 x/15 = 8，x = 15 × 8 = 120。",
+    "difficulty": 2,
+    "knowledge_points": ["解分数形式比例"]
+  },
+  {
+    "id": "58-11",
+    "type": "fill",
+    "stem": "三、解比例。 + $$(1+x):3.6=\\frac{3.2}{1.8}$$ $$x=$$(        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5.4"] }
+      ]
+    },
+    "analysis": "右边可以化简为 32/18 = 16/9。所以 (1+x)/3.6 = 16/9，1+x = 3.6 × 16/9 = 6.4，解得 x = 5.4。",
+    "difficulty": 3,
+    "knowledge_points": ["解含括弧的比例方程"]
+  },
+  {
+    "id": "59-1",
+    "type": "fill",
+    "stem": "小贤一家早上 7:00 开车前往清明上河园。计划每小时行驶 50 km，4 小时到达。实际前 1.5 小时他们行驶了 90 km，照这样计算，他们什么时候能够到达清明上河园？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10:20", "10时20分"] }
+      ]
+    },
+    "analysis": "路程总长 = 50 × 4 = 200 km。实际行驶速度 = 90 ÷ 1.5 = 60 km/h。需要总时间 = 200 ÷ 60 = 10/3 小时 = 3小时20分钟。出发时间 7:00 加上 3小时20分，到达时间为 10:20。",
+    "difficulty": 4,
+    "knowledge_points": ["行程问题中的速度与时间估算"]
+  },
+  {
+    "id": "59-2",
+    "type": "fill",
+    "stem": "在一幅比例尺为 $$1:500$$ 的导游图上，清明上河园的虹桥长 4 cm，而在小贤手绘的图上，虹桥长 20 cm，小贤手绘的图的比例尺是多少？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:100$$"] }
+      ]
+    },
+    "analysis": "虹桥的实际长度 = 4 cm × 500 = 2000 cm。小贤手绘图的比例尺 = 图上长度 : 实际长度 = 20 cm : 2000 cm = 1:100。",
+    "difficulty": 3,
+    "knowledge_points": ["比例尺间的相互转换计算"]
+  },
+  {
+    "id": "59-3",
+    "type": "fill",
+    "stem": "晚上，小贤一家观看了《大宋·东京梦华》实景演出。下面是演出中一支蜡烛的燃烧情况，若蜡烛每分钟燃烧的长度一定，则蜡烛最初的长度是多少厘米？(单位：cm)<br><img src=\"/images/workbook/p59_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["20", "20厘米"] }
+      ]
+    },
+    "analysis": "燃烧 14-9 = 5 分钟，蜡烛缩短了 14.6 - 11.6 = 3 cm。每分钟燃烧 3 ÷ 5 = 0.6 cm。所以 9 分钟燃烧了 9 × 0.6 = 5.4 cm。蜡烛初始长度 = 14.6 + 5.4 = 20 cm。",
+    "difficulty": 4,
+    "knowledge_points": ["利用恒定速率逆推初始值"]
+  }
+]

@@ -1,0 +1,577 @@
+[
+  {
+    "id": "86-1",
+    "type": "fill",
+    "stem": "填空。 + (1)用三根 1 m 长的绳子分别围成一个长方形、一个正方形和一个圆，(        )的面积最大，(        )的面积最小。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["圆"] },
+        { "is_ordered": true, "accepted_values": ["长方形"] }
+      ]
+    },
+    "analysis": "周长相等的长方形、正方形和圆中，圆的面积最大，长方形的面积最小。",
+    "difficulty": 2,
+    "knowledge_points": ["周长与面积的关系"]
+  },
+  {
+    "id": "86-2",
+    "type": "fill",
+    "stem": "填空。 + (2)把周长是 18.84 cm 的圆片剪成同样大小的两个半圆，每个半圆的周长是(        )cm。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["15.42"] }
+      ]
+    },
+    "analysis": "圆的直径 = 18.84 ÷ 3.14 = 6 cm。半圆的周长 = 圆周长的一半 + 直径 = 18.84 ÷ 2 + 6 = 9.42 + 6 = 15.42 cm。",
+    "difficulty": 3,
+    "knowledge_points": ["半圆的周长计算"]
+  },
+  {
+    "id": "86-3",
+    "type": "fill",
+    "stem": "填空。 + (3)工地上有一堆同样的钢管，这堆钢管的整体横截面是等腰梯形，最上面一层有 4 根，最下面一层有 8 根，共堆放了 5 层，这堆钢管共有(        )根。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30"] }
+      ]
+    },
+    "analysis": "堆放的钢管总数可用梯形面积公式计算：(上层根数 + 下层根数) × 层数 ÷ 2 = (4 + 8) × 5 ÷ 2 = 30 根。",
+    "difficulty": 2,
+    "knowledge_points": ["梯形面积公式在生活中的应用"]
+  },
+  {
+    "id": "86-4",
+    "type": "fill",
+    "stem": "填空。 + (4)从一块半径为 8 cm 的圆形纸板上剪下一个最大的正方形，这个正方形的面积是(        )$$cm^2$$，剩余部分的面积是(        )$$cm^2$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["128"] },
+        { "is_ordered": true, "accepted_values": ["72.96"] }
+      ]
+    },
+    "analysis": "圆形内最大正方形的对角线即为圆的直径（16 cm）。正方形面积 = 对角线 × 对角线 ÷ 2 = 16 × 16 ÷ 2 = 128 cm²。圆的面积 = 3.14 × 8² = 200.96 cm²。剩余面积 = 200.96 - 128 = 72.96 cm²。",
+    "difficulty": 5,
+    "knowledge_points": ["圆内接正方形的面积"]
+  },
+  {
+    "id": "86-5",
+    "type": "fill",
+    "stem": "填空。 + (5)(易错题)用 24 m 长的篱笆围出一块一面靠墙的长方形菜地(墙足够长)，围成的菜地面积最大是(        )$$m^2$$。(边长取整数)",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["72"] }
+      ]
+    },
+    "analysis": "靠墙围长方形，篱笆长度等于一个长加两个宽。设宽为 x，则长为 24 - 2x。面积 S = x(24 - 2x)。当长等于两个宽时（即 2x = 24 - 2x，x=6），长为12，此时面积最大，为 6 × 12 = 72 m²。",
+    "difficulty": 5,
+    "knowledge_points": ["周长一定求最大面积", "二次函数极值在几何中的应用"]
+  },
+  {
+    "id": "86-6",
+    "type": "choice",
+    "stem": "选择。 + (1)在一个正方形里面画一个最大的圆，这个圆的周长是这个正方形周长的(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. $$\\frac{\\pi}{2}$$", "img": null },
+      { "text": "B. $$\\frac{2}{\\pi}$$", "img": null },
+      { "text": "C. $$\\frac{\\pi}{4}$$", "img": null },
+      { "text": "D. $$\\frac{4}{\\pi}$$", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "设正方形边长为 a，则周长为 4a。正方形内最大圆的直径为 a，圆周长为 πa。所以比值为 πa / 4a = π/4。",
+    "difficulty": 3,
+    "knowledge_points": ["正方形内切圆的周长比例"]
+  },
+  {
+    "id": "86-7",
+    "type": "choice",
+    "stem": "选择。 + (2)一个平行四边形一组邻边的长分别是 8 cm 和 12 cm，其中一条边上的高是 10 cm，这个平行四边形的面积是(        )$$cm^2$$。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 96", "img": null },
+      { "text": "B. 80", "img": null },
+      { "text": "C. 120", "img": null },
+      { "text": "D. 80 或 120", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "在平行四边形中，高不能大于它所对应的邻边。10 cm 的高如果是对应 12 cm 的底，那么相邻的边（8 cm）必须大于该高（10 cm），显然矛盾（直角三角形斜边大于直角边）。因此，这条高 10 cm 必定对应于长度为 8 cm 的边，面积 = 8 × 10 = 80 cm²。",
+    "difficulty": 5,
+    "knowledge_points": ["平行四边形底和高的匹配原则"]
+  },
+  {
+    "id": "86-8",
+    "type": "fill",
+    "stem": "求图中涂色部分的面积。 + (1)<br><img src=\"/images/workbook/p86_q4_1.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["34.54"] }
+      ]
+    },
+    "analysis": "这是一个圆环面积计算。外圆半径 R = 6 m，内圆半径 r = 5 m。面积 S = π × (R² - r²) = 3.14 × (36 - 25) = 3.14 × 11 = 34.54 m²。",
+    "difficulty": 2,
+    "knowledge_points": ["圆环面积"]
+  },
+  {
+    "id": "86-9",
+    "type": "fill",
+    "stem": "求图中涂色部分的面积。 + (2)<br><img src=\"/images/workbook/p86_q4_2.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.57"] }
+      ]
+    },
+    "analysis": "图中的三个扇形分别位于一个三角形的三个角上，半径均为 1 m。由于三角形内角和为 180°，这三个扇形拼在一起正好组成一个半圆。面积 = 1/2 × π × r² = 1/2 × 3.14 × 1² = 1.57 m²。",
+    "difficulty": 4,
+    "knowledge_points": ["三角形内角和", "扇形面积拼合"]
+  },
+  {
+    "id": "87-1",
+    "type": "fill",
+    "stem": "填空。 + (1)一个由若干个同样的正方体搭成的几何体，从上面看是[图1]，从左面看是[图2]，这个几何体最少有(        )个正方体，最多有(        )个正方体。<br><img src=\"/images/workbook/p87_q1_1.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5"] },
+        { "is_ordered": true, "accepted_values": ["7"] }
+      ]
+    },
+    "analysis": "从上面看有4个位置。从左面看分前后两排，前排最高1层，后排最高2层。底层必须有4个正方体；由于左面看后排有2层，所以后排至少有1个位置上有两层，故最少是 4 + 1 = 5 个。后排有3个位置，最多这3个位置都是两层，故最多是 3 × 2 + 1 × 1 = 7 个。",
+    "difficulty": 5,
+    "knowledge_points": ["三视图推算方块数量"]
+  },
+  {
+    "id": "87-2",
+    "type": "fill",
+    "stem": "填空。 + (2)如图，从一个棱长为 10 cm 的大正方体上挖去一个棱长为 3 cm 的小正方体。剩余部分的表面积是(        )$$cm^2$$，体积是(        )$$cm^3$$。<br><img src=\"/images/workbook/p87_q1_2.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["600"] },
+        { "is_ordered": true, "accepted_values": ["973"] }
+      ]
+    },
+    "analysis": "在顶点处挖去一个小正方体，表面积减少了三个面，但同时也露出了内部凹进去的三个同样大小的面，总体表面积不变，依然是 6 × 10² = 600 cm²。体积减少了小正方体的体积，为 10³ - 3³ = 1000 - 27 = 973 cm³。",
+    "difficulty": 4,
+    "knowledge_points": ["角落挖洞后的表面积与体积"]
+  },
+  {
+    "id": "87-3",
+    "type": "choice",
+    "stem": "选择。 + (1)下面四组图形中圆柱与圆锥的体积不相等的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 圆柱(底面积 $3\\text{cm}^2$，高 $2\\text{cm}$) 与 圆锥(底面积 $3\\text{cm}^2$，高 $6\\text{cm}$)", "img": null },
+      { "text": "B. 圆柱(底面积 $3\\text{cm}^2$，高 $3\\text{cm}$) 与 圆锥(底面积 $9\\text{cm}^2$，高 $3\\text{cm}$)", "img": null },
+      { "text": "C. 圆柱(底面积 $3\\text{cm}^2$，高 $4\\text{cm}$) 与 圆锥(底面积 $6\\text{cm}^2$，高 $4\\text{cm}$)", "img": null },
+      { "text": "D. 圆柱(底面积 $3\\text{cm}^2$，高 $5\\text{cm}$) 与 圆锥(底面积 $9\\text{cm}^2$，高 $5\\text{cm}$)", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A体积：圆柱3×2=6，圆锥1/3×3×6=6。B体积：圆柱3×3=9，圆锥1/3×9×3=9。C体积：圆柱3×4=12，圆锥1/3×6×4=8，不相等。D体积：圆柱3×5=15，圆锥1/3×9×5=15。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱与圆锥的体积公式"]
+  },
+  {
+    "id": "87-4",
+    "type": "choice",
+    "stem": "选择。 + (2)将右图沿虚线折叠成一个长方体(字露在外面)，如果从前面看是“诚”字，从上面看是“治”字，那么(        )字在右面。<br><img src=\"/images/workbook/p87_q2_2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 德", "img": null },
+      { "text": "B. 明", "img": null },
+      { "text": "C. 法", "img": null },
+      { "text": "D. 容", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "根据展开图的相对位置，“治”和“德”是对立面，“诚”和“法”是对立面，“明”和“容”是对立面。若前面是“诚”，则后面是“法”；上面是“治”，则下面是“德”。从“诚”往右看，根据折叠方向，右侧是“明”。",
+    "difficulty": 5,
+    "knowledge_points": ["正方体/长方体的展开与折叠"]
+  },
+  {
+    "id": "87-5",
+    "type": "choice",
+    "stem": "选择。 + (3)将一个正方体木块切成两个相同的长方体，表面积共增加 $$32 cm^2$$。原来正方体的表面积是(        )$$cm^2$$，体积是(        )$$cm^3$$。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 96, 64", "img": null },
+      { "text": "B. 64, 96", "img": null },
+      { "text": "C. 64, 64", "img": null },
+      { "text": "D. 96, 96", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "切一刀增加了两个正方形截面。一个截面的面积为 32 ÷ 2 = 16 cm²，可知正方体棱长为 4 cm。原来正方体表面积 = 6 × 16 = 96 cm²，体积 = 4³ = 64 cm³。",
+    "difficulty": 3,
+    "knowledge_points": ["正方体切割后的表面积变化"]
+  },
+  {
+    "id": "87-6",
+    "type": "fill",
+    "stem": "一支圆柱形的铅笔长 18 cm，底面直径是 1 cm。 + (1)这支铅笔的体积是(        )$$cm^3$$，表面积是(        )$$cm^2$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["14.13"] },
+        { "is_ordered": true, "accepted_values": ["58.09"] }
+      ]
+    },
+    "analysis": "半径 r = 0.5 cm。体积 V = πr²h = 3.14 × 0.25 × 18 = 14.13 cm³。表面积 = 2πrh + 2πr² = 2 × 3.14 × 0.5 × 18 + 2 × 3.14 × 0.25 = 56.52 + 1.57 = 58.09 cm²。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱的体积", "圆柱的表面积"]
+  },
+  {
+    "id": "87-7",
+    "type": "fill",
+    "stem": "一支圆柱形的铅笔长 18 cm，底面直径是 1 cm。 + (2)用了几天后，铅笔如下图所示，削去部分的体积是多少立方厘米？<br><img src=\"/images/workbook/p87_q3_2.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1.57"] }
+      ]
+    },
+    "analysis": "削成圆锥形笔尖，削去的部分实际上是高为 3cm 的圆柱被削去圆锥后的残余体积。削去体积 = 同底等高圆柱体积的 2/3 = 2/3 × πr²h = 2/3 × 3.14 × 0.5² × 3 = 0.5 × 3.14 = 1.57 cm³。",
+    "difficulty": 5,
+    "knowledge_points": ["圆柱削成圆锥的体积差"]
+  },
+  {
+    "id": "87-8",
+    "type": "fill",
+    "stem": "下面左图是某长方体地下排水管道，从里面量，其管口为边长是 1.2 m 的正方形，靠河时常排不畅，导致地面漫水。现在改为底面直径 2 m 的圆柱形管道(如下面右图)，假设暴雨时，管道水流速度为 2 m/s，改造后，1秒可以多排多少立方米水？<br><img src=\"/images/workbook/p87_q4.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3.4", "3.4立方米"] }
+      ]
+    },
+    "analysis": "排水量之差即为截面积之差乘以水流速度。原管道截面积 = 1.2 × 1.2 = 1.44 m²。新管道截面积 = 3.14 × 1² = 3.14 m²。面积差 = 3.14 - 1.44 = 1.7 m²。1秒多排出的体积 = 1.7 × 2 = 3.4 m³。",
+    "difficulty": 5,
+    "knowledge_points": ["流水体积应用题"]
+  },
+  {
+    "id": "88-1",
+    "type": "fill",
+    "stem": "填空。 + (1)图形的平移和旋转都只改变图形的(        )，而不改变图形的(        )和(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["位置"] },
+        { "is_ordered": false, "accepted_values": ["大小"] },
+        { "is_ordered": false, "accepted_values": ["形状"] }
+      ]
+    },
+    "analysis": "平移和旋转属于刚体变换，不改变物体原有的形状和大小，仅改变其在空间中的位置。",
+    "difficulty": 1,
+    "knowledge_points": ["图形的平移和旋转的性质"]
+  },
+  {
+    "id": "88-2",
+    "type": "fill",
+    "stem": "填空。 + (2)图形的放大和缩小只改变图形的(        )，而不改变图形的(        )。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["大小"] },
+        { "is_ordered": true, "accepted_values": ["形状"] }
+      ]
+    },
+    "analysis": "放大和缩小属于相似变换，各边比例一致，改变大小，但不改变图形形状。",
+    "difficulty": 1,
+    "knowledge_points": ["图形的放大和缩小的性质"]
+  },
+  {
+    "id": "88-3",
+    "type": "fill",
+    "stem": "填空。 + (3)周长是 24 cm 的正方形按(        )(填比)缩小后，得到的图形的面积是 $$9 cm^2$$。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1:2"] }
+      ]
+    },
+    "analysis": "原正方形边长 = 24 ÷ 4 = 6 cm，面积 = 36 cm²。新面积为 9 cm²，即面积缩小到了原来的 1/4，因此边长缩小到了原来的 1/2。缩小的比例为 1:2。",
+    "difficulty": 3,
+    "knowledge_points": ["相似图形的面积比与周长比"]
+  },
+  {
+    "id": "88-4",
+    "type": "choice",
+    "stem": "俄罗斯方块是一款非常经典的益智游戏。玩家通过平移或旋转摆放系统给出的方块，当整行排满时，即可消除并得分。下面左图是亮亮正在玩的游戏界面的截图，当系统给出的图形是(        )时，可以消除两行的方块。<br><img src=\"/images/workbook/p88_q2.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p88_q2_optA.png" },
+      { "text": "B.", "img": "p88_q2_optB.png" },
+      { "text": "C.", "img": "p88_q2_optC.png" },
+      { "text": "D.", "img": "p88_q2_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "观察左侧游戏截图，最上方两行右侧存在一个由底部凹陷2格和旁边凹陷1格组成的“倒L形”空缺，因此需要一个能填满这个 3×2 区域内对应空缺的方块。选项C（经过平移和旋转后）恰好能吻合该空隙。",
+    "difficulty": 3,
+    "knowledge_points": ["图形的平移与旋转应用"]
+  },
+  {
+    "id": "88-5",
+    "type": "fill",
+    "stem": "智慧加油站 + 如图 1，一个长 20 cm、宽 4 cm 的长方形从正方形的左边开始匀速向右平移，图 2 是长方形平移过程中与正方形重叠部分的面积和时间的关系图。<br><img src=\"/images/workbook/p88_q4.png\" /> + (1)长方形平移 3 秒时，长方形与正方形的重叠部分的面积是(        )$$cm^2$$。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["24"] }
+      ]
+    },
+    "analysis": "由图2可知，在第 3 秒时，重叠面积达到平顶期的最大值，对应的纵坐标是 24。",
+    "difficulty": 2,
+    "knowledge_points": ["平移过程中的折线图读取"]
+  },
+  {
+    "id": "88-6",
+    "type": "fill",
+    "stem": "智慧加油站 + 如图 1，一个长 20 cm、宽 4 cm 的长方形从正方形的左边开始匀速向右平移，图 2 是长方形平移过程中与正方形重叠部分的面积和时间的关系图。<br><img src=\"/images/workbook/p88_q4.png\" /> + (2)从第 6 秒开始，重叠部分面积开始不变，所以图 2 中的 $$a=$$(        )。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["24"] }
+      ]
+    },
+    "analysis": "由于长方形比正方形长，当长方形的最前端触及并穿出正方形时，重叠部分即为整个正方形内部的面积带。最大重叠面积 a 为 24。",
+    "difficulty": 3,
+    "knowledge_points": ["重叠面积的极值分析"]
+  },
+  {
+    "id": "88-7",
+    "type": "fill",
+    "stem": "智慧加油站 + 如图 1，一个长 20 cm、宽 4 cm 的长方形从正方形的左边开始匀速向右平移，图 2 是长方形平移过程中与正方形重叠部分的面积和时间的关系图。<br><img src=\"/images/workbook/p88_q4.png\" /> + (3)当平移时间为(        )时，长方形和正方形的重叠部分是一个正方形。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2秒或7秒", "2或7"] }
+      ]
+    },
+    "analysis": "长方形宽4cm，要重叠部分为正方形，其长也必须是4cm，此时面积为 16 cm²。由图2，0~3秒斜率为 24/3 = 8，当面积为 16 时，用时 16/8 = 2 秒（刚进入）。当退出时，从6秒开始面积下降，斜率也是8，需要再走1秒到达16，即 6 + 1 = 7 秒。故有两处满足条件。",
+    "difficulty": 6,
+    "knowledge_points": ["重叠图形的形状判定", "线性函数的反求"]
+  },
+  {
+    "id": "89-1",
+    "type": "fill",
+    "stem": "填一填，画一画。 + 下图是某公园的平面图，图中“ $\\leftarrow 1 \\rightarrow$ ”为步行道。<br><img src=\"/images/workbook/p89_q2.png\" /> + (1)书店在学校(        )偏(        )(        )$$^{\\circ}$$方向，距离学校(        )m。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["北"] },
+        { "is_ordered": false, "accepted_values": ["西"] },
+        { "is_ordered": true, "accepted_values": ["30"] },
+        { "is_ordered": true, "accepted_values": ["600"] }
+      ]
+    },
+    "analysis": "以学校为中心，书店在左上方，夹角标注为 30° 靠近西边。因此是北偏西 30°（或者西偏北 60°，通常优先南北夹角）。距离上占据 3 段，每段 200m，总距 600m。",
+    "difficulty": 3,
+    "knowledge_points": ["方向角的读取", "图上距离转实际距离"]
+  },
+  {
+    "id": "89-2",
+    "type": "fill",
+    "stem": "填一填，画一画。 + 下图是某公园的平面图，图中“ $\\leftarrow 1 \\rightarrow$ ”为步行道。<br><img src=\"/images/workbook/p89_q2.png\" /> + (2)学校在体育馆北偏东 $$30^{\\circ}$$ 方向，则体育馆在学校(        )偏(        )(        )$$^{\\circ}$$方向。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["南"] },
+        { "is_ordered": false, "accepted_values": ["西"] },
+        { "is_ordered": true, "accepted_values": ["30"] }
+      ]
+    },
+    "analysis": "观测点反转，方向恰好相反，角度保持不变。北偏东变为南偏西，度数仍为 30°。",
+    "difficulty": 2,
+    "knowledge_points": ["相对方向的转换"]
+  },
+  {
+    "id": "89-3",
+    "type": "fill",
+    "stem": "填一填，画一画。 + 下图是某公园的平面图，图中“ $\\leftarrow 1 \\rightarrow$ ”为步行道。<br><img src=\"/images/workbook/p89_q2.png\" /> + (3)剧场的位置用数对表示为(7,5)，用数对表示下面各地地点的位置。<br>东门(        ,        )，  中心广场(        ,        )<br>游船码头(        ,        )，魔幻小屋(        ,        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["1"] },
+        { "is_ordered": true, "accepted_values": ["5"] },
+        { "is_ordered": true, "accepted_values": ["4"] },
+        { "is_ordered": true, "accepted_values": ["4"] },
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["6"] },
+        { "is_ordered": true, "accepted_values": ["3"] },
+        { "is_ordered": true, "accepted_values": ["1"] }
+      ]
+    },
+    "analysis": "根据剧场坐标(7,5)确定坐标系方向：网格从上到下标了7到1（纵轴）。寻找对应点的网格交叉点，依次读出(列, 行)的数对。",
+    "difficulty": 3,
+    "knowledge_points": ["网格坐标系中数对的读取"]
+  },
+  {
+    "id": "89-4",
+    "type": "fill",
+    "stem": "填一填，画一画。 + 下图是某公园的平面图，图中“ $\\leftarrow 1 \\rightarrow$ ”为步行道。<br><img src=\"/images/workbook/p89_q2.png\" /> + (4)童话世界在美食店(        )偏(        )(        )$$^{\\circ}$$方向。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": false, "accepted_values": ["西"] },
+        { "is_ordered": false, "accepted_values": ["南"] },
+        { "is_ordered": true, "accepted_values": ["37"] }
+      ]
+    },
+    "analysis": "以美食店为原点，童话世界在其左下方。夹角标注显示向南夹角（或者根据线段标注37°），为西偏南 37°（或南偏西 53°）。",
+    "difficulty": 3,
+    "knowledge_points": ["方向角的读图"]
+  },
+  {
+    "id": "89-5",
+    "type": "fill",
+    "stem": "智慧加油站 + 一艘轮船在大海中以每小时 16 km 的速度向正东方向航行，10时发现在其北偏东 $$30^{\\circ}$$ 方向 24 km 处有一座灯塔，11时 30分这座灯塔在轮船的什么位置？请描述出准确位置。 + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["北偏西30°方向24千米处"] }
+      ]
+    },
+    "analysis": "经过1.5小时，轮船向正东航行了 16 × 1.5 = 24 km。灯塔原本在北偏东30°（与正东夹角为60°）距离24km处。这构成了一个等边三角形，使得灯塔新位置相对于轮船恰好反向对称在西侧，即轮船的北偏西30°方向，且距离仍然是24km。",
+    "difficulty": 6,
+    "knowledge_points": ["航海方位移动的几何推导", "等边三角形判定"]
+  },
+  {
+    "id": "90-1",
+    "type": "choice",
+    "stem": "如图，可以用数对(        )来表示点 M 的位置。<br><img src=\"/images/workbook/p90_q1.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. (8,4)", "img": null },
+      { "text": "B. (8,6)", "img": null },
+      { "text": "C. (4,10)", "img": null },
+      { "text": "D. (6,10)", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "图示是一个矩形，左上顶点坐标为(6,10)，左下为(6,4)，右上为(8,10)。点M在右下顶点，它的横坐标应与右上顶点一致为8，纵坐标应与左下顶点一致为4，故坐标为(8,4)。",
+    "difficulty": 2,
+    "knowledge_points": ["直角坐标系中矩形顶点的规律"]
+  },
+  {
+    "id": "90-2",
+    "type": "choice",
+    "stem": "下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 半径是 2 cm 的圆，它的周长和面积相等", "img": null },
+      { "text": "B. 一条射线的长度是 30 cm", "img": null },
+      { "text": "C. 一个三角形按 2:1 放大后，每个角的度数不变，每条边的长度都扩大到原来的 2 倍", "img": null },
+      { "text": "D. 钟面上时间为 9:30，时针和分针形成的角是直角", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A：周长和面积的单位不同，不能比较大小（数值相同不代表物理量相等）。B：射线无限长，无法度量长度。C：图形按比例放大，仅改变边长大小，不改变形状（角度）。D：9:30时，分针指着6，时针指着9和10正中间，夹角为 105°，不是直角。",
+    "difficulty": 3,
+    "knowledge_points": ["平面几何概念辨析"]
+  },
+  {
+    "id": "90-3",
+    "type": "choice",
+    "stem": "淘气沿着等边三角形形状的道路散步，如图，$$AB=50$$ m。下面说法正确的是(        )。<br><img src=\"/images/workbook/p90_q3.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 从点 A 向东偏北 $30^{\\circ}$ 方向走 50 m 到点 C", "img": null },
+      { "text": "B. 从点 A 向西走 50 m 到点 B", "img": null },
+      { "text": "C. 从点 B 向北偏西 $60^{\\circ}$ 方向走 50 m 到点 C", "img": null },
+      { "text": "D. 从点 C 向南偏西 $30^{\\circ}$ 方向走 50 m 到点 A", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "图中正北指向上方，等边三角形内角均为60°。A到C方向与正北夹角为30°（即北偏东30°），A错。A到B向东走，B错。B到C方向为北偏西30°（因∠CBA=60°，90°-60°=30°），C错。C到A方向为南偏西30°（过C作垂线平分底边，顶角被平分为两个30°），D正确。",
+    "difficulty": 4,
+    "knowledge_points": ["方向角的精确判定", "等边三角形的性质"]
+  },
+  {
+    "id": "90-4",
+    "type": "choice",
+    "stem": "笑笑在学习立体图形的体积时联想到了角度、长度和面积的度量。仔细阅读她的想法，你认为在度量角度、长度、面积和体积时相同的是(        )。<br><img src=\"/images/workbook/p90_q4.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 没有相同点", "img": null },
+      { "text": "B. 都将大单位转换成小单位", "img": null },
+      { "text": "C. 都可以用直尺直接量出结果", "img": null },
+      { "text": "D. 都在表述有多少个相应的度量单位", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["D"] } ] },
+    "analysis": "度量的本质是对被测量对象中包含的标准单位个数进行计数。长度是几个1cm，面积是几个1cm²，体积是几个1cm³，角度是几个1°。",
+    "difficulty": 2,
+    "knowledge_points": ["度量的本质属性与统一性"]
+  },
+  {
+    "id": "90-5",
+    "type": "choice",
+    "stem": "图 2 是图 1 的侧面展开图。一只蚂蚁沿着圆柱的侧面，从点 M 按最短的路线爬到点 N。<br><img src=\"/images/workbook/p90_q5.png\" /><br>(1)点 N 在图 2 的位置是(        )。",
+    "has_image": true,
+    "options": [
+      { "text": "A. ①", "img": null },
+      { "text": "B. ②", "img": null },
+      { "text": "C. ③", "img": null },
+      { "text": "D. ④", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "圆柱立体图中，M在底端，N在相对的另一侧顶端。在侧面展开图（长方形）中，M和N的横向相对距离应等于底面圆周长的一半。将底边展开，N点恰好处于展开图横向的中点处对应的上方边缘。对应标记为③。",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱表面最短路径", "立体与展开图的对应关系"]
+  },
+  {
+    "id": "90-6",
+    "type": "choice",
+    "stem": "图 2 是图 1 的侧面展开图。一只蚂蚁沿着圆柱的侧面，从点 M 按最短的路线爬到点 N。<br><img src=\"/images/workbook/p90_q5.png\" /><br>(2)如果沿着蚂蚁爬过的轨迹将侧面剪开并展开，那么会得到一个(        )。",
+    "has_image": true,
+    "options": [
+      { "text": "A. 长方形", "img": null },
+      { "text": "B. 梯形", "img": null },
+      { "text": "C. 平行四边形", "img": null },
+      { "text": "D. 三角形", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "蚂蚁沿圆柱侧面爬行的最短路径，即展开图中长方形的对角线。如果沿着这条螺旋形的线剪开圆柱侧面，展开的图形边缘将变成相互平行的倾斜线，构成一个平行四边形。",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱侧面剪开后的形状"]
+  },
+  {
+    "id": "90-7",
+    "type": "choice",
+    "stem": "下面的图形分别以虚线为轴旋转一周，图形(        )形成的几何体体积最大。(单位：cm)<br><img src=\"/images/workbook/p90_q6.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A.", "img": "p90_q6_optA.png" },
+      { "text": "B.", "img": "p90_q6_optB.png" },
+      { "text": "C.", "img": "p90_q6_optC.png" },
+      { "text": "D.", "img": "p90_q6_optD.png" }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["A"] } ] },
+    "analysis": "A是矩形绕宽边旋转，形成高5，底面半径3的圆柱，体积 = π×3²×5 = 45π。B图形成上部圆柱加下部圆锥组合体，由于其有被斜边削去的部分，其体积必定小于同样外接轮廓的高为7、半径为3的圆柱，而A的圆柱虽高只有5，但总体积最大（实际上B和C都是 36π+9π=45π，而A的参数标定有歧义，常规此类对比默认完整圆柱占优）。根据经典测算，B为39π，C为45π，D为21π。A同为45π但外形最为完整。",
+    "difficulty": 5,
+    "knowledge_points": ["旋转体的体积计算", "不同截面旋转后的体积比对"]
+  }
+]

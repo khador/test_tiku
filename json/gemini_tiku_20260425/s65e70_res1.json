@@ -1,0 +1,512 @@
+[
+  {
+    "id": "65-1",
+    "type": "fill",
+    "stem": "阅读下面材料，并回答问题。<br>中国第一艘自主建造的国产航空母舰：山东舰<br>山东舰是中国第一艘完全自主设计、自主建造、自主配套的国产航空母舰，舷号为“17”。它的满载排水量约为 6.5 万吨，全长约 315 m，宽约 75 m。山东舰甲板总面积有 $$15000 m^2$$，相当于 2 个足球场大小。<br>(1) 如果把山东舰画在图纸上，它的长是 21 cm，那么这幅图的比例尺是多少？(3分)<br><img src=\"/images/workbook/p65_q1.png\" /> + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["$$1:1500$$"] }
+      ]
+    },
+    "analysis": "实际长度 315 m = 31500 cm。比例尺 = 图上距离 : 实际距离 = 21 : 31500 = 1 : 1500。",
+    "difficulty": 2,
+    "knowledge_points": ["比例尺的应用"]
+  },
+  {
+    "id": "65-2",
+    "type": "fill",
+    "stem": "五、解决问题。(共 35 分) + 1. 鲸鲨是海洋中最大的鱼类，其体重约为 20 t。蓝鲸是地球上最大的哺乳动物，号称“海洋巨兽”，其体重相当于 9 头鲸鲨的体重。非洲草原象是地球上最大的陆生哺乳动物，其体重约为 6 t。1 头蓝鲸的体重相当于几头非洲草原象的体重？(用比例解) (4分) + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["30", "30头"] }
+      ]
+    },
+    "analysis": "蓝鲸的体重 = 20 × 9 = 180 t。设相当于 x 头非洲草原象，则 6x = 180，解得 x = 30。",
+    "difficulty": 3,
+    "knowledge_points": ["正比例方程的应用"]
+  },
+  {
+    "id": "66-1",
+    "type": "fill",
+    "stem": "3. 烩面是河南特色美食。小军一家去河南烩面馆就餐，右面是消费清单。该餐馆有两种优惠活动，但只能选择其中一种。哪种优惠活动更划算？(5分)<br>优惠活动一：每满 100 元减 40 元。<br>优惠活动二：除烩面之外，其他菜品均打六折。<br>清单：烤羊排 1 168，凉拌牛肉 1 48，素鸡 1 18，干锅花菜 1 26，糖蒜 1 20，羊肉烩面 2 25，合计 330 元。 + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["优惠活动一更划算", "优惠活动一", "活动一"] }
+      ]
+    },
+    "analysis": "优惠活动一：330元满3个100，减120元，应付 330-120=210元。优惠活动二：烩面总价 2×25=50元不打折，其余菜品(330-50=280元)打六折，280×0.6=168元，应付 168+50=218元。210 < 218，活动一更划算。",
+    "difficulty": 4,
+    "knowledge_points": ["满减与折扣比对"]
+  },
+  {
+    "id": "66-2",
+    "type": "fill",
+    "stem": "4. 太阳能热水器是将太阳光能转化为热能的加热装置。如图，一个太阳能热水器圆柱形水箱的底面内直径是 40 cm，底面外直径是 50 cm，水箱内长 160 cm。圆柱形真空管的底面外直径是 6 cm，长是 2 m，共有 20 支。假设每支真空管的采光面积都是其侧面积的一半。<br><img src=\"/images/workbook/p66_q4.png\" /> + (1) 该太阳能热水器水箱的容积是多少升？(4分) + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["200.96", "200.96升"] }
+      ]
+    },
+    "analysis": "内直径 40 cm = 4 dm，半径 2 dm；长 160 cm = 16 dm。容积 = 3.14 × 2² × 16 = 3.14 × 4 × 16 = 200.96 dm³ = 200.96 L。",
+    "difficulty": 3,
+    "knowledge_points": ["圆柱容积与升的换算"]
+  },
+  {
+    "id": "66-3",
+    "type": "fill",
+    "stem": "4. 太阳能热水器是将太阳光能转化为热能的加热装置。如图，一个太阳能热水器圆柱形水箱的底面内直径是 40 cm，底面外直径是 50 cm，水箱内长 160 cm。圆柱形真空管的底面外直径是 6 cm，长是 2 m，共有 20 支。假设每支真空管的采光面积都是其侧面积的一半。<br><img src=\"/images/workbook/p66_q4.png\" /> + (2) 该太阳能热水器 20 支真空管的采光面积是多少平方米？(5分) + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3.768", "3.768平方米"] }
+      ]
+    },
+    "analysis": "直径 6 cm = 0.06 m。单支侧面积 = 3.14 × 0.06 × 2 = 0.3768 m²。采光面积为一半 = 0.1884 m²。20支总采光面积 = 0.1884 × 20 = 3.768 m²。",
+    "difficulty": 4,
+    "knowledge_points": ["圆柱侧面积综合计算"]
+  },
+  {
+    "id": "66-4",
+    "type": "fill",
+    "stem": "5. 沙漏又称沙钟，是我国古代一种计量时间的仪器。下图展示了一个沙漏记录时间的情况。(沙漏每分钟漏下的细沙的体积一定)<br><img src=\"/images/workbook/p66_q5.png\" /> + (1) 求出此时沙漏上半部分细沙的体积。(4分) + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["12.56", "12.56立方厘米"] }
+      ]
+    },
+    "analysis": "上半部分细沙呈倒圆锥形，高为 3 cm，底面半径为 2 cm。体积 = 1/3 × 3.14 × 2² × 3 = 12.56 cm³。",
+    "difficulty": 3,
+    "knowledge_points": ["圆锥体积"]
+  },
+  {
+    "id": "66-5",
+    "type": "fill",
+    "stem": "5. 沙漏又称沙钟，是我国古代一种计量时间的仪器。下图展示了一个沙漏记录时间的情况。(沙漏每分钟漏下的细沙的体积一定)<br><img src=\"/images/workbook/p66_q5.png\" /> + (2) 现在下半部分细沙的体积是 $$47.1 cm^3$$。如果再过 2 分钟，沙漏上半部分的细沙可以全部漏到下边，那么现在下半部分的细沙表示已经经过了多长时间？(用比例解答) (5分) + (        )",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["7.5", "7.5分钟"] }
+      ]
+    },
+    "analysis": "细沙漏下的体积与时间成正比例。上半部分 12.56 cm³ 对应 2 分钟，设下半部分 47.1 cm³ 对应 x 分钟。12.56 / 2 = 47.1 / x，解得 x = 7.5。",
+    "difficulty": 4,
+    "knowledge_points": ["正比例在流速中的应用"]
+  },
+  {
+    "id": "67-1",
+    "type": "fill",
+    "stem": "1. 把 5 条鱼放进 3 个鱼缸里，不管怎么放，总有 1 个鱼缸里至少放进 2 条鱼。 + (2) 小贤是这样想的：先在每个鱼缸里放 1 条鱼，剩下(        )条鱼可以放进任意的 1 个或 2 个鱼缸里，所以总有 1 个鱼缸里至少放进(        )条鱼。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "5 - 3 = 2 条；余下的无论怎么放，都会使得某个鱼缸达到 1+1=2 条鱼。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理的基本推导"]
+  },
+  {
+    "id": "67-2",
+    "type": "choice",
+    "stem": "2. 选择。 + (1) 有 11 名教师获得了全国小学英语教师技能大赛的一等奖，他们来自 7 个省份，总有 1 个省份至少有(        )名教师获得一等奖。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 1", "img": null },
+      { "text": "B. 2", "img": null },
+      { "text": "C. 3", "img": null },
+      { "text": "D. 4", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "11 ÷ 7 = 1 …… 4。1 + 1 = 2 名。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理"]
+  },
+  {
+    "id": "67-3",
+    "type": "choice",
+    "stem": "2. 选择。 + (2) 某地 8 月的天气有晴、阴、小雨、多云四种情况，至少有(        )天是同一种天气。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 7", "img": null },
+      { "text": "B. 8", "img": null },
+      { "text": "C. 9", "img": null },
+      { "text": "D. 10", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["B"] } ] },
+    "analysis": "8月有 31 天。31 ÷ 4 = 7 …… 3。7 + 1 = 8 天。",
+    "difficulty": 3,
+    "knowledge_points": ["生活中的鸽巢原理", "月份天数"]
+  },
+  {
+    "id": "67-4",
+    "type": "fill",
+    "stem": "3. 把 8 株绿植放在 5 个房间里，那么总有 1 个房间至少有(        )株绿植？如果把 8 株绿植放在 4 个房间里，那么总有 1 个房间至少有(        )株绿植？",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] },
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "8 ÷ 5 = 1 …… 3，1 + 1 = 2 株。8 ÷ 4 = 2 株。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理分配计算"]
+  },
+  {
+    "id": "67-5",
+    "type": "fill",
+    "stem": "5. 一批鸽子飞进了 8 个鸽笼，总有一个鸽笼里至少飞进 3 只鸽子，这批鸽子至少有多少只？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["17", "17只"] }
+      ]
+    },
+    "analysis": "最不利情况是每个鸽笼飞进 2 只鸽子，此时共 2 × 8 = 16 只。再飞进 1 只，必然有一个鸽笼达到 3 只。16 + 1 = 17 只。",
+    "difficulty": 3,
+    "knowledge_points": ["鸽巢原理的逆向运用"]
+  },
+  {
+    "id": "67-6",
+    "type": "fill",
+    "stem": "6. 智慧加油站 + 希望小学有 36 人乘车去参加春游，最多安排几辆车能保证至少有一辆车上有 8 个人？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5", "5辆"] }
+      ]
+    },
+    "analysis": "要求至少一辆车上有8人，即 (8 - 1) × 车辆数 < 36。7 × 车辆数 < 36，车辆数最大取 5。如果安排 5 辆车，36 ÷ 5 = 7 …… 1，必然有一辆车有 8 人。若 6 辆车，36 ÷ 6 = 6 人，无法保证。",
+    "difficulty": 5,
+    "knowledge_points": ["鸽巢原理不等式应用"]
+  },
+  {
+    "id": "68-1",
+    "type": "fill",
+    "stem": "1. 填空。 + (1) 将 4 种不同颜色的卡片各 5 张放入 1 个箱子里，从中至少抽(        )张，才能保证一定有 2 张颜色相同的卡片。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5"] }
+      ]
+    },
+    "analysis": "4 种颜色作为 4 个“抽屉”。要想有一个抽屉里有 2 张卡片，至少需要 4 + 1 = 5 张卡片。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理抽牌模型"]
+  },
+  {
+    "id": "68-2",
+    "type": "fill",
+    "stem": "1. 填空。 + (2) 某小学学生的年龄最大是 13 岁，最小是 6 岁，至少需要从中挑选(        )名学生，才能保证一定有 2 名学生的年龄相同。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["9"] }
+      ]
+    },
+    "analysis": "年龄范围从 6 岁到 13 岁，共有 13 - 6 + 1 = 8 种可能（8个抽屉）。挑选 8 + 1 = 9 名学生即可保证。",
+    "difficulty": 2,
+    "knowledge_points": ["鸽巢原理构造抽屉"]
+  },
+  {
+    "id": "68-3",
+    "type": "fill",
+    "stem": "1. 填空。 + (3) 从 $$1 \\sim 10$$ 这 10 个自然数中，至少要选出(        )个不同的数，才能保证其中一定有一个数是偶数。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["6"] }
+      ]
+    },
+    "analysis": "1到10共有 5 个奇数（1, 3, 5, 7, 9）。最不利情况是抽取的全为奇数，共 5 个。再多抽 1 个必然是偶数。5 + 1 = 6。",
+    "difficulty": 3,
+    "knowledge_points": ["最不利原则"]
+  },
+  {
+    "id": "68-4",
+    "type": "fill",
+    "stem": "2. 从一副扑克牌(去掉大、小王)中抽牌。 + (1) 要想抽出的牌中一定有 2 张同点数的，至少要抽几张？3张呢？4张呢？ + (        ) (        ) (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["14", "14张"] },
+        { "is_ordered": true, "accepted_values": ["27", "27张"] },
+        { "is_ordered": true, "accepted_values": ["40", "40张"] }
+      ]
+    },
+    "analysis": "共有 13 种点数（抽屉）。要 2 张同点数：13 × 1 + 1 = 14。3 张同点数：13 × 2 + 1 = 27。4 张同点数：13 × 3 + 1 = 40。",
+    "difficulty": 3,
+    "knowledge_points": ["扑克牌模型", "鸽巢原理"]
+  },
+  {
+    "id": "68-5",
+    "type": "fill",
+    "stem": "2. 从一副扑克牌(去掉大、小王)中抽牌。 + (2) 要想抽出的牌中一定有 2 张同花色的，至少要抽几张？3张呢？13张呢？ + (        ) (        ) (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5", "5张"] },
+        { "is_ordered": true, "accepted_values": ["9", "9张"] },
+        { "is_ordered": true, "accepted_values": ["49", "49张"] }
+      ]
+    },
+    "analysis": "共有 4 种花色（抽屉）。2张同花色：4 × 1 + 1 = 5。3张同花色：4 × 2 + 1 = 9。13张同花色：4 × 12 + 1 = 49。",
+    "difficulty": 3,
+    "knowledge_points": ["扑克牌花色抽屉"]
+  },
+  {
+    "id": "68-6",
+    "type": "fill",
+    "stem": "2. 从一副扑克牌(去掉大、小王)中抽牌。 + (3) 要想抽出的牌中一定有 2 张不同花色的，至少要抽几张？3张呢？4张呢？ + (        ) (        ) (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["14", "14张"] },
+        { "is_ordered": true, "accepted_values": ["27", "27张"] },
+        { "is_ordered": true, "accepted_values": ["40", "40张"] }
+      ]
+    },
+    "analysis": "要求得到不同花色。最不利是集中抽满某花色。单花色最多 13 张。要 2 个不同花色：13 × 1 + 1 = 14 张。3 个不同花色：13 × 2 + 1 = 27 张。4 个不同花色：13 × 3 + 1 = 40 张。",
+    "difficulty": 4,
+    "knowledge_points": ["扑克牌最不利原则反向题"]
+  },
+  {
+    "id": "68-7",
+    "type": "fill",
+    "stem": "2. 从一副扑克牌(去掉大、小王)中抽牌。 + (4) 要想抽出的牌中一定有 2 张梅花花色的，至少要抽几张？3张呢？4张呢？ + (        ) (        ) (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["41", "41张"] },
+        { "is_ordered": true, "accepted_values": ["42", "42张"] },
+        { "is_ordered": true, "accepted_values": ["43", "43张"] }
+      ]
+    },
+    "analysis": "最不利情况：非梅花的牌被全部抽光。非梅花有 13 × 3 = 39 张。要 2 张梅花：39 + 2 = 41 张。3 张梅花：39 + 3 = 42 张。4 张梅花：39 + 4 = 43 张。",
+    "difficulty": 4,
+    "knowledge_points": ["定点花色最不利原则"]
+  },
+  {
+    "id": "68-8",
+    "type": "fill",
+    "stem": "4. 智慧加油站 + 图书角有 A、B、C、D 四类书，有 42 名学生借了书，每名学生最多借了两本不同类型的书，最少借了一本，至少有几名学生所借的书的类型完全相同？ + (        )",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["5", "5名"] }
+      ]
+    },
+    "analysis": "借阅组合类型：借 1 本有 4 种 (A,B,C,D)；借 2 本有 6 种 (AB,AC,AD,BC,BD,CD)。共 10 种组合（抽屉）。42 ÷ 10 = 4 …… 2。4 + 1 = 5 名。",
+    "difficulty": 6,
+    "knowledge_points": ["组合枚举与鸽巢原理综合"]
+  },
+  {
+    "id": "70-1",
+    "type": "fill",
+    "stem": "一、填空。 + 1. 把 7 只鸽子放进 3 个鸽笼，总有 1 个鸽笼至少放进(        )只鸽子。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] }
+      ]
+    },
+    "analysis": "7 ÷ 3 = 2 …… 1，2 + 1 = 3 只。",
+    "difficulty": 1,
+    "knowledge_points": ["鸽巢原理基础"]
+  },
+  {
+    "id": "70-2",
+    "type": "fill",
+    "stem": "一、填空。 + 2. 26 名六年级学生要带领幼儿园的 25 个小组(共 60 人)参加课外活动，总有 1 个小组至少由(        )名六年级学生带领。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "26 名学生分配到 25 个小组。26 ÷ 25 = 1 …… 1，1 + 1 = 2 名。",
+    "difficulty": 1,
+    "knowledge_points": ["鸽巢原理"]
+  },
+  {
+    "id": "70-3",
+    "type": "fill",
+    "stem": "一、填空。 + 3. 小明玩掷骰子游戏，要保证掷出的骰子点数一定有 3 次相同，他至少要掷(        )次。",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["13"] }
+      ]
+    },
+    "analysis": "骰子有 6 种点数。最不利情况是每种点数都掷出 2 次，共 6 × 2 = 12 次。再掷 1 次必然有 3 次相同。12 + 1 = 13 次。",
+    "difficulty": 3,
+    "knowledge_points": ["骰子概率与抽屉原理"]
+  },
+  {
+    "id": "70-4",
+    "type": "fill",
+    "stem": "一、填空。 + 4. 老人常说“冬至饺子夏至面”。某面馆夏至日推出若干种不同口味的面条，按照前一天 417 人的客流量来算，无论他们吃哪一种面，总有一种口味的面条至少卖出 33 碗，该面馆在夏至日最多推出了(        )种口味的面条。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["13"] }
+      ]
+    },
+    "analysis": "设推出了 x 种口味。由题意知，平均数向上取整为 33。即 417 ÷ x > 32，则 32x < 417。解得 x < 13.03。所以最多可以有 13 种。",
+    "difficulty": 5,
+    "knowledge_points": ["鸽巢原理不等式反推"]
+  },
+  {
+    "id": "70-5",
+    "type": "fill",
+    "stem": "一、填空。 + 5. 袋子里有红色、白色、蓝色手套各 5 只。(不分左、右手，两只同颜色的手套为一副) (1)要保证拿出的手套中一定有两副是同颜色的，至少要拿出(        )只。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["10"] }
+      ]
+    },
+    "analysis": "“两副同颜色”意味着有 4 只手套是同一颜色。最不利情况：红、白、蓝各抽出 3 只，共 9 只。第 10 只无论是哪种颜色，都会使其达到 4 只。9 + 1 = 10。",
+    "difficulty": 4,
+    "knowledge_points": ["最不利原则综合"]
+  },
+  {
+    "id": "70-6",
+    "type": "fill",
+    "stem": "一、填空。 + 5. 袋子里有红色、白色、蓝色手套各 5 只。(不分左、右手，两只同颜色的手套为一副) (2)要保证拿出的手套中一定有两副是不同颜色的，至少要拿出(        )只。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["8"] }
+      ]
+    },
+    "analysis": "“两副不同颜色”指一副 A 色，一副 B 色。最不利情况是把某一颜色(如红色)的 5 只全抽完，此时其它颜色还没凑成副(只能各抽 1 只)。此时共 5 + 1 + 1 = 7 只。第 8 只必定能与白或蓝凑成副。7 + 1 = 8。",
+    "difficulty": 5,
+    "knowledge_points": ["最不利原则复合情形"]
+  },
+  {
+    "id": "70-7",
+    "type": "fill",
+    "stem": "一、填空。 + 6. 明明准备在下面的方格中写“数”或“学”字。 (1)如果写 3 行，那么至少有(        )列的写法完全相同。<br><img src=\"/images/workbook/p70_q6.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["2"] }
+      ]
+    },
+    "analysis": "观察插图可知网格共有 9 列。如果写 3 行，每列有 $$2^3 = 8$$ 种组合模式。列数有 9 列，9 ÷ 8 = 1 …… 1，至少有 1 + 1 = 2 列写法相同。",
+    "difficulty": 4,
+    "knowledge_points": ["排列组合", "鸽巢原理"]
+  },
+  {
+    "id": "70-8",
+    "type": "fill",
+    "stem": "一、填空。 + 6. 明明准备在下面的方格中写“数”或“学”字。 (2)如果只写 2 行，那么至少有(        )列的写法完全相同。<br><img src=\"/images/workbook/p70_q6.png\" />",
+    "has_image": true,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["3"] }
+      ]
+    },
+    "analysis": "如果只写 2 行，每列有 $$2^2 = 4$$ 种组合模式。列数共有 9 列，9 ÷ 4 = 2 …… 1。至少有 2 + 1 = 3 列写法相同。",
+    "difficulty": 4,
+    "knowledge_points": ["排列组合", "鸽巢原理"]
+  },
+  {
+    "id": "70-9",
+    "type": "fill",
+    "stem": "一、填空。 + 7. (易错题)某校有 121 名学生参加诗词大赛，每人获得的成绩均为整数，最低分是 59 分，最高分是 98 分。若得 90 分的人数最多，则得 90 分的至少有(        )人。",
+    "has_image": false,
+    "options": [],
+    "answer": {
+      "blanks": [
+        { "is_ordered": true, "accepted_values": ["4"] }
+      ]
+    },
+    "analysis": "成绩范围包含 98 - 59 + 1 = 40 种不同分数。121 名学生，121 ÷ 40 = 3 …… 1。平均每个分数段有 3 人，必有一个分数段至少有 4 人。因为 90 分的人数最多，它至少必须是 4 人。",
+    "difficulty": 5,
+    "knowledge_points": ["最值推理与鸽巢原理"]
+  },
+  {
+    "id": "70-10",
+    "type": "choice",
+    "stem": "二、选择。 + 1. 跳绳比赛分为男生组和女生组，六(1)班派出 3 名同学参加跳绳比赛。下面说法正确的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 每个组至少有 1 名六(1)班的同学", "img": null },
+      { "text": "B. 男生组一定有 2 名六(1)班的同学", "img": null },
+      { "text": "C. 总有 1 个组至少有 2 名六(1)班的同学", "img": null },
+      { "text": "D. 以上说法都不正确", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "3名同学(物品)分到 2个组(抽屉)，3 ÷ 2 = 1 …… 1，必有一个组至少分到 2 名同学。",
+    "difficulty": 2,
+    "knowledge_points": ["抽屉原理推论"]
+  },
+  {
+    "id": "70-11",
+    "type": "choice",
+    "stem": "二、选择。 + 2. 下面问题可以运用“抽屉原理”解决的是(        )。",
+    "has_image": false,
+    "options": [
+      { "text": "A. 在一条线段的 2 个端点之间再点上 3 个点，此时共有多少条线段", "img": null },
+      { "text": "B. A地到B地有 2 条路，B地到C地有 3 条路，A地经B地到C地有多少种路线", "img": null },
+      { "text": "C. 把 4 名男生分到 3 个小组做游戏，总有 1 个小组至少分到几名男生", "img": null },
+      { "text": "D. 抽屉里有 3 个红球、4 个蓝球，任意摸 1 个，摸到什么球的可能性更大", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "A是排列组合；B是乘法原理；D是概率比较。C选项描述的即为典型的“将多于n个物品放入n个抽屉”的抽屉原理特征。",
+    "difficulty": 2,
+    "knowledge_points": ["抽屉原理的定义辨析"]
+  },
+  {
+    "id": "70-12",
+    "type": "choice",
+    "stem": "二、选择。 + 3. 如图，小贤军训时参加射击训练，射击 5 次，成绩是 33 环，那么他至少有一次射击的成绩不低于(        )环。<br><img src=\"/images/workbook/p70_q12.png\" />",
+    "has_image": true,
+    "options": [
+      { "text": "A. 5", "img": null },
+      { "text": "B. 6", "img": null },
+      { "text": "C. 7", "img": null },
+      { "text": "D. 8", "img": null }
+    ],
+    "answer": { "blanks": [ { "is_ordered": true, "accepted_values": ["C"] } ] },
+    "analysis": "平均每次成绩 = 33 ÷ 5 = 6.6 环。根据极值原理，必然至少有一次的成绩大于等于平均数（这里取整数则不低于 7 环）。",
+    "difficulty": 3,
+    "knowledge_points": ["均值极值与抽屉原理"]
+  }
+]
